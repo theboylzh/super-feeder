@@ -1,338 +1,516 @@
 {
   "sources": [
     {
-      "title": "Release notes from osmosfeed",
-      "feedUrl": "https://github.com/osmoscraft/osmosfeed/releases.atom",
-      "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
-      "articles": []
-    },
-    {
-      "title": "CSS-Tricks",
-      "feedUrl": "https://css-tricks.com/feed/",
-      "siteUrl": "https://css-tricks.com",
-      "articles": []
-    },
-    {
-      "title": "Articles on Smashing Magazine — For Web Designers And Developers",
-      "feedUrl": "https://www.smashingmagazine.com/feed/",
-      "siteUrl": "https://www.smashingmagazine.com/",
+      "title": "InfoQ 推荐",
+      "feedUrl": "https://plink.anyfeeder.com/infoq/recommend",
+      "siteUrl": "https://www.infoq.cn",
       "articles": [
         {
-          "id": "https://smashingmagazine.com/2024/03/modern-css-tooltips-speech-bubbles-part1/",
-          "author": "hello@smashingmagazine.com (Temani Afif)",
-          "description": "Tooltips are a very common pattern used in CSS for years. There are a lot of ways to approach tooltips in CSS, though some evoke headaches with all the magic numbers they require. In this article, Temani Afif presents modern techniques to create tooltips with the smallest amount of markup and the greatest amount of flexibility.",
-          "link": "https://smashingmagazine.com/2024/03/modern-css-tooltips-speech-bubbles-part1/",
-          "publishedOn": "2024-03-01T12:00:00.000Z",
-          "wordCount": 6327,
-          "title": "Modern CSS Tooltips And Speech Bubbles (Part 1)",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/modern-css-tooltips-part1/modern-css-tooltips-speech-bubbles.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/modern-css-tooltips-part1/modern-css-tooltips-speech-bubbles.jpg"
+          "id": "https://www.infoq.cn/article/AkEzbyrwDoCRTH1JLTSs",
+          "author": "SOURAV RUDRA",
+          "description": "“Servo”Web 引擎在树莓派上的执行速度甚至超过了 Chromium。\n\n\nServo 的开发者将从 2024 年开始全力投入。\n\nBernie Innocenti 在参观 FOSDEM 2024 时，发现 Servo 项目团队在那里展示了他们到目前所做的所有工作。\n\n\n\n这让人产生了好奇：现在 Servo 这个项目进展到什么地步了？\n\n先给不熟悉该项目的同学介绍一下，Servo 是一个实验性浏览器引擎，它利用 Rust 的强大特性来提供高度适应性的内存安全性和模块化体验。\n\nMozilla 在 2012 年出于研究目的创建了 Servo 项目后，它多年来经历了起起落落，并终于在 2023 年卷土重来；这主要是因为项目开发人员明确了它的前进方向，探索出了一种新的方法。\n\n现在业内有很多开源 Chrome 的替代品，而有了 Servo 的这种新方法，我们就有机会看到一些基于 Servo 的非常酷的选项，可能会让 Gecko 和 Blink 感到危机！\n\n下面就来看看 The Servo 项目迄今为止的进展情况以及 2024 年的前景规划。\n\nBlink 是 Chromium 和其他基于它的浏览器使用的引擎，而 Gecko 是 Firefox 和其他一些浏览器使用的引擎。\n\n\n\nServo：有哪些值得期待？\n\n就在几个月前，即 2023 年 9 月，Servo 项目正式加入 Linux 欧洲基金会后，来自 Igalia 的现有贡献者接手了维护工作，从而加快了其发展步伐。\n\n作为背景补充，去年在欧洲开源峰会上，来自 Igalia 的 Manuel Rego 在演讲时分享了一些非常有用的见解。见：https://youtu.be/9lkIX5ryZZ4\n\n他展示了 WebGL 支持、跨平台支持（包括对 Android 和 Linux 的移动支持等）等内容。他们已经尝试将 Servo 用于嵌入式应用程序用例（例如在树莓派上运行），并计划在这一领域取得进展。据我所知，与 Chromium 相比，树莓派上的 Servo 跑起来速度更快（https://youtu.be/oDqDrvxLxyI）。\n\n你可以在 Servo 的演示网页上找到更多类似的演示：https://demo.servo.org/?ref=news.itsfoss.com。\n\n另外，新的布局引擎也在开发中，在其开发过程中团队正在制定新的特性和兼容性计划。\n\n可能你还不知道，就算当初 Mozilla 放弃了这个实验项目，Firefox 也在浏览器中使用了一些 Servo 的组件？\n\n自然，这让我们想知道更新的 Servo 布局引擎（或其他组件）是否可能会出现在 Firefox 中（凡事都有可能性！）。\n\n之前很久，Servo 都被认为是实验性的项目。现在到了 2024 年，我希望这方面能取得进一步进展。\n目前来看这是一个独立的项目，当前的进展看起来非常有希望，官方网站现在列出了 2024 年的更新路线图，全年做的东西好像都是一样的：\n\n\n\nProject maintenance and outreach 部分包括一般性的项目维护任务以及社区管理工作，然后是 CSS support 的实现，这将为 Servo 布局引擎提供基本 CSS 特性。\n\n通过 Embedding API definition，Servo 团队将与 Tauri 合作完成定义 Servo webview API 的工作，同时实现 API 的新特性和要求。\n\n最后，我们会有 Initial Android support，这将让 Servo 在现代 Android 版本上完成构建，开发人员将来会在官方网站上发布 Nightly APK。\n\n官方路线图的地址在这里：https://github.com/servo/servo/wiki/Roadmap?ref=news.itsfoss.com，有关该项目的更多细节，你可以前往其 GitHub 存储库（https://github.com/servo/servo?ref=news.itsfoss.com）或其官方 Zulip 聊天频道（https://servo.zulipchat.com/?ref=news.itsfoss.com）获知。\n\n原文链接：\nhttps://news.itsfoss.com/servo-rust-web-engine/",
+          "link": "https://www.infoq.cn/article/AkEzbyrwDoCRTH1JLTSs",
+          "publishedOn": "2024-03-02T00:00:00.000Z",
+          "wordCount": 325,
+          "title": "尘封多年，Servo 重磅回归！Rust加持，执行速度可超过 Chromium",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/desktop-wallpaper-calendars-march-2024/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Do you need a little inspiration boost? Well, then our new batch of desktop wallpapers is for you. Designed by artists and designers from across the globe, they come in versions with and without a calendar for March 2024. Enjoy!",
-          "link": "https://smashingmagazine.com/2024/02/desktop-wallpaper-calendars-march-2024/",
-          "publishedOn": "2024-02-29T10:00:00.000Z",
-          "wordCount": 4636,
-          "title": "Waiting For Spring (March 2024 Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/desktop-wallpaper-calendars-march-2024/mar-24-breaking-superstitions-preview-opt.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://files.smashing.media/articles/desktop-wallpaper-calendars-march-2024/mar-24-breaking-superstitions-preview-opt.png"
+          "id": "https://www.infoq.cn/article/ojp3iGUl8EDysWr6cUTW",
+          "author": "赵钰莹",
+          "description": "生成式 AI 的爆发式发展，为软件工程带来了新的活力。我们看到，在大模型的加持下，软件开发全流程的每个环节都在发生变化，从底层操作系统、数据库到应用开发过程的编码、测试，再到项目管理、运维等，各环节都在与智能化能力深度融合。与此同时，以 ChatGPT、Sora 为代表的的生成式 AI 产品展现出的超强能力，也进一步点燃了人们对大模型未来应用场景的无限想象。\n\n2024 年，我们迎来了全面进化的时代。技术、产品、组织，都将迎来新的变革与突破，这无疑给企业和技术团队带来了巨大的挑战。在技术、产品和组织的全面进化之路上，或许有一些跟其他团队相似的需求可以参考别人的经验。4 月 11-13 日，QCon 全球软件开发大会暨智能软件开发生态展将在北京国测国际会议会展中心正式召开，会议内容、会议模式均向着“生成式AI”的方向进行了全面进化，为大家带来智能软件时代技术先行者们的案例以供参考。大会日程现已正式上线！更多精彩议题陆续更新中～（最新议程可以访问会议官网：https://qcon.infoq.cn/2024/beijing/\"）\n\n\n\n与此同时，本届大会对展区进行了重新规划，围绕“智能软件”的主题，广泛邀请生态上下游企业积极来到QCon现场展示最新的技术和产品。作为本届展区的设计师之一，数势科技的AI负责人、QCon大会出品人李飞博士介绍到目前为止，QCon展区设置了操作系统、数据库、多模态、智能编码、数字人、模型广场&管理&调优、性能优化&智能测试&智能运维、AI Agent应用及开发平台、AI应用开发平台等多个细分主题，并积极向业内发出邀请，希望相关领域的企业可以带着最新的技术和产品到展区向数千名参与者进行展示。\n\n\n在QCon会展的启航直播中，极客邦科技创始人&CEO霍太稳也提到：极客邦科技对人工智能的整个生态发展趋势还是非常看好的，我们也看到过去一年国内涌现出了很多与生成式AI相关的产品和技术。但是，国内可能缺少类似国际消费类电子产品展览会CES这样的平台给企业做展示，InfoQ的技术大会希望成为这样的平台，让国内的软件厂商可以发布好的产品和服务，并且第一时间呈现到广大用户面前。生成式AI让很多产品的体验性和互动性变得很强，这也是我们在此时决定设立展区的原因。本届QCon，我们希望至少邀请100+家企业在现场展示AI方面的相关进展，在生成式AI时代继续陪伴我们的用户和企业成长。\n\n\n此外，本届大会针对展区将进行单独售票，购买大会门票的用户无需购买展区票便可进入展区，所有展区及内场活动皆对大会门票购买者开放，展区门票的购票者仅可进入大会展区进行参观交流，无法进入大会的主会场和各技术分专场，若存在异议，可以扫描【大会议程】海报最右侧的二维码向工作人员进行具体咨询，具体价格可以参照大会官网的购票页面（会议官网：https://qcon.infoq.cn/2024/beijing/\"）。",
+          "link": "https://www.infoq.cn/article/ojp3iGUl8EDysWr6cUTW",
+          "publishedOn": "2024-03-01T13:23:31.000Z",
+          "wordCount": 323,
+          "title": "向着“生成式AI”全面进化！QCon会展正式启航！",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/reporting-core-web-vitals-performance-api/",
-          "author": "hello@smashingmagazine.com (Geoff Graham)",
-          "description": "The Performance API is a set of standards for measuring and evaluating performance metrics with JavaScript. This article demonstrates how to use the Performance API to generate performance metrics directly in the DOM to create your own reporting.",
-          "link": "https://smashingmagazine.com/2024/02/reporting-core-web-vitals-performance-api/",
-          "publishedOn": "2024-02-27T12:00:00.000Z",
-          "wordCount": 5331,
-          "title": "Reporting Core Web Vitals With The Performance API",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/reporting-core-web-vitals-performance-api/reporting-core-web-vitals-performance-api.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/reporting-core-web-vitals-performance-api/reporting-core-web-vitals-performance-api.jpg"
+          "id": "https://www.infoq.cn/article/tbdiwmNu2WghXs1vXjbM",
+          "author": "THE STACK",
+          "description": "本文最初发布于THE STACK。\n\n\n\n英格兰银行金库里的黄金还不如OSS值钱。\n \n一份最新的研究报告发现，开源软件在“需求侧”的价值高达8.8万亿美元，而从供给侧来看，价值虽然不那么大，但也仍有41.5亿美元。\n\n\n\n截图来源：https://www.bloomberg.com/opinion/articles/2024-02-26/open-source-software-is-worth-a-lot-more-than-you-pay-for-it\n \n这项数据不是一些小的开源项目为证明自己的存在合理性而杜撰出来的，而是来自哈佛商学院和多伦多大学的三位研究人员开展的一项严肃的调查。\n \n助理教授Frank Nagle、博士后研究员Manuel Hoffman和博士生Yanuo Zhou在1月16日发表的论文\"中指出，如果开源软件不存在，那么企业“在软件上的花费将是目前的3.5倍。”\n \n为了深入了解全球数万家公司正在使用的开源软件，研究人员主要分析了来自两个数据源的数据。\n \n第一个是2022年由Linux基金会与哈佛大学创新科学实验室合作发布的“自由和开源软件应用程序库普查II\"”。\n \n第二个是“BuiltWith\"”数据集，其中包括对近900万个网站的扫描信息，从中可以识别出这些网站部署的底层技术，包括OSS库。\n \n除此之外，他们还测量了包内的代码行数，然后应用“COCOMO II\"”模型“估计了从头开始编写代码所需的人时”，从而得出了一家公司重新创建给定OSS包所需付出的劳动力成本。这个数字听起来很大，但研究人员说：“我们低估了OSS的价值，因为我们的数据还不包括操作系统……这是一个被忽略了的重要类别。”\n \nPercona\"是一家为各种开源数据库提供企业级支持的公司，其首席执行官Ann Schlemmer告诉The Stack\"：“全球国内生产总值估计为109万亿美元，其中很大一部分来自直接或间接提供服务和产品的技术。开源的作用是承担一些比较基础的底层工作，这样企业和组织就可以在此基础上进行构建，而不必从头开始。比较下开源软件提供的功能和每家公司都自己开发这些工具所需付出的成本，就可以了解OSS带来了什么。“\n\n\n\n向XKCD致歉\n \n她在电子邮件中补充说：“除此之外，还有机会成本——你花在开发软件上的任何时间，都是在浪费客户真正想要并愿意为之付费的服务的开发时间。开源软件可以帮助公司更快地实现目标，并提供让每个人都可以开展合作的社区。”\n \n开源所创造的巨大价值离不开贡献者和社区的工作和奉献。使用开源软件的公司可以也应该回报社区，支持他们的工作……\n \n那么，开源社区能从这类报告中得到什么呢？\n \nSchlemmer的观点是，“有些人可能会看到数十亿或数万亿美元的价值，并说如果这些开发人员没有免费提供劳动力，他们本可以获得这些钱。这是不准确的。\n \n“相反，这些开发人员会陷入重新发明轮子的困境，开发软件或产品的速度会更慢，而不是直接转向创新和有趣的东西。开源提供了一条途径，让每个人都可以更快地从事创新工作，这样我们就可以共同交付客户想要的东西。开源帮助每个人走得更远、更快，获得了更多非如此无法获得的商业机会。”你同意吗？欢迎分享你的想法……\"\n \n \n声明：本文为InfoQ翻译，未经许可禁止转载。\n \n原文链接：https://www.thestack.technology/open-source-value-trillions-harvard/\"",
+          "link": "https://www.infoq.cn/article/tbdiwmNu2WghXs1vXjbM",
+          "publishedOn": "2024-03-01T07:10:53.000Z",
+          "wordCount": 322,
+          "title": "开源软件价值8.8万亿美元：企业不可忽视的经济力量",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/web-designer-accessibility-advocacy-toolkit/",
-          "author": "hello@smashingmagazine.com (Yichan Wang)",
-          "description": "Digital designer Yichan Wang has put together this collection of strategies and selling points to help you encourage and advocate for accessibility in your place of work, including useful scripts you can use as starting points.",
-          "link": "https://smashingmagazine.com/2024/02/web-designer-accessibility-advocacy-toolkit/",
-          "publishedOn": "2024-02-26T18:00:00.000Z",
-          "wordCount": 8424,
-          "title": "A Web Designer’s Accessibility Advocacy Toolkit",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/web-designer-accessibility-advocacy-toolkit/web-designer-accessibility-advocacy-toolkit.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/web-designer-accessibility-advocacy-toolkit/web-designer-accessibility-advocacy-toolkit.jpg"
+          "id": "https://www.infoq.cn/article/oAsg5cT8RBZ7bXDgB70d",
+          "author": "凌敏,核子可乐",
+          "description": "国外有文生视频的 Sora，国内有图生视频的 EMO。\n\n\n阿里开发出 AI 图生视频模型 EMO\n\n \n近日，阿里巴巴集团智能计算研究院上线了一款 AI 图生视频模型 EMO（Emote Portrait Alive）。据悉，EMO 是一种富有表现力的音频驱动型肖像视频生成框架，用户用户只需要提供一张照片和一段任意音频文件，EMO 即可生成具有丰富面部表情和多种头部姿态的语音头像视频。此外，EMO 还可以根据输入音频的长度生成任意长度的视频。\n \n在阿里给出的示例中，奥黛丽·赫本深情吟唱：\n \n\n\n小李子演唱超“烫嘴”Rap《哥斯拉》：\n \n\n\n蒙娜丽莎声情并茂地演讲：\n \n\n\n高启强化身罗翔普法：\n \n\n\n据了解，为了训练这套模型，阿里建立起一套庞大且多样化的音频视频数据集，共收集了超过250小时的视频与超过1.5亿张图像。这套庞大的数据集涵盖广泛内容，包括演讲、影视片段、歌唱表演，并涵盖汉语、英语等多种语言。丰富多样的语音和歌唱视频确保训练素材能够涵盖广泛的人类表情与声乐风格，为EMO模型的开发提供坚实基础。\n \n论文：https://arxiv.org/abs/2402.17485\"\n \n目前，EMO 相关论文已发表于 arXiv，同时在 GitHub 上出现了同名疑似开源的repo，该项目 GitHub Star 数已达到 3.6 k，但仍然是空仓。这也引起了一部分开发者的不满，质疑其是“假开源”。\n \nGitHub：https://github.com/HumanAIGC/EMO\"\n\n\n\n目前该repo并不在阿里官方的GitHub目录下，也没有任何地方显示该repo与阿里官方直接相关。虽然该repo上一级HumanAIGC页面显示介绍为“Alibaba TongYi XR”，但真实性并不可考，同时HumanAIGC目录下还有多个子项目，但情况都与EMO类似，基本…",
+          "link": "https://www.infoq.cn/article/oAsg5cT8RBZ7bXDgB70d",
+          "publishedOn": "2024-03-01T07:05:32.000Z",
+          "wordCount": 323,
+          "title": "阿里最新图生视频模型效果好得可比肩Sora，但0代码“假”开源让国内外网友骂翻了天？",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/vanilla-javascript-libraries-quest-stateful-dom-rendering/",
-          "author": "hello@smashingmagazine.com (Frederik Dohr)",
-          "description": "It’s well-established that the web faces wide-ranging usability and performance issues, from user-hostile UI patterns and twisted search results to sluggish performance and battery-draining bloat. In this article, Frederik examines one small-but-significant aspect where developers take the reins: Painting pixels on the screen.",
-          "link": "https://smashingmagazine.com/2024/02/vanilla-javascript-libraries-quest-stateful-dom-rendering/",
-          "publishedOn": "2024-02-22T18:00:00.000Z",
-          "wordCount": 4746,
-          "title": "Vanilla JavaScript, Libraries, And The Quest For Stateful DOM Rendering",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/vanilla-javascript-libraries-quest-stateful-dom-rendering/vanilla-javascript-libraries-quest-stateful-dom-rendering.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/vanilla-javascript-libraries-quest-stateful-dom-rendering/vanilla-javascript-libraries-quest-stateful-dom-rendering.jpg"
+          "id": "https://www.infoq.cn/article/7Oz93gHMUidp3QCswZLz",
+          "author": "InfoQ",
+          "description": "不久前，InfoQ 编辑团队举办了一次年终回顾圆桌讨论，Thomas Betts、Wes Reisz、Shane Hastie、Srini Penchikala 和 Daniel Bryant 几位编辑在讨论中回顾了 2023 年的行业技术趋势，并对 2024 年作出了一番展望。本次圆桌探讨的主题包括：人工智能和大语言模型在软件交付领域的应用、技术领导角色的变化以及软件架构和数据工程的日益集成趋势。本文是完整讨论内容的编译精简版本。\n\n讨论要点\n\n人工智能和 ChatGPT 等大型语言模型（LLM）在各个领域（尤其是软件开发）中应用得愈加深入。我们相信产品设计、软件架构“可解释性”和系统运维（“AIOps”）方面还有改进空间。软件交付方法和领导策略发生了显著变化，人们越来越关注道德、可持续性和包容性。许多云原生和平台工程计划首先关注人员和流程，确保组织文化与目标保持一致，这是正确的。软件架构越来越注重将数据工程集成到数据管道、机器学习模型和相关系统的设计和实现中。从设计单体、微服务和纳米服务中吸取的经验教训也得到了广泛应用。开源和非开源许可正在不断发展。架构师必须意识到其代码库中包含的依赖关系的含义，采用软件物料清单（SBOM）。我们对 2024 年的预测包括，人工智能在软件交付中的使用将变得更加无缝，采用人工智能和不采用人工智能的组织和人员之间的鸿沟越来越大，持续交付领域向可组合性和改进抽象的方向前进。\n\n云原生和平台工程的重点是人员和流程吗\n\nWes Reisz：对于我在过去的几年里合作过的每一个客户，我们真正解决的问题似乎更多都是和人员相关的。这里推荐由 Matthew Skelton 和 Manuel Pais 撰写的《团队拓扑》，一本关于组织工程团队以实现快速流程、消除摩擦和消除交接，帮助你更快地交付软件的书。如今我们不仅仅是在谈论建立平台团队的需求，而是在谈论如…",
+          "link": "https://www.infoq.cn/article/7Oz93gHMUidp3QCswZLz",
+          "publishedOn": "2024-03-01T06:50:43.000Z",
+          "wordCount": 324,
+          "title": "2024 年的软件架构趋势：AI 加速，鸿沟拉大，架构师如何应对？",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/designing-for-colorblindness/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "Color accessibility is more than just ticking boxes. Even with good contrast, some color palettes can make interfaces challenging for users. Here are some practical guidelines to ensure more inclusive design for colorblind people. An upcoming part of Smart Interface Design Patterns.",
-          "link": "https://smashingmagazine.com/2024/02/designing-for-colorblindness/",
-          "publishedOn": "2024-02-20T12:00:00.000Z",
-          "wordCount": 3558,
-          "title": "A Practical Guide To Designing For Colorblind People",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/designing-for-colorblindness/designing-for-colorblindness.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/designing-for-colorblindness/designing-for-colorblindness.jpg"
+          "id": "https://www.infoq.cn/article/Fgy3OhU27YvbrlzW1A5e",
+          "author": "用友",
+          "description": "新一代人工智能已成为推动科技跨越发展、产业优化升级、生产力整体跃升的驱动力量。数据要素作为数字经济深化发展的核心引擎，已快速融入生产等各环节，深刻改变着生产方式、生活方式和社会治理方式。\n\n企业需要通过全面升级数智化底座、全面推进数据治理，释放数据要素价值，加速数智化进程，迈向高质量发展。为更好助力企业释放数智新动能、打造新质生产力，从而走向数据驱动、智能运营，用友将于2024年3月12日在北京举办主题为《升级底座，释放数智新动能》2024企业数智化底座创新峰会。\n\n亮点一：权威解读，共享数智化未来。权威机构、权威专家解读数据智能未来发展趋势、数据要素价值释放。\n亮点二：技术前沿，大模型由虚向实。AI智能化，从智能应用到底层GPT技术的解密，从场景价值到产品落地。\n亮点三：数据要素，千行百业应用。创新全面的数据治理与数据应用服务，及数据资产入表等当前企业数字化建设热点。\n亮点四：用友BIP全新升级 新版本新技术新功能新应用。用友BIP3 R5版本最新发布，新功能新应用展示。\n亮点五：专题论坛，避坑数智底座建设。针对开发集成/数据中台/AI智能三大领域分享实战路线与避坑指南。\n亮点六：领先企业的领先实践。数智化领先企业的领先实践分享，升级数智底座、释放数据要素价值、打造新质生产力。\n\n活动议程：\n\n\n\n\n\n\n\n\n\n扫码即可报名参与：",
+          "link": "https://www.infoq.cn/article/Fgy3OhU27YvbrlzW1A5e",
+          "publishedOn": "2024-03-01T06:28:53.000Z",
+          "wordCount": 323,
+          "title": "活动报名| 2024企业数智化底座创新峰会·北方站即将召开",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/mobile-accessibility-barriers-assistive-technology-users/",
-          "author": "hello@smashingmagazine.com (Kate Kalcevich)",
-          "description": "Accessibility goes beyond making products user-friendly. It can significantly impact the quality of life for people with disabilities. Kate Kalcevich shares lessons she learned from assistive technology users — challenges and barriers they encounter on mobile devices.",
-          "link": "https://smashingmagazine.com/2024/02/mobile-accessibility-barriers-assistive-technology-users/",
-          "publishedOn": "2024-02-19T10:00:00.000Z",
-          "wordCount": 4678,
-          "title": "Mobile Accessibility Barriers For Assistive Technology Users",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/mobile-accessibility-barriers-assistive-technology-users/mobile-accessibility-barriers-assistive-technology-users.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/mobile-accessibility-barriers-assistive-technology-users/mobile-accessibility-barriers-assistive-technology-users.jpg"
+          "id": "https://www.infoq.cn/article/WGZuo818AWg3xbckH7Cq",
+          "author": "栾小凡",
+          "description": "作者 | 栾小凡 - Zilliz 合伙人 & 研发 VP\n\n向量数据库大概是沉寂已久的数据库圈 2023 年最火的话题。最近有很多朋友询问我对向量数据库的看法，现在确实是讨论这个问题的好时机，一方面大模型和向量数据库仍然是热点话题，另一方面我们已经有了足够的样本和时间去仔细思考什么是真正面向 AI 应用的数据库。本文标题致敬 David J. DeWitt 和 Michael Stonebraker，他们讨论 Map reduce 的同名文章是我学习分布式系统的入门文章，也引领我进入数据库行业。\n\n尽管我本人也深度参与了开源向量数据库 Milvus 的开发工作，但我个人对过去一年里 VectorDB 的鼓吹者大肆宣传向量数据库与 AI 的关系感到厌倦。的确，向量数据库确实在部分与大模型相关的应用场景中起到了重要作用，但是，向量数据库目前的产品定位，形态，功能都与我们在 2019 年发明向量数据库这个词的初心相去甚远，更不要说能够很好的适配和支撑 AIGC 应用接下来的发展。现在是时候承认一个我们所有人都知道已经的事实了，目前所有的向量数据库（是的，也包括 Milvus 自身）根本不能被称之为一款数据库产品，某种意义是大规模数据处理领域的一种倒退，原因是：\n向量数据库放弃了数据库中重要的范式和理念绝大多数向量数据库的实现方式并不高效向量数据库不能处理复杂的向量查询缺少了大部分数据库应有的功能\n\n现存的 VectorDB 可能不是处理 AIGC Native 应用最适合的产品，是适合的时机作出改变了。我们先讨论什么是向量数据库以及其爆红的原因，然后我们在具体讨论上述四个原因。\n\n什么是向量数据库？\n\n向量数据库，正如其名，是专为管理向量数据而设计的数据库。这类数据库的诞生主要是为了应对非结构化数据的处理挑战。传统的表格形式不适合存储和表达非结构化数据，如图片、音频和视频。这些…",
+          "link": "https://www.infoq.cn/article/WGZuo818AWg3xbckH7Cq",
+          "publishedOn": "2024-03-01T06:10:03.000Z",
+          "wordCount": 322,
+          "title": "向量数据库：抛弃数据库范式的代价？",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/accessibility-standards-empower-better-chart-visual-design/",
-          "author": "hello@smashingmagazine.com (Kent Eisenhuth)",
-          "description": "Accessibility for data visualization extends well beyond web standards, at least if you’re trying to create an experience that’s actually useful. This article focuses on techniques for creating useful and accessible visualizations that extend well beyond compliance.",
-          "link": "https://smashingmagazine.com/2024/02/accessibility-standards-empower-better-chart-visual-design/",
-          "publishedOn": "2024-02-14T15:00:00.000Z",
-          "wordCount": 6083,
-          "title": "How Accessibility Standards Can Empower Better Chart Visual Design",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/accessibility-standards-empower-better-chart-visual-design/accessibility-standards-empower-better-chart-visual-design.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/accessibility-standards-empower-better-chart-visual-design/accessibility-standards-empower-better-chart-visual-design.jpg"
+          "id": "https://www.infoq.cn/article/ECiO650EZB6HZsAb5ZG7",
+          "author": "InfoQ研究中心",
+          "description": "在当今这个数字化迅速发展的时代，实时互动（RTE）以通信交互的实时性与灵活可感知的互动性在促进远程沟通、增强用户体验等方面变得不可或缺。在社交语聊、在线游戏、直播、远程手术、在线教育、视频会议、远程驾驶等场景不断落地。\n在这背后，是不断推进技术创新的 RTE 开发者伴随着技术、应用场景的不断演进，开发者的技能需求、能力要求与职业路径也在不断变化。因此，RTE 开发者社区联合极客邦科技双数研究院旗下 InfoQ 研究中心，对 RTE 行业开发者进行了广泛的用户调研和深入的专家访谈，期望能为行业从业者、用人单位、政府监管机构和社区，以及开发者自身带来一些启发。\n\n首先我们先简要地介绍一下什么是实时互动（RTE）？整个RTE行业的发展现状又是如何？\n一、实时互动的魔力\n实时互动（RTE）技术通过「实时」传输多维信息，为远程多方参与者提供身临其境的「交互」体验。这一技术的魅力在于其能够极大增强人际连接和沟通的效率，让人们即时交流、分享信息和共享体验，促进了更紧密的社交和合作。\n\nRTE 行业展现出巨大的市场增长空间。根据中国信通院《实时互动产业发展报告 2022 》，2021 年全球 RTE 产业规模达到 36 亿美元，在 2025 年，这个数字将超过 120 亿美元，中国市场则将从 77 亿元增长至 2025 年的 256 亿元。\n\n\n从应用场景来看，RTE 技术已在以教育、社交、游戏、电商为代表的 20 个行业中的 200 多个场景中得到应用。其中在教育和 IoT 应用场景中，应用者对RTE技术的感知更强，在 RTE 概念理解深度方面相对更深入，对该技术的场景化应用的认同度更高。\n\n\n在了解过 RTE 行业后，现在让我们来一起走进幕后的开发者们。\n二、RTE行业幕后的英雄——开发者\nRTE 技术因其涉及的技术复杂性高、应用场景广泛、以及行业发展的多变性，对开发者人才提出了更高的…",
+          "link": "https://www.infoq.cn/article/ECiO650EZB6HZsAb5ZG7",
+          "publishedOn": "2024-03-01T06:00:00.000Z",
+          "wordCount": 323,
+          "title": "薪资远超互联网行业平均水平的开发者们，RTE行业凭什么？| InfoQ研究中心",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/practical-guide-design-children/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "How to design for children aged 3–12, with insights into user behavior, considerations for parents, and practical UX guidelines.",
-          "link": "https://smashingmagazine.com/2024/02/practical-guide-design-children/",
-          "publishedOn": "2024-02-13T12:00:00.000Z",
-          "wordCount": 3572,
-          "title": "A Practical Guide To Designing For Children",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/practical-guide-design-children/practical-guide-design-children.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/practical-guide-design-children/practical-guide-design-children.jpg"
+          "id": "https://www.infoq.cn/article/kdquA2vmGjM1HxC4Vmgq",
+          "author": "Tina,核子可乐",
+          "description": "现在是2024年，昨天Leap Day Bugs又来了，估计又有一些团队迫于压力熬夜改bug了。\n\n\n2 月 29 日下午，有消息称禾赛科技激光雷达存在固件 bug，致使凡是用了禾赛激光雷达的车，自动驾驶功能全部歇菜。\n \n\n\n\n \n禾赛科技是激光雷达头部企业，其激光雷达交付量成功突破5万大关，成为了全球车载激光雷达行业首个单月交付量突破5万的公司。对此，有媒体向禾赛科技官方求证，禾赛科技回应称：“有2个老款L4机械式激光雷达今天出现了软件bug。目前，问题原因已经找到，我们也跟相关客户都做了深入沟通、并提供了相关解决方案。”\n \n据称该bug是个闰年问题。闰年是指该年有366日，即较平常年份多出一日。闰年是为了弥补因人为历法规定的年度天数365日和平均回归年的大约365.24219日的差距而设立的。多出来的一天为2月29日。也就是说今年的3 月 1 日晚了 24 小时，这种情况每四年发生一次。对于开发者来说闰年是一次小考验，它强制要求大家必须在应用程序中考虑少见但不可避免的事件。\n \n\n\n\n \n\n\n\n \n昨天，据禾赛科技表示他们“预计该问题会24小时内彻底解决。”\n \n“24小时”，说长不长，说短也不短，但对程序员来说，这可能是要求他们通宵达旦、爆肝代码的节奏。\n \n而昨天因日历上的小小变化而造成软件bug和中断问题的不止禾赛科技一家。虽然四年前才刚发生过一次，但显然到现在还有很多公司没有做好准备。\n \n我们首先得点名的是“OpenAI”。\n \n多位网友反馈 OpenAI ChatGPT 3.5认为“2024-02-29”不是有效日期。由于此问题，至少有一名 OpenAI API 用户在自己的应用程序中遇到了故障：\n \n\n“我们有一个通过 API 使用 ChatGPT 的产品，使用的是 3.5 Turbo 版本。我们的查询涉及一些日期。今天它没有像通常那样返回文本，而是一…",
+          "link": "https://www.infoq.cn/article/kdquA2vmGjM1HxC4Vmgq",
+          "publishedOn": "2024-03-01T05:23:00.000Z",
+          "wordCount": 324,
+          "title": "致敬昨晚熬夜改bug的技术团队！连OpenAI也躲不过：为什么几行代码能反复干翻大批软件",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/draw-radar-charts-web/",
-          "author": "hello@smashingmagazine.com (Preethi Sam)",
-          "description": "A radar chart — also commonly called a spider chart — is yet another way to visualize data and make connections. Radar charts are inherently geometric, making them both a perfect fit and fun to make with CSS, thanks to the `polygon()` function. Read along as Preethi Sam demonstrates the process and sprinkles it with a pinch of JavaScript to make a handy, reusable component.",
-          "link": "https://smashingmagazine.com/2024/02/draw-radar-charts-web/",
-          "publishedOn": "2024-02-09T15:00:00.000Z",
-          "wordCount": 5603,
-          "title": "How To Draw Radar Charts In Web",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/draw-radar-charts-web/draw-radar-charts-web.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/draw-radar-charts-web/draw-radar-charts-web.jpg"
+          "id": "https://www.infoq.cn/article/86TtlGtiB3Bk3AFlIxAs",
+          "author": "京东零售技术",
+          "description": "近年来，随着移动端设备软硬件能力的进步，移动端的算力有了很大提升，同时面向移动端的机器学习框架和模型轻量化技术越来越成熟，端上的 AI 能力逐渐进入大众视野，端智能在电商领域也开始逐步走向规模化应用。通过持续探索，京东零售技数中心团队创新突破了端侧高性能推理引擎、端侧模型分发、异构环境及复杂任务兼容等技术卡点，完成了多个业务应用和落地，并获得信通院边缘计算产业全景图行业认证。目前，京东\"众多业务已集成至端智能 SDK，流量分发、图像识别等算法场景运行情况良好，日推理计算量已经达数亿次，为用户带来了更好的购物体验。\n\n\n1、什么是端智能\n\n\n目前，大多数的模型服务主要基于云服务端进行计算。模型的训练和推理都在云端，使用时移动端用户通过向云服务器发送请求，包含用户的原始数据。云服务器在接收到请求后，进行数据预处理和推理计算等操作，并将结果返回给移动端用户。云服务器\"承担了几乎所有的计算负载，而移动端仅作为用户交互的界面。所以云端智能面临着一些瓶颈，包括高延迟、高成本，以及隐私安全风险。\n\n\n\n为了打破云端智能的瓶颈，端智能应运而生。端智能\"技术是将模型推理计算过程迁移至移动端，供移动端直接调用。使用时用户在端上触发推理计算，将原始数据给到模型进行特征加工和推理计算，最后将结果返回给用户。相比云端智能，端智能有三大优势：\n\n实时性高：端上实时响应用户请求，为用户提供实时 AI 反馈，提升用户体验；\n\n隐私合规性强：端上数据端上消费，无需上传云端，隐私合规性强；\n\n具备离线服务能力：推理服务无需请求云端，在无网或者弱网环境下也可以使用；\n\n\n2、问题与挑战\n\n\n受限于移动端设备的性能和多样性，在移动端设备上部署端智能并非易事，在端智能开发过程中，遇到了各种挑战，这些挑战会一直伴随着端智能开发过程，需要一直去优化解决，才能将端智能的体验做到极致。\n\n计算性能\n\n由于使用移动设备的计算…",
+          "link": "https://www.infoq.cn/article/86TtlGtiB3Bk3AFlIxAs",
+          "publishedOn": "2024-03-01T03:54:45.000Z",
+          "wordCount": 324,
+          "title": "端智能：面向手机计算环境的端云协同 AI 技术创新",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/frequently-heard-beginning-front-end-web-development-class/",
-          "author": "hello@smashingmagazine.com (Geoff Graham)",
-          "description": "What could we learn from entry-level students in front-end web development? As seasoned professionals, you might think you’ve seen it all, but the truth is that the newcomers are asking the most intriguing questions and making connections that those of us who have spent years on the front end may have never considered.",
-          "link": "https://smashingmagazine.com/2024/02/frequently-heard-beginning-front-end-web-development-class/",
-          "publishedOn": "2024-02-08T13:00:00.000Z",
-          "wordCount": 4315,
-          "title": "Frequently Heard In My Beginning Front-End Web Development Class",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/frequently-heard-beginning-front-end-web-development-class/frequently-heard-beginning-front-end-web-development-class.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/frequently-heard-beginning-front-end-web-development-class/frequently-heard-beginning-front-end-web-development-class.jpg"
+          "id": "https://www.infoq.cn/article/t8G6sdTHu20yfcLFg367",
+          "author": "京东零售技术",
+          "description": "开篇\n\n\n京东\"自营和商家自运营模式，以及伴随的多种运营视角、多种组合计算、多种销售属性等数据维度，相较于行业同等量级，数据处理的难度与复杂度都显著增加。如何从海量的数据模型与数据指标中提升检索数据的效率，降低数据存算的成本，提供更可信的数据内容和多种应用模式快速支撑业务的数据决策与分析，是数据团队去年聚焦解决的核心课题。\n\n通过 23 年的打磨与应用，我们在数据指标开发与共享效率大幅提升，分析看板搭建时间从天级别缩短到小时级别，日均指标消费频次从 23 年初的百万级增长到年末的数千万。\n\n本文会基于我们的实践，通过如下几个章节和大家进行分享交流，希望能为技术同学们带来一些启发或帮助。这也是“2023 京东零售技术\"年度盘点的深度文章系列”的第二篇，欢迎持续关注。\n\n1、 数据资产篇--资产认证与治理\n2、 数据能力篇--指标中台实践\n3、 数据展现篇--数据可视化工具\n4、 数据智能篇-- 基于大模型的智能化应用\n\n1、数据资产篇--资产认证与治理\n\n\n背景与挑战\n\n\n零售\"数据模型有几万张，其中有大量的临时表、无效表等，零售数据资产用户(尤其是分析师角色)一直存在找模型、理解模型、使用模型困难的情况，面对业务用数、分析需求，在找模型探数据的环节经常消耗较多的时间精力，用户普遍希望可以节约找、用模型的时间，提升交付数据结果、分析结果的效率，而且有些错误的或重复的资产在公司部门内流通，重复资产一方面浪费成本，另一方面无法保证数据的一致性。\n为解决用户诉求，同时从产研角度希望优化数据资产的质量和标准化程度，从生产到消费均进行一定程度的优化改造，提升端到端的资产建立标准化程度，进而提升用户使用体验。\n\n数据统一语言\n\n\n目标：如下图所示，拉齐资产建设者和资产消费者之间的沟通语言，提升找表效率、增强表的可解释性。\n\n\n\n通过数据维度建模的三个阶段(概念模型、逻辑模型、物理模型)，…",
+          "link": "https://www.infoq.cn/article/t8G6sdTHu20yfcLFg367",
+          "publishedOn": "2024-03-01T03:54:42.000Z",
+          "wordCount": 324,
+          "title": "万字干货 - 京东零售数据资产能力升级与实践",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/web-development-getting-too-complex/",
-          "author": "hello@smashingmagazine.com (Juan Diego Rodríguez)",
-          "description": "An overwhelming number of frameworks and tooling available today gives the impression that web development has gotten perhaps too complex. Juan Diego Rodríguez explores if web development really is that complex and, most importantly, how we can prevent it from getting even more difficult than we already perceive it to be.",
-          "link": "https://smashingmagazine.com/2024/02/web-development-getting-too-complex/",
-          "publishedOn": "2024-02-07T13:00:00.000Z",
-          "wordCount": 7285,
-          "title": "Web Development Is Getting Too Complex, And It May Be Our Fault",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/web-development-getting-too-complex/web-development-getting-too-complex.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/web-development-getting-too-complex/web-development-getting-too-complex.jpg"
+          "id": "https://www.infoq.cn/article/I6PzFomBpDF0iFmhr5KS",
+          "author": "京东零售技术",
+          "description": "序言：\n\n\n2 月 14 日晚间，Gartner\" 公布了 2024 年度 Garter Power of the Profession 供应链大奖，京东集团荣获供应链技术创新奖，成为获得该奖项的唯一亚洲企业。Gartner Power of the Profession 供应链奖项已经举办十年，是衡量企业供应链创新能力的国际权威奖项。入围决赛的共有 5 家企业，另外 4 家分别是谷歌、思科、MTN 集团、Allina Health。京东智能供应链 Y \"业务部研发的“基于概率分布预测以及解释性 AI 的弹性计划技术”，在激烈的竞争中获得冠军，历年的冠军包括微软、辉瑞、壳牌等。此外，几个月前，京东还凭借端到端库存管理等技术入围了 2023 年弗兰兹厄德曼奖（Franz Edelman Award）总决赛，这是一项由美国运筹学与管理科学学会(INFORMS)设立的管理科学界的最高奖项，被誉为工业工程领域的“诺贝尔奖”，旨在表彰运用运筹学和管理科学在实际应用中产生巨大价值的工作。\n\n过去一年，京东零售技术\"团队持续探索创新。在供应链方向，通过提出并应用端到端库存管理技术和可解释 AI 技术，实现了更快的库存周转和更高效的供应链决策、协同。这是 2023 京东零售技术年度盘点深度文章系列的第三篇，希望能为技术同学们带来一些启发或帮助。\n\n\n\n\n一、供应链决策中的超级难题：如何在保证可解释性的情况下提升预测精度？\n\n\n销量预测是供应链决策的关键组成部分，其准确性直接影响库存控制、资金安排、生产计划和市场策略。销量预测在传统上依赖于基于统计方法的时间序列模型，但是随着计算能力的提升和数据采集技术的进步，预测方法逐渐演变为更为复杂的机器学习算法，能够处理更多维度的数据并捕捉更深层次的非线性关系。\n\n总体来看，销量预测的发展经历了三个阶段：传统统计方法、机器学习方法以及混合算法。传统的统…",
+          "link": "https://www.infoq.cn/article/I6PzFomBpDF0iFmhr5KS",
+          "publishedOn": "2024-03-01T03:54:38.000Z",
+          "wordCount": 326,
+          "title": "亚洲唯一！京东荣获 2024 年度 Gartner 供应链技术创新奖背后的创新探索",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/guide-designing-older-adults/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "With one billion people aged 60 or older worldwide, inclusivity is more important than ever. Learn how to create digital experiences that empower independence and competence for older adults while enhancing usability for all. An upcoming part of Smart Interface Design Patterns.",
-          "link": "https://smashingmagazine.com/2024/02/guide-designing-older-adults/",
-          "publishedOn": "2024-02-06T08:00:00.000Z",
-          "wordCount": 3556,
-          "title": "A Guide To Designing For Older Adults",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/guide-designing-older-adults/guide-designing-older-adults.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/guide-designing-older-adults/guide-designing-older-adults.jpg"
+          "id": "https://www.infoq.cn/article/iBN4mNvboJPH6UmzK2OX",
+          "author": "InfoQ",
+          "description": "《超级连麦.数智大脑》是InfoQ重磅推出的一档连麦直播栏目，由数字化领域的思想领袖、技术大咖及企业先行者等多方连线，聚焦企业数字化实践、数字人才培养、数字化技术管理等话题，剖析和拆解典型数字化场景及其痛点，意在帮助各行业企业扫清转型障碍、探寻变革路径。今晚主持人高玉娴（InfoQ极客传媒数字化主编）对话赵松（某知名电动汽车大数据专家），探讨数字化背景下的车企行业的一系列建设和发展问题。",
+          "link": "https://www.infoq.cn/article/iBN4mNvboJPH6UmzK2OX",
+          "publishedOn": "2024-03-01T03:45:19.000Z",
+          "wordCount": 322,
+          "title": "数据要素×汽车｜“数字原生”车企是如何实现全流程数据拉通的？",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
         },
         {
-          "id": "https://smashingmagazine.com/2024/02/designing-ai-beyond-conversational-interfaces/",
-          "author": "hello@smashingmagazine.com (Maximillian Piras)",
-          "description": "As Artificial Intelligence evolves the computing paradigm, designers have an opportunity to craft more intuitive user interfaces. Maximillian Piras examines how the latest AI capabilities can reshape the future of human-computer interaction beyond conversation alone.",
-          "link": "https://smashingmagazine.com/2024/02/designing-ai-beyond-conversational-interfaces/",
-          "publishedOn": "2024-02-02T13:00:00.000Z",
-          "wordCount": 7602,
-          "title": "When Words Cannot Describe: Designing For AI Beyond Conversational Interfaces",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/designing-ai-beyond-conversational-interfaces/designing-ai-beyond-conversational-interfaces.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/designing-ai-beyond-conversational-interfaces/designing-ai-beyond-conversational-interfaces.jpg"
+          "id": "https://www.infoq.cn/article/46hx13bHDkOD1vF7hxxf",
+          "author": "蚂蚁集团",
+          "description": "近日，IEEE 标准协会（IEEE-SA）正式发布并推行了由我国企业主导的全球首个隐私计算一体机国际标准《隐私计算一体机技术要求》（IEEE 3156-2023）。IEEE-SA是权威国际标准制定机构，该标准的成功发布意味着中国的隐私计算技术与应用探索受到国际高度认可，可为全球提供参考方案。\n\n\n\n（图：IEEE标准协会官网发布“隐私计算一体机技术要求”国际标准）\n \n隐私计算一体机作为隐私计算产业落地的重要技术探索，通过软硬件结合方式构建从硬件、固件、操作系统到应用软件的一站式隐私保护计算解决方案，提供了开箱即用、安全可证、隐私保护的数据价值流转服务，在国内外受到行业关注。\n \n信息显示，此次发布的国际标准由蚂蚁集团推动，中科院信息工程研究所、北京交通大学、中国信息通信研究院、中国电子技术标准化研究所等近20家单位共同编制。\n \n该标准针对隐私计算一体机的参考架构、功能需求、性能需求和安全需求等提出了标准解决方案，并对隐私计算一体机的硬件、系统软件、隐私保护协议、软件应用等多个层面给出了建议。IEEE专家一致认为，通过这一标准，可使得业内形成对隐私计算一体机的共识，提高隐私计算一体机的产品形态水位，引导业内利用隐私计算一体机解决多源数据计算与价值共享的难题，有效降低协作成本。\n \n隐私计算作为一种新兴的数据安全技术范式，已成为全球科技布局的焦点。公开资料显示，蚂蚁集团从2016年开始布局隐私计算技术，涵盖了多方安全计算、同态加密、可信执行环境等技术能力，推出了可信隐私计算开源框架“隐语”、隐私计算软硬一体化平台等产品，并实现规模化商业应用落地。截至目前，蚂蚁集团隐私计算领域专利申请量超过2000件，连续多年位列全球第一，并参与了多项隐私计算国际标准的制定。 \n \nIEEE全称“电气和电子工程师协会”，是目前全球最大的非营利性专业技术学会，会员人数超过40万人，遍布全球160多个国家。IEEE在太空、计算机、电信、生物医学等领域已制定了1300多个行业标准，是新兴技术领域标准的核心来源。",
+          "link": "https://www.infoq.cn/article/46hx13bHDkOD1vF7hxxf",
+          "publishedOn": "2024-03-01T02:17:40.000Z",
+          "wordCount": 322,
+          "title": "全球首个隐私计算一体机国际标准发布，中国企业主导",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/DG7z4ahDSM5RNKmOeMpE",
+          "author": "作者：Sergio De Simone",
+          "description": "随着其他组织将他们的构建管道迁移到Bazel 之后，Airbnb 也发布了一个详细的说明，分享了他们弃用 Buck 并改善构建时间以及项目生成和加载时间的过程。\n\n正如 Airbnb 的工程师 Qing Yang 和 Andy Bartholomew 所说的，转向 Bazel 是为了提供一种跨平台（包括后端和前端）统一而高效的构建体验。\n\n从他们的 iOS 开发管道开始，Airbnb 的工程师们主要关注两个方面的问题：构建配置和 IDE 集成。\n\nBazel 和 Buck 有一些相似之处，包括相似的目录结构和命令行调用，最重要的是使用相同的配置语言 Starlark，这在某种程度上简化了构建配置的迁移。\n\n尽管 Buck 和 Bazel 有相似之处，但它们在所提供的规则方面有所不同。\n\n\n例如，Buck 提供了 apple_library 和 apple_binary 等规则，而 Bazel 根据外部规则集的不同提供了 swift_library 和 apple_framework 等规则。即使在两个系统具有相同名称的规则（例如 genrule）的情况下，用于配置这些规则的语法通常也是不同的。\n\n\n在 Airbnb 的案例中，解决这个问题的方法是创建一个包装本地和外部规则的薄片（shim）层。为了在过渡阶段同时处理两个薄片，Airbnb 的工程师创建了一个包含两个不同目录rules_shim/buck和rules_shim/bazel的存储库，然后为每个构建系统定义了一个规则，将rules_shim标识符与正确的目录关联起来。\n\nrules_shim层也是处理 genrule 的关键。在 Airbnb，genrules 用于生成 iOS 代码库中的样板代码，并且在两个构建系统上有不同的语法。多亏了这个包装层，Airbnb 的工程师可以在两个系统中使用相同的 genrule 脚本。\n\n构建配置所需的最后一个问题是支持条件配置。Buck 提供了一个read_config函数来读取命令行参数，而 Bazel 不支持这个函数，因此 Bazel 和 Buck 之间出现了不匹配。解决方案是向下移动一个抽象层，并通过select重新实现两个系统都支持的命令行参数。\n\n在 IDE 集成方面，Airbnb 工程师的目标是用一个以 Bazel 为中心的解决方案替换他们现有的以 Buck 为中心的解决方案来创建 Xcode 项目，同时又可以使用他们围绕 Buck 开发所使用的工具。为了达到这个目的，他们决定使用 XcodeGen 开发自己的 Xcode 工作区生成器。\n\n最重要的是，他们分三个步骤执行迁移过程，避免对开发人员的工作流造成干扰。第一步，将新的生成器与他们现有的基于 Buck 的解决方案集成，确保一切都按预期工作。在第二阶段，他们添加了新的 Bazel 命令，这些命令与 Buck 中使用的命令相同，并可以在两者之间切换。最后，在新系统看起来足够稳定时，他们移除了对 Buck 的支持。\n\n\n迁移的最终结果令人印象深刻。与 Buck 生成项目相比，使用 XcodeGen 生成的时间缩短了 60%，Xcode 的打开时间缩短了 70% 以上。\n\n\n除此之外，新的基于 Bazel 的构建系统缩短了构建时间，特别增量构建时间，并支持进行进一步优化，以改善共享和协作流程。如果你对完整的细节感兴趣，请务必阅读原文。\n\n查看英文原文：\n\nhttps://www.infoq.com/news/2024/02/airbnb-bazel-migration-ios/\"",
+          "link": "https://www.infoq.cn/article/DG7z4ahDSM5RNKmOeMpE",
+          "publishedOn": "2024-03-01T02:00:00.000Z",
+          "wordCount": 324,
+          "title": "Airbnb从Buck 迁移到 Bazel，大幅改善开发者体验",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/0yeegtv0VYfQOewlXlTa",
+          "author": "George Anadiotis",
+          "description": "随着人工智能（AI）在企业运营中的核心作用日益凸显\"，越来越多的企业开始将目光投向这一前沿技术，准备投入巨资以获取竞争优势。AI 芯片则成为推动这一切的关键。尽管过去 AI 芯片在一定程度上被忽视，但最近，OpenAI 的 Sam Altman 宣称，他计划筹集高达 7 万亿美元的资金，用于支持一项 “野心勃勃” 的科技项目，旨在大幅提升全球芯片产能。抛开地缘政治等因素不谈，关注 AI 芯片意味着要了解今天的挑战和明天的机遇。\n \n根据 IMARC 最近的一项研究\"，到 2029 年，全球人工智能芯片市场预计将达到 8960 亿美元。这一预测基于多个因素，包括人工智能技术的持续进步、消费电子产品对 AI 芯片需求的不断增长，以及 AI 芯片领域的创新活动日益活跃。\n \n在 AI 硬件领域，拥有丰富经验和深刻见解的专家并不多见，Alphawave 的首席执行官兼联合创始人 Tony Pialis\" 正是其中之一。在一次对话中，Pialis 分享了他对 AI 芯片领域的独到观点，其中涉及芯片技术的变革性发展、专用于训练和推理的硬件创新，以及模拟和光学计算等新兴方向的前景。\n \n在半导体创业领域，Tony Pialis 的名字堪称传奇。他先后创立并成功出售了两家初创公司：Snowbush Microelectronics 和 V Semiconductor Inc。其中，V Semiconductor 在 2012 年被英特尔收购，Pialis 在此期间担任了模拟和混合信号 IP 的副总裁。\n \n2017 年，Pialis 与合作伙伴共同创立了 AlphaWave，目标直指 “下一个伟大的半导体公司”。Alphawave 于 2021 年上市，市值达到 45 亿美元。该公司的核心产品包括硅 IP、芯片、定制硅和高速互连技术，专为谷歌、微软、亚马逊和 Meta 等主要超级扩展客户量…",
+          "link": "https://www.infoq.cn/article/0yeegtv0VYfQOewlXlTa",
+          "publishedOn": "2024-02-29T10:26:16.000Z",
+          "wordCount": 323,
+          "title": "AI芯片的未来：领导者、黑马和后起之秀",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/UXSTNToNDvVlYF0X8wQS",
+          "author": "InfoQ研究中心",
+          "description": "导语：大模型的快节奏发展，让了解最新技术动态、积极主动学习成为每一位从业者的必修课。InfoQ研究中心期望通过每周更新大模型行业最新动态，为广大读者提供全面的行业回顾和要点分析。现在，让我们回顾过去一周的大模型重大事件吧。\n\n一、重点发现\n\n在过去一周内，OpenAI视频生成产品Sora的发布无疑成为了全球讨论的热点，这标志着人工智能技术在视频生成领域取得了重大突破，它降低了视频制作门槛，促进了内容创作的多样性和便捷性，为未来的视频产业带来了无限可能。中信建投、国泰君安、申万宏源、招商证券等10家券商在研报中均表示Sora是人工智能发展进程的里程碑，这预示AGI（通用人工智能）将加速到来，众多行业将迎来颠覆式变革。\n当然，Sora讨论度爆发的原因是多方面的，在应用潜力方面，传统的内容创作工作流有望被颠覆，生成式AI在视频创作和世界模型的大踏步进步将实现对视频、3D、游戏等下游应用场景的渗透；在技术创新方面，Sora仅根据提示词便可以生成60秒的高清视频；在产品质量方面，Sora 创造的视频在时长、画幅选择、场景复杂度以及角色多样性的处理上都表现出了极高的水准；在社会关注度方面，Sora的发布在科技圈内迅速引发了广泛关注与热烈讨论，吸引了众多媒体的争相报道，进而形成了强大的舆论影响力，这无疑进一步推动了公众对Sora的讨论热情。\n\n二、具体内容\n\n\n大模型持续更新\n\n\n多模态领域\n\n1、北京大学、南洋理工大学 S-Lab 和上海人工智能实验室的研究者提出了一个新的框架 LGM（Large Gaussian Model），实现了从单视角图片或文本输入只需 5 秒钟即可生成高分辨率高质量的三维物体。\n2、谷歌提出了一种具备空间推理能力的视觉语言模型：SpatialVLM，以赋予视觉语言模型空间推理能力。\n3、OpenAI 正式发布了文本到视频生成模型 Sora，继 Runway、…",
+          "link": "https://www.infoq.cn/article/UXSTNToNDvVlYF0X8wQS",
+          "publishedOn": "2024-02-29T08:07:40.000Z",
+          "wordCount": 326,
+          "title": "文生视频模型“卷”出新天际；多家手机厂商 AlI in Al，终端AI时代来临？|大模型一周大事",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/sOmbLFN3CKt4VkyoIhBQ",
+          "author": "丁晓昀",
+          "description": "今日 InfoQ 这篇报道：拜登：“一切非 Rust 项目均为非法”\"受到了广泛关注，白宫国家网络总监办公室（ONCD）本周发布报告强调，程序员选择编写代码的方式对国家利益至关重要。拜登政府希望软件开发人员使用内存安全编程语言，如Rust，而不是C和C++等安全性较差的语言。\n\n【懒人速览】\n\n美国白宫国家网络总监办公室 (ONCD) 发布报告，建议软件开发人员使用内存安全编程语言，例如 Rust、Python、Swift、C#、Java 和 Go 等。目的在于提高软件安全性，减少网络攻击面，保护数字生态系统乃至国家安全。报告还提到了内存安全硬件技术的重要性，并呼吁加大相关技术投资。\n\n那么对于程序员，是要确保代码安全还是国家安全？软件安全问题是技术问题还是管理问题？欢迎留言讨论。\n\n另外，我们为想要入门的小伙伴准备了一些资料包，可以扫下方二维码领取。\n\n\n\n如果想系统地学习 Rust 的朋友，推荐极客时间专栏陈天的 Rust 第一课\"。整个专栏由浅入深，对比多种语言，带你攻克 Rust 编程 10 大难点，有 100+ 原理图，详解 Rust 设计理念。最后通过 4 个项目实操训练，理论与实战两手抓，真正让你掌握 Rust 开发精髓。",
+          "link": "https://www.infoq.cn/article/sOmbLFN3CKt4VkyoIhBQ",
+          "publishedOn": "2024-02-29T07:13:56.000Z",
+          "wordCount": 325,
+          "title": "C/C++ vs. Rust，程序员的代码选择，关乎国家安全？| 讨论",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/MO3Sjk7QCQ7EDyHmmN2V",
+          "author": "高玉娴",
+          "description": "嘉宾 | 林国强 顺丰科技大数据总监\n\n\n2023 年，顺丰科技发布了首个在物流领域大规模应用的数字孪生实践。在物流典型的中转分拣场景，该技术已经可以实现 1 天内在虚拟环境验证并优化 1000 次分拣计划，通过向全国 60 多个中转场的快速复制，平均每个中转场提升了 8% 以上的产能。\n\n“大数据做打底”是提高数字世界精准度，降低和现实物理世界差异的前提和基础。在顺丰数字化过程中，其构建了一套“1+1+n+x”的框架和机制，以确保数据驱动业务的体系化运作。其中，前两个“1”均与数据相关，分别是“大数据底盘”和“数据治理体系”。\n\n在 InfoQ《超级连麦. 数智大脑》2024 年度首期直播中，顺丰科技大数据总监林国强对该运作框架进行了介绍，并且分享了顺丰内部如何从战略、组织、目标、成果量化等维度入手严格执行数据中台战略，使得涉及多环节、复杂流程的物流供应链场景数据的标准得以统一，并确保数据质量满足业务需求，帮助顺丰提升流转效率。\n\n以下内容根据对话整理，篇幅有删减，点击链接可观看直播回放：https://www.infoq.cn/video/FIKfbul8LmVwJcfVQxfg\"\n\n构建数据驱动的运作框架：1+1+n+x\n\n\nInfoQ：物流和供应链行业的核心业务目标之一就是把具体的任务和资源做匹配，尽可能提升流转的效率。我们看到，过去顺丰基于大数据、机器学习、运筹优化等技术打造了智能化的决策体系，是否可以请您先大致介绍一下这套体系的运转机制？\n\n\n林国强：数据驱动业务需要一套完整的框架和机制来维持运作，涉及的技术包括大数据、机器学习、运筹算法\"和人工智能等。\n\n顺丰内部将这套架构称为“1+1+n+x”。顺丰通过“1+1+n+x”的方式，确保数字化数据驱动业务的整体运作。\n\n第一个“1”是指大数据底盘，包括数据相关开发工具，从采集到接入、到资产到质量到服务全流程的工具…",
+          "link": "https://www.infoq.cn/article/MO3Sjk7QCQ7EDyHmmN2V",
+          "publishedOn": "2024-02-29T06:41:48.000Z",
+          "wordCount": 322,
+          "title": "顺丰实现业务和流转效率提升的背后：严格执行数据中台战略",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/hJSuZS9s3xQ5eXV1NfuR",
+          "author": "刘志伟；孙金波；Arthur",
+          "description": "龙游神州，一场将古老庙会与现代科技完美融合的云 VR\" 体验，近期成为北京地坛新春庙会的网红打卡项目。这场由央博数字文化艺术博物馆和火山引擎\"云游戏团队联手打造的沉浸式体验，究竟是如何通过技术魔法实现的呢？让我们一起来揭开这层神秘的面纱。\n\n系统架构\n\n\n\n\n本项目的技术架构主要由服务端包含云渲染、智能调度、运营监控、媒体服务等能力构建，并在多路并发、超低延时、体验优化、运营监控等大空间技术难点层面做了优化和提升；客户端硬件采用 Pico 4E，无线方案采用企业级 AC + AP，运营方案由 Pico \"企业服务提供支持。\n\n核心优化\n\n\nWiFi场景24路并发实现\n\n\n24 路并发取决于客户端侧 WiFi 的规划以及 AC 和 AP 的深度优化\n\n通过 AC 将 AP 组合理规划，保证网络连接的稳定性，同时，每个 AP 组均衡分配终端，以保证负载的均衡做到 24 路并发，同时配合 AP 固件优化，做到端到端更低的延迟\n\n\n\n\n\n\n端到端低延迟\n\n\n\n\n端到端延迟优化是通过服务端云流化引擎的 RTC 部分实现的。\n\n云 VR 使用了火山引擎智能拥塞控制算法 VICC（Volcano Intelligent Congesttion Control）VICC 是一种自适应的拥塞控制算法，旨在解决全球不同网络环境下，不同音视频应用对带宽利用率和延时的差异化要求。它结合了传统拥塞控制算法（如 GCC 和 BBR）的优点，并且能够根据不不同的网络条件、业务偏好和码率特征进行自适应调整，包括自适应拥塞响应速度、自适应带宽探测幅度、自适应丢包检测策路、自适应抗抖动能力和自适应 Padding。通过这些自适应调整，VICC 算法能够提升各种复杂弱网下的带宽利用率，同时在满足不同延时的条件下，尽量提升带宽的稳定性，为用户提供更好的音视频体验。\n\nVICC 优点如下：\n\n多种基础网络状态参数展…",
+          "link": "https://www.infoq.cn/article/hJSuZS9s3xQ5eXV1NfuR",
+          "publishedOn": "2024-02-29T06:28:42.000Z",
+          "wordCount": 322,
+          "title": "龙游神州：揭秘云VR大空间背后的技术魔法",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/jvLlJqzIKCakkpIlCFo6",
+          "author": "鲁冬雪",
+          "description": "明确\"AI 驱动，公共云优先”战略 3 个月之后，阿里云吹响了进攻号角。\n\n2 月 29 日，阿里云\"宣布史上最大力度降价，100 多款产品、500 多个产品规格的官网价格\n平均降低 20%，最高降幅 55%。降价后，阿里云核心产品价格击穿了全网最低价。新价格\n即日起生效，数百万企业将直接获益。\n\n相比历史上其它几次红利释放，本次降价具有 3 个优点：“两个最，一个首次”，历史上参与\n产品范围最大，受益群体最广，也是首次让利给客户存量订单的未履约部分。\n\n阿里云智能集团资深副总裁、公共云事业部总裁刘伟光\"表示，中国云计算发展了十多年，但\n公共云\"渗透率仍大幅低于欧美成熟市场。中国市场的服务器存量规模 2000 万台，美国服务\n器存量规模约为 2100 万台，但美国以公共云形式提供服务的算力占比为 60%，中国仅为\n 28%。\n\n刘伟光表示，“让云成为公共服务，创造社会价值”，是阿里云成立第一天起的初心。未来，\n云一定是企业和开发者的首选，技术创新一定优先诞生在云上。作为中国第一大云计算公司，\n阿里云希望通过此次大规模降价，让更多企业用上先进的公共云服务，加速云计算在中国各\n行各业的普及和发展。\n\n对比自建 IDC，刘伟光详细阐述了云计算的七大价值——“省、弹、进、捷、拓、智、才”：\n\n省，节省企业 IT 总支出。企业使用公共云架构，调度效率更高。绝大部分客户的业务场景\n是有业务量起伏的。云计算提供的弹性能力，可以让客户根据需要采用常态化和弹性相结合\n的开通方式，应对不同时段的资源需求，实现平均资源持有量的明显下降。例如，线下 1000\n 台服务器常态化持有，会变成云上 500 台常态化持有、峰值时段新增 300 台弹性使用。由\n于业务需要保持安全资源水位，而纯线下资源不能按需及时增加，就会导致资源冗余。同时，\n阿里云上的软硬件结合优化，会帮助客户业务在虚拟机和容器运行时实现…",
+          "link": "https://www.infoq.cn/article/jvLlJqzIKCakkpIlCFo6",
+          "publishedOn": "2024-02-29T05:54:23.000Z",
+          "wordCount": 322,
+          "title": "刘伟光：用阿里云的客户越多，价格就会越便宜！",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/UJKm6UbxGF2dh184o63O",
+          "author": "QCon全球软件开发大会",
+          "description": "生成式 AI 的爆发式发展，为软件工程带来了新的活力。我们看到，在大模型的加持下，软件开发全流程的每个环节都在发生变化，从底层操作系统、数据库到应用开发过程的编码、测试，再到项目管理、运维等，各环节都在与智能化能力深度融合。与此同时，以 ChatGPT、Sora 为代表的的生成式 AI 产品展现出的超强能力，也进一步点燃了人们对大模型未来应用场景的无限想象。\n\n2024 年，我们将迎来全面进化的时代。技术、产品、组织，都将迎来新的变革与突破，这无疑给企业和技术团队带来了巨大的挑战。在技术、产品和组织的全面进化之路上，或许有一些跟其他团队相似的需求可以参考别人的经验。4 月 11-13 日，QCon 全球软件开发大会暨智能软件开发生态展将在北京国测国际会议会展中心正式召开，会议内容、会议模式均经过全面进化，为大家带来智能软件时代技术先行者们的案例以供参考。大会日程现已正式上线！更多精彩议题陆续更新中~\n\n\n\n部分精彩分享\n\n\n技术的全面进化\n\n\n在大模型和鸿蒙等厂商自研 OS 的推动下，技术架构的全面进化是必然趋势，但同时还要兼顾成本和服务质量的双重需求。\n\n\n\n\n\n\n\n产品的全面进化\n\n\n创新的技术和思想，将促进现有的业务模式和产品形态的重构，从而带来更加卓越的性能和用户体验。对于技术同学而言，最大的挑战是从业务出发，探索创新技术和实际应用的结合点，关注实际业务收益，对于产品和业务等非技术同学而言，最大的挑战是理解技术背后的价值，并将之与业务有机融合，充分发挥技术的价值。\n\n\n\n\n\n组织的全面进化\n\n\n为了支撑全面进化，各个企业也将不断优化直至重塑组织架构和流程，以获得更具创新力、协作更高效的团队。伴随着新职业诞生、旧职业职责边界的变更，这个过程中必然存在阵痛。\n\n\n\n\n\n活动推荐\n\n\n\n会议现已进入 8 折早鸟购票阶段，错失 7 折特惠的朋友们，可以联系票务经理 17310043226 。点击 「链接」 \"了解大会更多详情，期待与各位开发者现场交流。让我们相聚 QCon 北京，共同探索软件研发 X 智能未来进化之路！",
+          "link": "https://www.infoq.cn/article/UJKm6UbxGF2dh184o63O",
+          "publishedOn": "2024-02-29T05:42:31.000Z",
+          "wordCount": 324,
+          "title": "第一批落地大模型的企业现在做得怎么样了？| QCon北京2024日程上线",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/2Dt1zIE1j1C2P6II1ULx",
+          "author": "赵钰莹",
+          "description": "本期节目，深圳计算科学研究院核心骨干，崖山科技公司团队创始人之一、技术副总裁欧伟杰将为我们介绍100%自研的崖山数据库是如何突出重围的。",
+          "link": "https://www.infoq.cn/article/2Dt1zIE1j1C2P6II1ULx",
+          "publishedOn": "2024-02-29T05:11:11.000Z",
+          "wordCount": 322,
+          "title": "100%自研、真正平替Oracle，崖山数据库是如何突出重围的？（下）｜QCon",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/24vlYWKcbbUP1pjCGV4a",
+          "author": "赵钰莹",
+          "description": "极客邦创始人&CEO 霍太稳对话深圳计算科学研究院首席科学家樊文飞，共同探讨深圳计算科学研究院的发展现状和下一步计划，并就生成式AI对现有数据库的影响展开讨论。",
+          "link": "https://www.infoq.cn/article/24vlYWKcbbUP1pjCGV4a",
+          "publishedOn": "2024-02-29T05:11:02.000Z",
+          "wordCount": 322,
+          "title": "100%自研、真正平替Oracle，崖山数据库是如何突出重围的？（上）｜QCon",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/2SWA4hvSTpe22mMD9mBJ",
+          "author": "核子可乐,褚杏娟",
+          "description": "“程序员编写代码并非没有后果，他们的⼯作⽅式于国家利益而言至关重要。”白宫国家网络总监办公室（ONCD，以下简称网总办）在本周一发布的报告中说道。在该报告中，拜登政府希望软件开发人员尽量使用Rust这样的内存安全编程语言，并放弃C和C++等安全性薄弱的语言。\n\n图源：报告文件\n \n此外，美国参议院国土安全和政府事务委员会主席 Gary Peters (D.MI) 和美国参议员 Ron Wyden (D-OR) 还向网总办强调了他们在内存安全方面的立法努力。\n\n科技巨头要为安全负责\n\n \n这并不是拜登政府对内存安全语言的首次提倡。\n \n美国网络安全与基础设施安全局（CISA）在去年9月的一篇博文中，也曾公开敦促开发人员使用内存安全编程语言。网络与基础设施安全局、联邦调查局（FBI）、国家安全局及各盟国机构随后于12月发布了题为《内存安全路线图案例》（The Case for Memory Safe Roadmaps）的研究报告，其中就点名C/C++存在内存安全漏洞，软件开发商应放弃使用，改用C#、Rust、Go、Java、Python和Swift等内存安全的编程语言 (MSL)。 \n \n此外，早在 2022年11月，国安局网络安全信息表就将C#、Go、Java、Ruby、Swift以及Rust列为认定的内存安全编程语言。\n \n在这份19页的最新报告中，白宫则将C和C++作为存在内存安全漏洞的两大编程语言示例，相应的内存安全正面典型则是Rust语言。\n \n微软和谷歌最近的研究发现，约有70%的安全漏洞由内存安全问题引发。 国家网络总监Harry Coker在白宫新闻稿中表示，“我们美国有能力、也有责任缩小网络空间的攻击面，并防止各类安全漏洞侵入数字生态系统。而这要求我们首先解决转向内存安全编程这一根本难题。”\n \n白宫在一份新闻稿明确提出，科技企业可通过采用内存安全编程语言“防…",
+          "link": "https://www.infoq.cn/article/2SWA4hvSTpe22mMD9mBJ",
+          "publishedOn": "2024-02-29T04:40:41.000Z",
+          "wordCount": 322,
+          "title": "拜登：“一切非Rust项目均为非法”",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/sMg6Ea7Rhr3mRxXpJAl0",
+          "author": "鲁冬雪",
+          "description": "2 月 29 日，阿里云\"全线下调云产品官网售价，平均降价幅度超过 20%，最高降幅达 55%。这是阿里云史上最大力度的一次降价，涉及 100 多款产品、500 多个产品规格，覆盖计算、存储、数据库等所有核心产品，数百万新老客户可在本次降价中直接获益。降价后，阿里云核心产品价格都击穿了全网最低价。\n\n本次降价采用官网直降的形式，对在官网采购的新老客户均适用。其中，云服务器 ECS \"最高降 36%、对象存储\" OSS 最高降 55%、云数据库 RDS 最高降 40%，都是云上用户使用频率最高的核心产品。无论是大客户还是中小客户，新客户还是老客户，都可以在阿里云官网上直接按照新的价格在线下单。\n\n\n\n阿里云智能集团资深副总裁、公共云事业部总裁刘伟光表示：“中国云计算发展了十多年，公共云渗透率仍大幅低于欧美成熟市场。作为中国第一大云计算公司，阿里云希望通过此次大规模降价，让更多企业用上先进的公共云服务，加速云计算在中国各行各业的普及和发展。”\n\n以最受中小企业欢迎的云服务器u1产品为例，购买 2c4g 配置的五年版需要 768元/年，降价后仅需 485元/年，降价 36%。对象存储 OSS 标准存储-本地冗余从 0.12/GB/月降至 0.09/GB/月，降幅达 25%。数据库方面，以 RDSMySQL 基础系列为例，购买 1c2g 通用型配置的五年版需要 936元/年，降价后仅需 562元/年，降价 40%。此外，阿里云还将云数据传输 CDT 的每月免费公网流量额度从 10GB 提升至 20GB。\n\n针对之前包年的老客户，阿里云也推出了相应的优惠政策。客户在降价发布后 3 个月内续费，未消耗的包年时长可按新的价格重新计费。例如，某企业此前购买了 10 万元包 1 年的云服务器，目前只用了 6 个月，只要客户再续费 1 年，此前未消耗的 5 万元云资源可按新的价格（降20%）重新计费，差额可抵扣续费订单，即少付 1 万元。\n\n此外，阿里云还全面升级了“99 计划”，面向个人开发者和中小企业推出 99元/年、199元/年的入门级云服务器。",
+          "link": "https://www.infoq.cn/article/sMg6Ea7Rhr3mRxXpJAl0",
+          "publishedOn": "2024-02-29T03:43:46.000Z",
+          "wordCount": 326,
+          "title": "2024 阿里云战略发布会：史上最大力度！阿里云 100 多款产品官网直降 20%",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/RUxJrOykuSXwPxFZY3yR",
+          "author": "李冬梅",
+          "description": "早在 2022 年，Cloudflare 就宣布他们将放弃 Nginx，转而使用内部 Rust 编写的软件，名为 Pingora。当地时间2月28日，Cloudflare宣布开源Pingora框架。\n \n据悉，Pingora 是一个 Rust 异步多线程框架，用于构建可编程网络服务，采用Apache 2.0 开源许可证。Pingora 长期以来一直在 Cloudflare 内部使用，能够维持大量流量，而现在 Pingora 正在开源，以帮助在 Cloudflare 之外构建基础设施。\n \nCloudflare 将 Pingora 框架描述为：\n \n\n“Pingora 提供了库和 API，用于在 HTTP/1 和 HTTP/2、TLS 或 TCP/UDP 之上构建服务。作为代理，它支持 HTTP/1 和 HTTP/2 端到端、gRPC 和websocket 代理。（HTTP/3 支持已在路线图上。）它还具有可定制的负载平衡和故障转移策略。为了合规性和安全性，它支持常用的 OpenSSL 和 BoringSSL 库，这些库具有 FIPS 合规性和后量子性除了提供这些功能之外，Pingora 还提供过滤器和回调，以允许用户完全自定义服务应如何处理、转换和转发请求。这些 API 对于 OpenResty 和 NGINX 用户来说尤其熟悉，因为许多API直观地映射到 OpenResty 的“ *_by_lua”回调。 在操作上，Pingora 提供零停机优雅重启来升级自身，而不会丢弃单个传入请求。Syslog、Prometheus、Sentry、OpenTelemetry 和其他必备的可观察工具也可以轻松与 Pingora 集成。”\n\n \nCloudflare宣布Pingora 开源，其中还包含一个使用它构建负载均衡器的示例。Pingora 处于 1.0 之前的阶段，尚不具备 API 稳定性，Cloudflare 目前没有计划支持非 Unix 操作系统。\n \nPingora Rust 代码可在GitHub\"上获取。\n \nPingora项目地址：https://github.com/cloudflare/pingora\"\n \n参考链接：https://www.phoronix.com/news/Cloudflare-Pingora-Open-Source\"",
+          "link": "https://www.infoq.cn/article/RUxJrOykuSXwPxFZY3yR",
+          "publishedOn": "2024-02-29T02:53:44.000Z",
+          "wordCount": 322,
+          "title": "Cloudflare开源基于Rust语言的Pingora框架",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/rjdS63Pvw3xTb0XtLBLl",
+          "author": "赵钰莹",
+          "description": "2月26日，OpenAI Sora 正式对外开放申请。这是一个文本到视频的生成模型（即文本生成视频），可以根据用户输入的描述性提示快速生成视频，并及时向前或向后扩展现有视频，因为前期公布的视频效果不错而受到大家的广泛关注。\n\n与此同时，与 Sora 同架构的 Stable Diffusion 3.0也正式发布。从公布出来的测试图来看，归功于 Transformer 架构和额外的文本编码器，Stable Diffusion 3.0的文字渲染能力十分强悍，图像的质量和整体性能同样有所提高。\n\n这也让多模态再次成为大家关注的焦点，近一个月内有多场与之相关的直播，无数业内技术专家围绕此发表了自己的观点。那么，国内企业在这方面又有哪些具体进展呢？\n\n与Sora前后脚出现的Gemma 在过去一个月也是受到了大家的强烈关注，谷歌的Gemma 是一个开放模型，与 Gemini 模型（以及更早的 PaLM 模型）拥有相同的技术和基础设施组件。谷歌方面称，与其他开放模型相比，Gemma 2B 与 7B 均在同等规模范围内拥有最出色的性能表现。\n\n那么，开放模型这个概念如何理解？区别于开源和闭源，开放模型是不是将具备更好的商业前景呢？\n\n诸如此，生成式AI技术的到来对整个软件生态带来了很多变化，我们也在期待未来有更多好的场景案例和技术突破出现。比如，Agent是否会在24年出现“现象级”的应用？可能是在C端还是B端？或者开发者日益喜欢的智能编码工具还可能朝着哪些方向演进？数字人是否会有实际的商业落地场景？角色构建又有哪些新的进展？微调工程师还是否是一个好的选择？\n\n3月1日晚19:00，InfoQ特别策划的【QCon全球软件开发大会暨智能软件开发生态展】\"的启航直播中邀请了QCon大会的出品人、阿里云效、通义灵码产品技术负责人陈鑫（花名：神秀）\"，QCon大会的出品人、白鲸开源CEO、Apache 基金会成员、TGO鲲鹏会学员郭炜\"，QCon大会的出品人、数势科技AI负责人李飞博士\"、北京极客邦科技有限公司创始人兼CEO 霍太稳Kevin共同讨论上述话题（感兴趣的用户可以扫描下方海报上的预约直播二维码，先行预约）。\n\n与此同时，直播期间购买QCon大会展区门票将享受5折优惠，大会门票将享受8折优惠\"。此外，3张以上即可团购，每张门票将单独赠送案例会员季卡一张，可观看往届大会的精品演讲视频，涵盖人工智能、云原生、研发效能、架构设计、前端开发等众多领域（可以扫描海报上面的<大会福利官>二维码，提前了解相关信息）。",
+          "link": "https://www.infoq.cn/article/rjdS63Pvw3xTb0XtLBLl",
+          "publishedOn": "2024-02-29T02:26:39.000Z",
+          "wordCount": 322,
+          "title": "从Sora代表的多模态聊起，大模型将如何重塑软件生态？｜QCon会展启航直播",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/iASqS42eYx2tljmcsO0s",
+          "author": "作者：Rafal Gancarz",
+          "description": "Grab 更新了其 Kubernetes 上的 Kafka 设置以提高容错性，并完全避免在 Kafka Broker 意外终止时需要进行人工干预。为解决最初设计的不足，Grab 的团队集成了 AWS 节点终止处理程序（Node Termination Handler，NTH），使用负载均衡器控制器进行目标组映射，并切换到 ELB 卷进行存储。\n\n作为其 Coban 实时数据平台的一部分，Grab 已经在 Kubernetes (EKS) 上使用 Strimzi 在生产环境中运行 Apache Kafka 两年了。团队之前使用了 Strimzi（现已成为 CNCF 孵化项目），通过应用成熟的身份验证、授权和保密机制来提升 Kafka 集群的安全性。\n\n除了由于维护或基础设施问题导致 AWS 意外终止 EKS 节点外，初始设置运行良好。在这种情况下，Kafka 客户端会突然遇到错误，因为 Broker 没有被优雅地降级。更糟糕的是，受影响的 Broker 实例无法在新配置的 EKS 工作节点上重新启动，因为 Kubernetes 仍然指向已经不存在的存储卷。因此，如果没有 Coban 工程师的干预，Kafka 集群将以降级状态运行，三个 Broker 节点中只有两个可用。\n\n开发人员利用 AWS 节点终止处理程序（NTH）将对 Kafka 客户端的干扰降至最低，通过排空工作节点，使用 SIGTERM 信号触发 Kafka 进程优雅地关闭。Grab 团队选择使用队列处理器模式而不是实例元数据服务（IMDS）模式，因为它捕获了更广泛的事件集合，包括与可用区（AZ）和自动扩展组（ASG）有关的事件。\n\n\n\n使用 AWS 节点终止处理程序（队列处理器）支持 Kafka 的优雅关闭（来源：Grab 工程博）\n\n他们使用 AWS 负载均衡器控制器（LBC）动态映射网络负载均衡器（NLB）目标组来解决工作节点终止时网络连接中断的问题。工程师们通过增加健康检查频率并使用 Pod 就绪门（Pod Readiness Gate）控制器来配置 NLB，解决 NLB 将每个目标组标记为健康状态所需的时间过长的问题。\n\n他们最后需要克服的一个最大的障碍是确保新配置的 Kafka 工作节点能够正确启动并访问数据存储卷。工程师们决定使用弹性块存储（EBS）卷而不是 NVMe 实例存储卷。使用 ESB 有许多好处，例如成本更低、将卷大小与实例规格解耦、更快的同步速度、快照备份以及在不停机的情况下增加容量。此外，他们将 EC2 实例类型从存储优化改为通用型或内存优化型。\n\n通过对 Kubernetes 和 Strimzi 进行额外配置，能够在新集群上自动创建 EBS 卷，并在将 Kafka Pod 重定位到不同工作节点时在 EC2 实例之间附加 / 分离卷。\n\n\n\n经过这些改进，EC2 实例退役以及任何需要对所有工作节点进行轮换的操作都可以在没有人工干预的情况下进行，这些操作变得更快速、更不容易出错。他们正在计划做进一步的改进，包括使用 NTH Webhook 主动启动新实例并通过 Slack 通知 NTH 发起的操作，以及推出 Karpenter，用以取代 Kubernetes Cluster Autoscaler。\n\n查看英文原文：\n\nhttps://www.infoq.com/news/2024/02/grab-kafka-kubernetes-aws-nth/\"",
+          "link": "https://www.infoq.cn/article/iASqS42eYx2tljmcsO0s",
+          "publishedOn": "2024-02-29T02:00:00.000Z",
+          "wordCount": 329,
+          "title": "Grab 改进 Kubernetes 集群中的 Kafka 设置，无需人工干预就可轮换 Broker 节点",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/6422b28864978e864106156b1",
+          "author": "小明Java问道之路",
+          "description": "已解决zipfile.BadZipFile: File is not a zip file异常的\"正确解决方法，亲测有效！！！\n文章目录\n问题分析\"\n报错原因\"\n解决思路\"\n解决方法\"\n总结\"\n\n\n在处理ZIP文件时，Python提供了一个非常方便的库zipfile，可以用来读取、写入、提取和列出ZIP文件中的内容。然而，在使用这个库尝试打开或操作一个ZIP文件时，你可能会遇到以下错误：\nzipfile.BadZipFile: File is not a zip file\n这篇技术博客将详细讲解这个问题的原因，并提供一种实际可行且经过验证的解决方案。\n\n\n问题分析\n\n上述错误提示很明显——尝试打开的文件并非一个有效的ZIP文件。出现这个问题的场景主要有两种：\n      1.文件损坏： ZIP文件可能在下载过程中被损坏或部分内容缺失。\n      2.错误的文件格式： 尝试打开的文件不是ZIP格式，但错误地以为其是ZIP文件。\n\n报错原因\n\n导致zipfile.BadZipFile: File is not a zip file异常的具体原因可能包括：\n      1.文件完整性问题： 文件可能未完全下载完成，或在传输过程中受到损害。\n      2.错误的文件扩展名： 文件虽然具有.zip扩展名，但实际内容并非ZIP格式。\n      3.文件内容为空或太小： 空文件或文件大小远远小于正常ZIP文件的最小大小。\n\n解决思路\n\n针对上述原因，我们可以采取以下策略来解决这个问题：\n       1.验证文件完整性： 检查文件是否完整下载或复制，可能需要重新下载或获得新的副本。\n       2.检查文件格式： 确认文件确实是ZIP格式，可以尝试手动解压以验证。\n       3.使用文件修复工具： 如果文件损坏，可以尝试使用专门的修复工具进行恢复。\n\n解决方法\n\n根据以上思路，以下是具体的解决步骤：\n      1.重新下载或获取文件：如果怀疑文件损坏或下载不完整，请尝试从源头重新下载或获取该文件的新副本。\n      2.手动验证文件：尝试使用系统自带的压缩文件管理器（如Windows的文件资源管理器或macOS的归档实用程序）打开ZIP文件，以检查文件是否可被正常解压。\n      3.检查文件扩展名和MIME类型：在命令行中使用file命令（Linux/macOS）检查文件类型\nfile yourfile.zip\n\n      4.使用第三方软件修复ZIP文件：如果文件损坏，可以尝试使用如WinRAR、DiskInternals Zip Repair等第三方软件尝试修复ZIP文件。\n\n总结\n\n当遇到zipfile.BadZipFile: File is not a zip file错误时，通常意味着所操作的文件不是一个有效的ZIP文件。通过重新下载文件、手动验证、检查文件格式和使用修复工具，我们可以有效解决这个问题。理解并运用这些解决方法能帮助你更加高效地处理ZIP文件相关的问题。希望本文能为你解决“File is not a zip file”异常提供帮助。————————————————",
+          "link": "https://www.infoq.cn/article/6422b28864978e864106156b1",
+          "publishedOn": "2024-02-21T11:58:45.000Z",
+          "wordCount": 346,
+          "title": "已解决zipfile.BadZipFile: File is not a zip file异常的正确解决方法，亲测有效！！！",
+          "imageUrl": "https://static001.infoq.cn/static/write/img/write-favicon.jpg"
         }
       ]
     },
     {
-      "title": "freeCodeCamp.org",
-      "feedUrl": "https://www.freecodecamp.org/news/rss/",
-      "siteUrl": "https://www.freecodecamp.org/news/",
+      "title": "爱范儿",
+      "feedUrl": "https://www.ifanr.com/feed",
+      "siteUrl": "https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=",
       "articles": [
         {
-          "id": "https://www.freecodecamp.org/news/how-to-use-lists-in-python/",
-          "author": "Sahil Mahapatra",
-          "description": "In Python, lists are a cornerstones of data organization and manipulation – so I think they deserve a thorough exploration.  This article delves into how to create and manipulate lists in Python, some advanced functionalities, and some practical applications of lists. You can get all the source code from",
-          "link": "https://www.freecodecamp.org/news/how-to-use-lists-in-python/",
-          "publishedOn": "2024-03-01T20:02:25.000Z",
-          "wordCount": 4159,
-          "title": "How to Use Lists in Python – Explained with Example Code",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2024/02/Neon-Green-Bold-Quote-Motivational-Tweet-Instagram-Post-2-.png"
+          "id": "https://www.ifanr.com/?p=1576842&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "刘学文",
+          "description": "可上绿牌。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576842?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-02T07:40:00.000Z",
+          "wordCount": 585,
+          "title": "长安猎手皮卡上市，想做「增程+皮卡」的新物种",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/LS-1.jpg"
         },
         {
-          "id": "https://www.freecodecamp.org/news/caching-vs-content-delivery-network/",
-          "author": "Anamika Ahmed",
-          "description": "In the world of network optimization, Content Delivery Networks (CDNs) and caching play a vital role in improving website performance and user experience.  And while both aim to speed up website loading times, they have distinct purposes and mechanisms.  In this tutorial, we'll dive deep into the details",
-          "link": "https://www.freecodecamp.org/news/caching-vs-content-delivery-network/",
-          "publishedOn": "2024-03-01T19:27:51.000Z",
-          "wordCount": 2872,
-          "title": "Caching vs Content Delivery Networks – What's the Difference?",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2024/02/Conducting-Research-Projects-Educational-Presentation-in-Pink-and-Yellow-Colorful-Line-Style-1.jpg"
+          "id": "https://www.ifanr.com/?p=1576817&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "张成晨",
+          "description": "AI 艺术，对于人类来说还是太超前了\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576817?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-02T04:44:54.000Z",
+          "wordCount": 673,
+          "title": "满大街的 AI 广告，是一次审美大降级吗？",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/yin1111.jpg"
         },
         {
-          "id": "https://www.freecodecamp.org/news/how-to-convert-files-to-gzip-on-windows/",
-          "author": "Md. Fahim Bin Amin",
-          "description": "You may often need to compress files and folders for various reasons. And \"Gzip\" compression is a good choice for many scenarios.  Recently, I have faced an issue where I needed to compress a lot of files individually, and manual intervention to compress each file one by one using",
-          "link": "https://www.freecodecamp.org/news/how-to-convert-files-to-gzip-on-windows/",
-          "publishedOn": "2024-03-01T19:15:53.000Z",
-          "wordCount": 1355,
-          "title": "How to Compress Files to \".gz\" on the Windows Operating System",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2024/02/freeCodeCamp---Fahim.png"
+          "id": "https://www.ifanr.com/?p=1576785&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "苏伟鸿",
+          "description": "虽然对模拟器的诉讼很少成功，但任天堂这次「有备而来」。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576785?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-01T12:14:13.000Z",
+          "wordCount": 590,
+          "title": "任天堂这次选择与模拟器「正面对决」",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/yuzuwebsite-1024x477.png"
         },
         {
-          "id": "https://www.freecodecamp.org/news/podcast-ai-and-the-future-of-education-with-seth-goldin/",
-          "author": "Quincy Larson",
-          "description": "In this week's episode of the podcast, freeCodeCamp founder Quincy Larson discusses AI and the future of education with Seth Goldin.  Among other things, Seth is co-founder of College Compendium, an education charity, and studies computer science at Yale. Also, the quote Quincy mentioned during the conversation about AI",
-          "link": "https://www.freecodecamp.org/news/podcast-ai-and-the-future-of-education-with-seth-goldin/",
-          "publishedOn": "2024-03-01T17:47:29.000Z",
-          "wordCount": 788,
-          "title": "Podcast – AI and the Future of Education with Seth Goldin",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2024/03/seth-goldin-freecodecamp-podcast.jpg"
+          "id": "https://www.ifanr.com/?p=1576604&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "苏伟鸿",
+          "description": "Nothing 将凭借全新中端机型 Phone (2a) 挑战（海外）中端机市场。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576604?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-01T00:56:35.000Z",
+          "wordCount": 682,
+          "title": "Nothing 想凭借 Phone (2a) 再一次颠覆手机市场",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/2a-tt.jpg"
         },
         {
-          "id": "https://www.freecodecamp.org/news/react-for-beginners-handbook/",
-          "author": "Nathan Sebhastian",
-          "description": "The goal of this handbook is to provide gentle step-by-step instructions that will help you learn the key concepts of React. Instead of covering all the theories and concepts of React in their entirety, I'll be teaching you important building blocks of the library. You'll learn about JSX, components, props,",
-          "link": "https://www.freecodecamp.org/news/react-for-beginners-handbook/",
-          "publishedOn": "2024-03-01T00:34:46.000Z",
-          "wordCount": 8429,
-          "title": "Learn React – A Handbook for Beginners",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2024/03/Learn-React-Cover.png"
+          "id": "https://www.ifanr.com/?p=1576688&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "肖凡博",
+          "description": "·特斯拉申请赛博中文商标\r\n·高合开放员工快速离职通道\r\n·Adobe 发布全新音乐制作生成式 AI\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576688?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-01T00:20:43.000Z",
+          "wordCount": 1004,
+          "title": "Vision Pro 美国市场需求已大幅放缓/小米汽车回应 SU7 出厂价 20 万元/iPhone 15 系列已降至历史最低价",
+          "imageUrl": "https://s3.ifanr.com/images/ep/cover-images/re_xue_cover.jpg"
         },
         {
-          "id": "https://www.freecodecamp.org/news/java-methods/",
-          "author": "Valentine Gatwiri",
-          "description": "Methods are essential for organizing Java projects, encouraging code reuse, and improving overall code structure.  In this article, we will look at what Java methods are and how they work, including their syntax, types, and examples. Here's what we'll cover:  1. What are Java Methods?  2. Types",
-          "link": "https://www.freecodecamp.org/news/java-methods/",
-          "publishedOn": "2024-02-29T20:05:17.000Z",
-          "wordCount": 2779,
-          "title": "Methods in Java – Explained with Code Examples",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2024/02/Screenshot-from-2024-02-28-10-30-57.png"
+          "id": "https://www.ifanr.com/?p=1576660&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "谢东成",
+          "description": "苹果手表，又救命了。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576660?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-29T12:15:47.000Z",
+          "wordCount": 634,
+          "title": "当 Apple Watch 发风险提醒时，就该停下工作去检查了",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2023/04/DSC08907-1024x683.jpg"
         },
         {
-          "id": "https://www.freecodecamp.org/news/what-is-syslog-handbook/",
-          "author": "Serhii Orlivskyi",
-          "description": "If you're in information technology, you'll likely agree that logging is important. It helps you monitor a system, troubleshoot issues, and generally provides useful feedback about the system’s state. But it’s important to do logging right. In this handbook, I'll explain what the syslog protocol is and how it works.",
-          "link": "https://www.freecodecamp.org/news/what-is-syslog-handbook/",
-          "publishedOn": "2024-02-29T19:40:35.000Z",
-          "wordCount": 10132,
-          "title": "The Syslog Handbook – How to Collect and Redirect Logs to a Remote Server",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2024/02/The-Syslog-Handbook-Cover.png"
+          "id": "https://www.ifanr.com/?p=1576576&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "爱范儿",
+          "description": "阿里云对 AIGC 爆发后的市场寄予了厚望。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576576?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-29T06:18:35.000Z",
+          "wordCount": 618,
+          "title": "疯狂星期四！阿里云官宣史上最大力度降价",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/26-1.jpg"
         },
         {
-          "id": "https://www.freecodecamp.org/news/google-gemini-course-for-beginners/",
-          "author": "Beau Carnes",
-          "description": "Google Gemini is a cutting edge AI model that is a competitor of GPT-4.  We just released a course on the freeCodeCamp.org YouTube channel that will help you harness the power of the advanced AI technology. Developed by the popular instructor Ania Kubów, this beginner's course offers a deep",
-          "link": "https://www.freecodecamp.org/news/google-gemini-course-for-beginners/",
-          "publishedOn": "2024-02-29T18:47:51.000Z",
-          "wordCount": 968,
-          "title": "Google Gemini Course for Beginners",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2024/02/gemini3.png"
+          "id": "https://www.ifanr.com/?p=1576531&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "肖凡博",
+          "description": "·GitHub 推出企业版 Copilot\r\n·蚂蚁集团发布 20 亿参数多模态遥感基础模型\r\n·索尼 PlayStation 部门裁员 900 人\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576531?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-29T00:43:09.000Z",
+          "wordCount": 930,
+          "title": "雷军称苹果用户买小米汽车是最好选择/字节跳动正秘密研发多个 AI 产品/特斯拉新车型或年底推出",
+          "imageUrl": "https://s3.ifanr.com/images/ep/cover-images/deng_gao_wang_hu_cover.jpg"
         },
         {
-          "id": "https://www.freecodecamp.org/news/learn-machine-learning-in-2024/",
-          "author": "Beau Carnes",
-          "description": "Are you curious about machine learning but don't know where to start? We just published a comprehensive Machine Learning course on the freeCodeCamp.org  that will teach you how to get started in 2024. Whether you're aspiring to become a Data Scientist, a Machine Learning Engineer (MLE), a Product Manager, or",
-          "link": "https://www.freecodecamp.org/news/learn-machine-learning-in-2024/",
-          "publishedOn": "2024-02-29T17:38:13.000Z",
-          "wordCount": 1114,
-          "title": "Learn Machine Learning in 2024",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2024/02/ml24.png"
+          "id": "https://www.ifanr.com/?p=1576401&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "艾 梵",
+          "description": "AI Pin 成不了 AI 时代的 iPhone，但这样的奇葩应该多一些。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576401?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-28T09:51:05.000Z",
+          "wordCount": 750,
+          "title": "首批现场体验 AI Pin 的人：为什么我不换台手机呢？",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/AIPIN12.jpg"
         },
         {
-          "id": "https://www.freecodecamp.org/news/build-a-mobile-quiz-app/",
-          "author": "David Asaolu",
-          "description": "In this tutorial, you'll learn how to build a mobile quiz application that authenticates users, allows them to take tests, and ranks them based on their scores.  The application leverages some of Supabase's features, such as authentication and database storage, to build a secured full-stack mobile application. Additionally, you'll",
-          "link": "https://www.freecodecamp.org/news/build-a-mobile-quiz-app/",
-          "publishedOn": "2024-02-29T17:30:26.000Z",
-          "wordCount": 4753,
-          "title": "How to Build a Mobile Quiz App with React Native, ChatGPT and Supabase",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2024/02/Building-a-mobile-quiz-app-with-React-Native--ChatGPT-and-Supabase--1--1.png"
+          "id": "https://www.ifanr.com/?p=1576439&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "江翁翁",
+          "description": "让智能计算无处不在，高通展示前沿无线技术。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576439?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-28T09:48:44.000Z",
+          "wordCount": 833,
+          "title": "除了更 AI，5G 手机还能给人什么惊喜？",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/6-8.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576364&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "刘学文",
+          "description": "只许胜不许败的转型。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576364?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-28T06:41:13.000Z",
+          "wordCount": 792,
+          "title": "吉利银河一周年，这是中国新能源转型的速度缩影",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/YH-1.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576328&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "李华",
+          "description": "朝内卷的同时，极氪还要向外卷。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576328?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-28T06:31:22.000Z",
+          "wordCount": 821,
+          "title": "全新极氪 001 上市！充电速度全球第一，但价格才是最大惊喜",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/tmzk.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576343&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "张明悦",
+          "description": "·华为发布全球首个 5.5G 智能核心网\r\n·iPhone 16 Pro 将支持 5 倍光学变焦\r\n·全新极氪 001 正式上市\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576343?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-28T01:24:20.000Z",
+          "wordCount": 942,
+          "title": "早报｜曝苹果取消电动汽车项目/天涯社区被申请破产/董宇辉回应清空微博",
+          "imageUrl": "https://s3.ifanr.com/images/ep/cover-images/fei_zai_tian_shang_ye_yao_qi_dan_che_cover.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576302&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "张成晨",
+          "description": "表情管理最强的机器人\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576302?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-27T13:20:26.000Z",
+          "wordCount": 740,
+          "title": "炸裂更新！这个最像人类的机器人又进化了，还能模仿马斯克",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/ap11.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576213&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "肖钦鹏",
+          "description": "新一代的六边形战士，变快了也变强了。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576213?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-27T10:00:11.000Z",
+          "wordCount": 799,
+          "title": "OMEN 暗影精灵 10 评测：游戏本中的六边形战士",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/TES083071.png"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576182&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "李华",
+          "description": "巴音布鲁克跑的都是坦克。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576182?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-27T06:45:47.000Z",
+          "wordCount": 599,
+          "title": "坦克 700 Hi4-T 上市，国产硬派越野凭什么卖 70 万？",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/tmmcc.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576245&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "莫崇宇",
+          "description": "商业化和开源全都要。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576245?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-27T06:30:06.000Z",
+          "wordCount": 813,
+          "title": "逼近 GPT-4 的新模型发布！「欧洲版 OpenAI」联手微软，却被质疑违背初心",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/50-1.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576191&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "肖凡博",
+          "description": "·逆水寒手游发布 AI 影片生成工具\r\n·Stability AI 推图像高清放大工具\r\n·KUMO KUMO 开启事业合伙人业务\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576191?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-27T00:44:50.000Z",
+          "wordCount": 1021,
+          "title": "蔡崇信称阿里已重返中国顶级电商轨道/小米汽车最快二季度交付/华为发布全球首个通信行业大模型",
+          "imageUrl": "https://s3.ifanr.com/images/ep/cover-images/tian_kong_cover.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576163&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "李华",
+          "description": "我们给仰望信心，也是希望仰望给我们信心。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576163?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-26T10:05:51.000Z",
+          "wordCount": 742,
+          "title": "中国自己的超跑怎么造？168 万的仰望 U9 给了个答案",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/YW-T.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576070&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "刘学文",
+          "description": "6G，不只是比 5G 多 1G。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576070?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-26T07:10:04.000Z",
+          "wordCount": 667,
+          "title": "高通在 MWC 上发布了海量新技术，5G 在进化，6G 有信儿了",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/56G-T.jpg"
         }
       ]
     }
