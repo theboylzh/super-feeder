@@ -3,6 +3,8 @@
 # https://github.com/osmoscraft/osmosfeed/blob/master/docs/osmosfeed-yaml-reference.md
 #########################
 
+#测试手动更新
+
 cacheUrl: https://theboylzh.github.io/super-feeder/cache.json
 sources:
   - href: https://plink.anyfeeder.com/infoq/recommend
