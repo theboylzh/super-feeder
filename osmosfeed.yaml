@@ -3,7 +3,7 @@
 # https://github.com/osmoscraft/osmosfeed/blob/master/docs/osmosfeed-yaml-reference.md
 #########################
 
-#测试手动
+#测试手动update
 
 cacheUrl: https://theboylzh.github.io/super-feeder/cache.json
 sources:
