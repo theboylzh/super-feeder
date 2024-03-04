@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://theboylzh.github.io/super-feeder/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-03T00:56:09.632Z</updated>
+    <updated>2024-03-04T00:54:17.704Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://theboylzh.github.io/super-feeder/index.html"/>
     <link rel="self" href="https://theboylzh.github.io/super-feeder/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[早报|苹果或于本周发布新产品/OpenAI 回应马斯克诉讼/农夫山泉董事长回应与娃哈哈传言]]></title>
+        <id>https://www.ifanr.com/?p=1576930&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1576930?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-04T00:36:45.000Z</updated>
+        <summary type="html"><![CDATA[·深圳发布政策支持鸿蒙原生应用发展
+·苹果硬件工程灵魂人物即将退休
+·天涯社区拟 5 月 1 日前恢复访问
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>张明悦</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[极氪卷完，零跑接着卷，16 万 的 C10 就有激光雷达+Orin-X+骁龙 8295]]></title>
+        <id>https://www.ifanr.com/?p=1576876&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1576876?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-03T07:48:12.000Z</updated>
+        <summary type="html"><![CDATA[20 万以下的卷王。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>刘学文</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[长安猎手皮卡上市，想做「增程+皮卡」的新物种]]></title>
         <id>https://www.ifanr.com/?p=1576842&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
