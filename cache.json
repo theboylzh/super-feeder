@@ -6,6 +6,116 @@
       "siteUrl": "https://www.infoq.cn",
       "articles": [
         {
+          "id": "https://www.infoq.cn/article/ZmPCfDB7iuf7mIMuZuTs",
+          "author": "蒋晓伟",
+          "description": "引言：在这个 AI 技术飞速发展的时代，我们有能力更深入地发掘数据潜在的价值，而数据处理不应当成为阻碍。云原生分布式 Data Warebase 将开启处理数据的新范式，它让数据的使用返璞归真，不论是存储还是查询，一个系统满足业务全方位数据需求。打破复杂数据架构的束缚，大大降低数据的使用门槛，释放数据潜能，让数据涌现智能。\n\n\n背景\n\n\n1. 近二十年大数据发展史\n\n2002 年我加入 Microsoft SQL Server 引擎团队。那时的数据库市场相对简单，主要有三个厂商：Oracle、IBM（DB2）和 Microsoft（SQL Server）。数据库行业似乎已经相当成熟，发展趋于稳定，新的产品 / 厂家看起来不再有机会。我曾一度思考过继续做数据库是不是一个正确的职业选择。与数据库行业的成熟稳定相比，互联网业务蓬勃发展，对数据库能力和性能的要求与日俱增，一场解决水平扩展的战争悄然开始。\n\nMicrosoft SQL Server 等传统数据库存在一个较大的限制：作为一个单机的架构，只能通过用更大的机器向上扩张，因此性能总会受到单机性能的瓶颈制约。要将其转变为分布式架构是一项非常艰巨的任务。尽管 SQL Server 在这方面进行了一些尝试，但真正开始引领分布式革命的是谷歌发表的几篇论文。\n\n\n\nGFS 和 MapReduce：Google 分别于 2003 和 2004 年发表了这两篇论文。GFS 描述了分布式文件系统的实现，为海量数据的存储指明了方向。MapReduce 则是进行大规模数据处理的一种架构。这两篇论文对整个行业产生了深远的影响，它使业界认识到使用普通硬件就可以实现海量数据的分布式存储和计算。\n\nHadoop：受到 GFS 和 MapReduce 的启发，开源框架 Hadoop 在 2006 年应运而生，此后十多年里，整个 Hadoop 大数据生态系…",
+          "link": "https://www.infoq.cn/article/ZmPCfDB7iuf7mIMuZuTs",
+          "publishedOn": "2024-03-04T10:29:52.000Z",
+          "wordCount": 326,
+          "title": "为什么又造了个新词 Data Warebase：我看到了 AI 时代数据平台应当的样子",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/puHTphqN7KJZBd4eRsGN",
+          "author": "朴朴科技平台组",
+          "description": "作者 | 朴朴科技平台组\n\n\n背景\n\n\n在当今数字化时代，伴随着朴朴业务的快速增长，朴朴全面拥抱微服务、云原生和容器技术，同时，在云原生可观测性方面，朴朴几乎所有的微服务都接入了朴朴 APM 来帮助开发者快速定位、分析和诊断问题。然而随着业务复杂度和服务数量的不断增加，上报给 APM 的数据量也急剧增加。\n\n目前，朴朴 APM 后端存储数据库使用 ClickHouse，每天上报的数据量在 1000 亿行左右，压缩后存储空间占 20TB 左右。为了降低存储成本以及提升数据信噪比，朴朴平台技术团队对 APM 链路引入了自定义采样。\n\n\n用户关心的采样数据\n\n\n我们仔细思考下，用户真的需要这么大的数据量吗？用户关心的是我想要的 Span 你必须给我采样到，并且链路追踪 Trace 必须是完整的。因此我们在做采样的情况下，如果能够保证 99.99% 的用户的需求，那么对用户就是无感的。\n\n根据日常线上排查经验，我们发现业务研发主要关心以下优先级高场景：\n\n在调用链上出现异常 Error\n\n耗时长（阈值取决实际业务需求）\n\nA/C 端 HTTP 接口耗时超过 「250ms」\n\nDubbo 接口耗时超过 「250ms」\n\nXXL-Job 定时任务数据全保存\n\n在调用链上出现 MySQL 耗时超过 「100ms」\n\n在调用链上出现 Elasticsearch 耗时超过 「200ms」\n\n在调用链上出现 Redis 耗时超过 「50ms」\n\nKafka 消费组耗时超过 「1s」\n\n业务场景核心调用链。如：搜索、加购物车、下单、支付等流程。\n\n注意：为方便后面描述，我把上面业务关心的 Span 定义为「有意义的 Span」。\n\n\n常见的链路采样策略\n\n\n常见的采样策略主要分为 3 种：基于头部采样、「有意义 Span」向下传播法、基于尾部采样，可以根据实际的业务情况进行结合使用。\n\n图 1 …",
+          "link": "https://www.infoq.cn/article/puHTphqN7KJZBd4eRsGN",
+          "publishedOn": "2024-03-04T10:06:29.000Z",
+          "wordCount": 327,
+          "title": "存储成本降低 80%，查询效率提升 5 倍，朴朴 APM 链路采样实战",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/DGJEcDfAuZ9AL5Ui9VY8",
+          "author": "滴滴技术",
+          "description": "技术的世界，从来不是孤独的。在这个充满挑战与机遇的领域，没有闭关修炼多年的绝世高手， 只有无数怀着愚公移山精神的探索者，他们一步一个脚印，在未知的荒原上修桥补路，共同编织着技术的传奇。\n为了让更多开发者吸取实战经验，滴滴技术公众号特别推出《滴滴技术实践 2023 年度合集》，本册合集汇聚了过去一年我们所发表的技术实践内容。你将了解滴滴如何运用算法优化决策，如何通过数据挖掘价值， 如何使用测试保证质量，以及如何打造高效、灵活的前后端技术支撑体系等等。这些实践经验不仅贴近业务实际需求，更具有广泛的适用性和参考价值。\n感谢每一位读者的关注与支持，期待通过本册合集，能够为众多业界同仁带来相关实践与思考，一同推动技术的进步与发展。",
+          "link": "https://www.infoq.cn/article/DGJEcDfAuZ9AL5Ui9VY8",
+          "publishedOn": "2024-03-04T10:02:01.000Z",
+          "wordCount": 324,
+          "title": "滴滴技术实践 2023 年度合集",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/2CkeYvACpMxa3hWmOmuP",
+          "author": "褚杏娟,傅宇琪",
+          "description": "OpenAI 波谲云诡，马斯克大战奥特曼，风口浪尖还将任命新董事会成员；Llama 3 被爆 7 月解禁，剑指 GPT-4，核心成员却离职；周鸿祎首堂 AI 课引争议，疑似错误略多；阿里巴巴上新 AI 图片 - 音频 - 视频模型技术 EMO，可生成会说话唱歌的 AI 视频；索尼裁员，京东抢人，智联招聘遇汹涌“求职潮”……\n\n\n热门资讯\n\n\n大量求职者“挤崩”智联招聘，最新回应：不会对相关人员做出处罚\n\n\n2 月 28 日，”智联招聘崩了“登上微博热搜，停留在加载页面的求职者把软件宕机的截图发在社交媒体上吐槽——“大家都在找工作吧”。有网友感叹，现在找工作太难了，发现有这么多人在竞争更焦虑了。数据显示，春节后智联招聘平台活跃企业数同比增长 45%，简历投递量同比增长 23%。\n\n\n\n对此智联招聘回应称，由于求职流量新高，服务器过载，造成了短暂停用，但目前服务已恢复正常。智联招聘总裁称，集团不会对本次宕机事件相关人员作出处罚，将本次危机视作智联招聘流量屡创新高下的一次“成长的代价”。\n\n马斯克起诉 OpenAI，奥特曼罢免事件调查收尾，OpenAI 计划任命新董事会成员\n\n\n特斯拉 CEO 埃隆·马斯克周四提起诉讼，指控人工智能研究机构 OpenAI 违反其公益使命，转向追求利润而非造福人类。他指出，OpenAI 与微软的合作破坏了其公开、开源人工通用智能的承诺，演变成微软的封闭源码子公司，并优化技术以最大化微软利润。马斯克提出违约、违反受托责任和不公平商业行为等诉讼请求，要求 OpenAI 恢复开源状态，并阻止其及相关人员从 AGI 技术中获利。他还批评了 OpenAI 董事会的变动和微软对技术的控制。\n\n\n\n\n\n针对马斯克的指控，OpenAI通过内部备忘录告知自己的员工，“绝对不认可”特斯拉CEO马斯克提出的指控。OpenAI的首席战略官Jason Kwon认为，马斯克的…",
+          "link": "https://www.infoq.cn/article/2CkeYvACpMxa3hWmOmuP",
+          "publishedOn": "2024-03-04T07:51:21.000Z",
+          "wordCount": 325,
+          "title": "OpenAI硬怼马斯克：没到AGI，就不开源；求职人潮“挤崩”智联招聘；周鸿祎、李志飞开AI 课，被网友质疑 | AI周报",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/r1wbqUHQ9HV0D4SDDCxR",
+          "author": "核子可乐,凌敏",
+          "description": "2024年开年，Java “十亿行挑战”（1BRC）火爆外网。该挑战赛要求开发者编写一个 Java 程序，从一个包含十亿行信息的文本文件中检索温度测量值，并计算每个气象站的最小、平均值和最高温度。“十亿行挑战”的目标是为这项任务创建最快的实现，同时探索现代 Java 的优势。\n\n这项挑战听起来很简单。但十亿行代码实际是一项庞大的工程，如果以每个数字 3 秒的速度数到 10 亿，大约需要 95.1 年！因此该挑战最大的难度在于，处理文件以在尽可能短的时间内打印输出：\n\n\n\n该挑战很快在 Hacker News、lobste.rs、Reddit 等社区掀起热烈讨论，不少开发者采用Rust、Go、C++ 等其他编程语言甚至是数据库参与挑战。\n\n日前，从业20年的软件工程师Ben Hoyt用Go语言参与该挑战，他一共想出了9种解决方案，完成10亿行数据处理的时间最快只需4秒，最慢需要1分45秒。Ben Hoyt还给自己提了点限制条件：每种方法都仅使用Go标准库以保证可移植性，不涉及程序集、不涉及unsafe、不涉及内存映射文件。跟其他作者的发现相比，Ben Hoyt的解决方案不是最慢的、但也没能占据榜首。不过最重要的是，他的解跟其他参赛者的思路都不一样，这种独立性可能更具价值。\n\n以下是Ben Hoyt用Go语言编写的九种解决方案，每个方案都比前一个速度更快，概要如下：\n\n方案一：简单且常见方案二：带指针值的map方案三：手动解析温度方案四：定点整数方案五：去掉 bytes.Cut方案六：去掉 bufio.Scanner方案七：自定义哈希表方案八：并行化方案一方案九：并行化方案七\n\n基线性能\n\n\n首先通过几条基线建立对这个任务的初步认识，看看使用cat读取13 GB的数据需要多长时间：\n\n$ time cat measurements.txt >/dev/null\n0m1.052s…",
+          "link": "https://www.infoq.cn/article/r1wbqUHQ9HV0D4SDDCxR",
+          "publishedOn": "2024-03-04T07:06:47.000Z",
+          "wordCount": 329,
+          "title": "4 秒处理 10 亿行数据！ Go 语言的 9 大代码方案，一个比一个快",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/dQmGdaleo5P0I2NVCxpZ",
+          "author": "褚杏娟",
+          "description": "2 月 1 日，面壁智能与清华大学自然语言处理实验室共同开源了系列端侧语言大模型 MiniCPM，主体语言模型 MiniCPM-2B 仅有 24 亿（2.4B）的非词嵌入参数量。\n\n在综合性榜单上与 Mistral-7B 相近，在中文、数学、代码能力表现更优，整体性能超越 Llama2-13B、MPT-30B、Falcon-40B 等模型。\n\n具体开源模型包括：\n\n基于 MiniCPM-2B 的指令微调与人类偏好对齐的 MiniCPM-2B-SFT/DPO。基于 MiniCPM-2B 的多模态模型 MiniCPM-V，能力超越基于 Phi-2 的同参数级别多模态模型 。MiniCPM-2B-SFT/DPO 的 Int4 量化版 MiniCPM-2B-SFT/DPO-Int4。基于 MLC-LLM、LLMFarm 开发的 MiniCPM 手机端程序，文本及多模态模型均可在手机端进行推理。\n\n开源地址（内含技术报告）：\n\nMiniCPM GitHub：https://github.com/OpenBMB/MiniCPMOmniLMM\"\nGitHub：https://github.com/OpenBMB/OmniLMM\"\n\n超越 Mistral-7B、LLaMA-13B\n\n\n“用最小的规模，做最强的 AI。”面壁智能 CEO 李大海说道。“以小搏大”的典型是 Mistral-7B，其在业内收获了很多赞誉，一度被誉为“开源模型的新王者”，其公司 Mistral AI 也被称为“欧洲 OpenAI”。\n\n面壁智能的 MiniCPM 一定程度上直接对标了 Mistral-7B。在多项主流测评中，MiniCPM-2B 的中英文平均成绩均超过了 Mistral-7B。“Mistral-7B 用 7B 战胜了 LLaMA-13B 的模型，我们用 2B 干掉 LLaMA 的 13B。”面壁智能…",
+          "link": "https://www.infoq.cn/article/dQmGdaleo5P0I2NVCxpZ",
+          "publishedOn": "2024-03-04T06:16:28.000Z",
+          "wordCount": 322,
+          "title": "清华系2B模型杀出，性能吊打LLaMA-13B，170万tokens仅需1块钱！",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/cwkp7RM9QKKbm6oFTX73",
+          "author": "InfoQ研究中心",
+          "description": "在当今飞速发展的科技领域，技术的选择与应用至关重要。人工智能、云原生等技术的发展将走向何方？市场需求又会有怎样的变化？如何以直观的方式体现中国技术领域的成熟度？这些现实问题一个个地呈现在了相关从业人员的面前。InfoQ研究中心基于长期对技术发展趋势的敏锐洞察，在2023年初发布的《中国软件技术发展洞察和趋势预测研究报告2022》中提出了中国技术成熟度评估曲线这一概念，并在2023年不断更新和完善，发布2024年中国技术成熟度评估曲线，并期望能为技术选型和决策提供持续更新的工具。\n\n\n\n构建之道——技术成熟度曲线的智慧蓝图\n\n\n中国技术成熟度评估曲线不仅是一张图片，而是背后有着数据算法支撑和专家智慧凝聚的评估工具。\n\n细分技术领域的广泛性\n\n目前，评估曲线背后的细分技术领域从130多个领域拓展至160多个，涵盖了人工智能、云计算、大数据、物联网、交互技术等。这种广泛性的覆盖意味着，在技术和市场的快速变化中，评估曲线能够更全面地捕捉到不同技术领域的发展态势和趋势。\n\n底层数据的综合性\n\n在构建底层数据体系时，InfoQ研究中心经过深思熟虑，旨在提供更加准确、全面的技术评估，同时也考虑到了数据可得性和可比性。具体而言，评估曲线采用了多维度的数据支撑，核心的四大维度是：\n技术专利数量：用于体现技术积累和实际应用程度。一般来说，如果某项技术具有大量的专利，说明该技术已经得到了广泛的应用和实践，企业和个人对其进行了深入的研究和开发，从而使得相关的专利数量增多。技术诞生时间：用于考察技术的历史渊源和发展轨迹，帮助理解技术的演进速度和趋势。技术舆论指数：用于判断社会关注度和影响力，分析技术需求和商业机会。技术融资事件：跟踪技术领域的投融资活动，用于评估技术在商业化和市场化方面的潜力和吸引力。\n其他数据维度还包括：市场规模、专利申请主体类型、融资轮次、知名产品、代表厂商等，通过以上数据维度的…",
+          "link": "https://www.infoq.cn/article/cwkp7RM9QKKbm6oFTX73",
+          "publishedOn": "2024-03-04T06:00:00.000Z",
+          "wordCount": 322,
+          "title": "技术革新的罗盘：解析InfoQ研究中心的技术成熟度评估曲线|InfoQ研究中心",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/XTR6IiA0tM3DEgGIPAYs",
+          "author": "InfoQ研究中心",
+          "description": "大模型的快节奏发展，让了解最新技术动态、积极主动学习成为每一位从业者的必修课。InfoQ研究中心期望通过每周更新大模型行业最新动态，为广大读者提供全面的行业回顾和要点分析。现在，让我们回顾过去一周的大模型重大事件吧。\n\n一、重点发现\n\n来自英国 Engineered Arts 的 Ameca、特斯拉的 Optimus 以及 Sanctuary AI 的Phoenix 等先进机器人产品不断取得突破，机器人正引领科技潮流。它们之所以如此火爆，最大的原因在于这些最新的机器人产品向人们展示了前所未有的技术特点。Ameca 通过 AI 与 AB 技术的融合，实现了高响应性和交互性，与人类沟通更为自然；Optimus 则展示了在机器人速度方面的显著进步，其步速已提升至每秒 0.6米，比去年提升了30% 以上，这显示了机器人在动态性能上的突破；而Phoenix 机器人则以其惊人的速度、精确性和力量展现了机器人在实际应用中的巨大潜力。这些新的技术特点不仅预示着机器人技术将深刻改变我们的生活方式，从提高生产效率到优化日常生活体验，还催生了新的产业机会，例如 Optimus 可在工厂中执行巡逻检查等任务、Phoenix 可凭借其智能性与灵活性完成一些零售相关的任务（挑选、包装、标记、贴标签、折叠等）为社会带来经济增长。\n\n二、具体内容\n\n\n大模型持续更新\n\n1、26 日晚间，Mistral AI 正式发布了「旗舰级」大模型 Mistral Large。这次 Mistral AI 发布的版本性能更强，体量更大，直接对标 OpenAI 的 GPT-4。而新模型的出现，也伴随着公司大方向的一次转型。\n\n多模态领域\n\n1、阿里最新推出了一款基于音频驱动的肖像视频生成框架，EMO（Emote Portrait Alive）。输入单张参考图像，以及一段音频（说话、唱歌、rap均可），就能生成表情生动的AI…",
+          "link": "https://www.infoq.cn/article/XTR6IiA0tM3DEgGIPAYs",
+          "publishedOn": "2024-03-04T06:00:00.000Z",
+          "wordCount": 324,
+          "title": "机器人再度大幅进化！阿西莫夫三法则还有效吗？| 大模型一周大事",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/erx440N7dwIjZtgu6EUZ",
+          "author": "QCon全球软件开发大会",
+          "description": "传统的营销推广平台诞生于 PC 互联网时代，因其 GUI-Based 特性，导致很多功能藏得深，缺乏有效的引导与互动，这种结构特点无形中抬高了客户进行广告投放的操作门槛和技术难度。而且营销意图必须按照平台的要求，将其精细化拆解到多层级的推广策划配置中，客户无法自由表达营销诉求。投放效果的优化过程中，对人工实时监控与策略调整的高度依赖性，也导致了优化效率的瓶颈效应愈发显著。\n\n为了提升投放效能，我们需要借助更先进的智能化手段和行业专业工具，以突破现有优化瓶颈，增强投放策略的动态适应性和高效性。\n\n换言之，营销推广平台需要做彻底的改变和重构。\n\n大模型技术的突破性进展，为深度挖掘并充分利用生成式大模型的潜在效能提供了新的契机，我们迎来了 AI 时代的营销智能体。而一个好的营销智能体需要能降低客户的投放门槛，通过多轮对话引导客户表达自己的营销诉求，帮助客户做好广告优化，具体来说要有以下能力：\n听得懂：客户可全程自然语言与智能体交互，如何从对话信息中准确识别出客户的意图说得清：智能体能主动引导客户逐步完善 prompt，对于客户表达含糊不清的情况，智能体需要能反馈澄清看得见：能够洞察出客户在广告投放中的问题，并给出优化方案干得好：对于客户表达的营销指令，能够正确解析与执行，保证客户满意\n\nQCon 全球软件开发大会\"了解到，百度商业广告平台技术团队基于大语言模型进行业务重塑，推出了全球首个 AI Native 营销智能体，通过自然语言对话实现广告投放，用生成式 AI 实现了营销全链路的重构。展开来说就是——\n通过 MOE（混合专家模型）实现智能体的语义理解与意图识别基于营销场景孵化出广告创编子智能体、GBI 子智能体等，打造总控智能，并通过标准可扩展的 SOP 持续集成子智能体，满足多元营销需求通过数据飞轮机制实现智能体的自我学习与进化\n\n如何在业界没有案例可借鉴的情况下，一个月内实现 MVP 从 kickoff 到上线？\n\n随着客户的快速涌入、营销需求的无限表达，对智能体提出了更高的要求，营销智能体要如何更快地进化？\n为探寻这些问题，即将于 4 月 11 日 -13 日在北京国测国际会议会展中心举办的 QCon 北京站，邀请到百度商业广告平台部资深研发工程师田朝龙分享题为《百度营销智能体：从对话式投放到多智能体协同》\"的演讲。他毕业于北京邮电大学网络与交换技术国家重点实验室，现任百度商业广告平台部资深研发工程师。当前负责智能体在商业营销中的落地，主要研究多智能体协同，落地经验十分丰富，欢迎你来现场与他交流。\n\n\n\n为了提供更丰富多元的交流平台，本届 QCon 全球软件开发大会将不再局限于传统的分享与研讨模式，而是全面整合为集技术分享、深度研讨和前沿展览于一体的综合性会展活动，并正式更名为【QCon 全球软件开发大会暨智能软件开发生态展】\"同时，会议正式改期为：2024 年 4 月 11-13 日，地点：北京·国测国际会议会展中心。\n\n\n\nQCon 日程上线！讲师进度已超 70%，点击此处查看更多详情\"。目前会议已进入 8 折早鸟购票阶段，联系票务经理 17310043226 ，期待与各位开发者现场交流。",
+          "link": "https://www.infoq.cn/article/erx440N7dwIjZtgu6EUZ",
+          "publishedOn": "2024-03-04T03:44:16.000Z",
+          "wordCount": 326,
+          "title": "AI Agent 在营销领域的落地：让用户用 prompt 实现广告投放｜QCon",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/Nw3IirpVslwIWvLhYDWY",
+          "author": "褚杏娟,李忠良",
+          "description": "前不久，Gemini Pro 1.5 的震撼发布让大型模型的热潮进一步升温，但就在同一天，OpenAI 戏剧性地推出了 Sora，暂时让谷歌的关注度有所下降。然而，这两天，Gemini Pro 终于成为热议话题，但并非因为它的卓越表现，而是因为一个“歧视”问题——它无法生成“白人形象”，暗示可能存在价值观上的争议，这让谷歌颇为头疼。为此，谷歌首席执行官 Sundar Pichai 最近发表声明，表示需要对此进行根本性的改变。\n\n谷歌安然度过了搜索、谷歌邮箱、以及安卓系统的攻击，但是被 Gemini 一板砖给拍晕了。用户和投资人都懵圈了。我想懵圈的不仅仅用户，谷歌的母公司 Alphabet CEO Sundar Pichai 是不是也是其中一员呢？\n\n\n\nHelios Capital 创始人Samir Arora在一条引人注目的评论中表示，谷歌的母公司Alphabet的CEO Sundar Pichai将会因为谷歌的AI平台Gemini的失败而被解雇或辞职。在社交媒体平台X（前Twitter）上回应询问时，Arora表达了他的看法，认为Pichai的任期可能很快就会结束，他断言：\"我的猜测是他会被解雇或辞职——正如他应该的。在AI领域领先之后，他完全失败了，让其他人接管了。\"是真是假，尚未可知！\n\n\n\n不过从最新CEO Sundar Pichai的发言中，他表示：我们将推动一系列明确的行动，包括结构性变革、更新的产品指南、改进的发布流程、强大的评估和红队操作，以及技术建议等。我们正在审视所有这些环节，并将进行必要的改变。”\n\n究竟是被 Fire，还是公司发生一系列的结构性变化呢？或许还有一场大戏！\n\n\n屋漏偏逢连夜雨\n\n\n近期，不少网友陆续发现，当请求Gemini生成图像时，它似乎故意避免生成白人形象。相反，它倾向于将图中的人物替换为黑人、女性和其他边缘群体的形象。以马斯克为…",
+          "link": "https://www.infoq.cn/article/Nw3IirpVslwIWvLhYDWY",
+          "publishedOn": "2024-03-04T03:29:52.000Z",
+          "wordCount": 325,
+          "title": "Gemini 翻车，谷歌决策十字路口：该解雇 CEO 还是该进行“结构化变革”？",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/4EaagcDIHH0rLykyJXRa",
+          "author": "褚杏娟",
+          "description": "去年 11 月，人工智能初创公司 Stability AI 首次推出了 Stable Video，这款模型基于之前发布的 Stable Diffusion 文本转图片模型进行延伸，能够通过现有图片生成视频，是当时市面上少有的能够生成视频的 AI 模型之一。\n\n当时，Stability AI 在 GitHub 上发布了模型代码，并在 HuggingFace 上发布了权重，有硬件能力和相关技术的用户可以在本地下载和运行。\n\n近日，Stable Video 正式开放公测，这对于那些没有强大的 GPU 或没有足够的技术能力来设置的人来说无疑是个好消息，而且内测期间的 Stable Video 还可以免费使用。另外，尽管大家都在关注 Sora，但有人估计至少 Sora 还需要三个月才能开始内测，因此 Stable Video 公测着实也吸引了一波关注。\n\n那它的效果到底如何呢？\n\n文生视频：恭喜及格\n\n\n相信很多人都见过 Sora 刚发布时候展示的这个 60 秒视频，无数人都被视频里场景的真实性震撼到了：\n\n\n\nSora 虽然没有面向公众开放，但其主创团队一直在 X 上发出最新生成的视频。Sora 作者 Tim Brooks 最新的一个视频甚至让好莱坞导演表示，直接搁置了自己影视工作室 8 亿美元的预告计划。\n\n虽然 Sora 在视频生成上独树一帜，但之前在这个领域耕耘的公司并不甘心落后。首先，我们看看影响了 OpenAI GPT-4 进程的 Stability AI 能做到什么程度。\n\n为避免提示词这个变量带来的影响，我们与上面 Sora 视频相同的提示词来生成视频。整个操作流程很简单：输入提示词后，它会生成四个相似的图片，从中选择一个后，再选择一个简单的效果后就可以生成视频了。\n\n\n\n最后， Stable Video 生成的视频如下：\n\n\n\n我们把原来的提示词解构成以下 12 个…",
+          "link": "https://www.infoq.cn/article/4EaagcDIHH0rLykyJXRa",
+          "publishedOn": "2024-03-04T02:28:55.000Z",
+          "wordCount": 325,
+          "title": "试了下 Stable Video，我的建议是不如不用｜AI 测评室",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
           "id": "https://www.infoq.cn/article/AkEzbyrwDoCRTH1JLTSs",
           "author": "SOURAV RUDRA",
           "description": "“Servo”Web 引擎在树莓派上的执行速度甚至超过了 Chromium。\n\n\nServo 的开发者将从 2024 年开始全力投入。\n\nBernie Innocenti 在参观 FOSDEM 2024 时，发现 Servo 项目团队在那里展示了他们到目前所做的所有工作。\n\n\n\n这让人产生了好奇：现在 Servo 这个项目进展到什么地步了？\n\n先给不熟悉该项目的同学介绍一下，Servo 是一个实验性浏览器引擎，它利用 Rust 的强大特性来提供高度适应性的内存安全性和模块化体验。\n\nMozilla 在 2012 年出于研究目的创建了 Servo 项目后，它多年来经历了起起落落，并终于在 2023 年卷土重来；这主要是因为项目开发人员明确了它的前进方向，探索出了一种新的方法。\n\n现在业内有很多开源 Chrome 的替代品，而有了 Servo 的这种新方法，我们就有机会看到一些基于 Servo 的非常酷的选项，可能会让 Gecko 和 Blink 感到危机！\n\n下面就来看看 The Servo 项目迄今为止的进展情况以及 2024 年的前景规划。\n\nBlink 是 Chromium 和其他基于它的浏览器使用的引擎，而 Gecko 是 Firefox 和其他一些浏览器使用的引擎。\n\n\n\nServo：有哪些值得期待？\n\n就在几个月前，即 2023 年 9 月，Servo 项目正式加入 Linux 欧洲基金会后，来自 Igalia 的现有贡献者接手了维护工作，从而加快了其发展步伐。\n\n作为背景补充，去年在欧洲开源峰会上，来自 Igalia 的 Manuel Rego 在演讲时分享了一些非常有用的见解。见：https://youtu.be/9lkIX5ryZZ4\n\n他展示了 WebGL 支持、跨平台支持（包括对 Android 和 Linux 的移动支持等）等内容。他们已经尝试将 Servo 用于嵌入式应用程序用例（例如在树莓派上运行），并计划在这一领域取得进展。据我所知，与 Chromium 相比，树莓派上的 Servo 跑起来速度更快（https://youtu.be/oDqDrvxLxyI）。\n\n你可以在 Servo 的演示网页上找到更多类似的演示：https://demo.servo.org/?ref=news.itsfoss.com。\n\n另外，新的布局引擎也在开发中，在其开发过程中团队正在制定新的特性和兼容性计划。\n\n可能你还不知道，就算当初 Mozilla 放弃了这个实验项目，Firefox 也在浏览器中使用了一些 Servo 的组件？\n\n自然，这让我们想知道更新的 Servo 布局引擎（或其他组件）是否可能会出现在 Firefox 中（凡事都有可能性！）。\n\n之前很久，Servo 都被认为是实验性的项目。现在到了 2024 年，我希望这方面能取得进一步进展。\n目前来看这是一个独立的项目，当前的进展看起来非常有希望，官方网站现在列出了 2024 年的更新路线图，全年做的东西好像都是一样的：\n\n\n\nProject maintenance and outreach 部分包括一般性的项目维护任务以及社区管理工作，然后是 CSS support 的实现，这将为 Servo 布局引擎提供基本 CSS 特性。\n\n通过 Embedding API definition，Servo 团队将与 Tauri 合作完成定义 Servo webview API 的工作，同时实现 API 的新特性和要求。\n\n最后，我们会有 Initial Android support，这将让 Servo 在现代 Android 版本上完成构建，开发人员将来会在官方网站上发布 Nightly APK。\n\n官方路线图的地址在这里：https://github.com/servo/servo/wiki/Roadmap?ref=news.itsfoss.com，有关该项目的更多细节，你可以前往其 GitHub 存储库（https://github.com/servo/servo?ref=news.itsfoss.com）或其官方 Zulip 聊天频道（https://servo.zulipchat.com/?ref=news.itsfoss.com）获知。\n\n原文链接：\nhttps://news.itsfoss.com/servo-rust-web-engine/",
@@ -313,6 +423,46 @@
       "siteUrl": "https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=",
       "articles": [
         {
+          "id": "https://www.ifanr.com/?p=1577014&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "李华",
+          "description": "在「加量减价」中寻求突破。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1577014?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-04T14:19:57.000Z",
+          "wordCount": 866,
+          "title": "理想 MEGA 凭什么卖 56 万？",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/lxtm-1.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1577002&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "莫崇宇",
+          "description": "没有预告，没有发布会，苹果刚刚突然更新了 Macbook Air。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1577002?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-04T14:15:23.000Z",
+          "wordCount": 716,
+          "title": "苹果突然发布新款 MacBook Air，最大亮点不是 M3 芯片",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/24.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576942&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "肖钦鹏",
+          "description": "美源于生活，平等地属于每一个人。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576942?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-04T04:00:50.000Z",
+          "wordCount": 644,
+          "title": "华为 Pocket 2 艺术定制版：光影艺术，无限想象",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/P20.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576706&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "肖凡博",
+          "description": "苹果和 Spotify 的反垄断之战，可能还会持续更久。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576706?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-04T01:53:33.000Z",
+          "wordCount": 703,
+          "title": "欧盟对苹果开出史上最高罚单，意味着什么？",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/EU12.jpg"
+        },
+        {
           "id": "https://www.ifanr.com/?p=1576930&utm_source=rss&utm_medium=rss&utm_campaign=",
           "author": "张明悦",
           "description": "·深圳发布政策支持鸿蒙原生应用发展\r\n·苹果硬件工程灵魂人物即将退休\r\n·天涯社区拟 5 月 1 日前恢复访问\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
@@ -363,6 +513,16 @@
           "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/yuzuwebsite-1024x477.png"
         },
         {
+          "id": "https://www.ifanr.com/?p=1576760&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "李华",
+          "description": "细节决定体验。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576760?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-01T08:15:57.000Z",
+          "wordCount": 742,
+          "title": "55.98 万元！理想 MEGA 开售，刷新全球充电纪录，10 分钟充 500 公里",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/lxtm.jpg"
+        },
+        {
           "id": "https://www.ifanr.com/?p=1576604&utm_source=rss&utm_medium=rss&utm_campaign=",
           "author": "苏伟鸿",
           "description": "Nothing 将凭借全新中端机型 Phone (2a) 挑战（海外）中端机市场。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
@@ -381,6 +541,16 @@
           "wordCount": 1004,
           "title": "Vision Pro 美国市场需求已大幅放缓/小米汽车回应 SU7 出厂价 20 万元/iPhone 15 系列已降至历史最低价",
           "imageUrl": "https://s3.ifanr.com/images/ep/cover-images/re_xue_cover.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1576457&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "李华",
+          "description": "苹果放弃造车，利好小米？\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1576457?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-02-29T13:05:42.000Z",
+          "wordCount": 667,
+          "title": "苹果放弃造车后，雷军震惊，李想点赞，马斯克在线吃瓜",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/apptm.jpg"
         },
         {
           "id": "https://www.ifanr.com/?p=1576660&utm_source=rss&utm_medium=rss&utm_campaign=",
