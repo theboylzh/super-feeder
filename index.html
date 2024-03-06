@@ -22,6 +22,637 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-05 datetime="2024-03-05T16:10:30.000Z">2024-03-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-05 datetime="2024-03-05T16:10:30.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >InfoQ 推荐</button>
+                  <a class="source-heading__link" href="https://www.infoq.cn">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/x5KyFptEkemUvO4V9xfv"
+                        open
+                      >
+                        <summary class="article-expander__title">CVPR 2024 | Modular Blind Video Quality Assessment：模块化无参视频质量评估</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/x5KyFptEkemUvO4V9xfv">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>无参视频质量评估&quot; (Blind Video Quality Assessment，BVQA) 在评估和改善各种视频平台并服务用户的观看体验方面发挥着关键作用。 当前基于深度学习的模型主要以下采样/局部块采样的形式分析视频内容，而忽视了实际空域分辨率&quot;和时域帧率对视频质量的影响，随着高分辨率和高帧率视频投稿逐渐普及，特别是跨分辨率/帧率视频转码档位画质评估场景中，这种影响变得更加不可忽视。在本文中，我们提出了一种模块化 BVQA 模型，以及一种训练该模型以提高其模块化性的方法。 我们的模型包括基础质量预测模块、空域矫正模块和时域矫正模块，分别显式地响应视频质量的视觉内容和失真、空域分辨率和时域帧率变化情况。我们用提出的模块化 BVQA 模型在专业生成的内容和用户生成的内容视频数据库上进行了大量实验。实验表明，我们的质量模型实现了优于当前方法或相近的性能。 此外，模块化的模型为分析现有视频质量数据库的空间和时间复杂性提供了机会。 最后，我们的 BVQA 模型可以轻量高效地添加其他与质量相关的视频属性，例如动态范围和色域作为额外的矫正模块。
+
+
+
+
+背景
+
+
+多年来，研究人员从心理物理学和感知研究中收集了大量证据，证明更高的空域分辨率和更高的帧速率对视频主观画质有积极的影响。具体而言，感知质量取决于视频内容，特别是空域和时域复杂性。针对这些主观发现，早期的知识驱动的 BVQA 模型直接将空域分辨率和帧速率参数作为压缩视频质量预测的输入的一部分。尽管这种方法非常简单，但这些视频属性参数与内容和失真无关，因此它们与感知的视频质量不太相关。
+
+基于卷积神经网络（CNN）的数据驱动&quot;的 BVQA 方法面临的计算问题十分明显。 它们几乎没有尝试评估全尺寸视频，主要原因是计算复杂度很高，尤其是在处理高分辨率和帧速率的视频时，面临的挑战更大。 此外，由于视频质量数据集规模较小，许多基于 CN…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/eOadluLa9mFrqTg23sSl"
+                        open
+                      >
+                        <summary class="article-expander__title">CVPR 2024 满分论文 | Deformable 3D Gaussian: 基于可变形3D高斯的高质量单目动态重建新方法</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/eOadluLa9mFrqTg23sSl">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>单目动态场景（Monocular Dynamic Scene）是指使用单眼摄像头观察并分析的动态环境，其中场景中的物体可以自由移动。单目动态场景重建对于理解环境中的动态变化、预测物体运动轨迹以及动态数字资产生成等任务至关重要。
+
+随着以神经辐射场（Neural Radiance Field, NeRF）为代表的神经渲染的兴起，越来越多的工作开始使用隐式表示（implicit representation）进行动态场景的三维重建&quot;。尽管基于 NeRF &quot;的一些代表工作，如 D-NeRF，Nerfies，K-planes 等已经取得了令人满意的渲染质量，他们仍然距离真正的照片级真实渲染（photo-realistic rendering）存在一定的距离。我们认为，其根本原因在于基于光线投射（ray casting）的NeRF管线通过逆向映射（backward-flow）将观测空间（observation space）映射到规范空间（canonical space）无法实现准确且干净的映射。逆向映射并不利于可学习结构的收敛，使得目前的方法在 D-NeRF 数据集上只能取得 30+ 级别的 PSNR 渲染指标。
+
+为了解决这一问题，我们提出了一种基于光栅化（rasterization）的单目动态场景建模管线，首次将变形场（Deformation Field）与 3D 高斯（3D Gaussian Splatting）结合实现了高质量的重建与新视角渲染。实验结果表明，变形场可以准确地将规范空间下的 3D 高斯前向映射（forward-flow）到观测空间，不仅在 D-NeRF 数据集上实现了 10+ 的 PSNR 提高，而且在相机位姿不准确的真实场景也取得了渲染细节上的增加。
+
+
+图1 HyperNeRF真实场景的实验结果
+
+该研究的论文《Deformable 3D Gaussian…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/9DqyLiI1BeIgH5BA82IQ"
+                        open
+                      >
+                        <summary class="article-expander__title">阿里云大降价后，再谈“降本增效”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/9DqyLiI1BeIgH5BA82IQ">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>引言
+
+
+2月29日，阿里云宣布史上最大力度降价，引发行业对用云成本的热议。近日，在InfoQ发起的圆桌讨论上，InfoQ、极客邦科技创始人 &amp; CEO霍太稳，与阿里云智能集团副总裁、公共云首席解决方案架构师韩鸿源，掌阅科技 CTO、AI 业务负责人孙凯，贝联珠贯创始人&amp;CEO、CCF杰出工程师林昊（毕玄），共同围绕云上的降本增效、Twitter“下云”真相、自建IDC和上云成本比对，及大模型时代的机会，展开思想碰撞。
+
+
+
+霍太稳：今天非常荣幸邀请到三位嘉宾一起聊一个话题，叫“云上的降本增效”。赶的时间比较巧，刚刚阿里云发布了一个重磅消息，要全线下调云产品官网售价，平均降幅达到20%，有的已经拦腰砍了，降幅达到55%。我想一定有人会很开心，像掌阅科技的孙凯，想请你谈一谈现在的感受，怎么看待这个信号？
+
+孙凯：我们刚刚完成了全面上云，也在与阿里云深度合作，所以这样的降价我们肯定是乐于见到的。我们也非常愿意在降本增效这个方向上投入一些资源，跟我们的伙伴一起去完成降本的动作。
+
+霍太稳：其实对于云计算公司来说，降价是必须要做的一件事。包括全球的几家云巨头，在发展过程中，有时一年之内都要降价好几次。老韩，你作为一个局中人，你会怎么给大家去传递这个信号？
+
+韩鸿源：过去这些年里，我们还是持续积累了不少技术优化带来的成本优势，随着规模不断增长，也带来了更大的降本空间。今天阿里云的降价，是希望能够惠及规模偏小但数量庞大的客户，通过官网来为客户提供服务。这些客户的确定性需求冲抵了不确定性之后，整体上能给用户去回馈更大的回报。
+
+霍太稳：其实这个是云计算的优势：随着客户量的扩大，成本在平摊之后，其实价格会更便宜。那随着技术的演进，整体用云的成本还会持续降低吗？
+
+韩鸿源：我觉得价格下降的趋势是会持续的。比如说现在存储设备的密度会持续提高，处理器的处理能力会持续提升，包括云的规模优势，在一个…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/GfqxDE54gVIR36VuPVKG"
+                        open
+                      >
+                        <summary class="article-expander__title">阿里云大降价后，再谈“降本增效”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/GfqxDE54gVIR36VuPVKG">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本期《InfoQ新知实验室》邀请了极客邦科技创始人 &amp; CEO霍太稳，与阿里云智能集团副总裁、公共云首席解决方案架构师韩鸿源，掌阅科技 CTO、AI 业务负责人孙凯，贝联珠贯创始人&amp;CEO、CCF杰出工程师林昊（毕玄），共同围绕云上的降本增效、Twitter“下云”真相、自建IDC和上云成本比对，及大模型时代的机会，展开思想碰撞。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/klZKfOSfGjessKm7uYfJ"
+                        open
+                      >
+                        <summary class="article-expander__title">鸿蒙时代已至，蚂蚁 mPaaS 如何开启鸿蒙应用开发新篇章？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/klZKfOSfGjessKm7uYfJ">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>“鸿蒙生态设备数量仅用5个月就从7亿增长至8亿。”这是鸿蒙操作系统生态对外公布的一组最新数据。从被质疑套壳安卓到发布鸿蒙星河版，仅支持鸿蒙内核与鸿蒙系统应用，华为用四年多的时间，让行业与大众看到了鸿蒙一步步改写全场景操作系统生态的决心和底气。根据鸿蒙最新的开发计划，鸿蒙星河版正式版本将于2024年底向公众推送，预计将有数以亿计的移动设备升级到新版鸿蒙，使鸿蒙操作系统成为仅次于安卓和iOS的全球第三大移动平台。
+
+鸿蒙生态的迅速崛起，也为广大移动应用开发者带来了前所未有的机遇和挑战。由于鸿蒙系统未来仅支持原生应用运行，无法兼容现有的安卓应用生态，安卓平台的数十万应用都需要开发鸿蒙版本来为鸿蒙设备用户提供服务。在这一过程中，更早地完成迁移工作，充分利用鸿蒙系统底层技术优势提升用户体验，将在这片新蓝海中取得竞争优势。对于应用厂商而言，基于国产操作系统生态开发原生应用也已成为时代命题，尽早入局有利于更快地把握商业机遇，提前布局国产应用技术创新。
+
+但众多企业和开发者面临的挑战却是：鸿蒙生态的操作系统底层、编程语言、开发工具链、开发社区、最佳实践、升级运维等要素都需要开发者重新学习和熟悉，而相关人才在市场上严重短缺，企业在获得鸿蒙应用市场回报之前就需要投入可观的前期成本，需要占用很多人力与时间资源。
+
+如何降低鸿蒙原生应用的入局门槛？
+
+
+为了支撑鸿蒙生态迅速崛起，助力开发者以及企业把握全新的市场机遇，蚂蚁集团数字科技事业群旗下的移动开发平台mPaaS在此前已经与华为举行了鸿蒙合作签约仪式。
+
+作为华为鸿蒙生态的合作伙伴，蚂蚁数科参与了鸿蒙操作系统的共创工作，对于鸿蒙OS的底层实现和代码逻辑有着更清晰的了解，而这也被用于蚂蚁mPaaS平台鸿蒙版本的开发过程，使得蚂蚁mPaaS平台能够调动鸿蒙OS的一系列新特性和软硬件协同能力。
+
+蚂蚁数科在第一时间完成mPaaS平台的鸿蒙版本适配工作…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/jPoasY38CfTu7zF5aCLd"
+                        open
+                      >
+                        <summary class="article-expander__title">深度拆解：CVPR 2024 CAMixerSR 动态注意力分配的超分辨率加速框架</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/jPoasY38CfTu7zF5aCLd">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>随着相关技术和应用的发展，比如超高清屏幕、虚拟现实（VR&quot;）等沉浸式体验的增加，用户对超高分辨率图像和视频的需求变得越来越强烈。在这些场景中，图像的质量和清晰度对于提供最佳的用户体验至关重要。超高分辨率不仅能提供更清晰、更真实的视觉效果，还能在一定程度上增强人们的互动和沉浸感，在一些 VR 场景中我们需要 8K 甚至 16K 的才可以满足需求。然而要生成或者处理这些超高分辨率的内容，对算力的要求也是与日增长，对相关算法提出了挑战。
+
+超分辨率是一个经典的计算机底层视觉问题，该问题要解决的是通过低分辨率的图像输入，获得高分辨率的图像输出。目前该领域的算法模型&quot;主要是有 CNN 以及 Transformer 两大类别，考虑到实际的应用场景，超分的一个细分领域方向是算法的轻量化。在上述提到的超高分辨率的场景，超分算法&quot;的算力消耗问题变得尤为关键。基于此，本文提出了一种名为 CAMixerSR 的超分框架，可以做到内容感知，通过对 Conv 和 Self-Attention 的分配做到计算量的大幅优化。
+
+
+论文地址：http://arxiv.org/abs/2402.19289&quot;
+
+
+方法
+
+
+
+Table 1 不同难易程度内容的超分算力与效果对比
+
+我们在对内容进行分块并且根据处理的难易程度分成了简单、中等、困难三个类型，并且使用不同 FLOPS 的计算单元，Conv 以及 SA+Conv 两种类型进行比较，发现对于简单的模块我们可以利用较少的 FLOPS 进行计算，并且可以得到较为不错的PSNR结果，只有在中等以及困难的分块内容中，SA+Conv 的效果优势才较为明显。通过这个实验我们发现，如果对内容进行分块并且动态调整优化处理策略，有可能在保持性能的同时，大幅降低 FLOPS。
+
+
+图 1 CAMixer 的算法框架
+
+上图是我们方案的整体流程图，可以看到，我们的方案分成了…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/sNfVuu92UaAAqAJLrDo0"
+                        open
+                      >
+                        <summary class="article-expander__title">Quora 的陨落：AI 时代知识社区的困境</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/sNfVuu92UaAAqAJLrDo0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>这个网站曾经是一个充满活力的社区，然而现在用户正在逃离……
+
+
+“为什么有这么多音乐会使用Ticketmaster？&quot;”“要成为寿司厨师需要进行怎样的培训？&quot;”“武术家是如何打碎混凝土块的？&quot;”如果你是在10年前寻找这类问题的答案，那么最有可能找到详细、专业的回答的一个地方是互联网上最有趣、存在时间最长的社区之一：Quora。
+
+大多数人都以某种形式接触过Quora，无论他们是否知情：在谷歌搜索结果&quot;，在著名作家的写作示例&quot;中，在数字出版物转载的某些问答中，比如Slate&quot;。其中一位Slate-via-Quora的贡献者&quot;，作家兼研究员Erica Friedman&quot;，在2011年就加入了这个网站，当时Quora正因为Yahoo Answers的衰落&quot;而吸引到了一波流量。她说，这让Quora作为一个以准确性为重点、以知识为中心的文本平台脱颖而出。在这个Facebook和Twitter开始主导社交互联网、YouTube在做自己的事情&quot;的时代，它是一款独特的产品。
+
+Friedman对这个古怪的问答巨头如此着迷，并和其他许多人无偿贡献着答案。她说：“有一段时间，也就是在2010年代中期，我们很多人真的专注在一个特定的使命上，那就是‘让Quora成为互联网上一个说你不能在这里胡作非为的地方。我们把这些政策付诸行动，不让人们心怀不轨地来到这里做一些心怀不轨的事。’ ”一个聪明而充满激情的社区，致力于维护一个积极正向的空间——有什么比这更理想的呢？难怪Quora在2010年代会有如此迅猛的增长&quot;。
+
+然而，今天的Quora几乎与那些乌托邦的理想无关。这个曾经受人喜爱的论坛现在充斥着没完没了、无意义的、重复的垃圾，充满了奇怪的&quot;、荒谬的&quot;、令人生厌的&quot;、AI生成的内容，以及一大堆全大写的非问题内容&quot;，比如“OMG! KING CHARLES SHOCK the WORLD with RO…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/6jEqv2bqCbAVBwx6SuOt"
+                        open
+                      >
+                        <summary class="article-expander__title">事关工业数据安全，工信部围绕3类能力明确11项重点任务</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/6jEqv2bqCbAVBwx6SuOt">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>当前，工业领域数字化、网络化、智能化加速提质升级，在促进工业数据流通共享和开发利用的同时，大规模数据泄露、勒索攻击等风险增加。工业企业数据安全意识和能力普遍薄弱、地方主管部门监管工作缺抓手缺队伍、技术产品和服务供给不足等问题亟待研究解决。总体看，加强数据安全保障是新型工业化发展绕不过的坎，是推进新型工业化行稳致远的基础和前提。
+
+为加快提升工业领域数据安全保护能力，日前，工信部印发《工业领域数据安全能力提升实施方案（2024—2026 年）》，用以指导未来三年工业领域数据安全工作。
+
+《方案》指出，到 2026 年底，工业领域数据安全保障体系基本建立。数据安全保护意识普遍提高，重点企业数据安全主体责任落 实到位，重点场景数据保护水平大幅提升，重大风险得到有 效防控。数据安全政策标准、工作机制、监管队伍和技术手 段更加健全。数据安全技术、产品、服务和人才等产业支撑能力稳步提升。
+
+为实现以上目标，《方案》分别从企业侧、监管侧、产业侧等方面明确各工作目标，致力于实现企业保护水平大幅提升、监管能力和手段更加健全、产业供给稳步提升：
+
+一是从行业数据安全意识和能力普及覆盖考虑，提出基本实现各工业行业规上企业数据安全要求宣贯全覆盖。
+
+二是紧抓重点企业和规上企业，实现数据分类分级保护的企业超 4.5 万家，至少覆盖年营收在各省（区、市）行业排名前 10% 的规上工业企业。
+
+三是标准先行、树立典型。立项研制国家、行业、团体等各类标准规范不少于 100 项，对企业履行数据安全保护责任义务加强细化标准指导。面向不少于 10 个重点行业遴选典型案例不少于 200 个，强化优秀应用实践的引领带动作用。
+
+四是加大人才培养，实现培训覆盖 3 万人次、培养人才超 5000 人。
+
+具体而言，《方案》围绕 3 类能力明确 11 项重点任务：
+
+第一，提升工业企业数据保护能力。《方案》提出了增强数据安全保护意识、开展重要数据安全保护、强化重点企业数据安全管理、深化重点场景数据安全保护 4 项任务；
+
+第二，提升数据安全监管能力。《方案》提出了完善数据安全政策标准、加强数据安全风险防控、推进数据安全技术手段建设、锻造数据安全监管执法能力 4 项任务；
+
+第三，提升数据安全产业支撑能力。《方案》提出了加大技术产品和服务供给、促进应用推广和供需对接、健全人才培养体系 3 项任务。
+
+聚焦这 11 项重点任务，为推进《方案》落地见效，工信部强调，下一步要充分发挥部、省、企业、行业组织、专业机构、高等院校、安全企业等各方力量，协同扎实推进《实施方案》落实落细。
+
+一要开展宣贯培训。分片区组织开展政策宣贯，面向地方工信主管部门、工业企业等做好政策文件重点、要点解读，切实提升行业数据安全保护意识和工作水平。鼓励各行业、各地区、各有关企业结合实际开展系列宣贯培训活动，加快将政策文件要求传达到位、落实到位。
+
+二要抓好组织实施。紧扣《方案》要求，分解形成工业领域数据安全工作年度计划，明确各方任务分工，每年滚动跟踪检查工作进展、总结评估工作成效，对工作不力的加强督导落实，对表现突出的予以表扬激励。督促指导各有关单位细化制定本单位工作方案，加强责任落实，加大资金、人员等各类资源的投入力度，高质量完成各项目标任务。
+
+三要加强典型引领。及时总结各单位在《方案》落地推进过程中的优秀经验做法，遴选推广典型案例，树立行业标杆。引导各行业、各地区结合实际创新建立工作模式、组织开展特色活动，持续深入挖掘优秀实践并加强宣传普及。
+
+📣  关注「InfoQ数字化经纬」公众号，回复「工业安全」下载文件原文。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/fYPmNo7Icskh1xuwCssZ"
+                        open
+                      >
+                        <summary class="article-expander__title">两会热议：政府工作报告提出的“人工智能+”行动如何在各行业落地？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/fYPmNo7Icskh1xuwCssZ">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>自去年底“新质生产力”正式写入中央文件以来，这一概念已经成为我国数字经济高频词，同时也是今年两会上的讨论热词。所谓“新质生产力”是相对于传统生产力而言的，由于不同的历史发展阶段，生产力发展所依赖的技术支撑和工具各不相同。在数字经济的大背景下，“新质生产力”的要义就在科技创新，目的是实现高质量发展。值得关注的是，“新质生产力”最终落脚点还在生产力，未来主战场仍然是实体产业。与过去不同的是，未来的实体产业发展不再是“单点开花”，而是全产业链的体系化升级。
+
+
+3 月 5 日，国务院总理李强在政府工作报告指出，要深入推进数字经济创新发展。制定支持数字经济高质量发展政策，积极推进数字产业化、产业数字化，促进数字技术和实体经济深度融合。深化大数据、人工智能等研发应用，开展“人工智能 +”行动，打造具有国际竞争力的数字产业集群。
+
+政府工作报告强调，要实施制造业数字化转型&quot;行动，加快工业互联网规模化应用，推进服务业数字化，建设智慧城市、数字乡村。深入开展中小企业数字化赋能专项行动。支持平台企业在促进创新、增加就业、国际竞争中大显身手。健全数据基础制度，大力推动数据开发开放和流通使用。适度超前建设数字基础设施，加快形成全国一体化算力体系。要以广泛深刻的数字变革，赋能经济发展、丰富人民生活、提升社会治理现代化水平。
+
+在这个过程中，人工智能&quot;无疑已经成为产业创新的关键抓手和引擎之一。早在此前各省市召开的地方两会上，人工智能、大模型、数据基础建设、算力基础设施发展等话题就已经被广泛热议。比如上海提出集成电路、生物医药、人工智能三大先导产业规模达要到 1.6 万亿元；广东强调要加强大模型关键技术攻关，加快组建千亿级人工智能基金群；江苏则明确以人工智能全方位赋能新型工业化，深入实施“智改数转网联”。
+
+基于该背景，数字化的下一站必然是智能化。全国政协常委、浙江省政协副主席陈小平建议，要抢抓人工智…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/Y5et9BGadfNdXw80BEWj"
+                        open
+                      >
+                        <summary class="article-expander__title">2024 高质量数字化转型创新发展大会暨铸基计划年度会议开始报名</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/Y5et9BGadfNdXw80BEWj">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>当前，随着新技术、新业态的层出不穷，产业发展的规律性减弱趋势明显，复杂性、随机性 、突发性的问题增多，给企业带来了诸多不确定性挑战。同时， 5G、人工智能、大数据、区块链等新一代信息通信技术不断涌现，在相关领域展 现 了一定的优势。但新型数字技术与传统行业简单叠加，已经不能满足传统垂直 行业的需求，企业数字化转型正在进入“深水区” 。
+
+在需求侧，传统企业已经认识到数字化转型的重要性，着手制定数 字化转型 的战略及计划，但仍存在着对数字化转型认知不全面、策略不明确、执行不到位、 效果不明显等诸多问题。同时，作为需求方，面对市场上数字化转型种类繁多的 产品，难以判断其产品及服务能力，这在 一定程度上阻碍了企业数字化转型的进展。
+
+在供给侧，功能的差异化成为企业服务产品的核心竞争力。但各细分领域产 品在安全、互联互通、自研能力、性能等方面缺乏相关标准及行业指引，导致产 品在开发阶段缺乏根本遵循。这也导致需求侧选型时在对产品功能研判的同时， 也对产品在 上述领域的表现存在困惑和顾虑。
+
+为更好地解决上述问题，中国信息通信研究院联合中国互联网协会 (以下简称“中国信通院” )于2021年底正式发起“铸基计划-高质量数字化转型行动”。为深度展示“铸基计划”2023年度在数字化转型领域的工作成果，并全面展望2024年的数字化转型发展趋势，由中国信通院泰尔终端实验室特别支持的2024高质量数字化转型创新发展大会暨铸基计划年度会议将于2024 年3 月28日在京召开。
+
+本次大会将聚焦“场景牵引、需求驱动”、“深度融合、行业共创”、 “数字人才、铸基中国” 等主题，邀请数字化转型需求侧企业对数字化转型工作进行深度总结，并对发展趋势进行探讨，为产业发展提供参考。作为大会独家合作媒体，InfoQ将在现场带来专题深度报道。
+
+现大会报名通道正式开启，点击链接即可参与报名：https://hdxu.cn/hD5yI &quot;
+
+更多大会议程信息如下（最终议程以现场为准）：</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/8uF8XAAP55EIZbZY8WcD"
+                        open
+                      >
+                        <summary class="article-expander__title">重塑 Jamstack：打造更简单、更强大的 Web 架构</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/8uF8XAAP55EIZbZY8WcD">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文最初发布于THENEWSTACK。
+
+
+图片来自Unsplash，由Rob Wicks提供
+ 
+随着互联网架构的发展，Jamstack&quot;已经变成了一个富有成效的存在，尽管有时会引起争议&quot;。2015年，Netflix首席执行官Matt Biilmann&quot;创造了这个词。它是由组成它的各种技术拼凑而成的——其中“JAM”来自JavaScript、API和Markup。但是，经过几年的快速发展，2023年，Jamstack——无论是作为一种架构还是作为一个开发社区——开始出现一些小问题&quot;。
+ 
+对于开发人员来说，曾经简单直接的JavaScript + API + Markup方法已经变得越来越复杂。此外，去年，Netflix开始与Jamstack社区保持距离&quot;，关闭了Jamstack Community Discord，并将宣传重点从Jamstack转向“可组合架构&quot;”主题。
+ 
+那么Jamstack现在怎么样了？我与来自社区的不同成员进行了交谈，了解他们的关注点，以及他们将Jamstack推向下一阶段的想法。
+ 
+
+Jamstack的膨胀
+
+首先，Cloud Cannon首席执行官Mike Neumegen&quot;指出，Jamstack复杂性增加的部分原因是其定义的扩展。
+ 
+Neumegen说：“由于开发人员在使用Jamstack时遇到了实现限制，所以其生态系统中的框架用更复杂的新方法解决了这些限制。后来，为了将这些新方法包含进来，Jamstack持续扩展其定义。虽然这些方法为大型Web应用程序开发提供了强大的工具，但这种循环使Jamstack变成了现代Web架构的一个笼统术语。围绕Jamstack初始核心特性（比如可移植性、无配置缓存、预渲染、原子部署，以及最重要的简单性）的讨论少了。”
+ 
+Pixel Point开发者兼首席执行官Alex Barashkov&quot;也认为，复杂性增…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/qdBA81pUVfbogEt4P0uq"
+                        open
+                      >
+                        <summary class="article-expander__title">Q*是AGI?新鲜爆料！马斯克起诉OpenAI事件进展情况</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/qdBA81pUVfbogEt4P0uq">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>马斯克起诉 OpenAI 事件愈演愈烈，两大互联网科技巨头的“互殴”在网络上引起轩然大波。昨天，OpenAI神秘的Q*计划，又迎来新鲜爆料。
+
+53页PDF全网疯传
+
+
+3月4日凌晨，一篇53页google文档开始热传，在网络上掀起轩然大波，文稿透露OpenAI“计划在2027年发布GPT-8，实现完全AGI”。
+
+
+系列计划推迟发布+改名
+
+
+文档显示，OpenAl自2022年8月开始着手训练一个庞大的125T（万亿）参数的多模态大模型，而 Q* 就是该模型的第一个阶段。
+
+据称，该模型就是原计划在2025年发布的GPT-5，训练于2023年12月完成，智商达到了48。
+
+而预计分别于2026和2027年发布 Q* 2024（ GPT-7） 和 Q* 2025（ GPT-8），智商将达到96和145。
+
+但由于推理成本过高，加上马斯克诉讼的影响，这一系列计划被迫推迟。
+
+
+
+
+GPT4时已有AGI？
+
+
+爆料者说，在假定AI性能确实可以根据参数量来预测，而且大约100万亿参数就足以与人类相当的前提下，何时出现AGI的问题就变成了什么时候会出现百万亿参数的AI模型。
+
+而OpenAI开发百万亿参数模型的传闻，最早出现在在2021年夏天，这是奥特曼参投的Cerebras公司CEO Andrew Feldman在Wired杂志的一次访谈中透露的。
+
+
+网友们对此产生激烈讨论，The Rundown AI 的创始人 Rowan Cheung 更是评论称：
+
+
+埃隆起诉 OpenAl 的部分原因是，他认为 OpenAl 的 Q* 模型很有可能就是 AGl。Q*是OpenAl的秘密突破，在11月Sam Altman的演讲中被泄露。”
+
+
+
+
+他还连续发文，扒出奥特曼曾经的采访视频以及相关文档。
+
+
+在萨姆被解雇 4 天后，OpenAl 的秘密 Al 模型突破 Q*（读作 Q-Star…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/MutbJzsLtiucBSG0sxAR"
+                        open
+                      >
+                        <summary class="article-expander__title">All in AI后，未来的手机长什么样？| InfoQ《极客有约》</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/MutbJzsLtiucBSG0sxAR">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>随着人工智能技术迅速发展，大模型这把“火”已经烧到了越来越多的领域，手机正是其中之一。有评论甚至认为，“大模型将重新定义手机”。可以预见未来五年，AI 对手机行业的影响，完全可以比肩当年智能手机替代功能机。今晚主持人姜雨生对话陈晓春、王晓涛、袁东专家，共同探讨All in AI后，未来的手机长什么样？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/oi4MG2ftrRNNe0tNDuHa"
+                        open
+                      >
+                        <summary class="article-expander__title">Claude 3终于来了，最强大模型易主？不，网友亲测了才算数！</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/oi4MG2ftrRNNe0tNDuHa">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>3 月 5 日 ，OpenAI 的最大竞争对手 Anthropic 刚刚发布了新一代 AI 大模型系列 —— Claude 3。该系列包含三个模型，按能力由弱到强排列分别是：Claude 3 Haiku、Claude 3 Sonnet、Claude 3 Opus。
+ 
+
+比GPT-4更强？
+
+ 
+Anthropic表示，Claude 3 Haiku是最快的模型，适用于需要即时响应的场景。它可以在不到三秒的时间内阅读 arXiv 上包含图表和图形的信息和数据密集的研究论文（约 10k tokens）。
+ 
+Claude 3 Sonnet在智能和速度之间提供平衡，适合企业工作负载，如知识检索或销售自动化。
+ 
+而Claude 3 Opus则是能力最强的模型，实现了接近人类的理解能力，适用于高度复杂的任务，在多项基准测试中得分都超过了 GPT-4 和 Gemini 1.0 Ultra，在数学、编程、多语言理解、视觉等多个维度树立了新的行业基准。
+ 
+
+
+
+ 
+ 
+从Anthropic给出的benchmark测试数据来看，Opus在多个指标上超过了GPT-4。
+ 
+在此之前，GPT-4的综合性能全球绝对领先，能实测到的模型中只有这次Claude 3的上一代Claude 2超过了GPT-3.5。
+ 
+这次的Claude 3，除了速度、理解、效率等综合性能之外，这次在长文本上有亮点，可以支持200K Tokens的上下文长度，另外也可以支持图像和文件输入了。
+ 
+
+
+
+ 
+再值得参考的一点是价格：Opus输入15刀/百万tokens，输出75刀/百万tokens；Sonnet输入3刀/百万tokens，输出15刀/百万tokens；Haiku输入0.25刀/百万tokens，输出1.25刀/百万tokens。
+ 
+Anthropic 还放出了 42 页的技术报告《The Claude …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/f2M3o2deL6XIaomHvlSK"
+                        open
+                      >
+                        <summary class="article-expander__title">谷歌Gemini犯错，印度AI创企陪葬？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/f2M3o2deL6XIaomHvlSK">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>印度收紧GenAI监管，部署模型需获政府批准
+
+ 
+近日，印度政府采取了一项规范大型科技公司使用人工智能 (AI) 的重大举措——向所有使用人工智能（AI）模型、软件或算法的中介机构和生成式人工智能平台发布一份建议，要求这些平台和机构必须获得印度政府的批准，然后才能向用户提供AIGC模型部署类服务。
+ 
+这些平台——包括谷歌的 Gemini、ChatGPT 和 Krutrim AI——将必须征求用户同意，并需要向公众明确指出 GenAI 模型或平台可能会提供不正确的信息并且容易出错。
+ 
+这些公司被要求在 15 天内向印度电子和信息技术部（MeitY）提交一份详细的行动和状态报告。提交申请后，政府官员可能会要求这些平台进行模型演示、进行必要的测试并评估征求同意机制等措施。
+ 
+印度电子和信息技术国务部长拉吉夫·钱德拉塞卡（Rajeev Chandrasekhar）表示：“从很多方面来说，这一建议标志着我们未来监管和立法框架初现雏形，我们旨在创建一个安全且值得信赖的互联网。”
+ 
+钱德拉塞卡表示，“最重要的一点是，他们（中介机构）今天要承担责任。遵守上述建议能让他在某种意义上免除责任，因为他们已经披露了该信息，如果他们提供的非法内容已经征得了该人的同意，那么这些公司或者机构就能真正合法地免除责任来。”钱德拉塞卡补充道。
+ 
+在该建议中，政府重申，不遵守《信息技术法》和/或《信息技术规则》的规定，一旦被发现，将追究中介机构或平台或其用户造成的潜在的刑事后果，包括但不限于根据《信息技术法》进行起诉。
+ 
+政府做出这一决定是因为人们对人工智能技术的滥用感到担忧，包括潜在的偏见、歧视和对选举过程完整性的威胁。 钱德拉塞卡还表示，印度用户不应接受“不可靠”的平台、算法和模型的实验。
+ 
+这是印度政府首次针对 GenAI 平台采取此类行动，该建议是在印度总统大选之前发布的，因此外界猜测这…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >爱范儿</button>
+                  <a class="source-heading__link" href="https://www.ifanr.com?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.ifanr.com/?p&#x3D;1577183&amp;utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;"
+                        open
+                      >
+                        <summary class="article-expander__title">蔚来新车即将发布，20 万元级，成本比 Model Y 低 10%！</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.ifanr.com/1577183?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://s3.ifanr.com/wp-content/uploads/2024/03/tmnio.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>蔚来的新希望。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.ifanr.com/?p&#x3D;1577080&amp;utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;"
+                        open
+                      >
+                        <summary class="article-expander__title">早报|GPT-4 被全面超越/苹果发布 M3 芯片 MacBook Air/微信可加入钉钉会议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.ifanr.com/1577080?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://s3.ifanr.com/images/ep/cover-images/heng_kua_jiao_shi_cover.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>·苹果被罚款后发长文回击欧盟
+·雷军建议义务教育普及 AI
+·海底捞宣布将推加盟特许经营模式
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-04 datetime="2024-03-04T14:19:57.000Z">2024-03-04</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-04 datetime="2024-03-04T14:19:57.000Z"></time>
           </button>
@@ -2747,8 +3378,8 @@ file yourfile.zip
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/theboylzh/super-feeder/actions/runs/8149282847">
-        <time id="build-timestamp" datetime="2024-03-05T00:53:13.857Z">2024-03-05T00:53:13.857Z</time>
+      <a class="footer-link" href="https://github.com/theboylzh/super-feeder/actions/runs/8165225414">
+        <time id="build-timestamp" datetime="2024-03-06T00:53:30.957Z">2024-03-06T00:53:30.957Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
