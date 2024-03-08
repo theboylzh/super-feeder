@@ -6,6 +6,96 @@
       "siteUrl": "https://www.infoq.cn",
       "articles": [
         {
+          "id": "https://www.infoq.cn/article/ZCJcHVFSdRbFBeF8LkeB",
+          "author": "傅宇琪",
+          "description": "最近，英伟达在 CUDA 11.6的用户许可中明确表示，禁止使用转换层在其他硬件平台上运行基于 CUDA 的软件。这一举动，立马引来了 AI 圈的震动和各大媒体关注。\n\nCUDA 的全称是计算统一设备架构（Compute Unified Device Architecture），是英伟达开发的一种异构编程语言，它为通用程序提供了调用 GPU 的接口。简单来说，CUDA 能够加快神经网络模型的预测速度，高效且毫不费力地处理大量数据，以执行实时、高需求的任务。\n\n面对高性能、实时输出的需求时，CUDA 是大公司的首选解决方案，它也为大公司们带来了巨大收益。例如，特斯拉和其他汽车行业巨头利用 CUDA 来训练自动驾驶汽车，Netflix 利用 CUDA 的功能来增强自己的推荐引擎……英伟达也靠着 CUDA 绑定了数百万 AI 开发者，吸引着大型云计算公司采购它的 GPU。\n\n事实证明 CUDA 和英伟达硬件的结合非常高效，大批程序都依赖这种结合。不过，随着更有性价比的硬件问世，越来越多的用户倾向于在其他与英伟达存在竞争关系的平台上运行 CUDA 程序。而这对于英伟达来说，无疑是对其技术和市场地位的叫嚣挑战。\n\n为了确保自己在GPU计算领域的竞争优势，英伟达只好“背弃”人类命运共同体使命，“喊话”竞争对手：不许在你们自家硬件上用我的CUDA了！\n\n业内人士分析，这一招应该是针对 Intel 、AMD 都有参与的 ZLUDA 等第三方项目，以及登临科技 GPU+、沐曦科技等中国厂商的兼容方案。\n\n总体来说，这次警告代表着英伟达对兼容CUDA的一种态度。目前，英伟达只是在CUDA 11.6协议中增加了警告条款，并未采取实际行动，但也不排除未来采取进一步措施的可能。\n\n参考链接：https://www.tomshardware.com/pc-components/gpus/nvidia-bans-using-translation-layers-for-cuda-software-to-run-on-other-chips-new-restriction-apparently-targets-zluda-and-some-chinese-gpu-makers",
+          "link": "https://www.infoq.cn/article/ZCJcHVFSdRbFBeF8LkeB",
+          "publishedOn": "2024-03-07T09:43:08.000Z",
+          "wordCount": 322,
+          "title": "英伟达亮出“红牌”：不允许其他芯片模拟跑CUDA",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/MG7JkOP8pz1fQoK9w3FP",
+          "author": "InfoQ",
+          "description": "随着数据库技术的快速发展重塑我们的数字格局，应用程序正在以前所未有的速度扩展。这导致用户更多优先考虑与闭源数据库兼容的开源数据库和可扩展云数据库解决方案。\n最新会议动态：ArchSummit全球架构师峰会将于2024年6月14日-6月15日在深圳举办，点击链接了解大模型如何革新软件开发全流程。",
+          "link": "https://www.infoq.cn/article/MG7JkOP8pz1fQoK9w3FP",
+          "publishedOn": "2024-03-07T08:36:03.000Z",
+          "wordCount": 322,
+          "title": "超扩展设计——用于处理大型扩展应用程序的新数据库设计｜ArchSummit",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/YlFgskxoCfB9jok39Jm5",
+          "author": "李冬梅",
+          "description": "近年来，人工智能技术的快速发展引起了广泛关注。然而，这项技术的发展也带来了一系列争议和问题。上周，亿万富翁埃隆·马斯克对美国人工智能公司OpenAI提起了法律行动，指控其背离了初衷，将人工智能用于盈利而非为人类福祉服务。\n \n进随其后，OpenAI本周就发出了创始人联名信并附上了8年来马斯克与OpenAI创始团队成员们的邮件往来。\n \n而今天，马斯克在自家社交媒体X上发文称，“OpenAI一直活在谎言中”，算是对近期OpenAI邮件攻击的回应。\n \n\n\n 值得注意的是，斯诺登也在X上发文力挺马斯克，称OpenAI的某些行为不只是反社会，甚至反人\n类。\n \n\n\nAltman：马斯克是英雄，也是混蛋\n\n \n马斯克与OpenAI的结怨最早要追溯到2018年。\n \n2015 年，马斯克和奥特曼与 Peter Thiel、LinkedIn 联合创始人 Reid Hoffman 和 Y Combinator 联合创始人 Jessica Livingston 等其他硅谷大佬们共同创立了 OpenAI。有着多位硅谷大佬们背书的OpenAI很容易吸引到了该领域内众多顶尖人才。\n \n根据 OpenAI 网站 2015 年 12 月 11 日的一份声明，该组织的目标是创建一个非营利组织，专注于“以最有可能造福全人类的方式”开发人工智能，他们集体承诺提供 10 亿美元资金支持公司发展。\n \n当时，马斯克表示人工智能是人类“最大的生存威胁”。\n \n到了2017年，尽管OpenAI在人工智能领域投入了大量资源，但依然未能取得突破性的研究成果。马斯克和 OpenAI 之间的关系就像许多古老的资本主义故事一样：一家公司的创始人们一开始有着共同的目标，但很快发现他们的看法不一致，导致分裂和激烈的法律索赔，马斯克和Altman两个人也从亲密无间走向了各奔东西。\n \n据知情人士透露，2018 年初，马斯克告诉 …",
+          "link": "https://www.infoq.cn/article/YlFgskxoCfB9jok39Jm5",
+          "publishedOn": "2024-03-07T07:13:23.000Z",
+          "wordCount": 323,
+          "title": "马斯克最新回应：OpenAI的“邮件攻击”在说谎！斯诺登力挺：OpenAI这么做是反人类！",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/LCMAKK51AGDpjy2wuHkt",
+          "author": "InfoQ",
+          "description": "案例分享概述：介绍利用系统软件技术来全面提升服务器资源效率。服务器总成本是服务器总量和单价相乘，分两部分，一部分是通过提升资源利用率和性能优化来降低服务器用量，比如内核隔离与控干扰技术，GPU 虚拟化与混部技术来提升 CPU 与 GPU 利用率，通过微架构优化、内核优化、编译优化、基础库/框架优化、JVM 优化技术提升性能。另外一部分是通过引入新性价比更高的硬件来降低单价。总计为公司带来10亿级别的成本优化价值，ROI 在10以上。\n整个项目成功的要点在于，形成快手独特成本优化方法论，抓住关键技术，借助公司关键战役进行创新突破，最大化系统软件价值。\n演讲提纲：\n1、性能优化方法论\n3、通过微架构优化、内核优化、编译优化、基础库/框架优化、JVM 优化技术提升性能\n获得性能优化的方法论；\n性能优化常见的武器有哪些；\n如何深入系统做性能优化。\n最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。",
+          "link": "https://www.infoq.cn/article/LCMAKK51AGDpjy2wuHkt",
+          "publishedOn": "2024-03-07T06:42:37.000Z",
+          "wordCount": 324,
+          "title": "快手系统软件技术演进与资源效率优化 | QCon",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/qo55ldtUJxztY9OvNAIp",
+          "author": "高玉娴",
+          "description": "嘉宾 | 赵松 某知名电动汽车大数据专家\n\n\n数据中台，自概念诞生以来已经足足 10 年。但时至今日，它仍然是企业数字化转型中最具有争议的技术理念。有企业通过中台建设尝足甜头，当然也有企业数千万成本打水漂，中台究竟是建还是拆的争论连年不休。\n\n在日前的 InfoQ《超级连麦. 数智大脑》直播\"中，某知名电动汽车大数据专家赵松表示，数据中台建设的最终目的是要为业务创造价值。然而，一些数据中台项目在落地实施后，却未能达到预期效果，导致项目失败，其主要原因在于：\n\n第一，只提供工具，不提供业务价值。如果只是将数据中台交付给业务方，而没有提供相应的业务解决方案，那么数据中台就很难发挥其应有的作用；\n\n第二，缺乏全域视角。数据中台应当打通全域数据，为不同层级的业务用户提供支持。如果数据中台的建设范围有限，那么其价值就会大打折扣。\n\n赵松拥有 10 多年汽车行业数据中台建设经验，在直播中，他根据自身经历，分享了确保数据中台顺利建设和落地的方法，以及企业进行数据管理的策略和路径。\n\n在他看来，在数据管理过程中，数据指标口径的统一非常关键，其经验是通过标准化的流程管理来自各方的需求，并结合技术工具支持这一系列流程的落地。\n\n以下内容根据对话整理，篇幅有删减，点击链接可观看直播回放：https://www.infoq.cn/video/iBN4mNvboJPH6UmzK2OX\"\n\n争议不断，车企建中台的背景和初衷是什么？\n\n\nInfoQ：您在汽车行业从业已经多年，也主导实施过多个车企的数字化平台和数据中台项目，在您看来数据中台的建设对于企业数字化转型而言有什么意义？\n\n\n赵松：近年来，数字化转型已成为各行业热议的话题，大数据是其前身。如今，数字化转型的概念变得更加普及，它不仅包括大数据和数据中台\"，还涉及业务系统的转型、组织结构和流程的变革，形成了一个完整的体系。\n\n在整个企业数字化转型中，…",
+          "link": "https://www.infoq.cn/article/qo55ldtUJxztY9OvNAIp",
+          "publishedOn": "2024-03-07T06:06:01.000Z",
+          "wordCount": 322,
+          "title": "“数字原生”车企是如何建数据中台的？用流程管理需求，用工具管理流程",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/2BfqsKx0LSjfrNWkqidy",
+          "author": "InfoQ",
+          "description": "LLM 不仅可以做开发\\问答的辅助工具，还可以成为业务系统的运作大脑，对企业内的运营和交易系统进行 AI Native 方式的重构。并且 AIGC 让以技术为中心的创新产品可行性大增。\n演讲提纲：\n背景：企业拥抱 AIGC 的正确姿势\n尝试：用 Copilot 模式提升内部研发效率\n深入：用 Agent 模式改造内部业务系统\n创新：融合 LLM 和 CV 做视频\n听众收益点：\n了解 AIGC 领域的最新进展\n企业运营系统如何拥抱大模型\n大模型产品化更多的可能性\n最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。",
+          "link": "https://www.infoq.cn/article/2BfqsKx0LSjfrNWkqidy",
+          "publishedOn": "2024-03-07T06:01:32.000Z",
+          "wordCount": 324,
+          "title": "哈啰出行从Copilot到Agent模式的探索 | QCon",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/H7rEOM74EWR5UNwKADsu",
+          "author": "InfoQ",
+          "description": "在当前快速发展的大型语言模型（LLM）时代，像 GPT 系列这样的技术正在改变我们对人工智能应用的理解，特别是在智能客服领域。ChatGPT 的问世更是为我们提供了全新的处理自然语言的方法。在研发领域，不论是提出问题的一方还是解答问题的工程师，答疑工作都是一个避不开的重要环节。\n本次演讲将聚焦于研发答疑这一场景，探讨如何利用 LLM 技术协助值班人员提升回复效率，同时帮助提问者更快地找到问题的解决方案，从而整体优化答疑体验。我将结合具体的实际应用场景，深入讨论知识管理、模型交互和效果评测等关键技术方案的实施与应用。\n听众收益点：\n了解 RAG 理念，基于 LLM 的相关工程落地思路、技术要点\n最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。",
+          "link": "https://www.infoq.cn/article/H7rEOM74EWR5UNwKADsu",
+          "publishedOn": "2024-03-07T06:01:27.000Z",
+          "wordCount": 326,
+          "title": "利用 LLM 改善研发过程里答疑体验 | QCon",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/TsJL3PDbyTdETt1R1hdt",
+          "author": "InfoQ",
+          "description": "BI 的发展已经经历了传统模式、敏捷模式，并逐渐往智能模式的方向发展。伴随着 AIGC 技术的突飞猛进，BI+AI 更加深入业务。\n微盟是一家 SaaS 公司，在服务客户过程中怎么为客户提供更便捷和直观的数据服务一直是数据团队工作的内容和方向。本次分享主要带来的是 LLM 在微盟 BI 场景的落地应用，会主要从三个方面介绍 LLM 在 BI 场景的落地，通过具体的案例，分享在落地过程中遇到并尝试解决的问题，帮助听众了解 LLM 在 BI 场景落地的难点和瓶颈。\n听众收益点：\n了解 LLM 在 BI 方向的可能落地场景\n最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。",
+          "link": "https://www.infoq.cn/article/TsJL3PDbyTdETt1R1hdt",
+          "publishedOn": "2024-03-07T06:01:20.000Z",
+          "wordCount": 328,
+          "title": "LLM 在微盟 BI 场景的探索与落地 | QCon",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/ygiEKDcEE6wu7xh3JNTK",
+          "author": "赵钰莹",
+          "description": "自去年底“新质生产力”正式写入中央文件以来，这一概念已经成为我国数字经济高频词，同时也是今年两会上的讨论热词。所谓“新质生产力”是相对于传统生产力而言的，由于不同的历史发展阶段，生产力发展所依赖的技术支撑和工具各不相同。在数字经济的大背景下，“新质生产力”的要义就在科技创新，目的是实现高质量发展。值得关注的是，“新质生产力”最终落脚点还在生产力，未来主战场仍然是实体产业。与过去不同的是，未来的实体产业发展不再是“单点开花”，而是全产业链的体系化升级。\n\n\n3 月 5 日，国务院总理李强在政府工作报告指出，要深入推进数字经济创新发展。制定支持数字经济高质量发展政策，积极推进数字产业化、产业数字化，促进数字技术和实体经济深度融合。深化大数据、人工智能等研发应用，开展“人工智能 +”行动，打造具有国际竞争力的数字产业集群。\n\n政府工作报告强调，要实施制造业数字化转型\"行动，加快工业互联网规模化应用，推进服务业数字化，建设智慧城市、数字乡村。深入开展中小企业数字化赋能专项行动。支持平台企业在促进创新、增加就业、国际竞争中大显身手。健全数据基础制度，大力推动数据开发开放和流通使用。适度超前建设数字基础设施，加快形成全国一体化算力体系。要以广泛深刻的数字变革，赋能经济发展、丰富人民生活、提升社会治理现代化水平。\n\n在这个过程中，人工智能\"无疑已经成为产业创新的关键抓手和引擎之一。早在此前各省市召开的地方两会上，人工智能、大模型、数据基础建设、算力基础设施发展等话题就已经被广泛热议。比如上海提出集成电路、生物医药、人工智能三大先导产业规模达要到 1.6 万亿元；广东强调要加强大模型关键技术攻关，加快组建千亿级人工智能基金群；江苏则明确以人工智能全方位赋能新型工业化，深入实施“智改数转网联”。\n\n基于该背景，数字化的下一站必然是智能化。全国政协常委、浙江省政协副主席陈小平建议，要抢抓人工智…",
+          "link": "https://www.infoq.cn/article/ygiEKDcEE6wu7xh3JNTK",
+          "publishedOn": "2024-03-07T03:09:30.000Z",
+          "wordCount": 323,
+          "title": "别找啦！效果好的生成式AI+场景落地案例都在这里了｜InfoQ 技术大会",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
           "id": "https://www.infoq.cn/article/kqNEKcLGMSJPpytim2Td",
           "author": "高玉娴",
           "description": "自去年底“新质生产力”正式写入中央文件以来，这一概念已经成为我国数字经济高频词，同时也是今年两会上的讨论热词。所谓“新质生产力”是相对于传统生产力而言的，由于不同的历史发展阶段，生产力发展所依赖的技术支撑和工具各不相同。在数字经济的大背景下，“新质生产力”的要义就在科技创新，目的是实现高质量发展，而数据作为新型生产要素，将是提高新质生产力的基础和保障。\n\n根据去年颁布的《数字中国建设整体布局规划\"》，其中明确了数据资源体系在数字中国建设“2522”整体框架中的基础地位，并提出构建国家数据管理体制机制等工作要求。\n\n在 2024 年政府工作报告中，也多处提及数据相关工作：\n\n深入推进数字经济创新发展。制定支持数字经济高质量发展政策，积极推进数字产业化、产业数字化，促进数字技术和实体经济深度融合。深化大数据、人工智能等研发应用，开展“人工智能 +”\"行动，打造具有国际竞争力的数字产业集群。健全数据基础制度，大力推动数据开发开放和流通使用。适度超前建设数字基础设施，加快形成全国一体化算力体系。加大吸引外资力度。落实好外资企业国民待遇，保障依法平等参与政府采购、招标投标、标准制定，推动解决数据跨境流动等问题。加强重点领域安全能力建设。提高网络、数据等安全保障能力。有效维护产业链供应链安全稳定，支撑国民经济循环畅通。\n\n数据的价值已经成为业界共识，然而，从产业视角来看，数据要素的供给和流通使用、数据资源的联动和配置等课题的探索才刚刚开始；从企业视角来看，数据质量保障、合规化使用路径、高价值场景挖掘等难点仍然普遍存在。\n\n全国政协委员、上海市政协副主席邵志清表示，目前在以数据资产开展创新应用方面存在几个关键问题：一是对数据资产的合法合规性缺乏有效认定；二是对数据资产的资产处置缺少明确路径；三是对数据资产的定价估值缺少市场参照；四是对数据资产的创新应用缺少协同治理；五是缺乏数据资产创新应…",
@@ -612,6 +702,16 @@
       "feedUrl": "https://www.ifanr.com/feed",
       "siteUrl": "https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=",
       "articles": [
+        {
+          "id": "https://www.ifanr.com/?p=1577338&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "张成晨",
+          "description": "为普通人定制数字人\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1577338?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-07T11:38:00.000Z",
+          "wordCount": 677,
+          "title": "「AI 复活」已加入购物车，黑镜真实上演",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/liu3.jpg"
+        },
         {
           "id": "https://www.ifanr.com/?p=1577264&utm_source=rss&utm_medium=rss&utm_campaign=",
           "author": "张明悦",
