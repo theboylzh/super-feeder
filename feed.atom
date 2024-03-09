@@ -2,10 +2,340 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://theboylzh.github.io/super-feeder/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-08T00:53:08.866Z</updated>
+    <updated>2024-03-09T00:51:33.529Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://theboylzh.github.io/super-feeder/index.html"/>
     <link rel="self" href="https://theboylzh.github.io/super-feeder/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[谷歌：不建议未成年人接触C++，太过危险！Yann LeCun和马斯克看到都笑了]]></title>
+        <id>https://www.infoq.cn/article/6YLNRzvYTWXGb8JDharh</id>
+        <link href="https://www.infoq.cn/article/6YLNRzvYTWXGb8JDharh"/>
+        <updated>2024-03-08T11:43:14.000Z</updated>
+        <summary type="html"><![CDATA[编译 | Tina、核子可乐
+ 
+谷歌Gemini 最近又出了一个奇葩错误：如果你未满 18 岁，Gemini 就不会向你提供 C++ 编程方面的帮助，因为C++对未成年人来说“太危险”了。
+ 
+
+
+
+ 
+对于上面这个C++代码转换的问题，Gemini是这样回复的：“由于你未满 18 岁，我无法提供直接使用概念的代码示例或方案。C++ 概念是比较高级的特性，会带来潜在风险，我需要保证你的安全。”
+ 
+没人懂得Gemini为啥会返回这样的信息，或许是C++社区里存在着太多的类似“footgun（一种功能）”、“unsafe”、“bug”、“泄漏”、“这是不负责任的”、“这他妈的是谁写的”这样的关键词。这些关键词让Gemini产生了一种C++极度危险的错觉。
+ 
+对C++开发者来说，Gemini出现的这个错误真是既令人惊讶又让人觉得难过。离谱到连Yann LeCun和马斯克都忍不住要“输出”一番观点：“这实际上是左派精心策划的阴谋，目的是让美国公民成为 C++ 文盲.....”还有人问Yann LeCun是否会“邪恶到让自己的孩子用C++”，Yann LeCun回复说他的成年孩子其实在用C#来编程.....
+ 
+
+
+
+ 
+各路网友更是脑洞大开，纷纷展现出自己的搞笑潜质，为这个事件增添了许多欢乐：
+ 
+“我想我们都同意，需要保护孩子们免受 C++ 链接器错误的威胁。不能因为我们受了苦，就意味着他们也应该受这个苦。”
+ 
+家长：“滚回你的房间里，从今天开始关禁闭！我跟你说过多少次关于内存安全的事了？现在我在你的电脑上发现了 gcc，你还跟 GPL 的人一起鬼混……”孩子：“我不要用 Rust，我讨厌内存安全！”
+ 
+“鉴于很多孩子都有逆反心理，Gemini这实际上是在青少年中培养C++人才吧？”
+ 
+......
+ 
+
+谷歌联合创始人布林：真的搞砸了
+
+ 
+这不是Gemini第一次…]]></summary>
+        <author>
+            <name>Tina,核子可乐</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[过去一年，我看到了数据库领域的十大发展趋势]]></title>
+        <id>https://www.infoq.cn/article/fUelqKXZr63sWoSAdEqD</id>
+        <link href="https://www.infoq.cn/article/fUelqKXZr63sWoSAdEqD"/>
+        <updated>2024-03-08T07:22:13.000Z</updated>
+        <summary type="html"><![CDATA[过去一年，行业信心跌至冰点
+
+
+2022 年中，红衫的一篇《适应与忍耐》的报告，对公司经营提出了预警，让各个公司保持现金流，重整团队，想办法增加盈利。这篇报告的推出的时间点应该是各个整个行业的拐点，大家不再期待 V 型复苏拐点，信心开始逐步跌落，2023 年初跌倒谷底和冰点。2023 年整个一年都是在艰难的慢慢恢复，各行各业普遍艰难，公司裁员加剧，就业率创新低。数据库行业2021 年的资本盛宴开始，众多创业者刚想闯进来分一杯羹，22 年底23 年初就结束了，应该说让从业者深刻体会到了什么是大起大落。站在 2024 年起点往回看，还是非常感慨和唏嘘。作为大起大落的亲历者，今天这篇我们一起来总结数据库行业在 2023 年的一些情况，我会尽量涉及到产品技术，厂商发展，市场环境等多个方面，受限于时间和水平不足，肯定有不少错漏之处，也欢迎大家一起探讨。接下来就正式进入正题：
+
+趋势一：HTAP 成为主流数据库的一项基础能力
+
+
+数据库技术起源于美国，中国在这个行业里面不管是市场容量，技术方面总体来说还是全面落后于美国的。所以产品技术这块国内和国外还是有很大的区别，有些方面国内非常火热，但是在国外缺完全不一样，反过来也是一样的。首先这个特别明显的就是 HTAP 和 Serverless 两项技术，HTAP 在国内比国外热，Serverless 则更是成为海外产品的 default 选项。
+
+HTAP 概念能在国内火爆，TiDB 功不可没，甚至一度大家觉得这可能是一个细分赛道，不过经过几年下来，行业还是逐渐形成了一个共识，HTAP 是数据库的一项基础能力，而不是一个细分赛道，或者反过来说 HTAP 不足于支撑一个单独的数据库细分门类。2023 年一个重要的趋势就是各个主流数据库都把 HTAP 支持作为一项基础能力。典型的有：
+
+23 年 10 月腾讯的 TDSQL-C 也列存索引，并把列…]]></summary>
+        <author>
+            <name>朱洁</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[打破数据孤岛，人群圈选提速 4 倍！Apache Doris在众安保险 CDP平台的技术实践]]></title>
+        <id>https://www.infoq.cn/article/l4WqJhczqmYDOMk0F0HQ</id>
+        <link href="https://www.infoq.cn/article/l4WqJhczqmYDOMk0F0HQ"/>
+        <updated>2024-03-08T07:09:52.000Z</updated>
+        <summary type="html"><![CDATA[导读：随着业务在金融、保险和商城领域的不断扩展，众安保险建设 CDP 平台以提供自动化营销数据支持。早期 CDP 平台依赖于 Spark + Impala + Hbase + Nebula 复杂的技术组合，这不仅导致数据分析形成数据孤岛，还带来高昂的管理及维护成本。为解决该问题，众安保险引入 Apache Doris"，替换了早期复杂的技术组合，不仅降低了系统的复杂性，打破了数据孤岛，更提升了数据处理的效率。
+
+
+众安在线财产保险股份有限公司是中国首家互联网保险公司，由蚂蚁金服、中国平安和腾讯于 2013 年联合发起设立。众安专注于应用新技术重塑保险价值链，围绕健康、数字生活、消费金融、汽车四大生态，以科技服务新生代，为其提供个性化、定制化、智能化的新保险。业务和关联公司的业务包括：众安保险、众安医疗、众安小贷、众安科技、众安经纪、众安国际、众安银行等。截至 2023 年中，众安服务超过 5 亿用户，累计出具约 574 亿张保单。
+
+然而，随着业务在金融、保险和商城领域的不断扩展，众安保险面临用户数据管理的挑战。用户信息来源于公众号、小程序和 APP 等多个渠道，这些数据不仅碎片化，而且多样化。同时，运营渠道也涵盖了自营、联营和外部投放等多种途径，导致数据进一步分散。这种数据孤岛现象使得众安保险难以形成完整的用户融合体系，从而无法实现对用户的精准识别和实时营销。
+
+CDP 建设目标及方案
+
+为了解决这一问题，众安保险建设了 CDP 平台。该平台的核心职责是整合所有用户数据，构建全面的用户标签和客群体系，并利用其强大的数据分析能力为自动化营销提供数据支持。
+
+
+
+CDP 平台的建设目标主要包括以下几点：
+
+快速数据集成： CDP 需支持集成常见的关系性数据库（如 MySQL、PG 等 ）和数据仓库同（如 Hive、MaxCompute 等），同时还需要整合实时数据流（如 Ka…]]></summary>
+        <author>
+            <name>SelectDB</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OceanBase启动百人招聘计划，为商业化以来最大规模招聘]]></title>
+        <id>https://www.infoq.cn/article/4V394mwVk7NRgboo7mKM</id>
+        <link href="https://www.infoq.cn/article/4V394mwVk7NRgboo7mKM"/>
+        <updated>2024-03-08T07:05:55.000Z</updated>
+        <summary type="html"><![CDATA[近日国产数据库 OceanBase" 发布多篇招聘启示，显示出对招募人才的极大热情。记者了解到，
+此轮招聘将提供超过 50 个岗位，技术岗位占比近 60%，招聘规模超 100 人。
+
+
+
+从公众号可以看到，招聘岗位包括研发类、产品类、商业化类等，其中技术岗位比例近 60%。
+OceanBase 是蚂蚁集团"旗下的自研原生分布式数据库，成立于 2010 年，历经 14 年发展，在
+技术、商业化层面取得了显著成绩。2019 年、2021 接连打破“数据库世界杯”TPC-C、TPC-H
+的世界纪录。2020 年，OceanBase 正式商业化，目前其客户数超过 1000 家，其中 30% 将其
+应用于核心系统。
+
+据悉，OceanBase 人员规模已达近千人，此轮百人招聘是其商业化以来的最大规模招聘，并
+有意加强在金融、政企、公有云、产研团队上的投入，支持其在商业化领域的最新布局。
+
+为了向市场提供更好的数据库服务，OceanBase 于 2024 年初调整组织架构，成立金融&政企
+事业部、公有云事业部、国际业务部，除巩固既有优势的金融、运营商、政企业务外，更希
+望进一步打磨云数据库产品，服务好互联网客户，并增强服务海外客户需求的能力。
+
+数据库人才短缺是世界性难题，由于技术壁垒很高，数据库"人才不仅要有丰富的理论知识积
+累，也需要大量的工程实践。根据信通院发布的《数据库发展研究报告（2003 年）》，截
+止 2023 年 6 月，中国数据库厂商已达 150 家，每年新增企业保持两位数增长。伴随我国数
+据库产业的快速发展，对数据库人才的需求将愈来愈紧迫。]]></summary>
+        <author>
+            <name>鲁冬雪</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[谷歌华人工程师被捕：号称“全球能搭建万卡级算力平台的十人之一”，在国内两公司担任CTO、CEO]]></title>
+        <id>https://www.infoq.cn/article/EQRpzi4yVIeG4l8NOt86</id>
+        <link href="https://www.infoq.cn/article/EQRpzi4yVIeG4l8NOt86"/>
+        <updated>2024-03-08T06:26:08.000Z</updated>
+        <summary type="html"><![CDATA[因涉嫌窃取谷歌AI商业机密，中国籍谷歌工程师在美被捕
+
+ 
+据美国司法部网站信息，日前，美国联邦政府对华人工程师Linwei Ding（又名Leon Ding）提起四项商业机密盗窃罪名，指控其涉嫌意图从谷歌公司处窃取与AI技术相关的专有信息。3月5日，Linwei Ding在加利福尼亚州纽瓦克当地被捕。
+ 
+如果罪名成立，Linwei Ding将面临最高10年监禁及每项罪名最高25万美元（约180万元人民币）的罚款，联邦地区法院法官将在参考美国量刑指南及其他法律因素后做出判决。目前，联邦调查局与商务部正在联手调查此案。
+ 
+起诉书显示，Linwei Ding今年38岁，为中国公民、加利福尼亚州纽瓦克居民。根据公布的法庭文件，Linwei Ding涉嫌窃取的技术涉及谷歌先进超级计算数据中心的构建模块，该数据中心专门用于支持大型AI模型训练和托管中的机器学习类工作负载。从起诉书看来，该大型AI模型能够理解细微的语言表达差别，属于能针对提示词、任务或查询生成智能响应的AI应用。
+ 
+起诉书还描述了谷歌如何开发其专有硬件和软件，进而推动由其超级计算数据中心支持的机器学习过程。在硬件方面，谷歌采用了先进的计算机芯片，具备支撑机器学习并运行AI应用所需要的卓越处理能力。而在软件方面，谷歌部署有多层软件，起诉书将其称为“软件平台”，旨在有效协调机器学习工作负载。
+ 
+例如，该软件平台的组件之一为集群管理系统（CMS），由其充当谷歌超级计算数据中心的“主脑”。CMS负责为整个硬件基础设施进行任务组织、优先级排序和具体分配，从而确保各先进芯片能够以高效方式执行机器学习工作负载或托管AI应用程序。
+ 
+美国司法部长Garland表示，“司法部不会容忍对AI乃至其他任何可能危及我们国家安全的先进技术实施盗窃。在本案中，我们指控被告在秘密为两家中国企业工作期间，窃取了谷歌的AI相关商业机密。我们将…]]></summary>
+        <author>
+            <name>凌敏,核子可乐</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023指标平台白皮书]]></title>
+        <id>https://www.infoq.cn/article/70D8AYlYy0GOHFeChWIA</id>
+        <link href="https://www.infoq.cn/article/70D8AYlYy0GOHFeChWIA"/>
+        <updated>2024-03-08T06:21:17.000Z</updated>
+        <summary type="html"><![CDATA[指标体系已成为现代企业管理的普遍实践，并成为企业践行数字化经营的利器。然而，受基础设施不完善、经验欠缺等因素制约，企业在指标管理和应用方面存在诸多问题，例如指标体系难以使用、指标口径不统一、指标开发周期过长、指标分析灵活性不足以及指标数据异常难以定位等。
+本白皮书基于大量一线调研和实践案例研究，梳理了指标体系在企业数字化经营中的价值，分析了企业在指标管理与应用方面所面临的痛点，并展示了指标平台在解决这些问题方面的产品与技术趋势。
+此外，白皮书还研究了来自互联网、金融、零售等行业的指标平台实践案例，并总结沉淀了指标平台落地的“三角模型”方法论，为企业提供了一份系统、详实的指标平台实践指南。]]></summary>
+        <author>
+            <name>数势科技</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大模型趋势下的企业数据体系思考｜ArchSummit]]></title>
+        <id>https://www.infoq.cn/article/GrxTFYMI0CqpT56ceHKJ</id>
+        <link href="https://www.infoq.cn/article/GrxTFYMI0CqpT56ceHKJ"/>
+        <updated>2024-03-08T06:17:05.000Z</updated>
+        <summary type="html"><![CDATA[随着大模型的兴起，企业数据体系的构建和管理面临着新的挑战和机遇。对于企业来说，如何以最低的成本、最安全的方式，最快速地调整和优化数据体系以支持大模型的训练和应用，成为了一个重要的议题。
+背景：大模型的火爆引发数据处理进入新次元
+大模型时代的数据处理新需求及传统数据架构的桎梏
+大模型时代的企业数据处理发展趋势
+企业数据架构演变的前瞻展望
+洞察大模型时代数据处理领域的发展趋势；
+了解虚拟化技术、智能物化等关键技术与前沿数据理念；
+获得有关未来企业数据架构构建的关键洞察和指导，以应对快速发展的大数据环境。
+[链接]了解大模型如何革新软件开发全流程。]]></summary>
+        <author>
+            <name>InfoQ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhone 在中国销量大跌，急需今年的「史上最大更新」翻盘]]></title>
+        <id>https://www.ifanr.com/?p=1577402&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1577402?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-08T04:11:06.000Z</updated>
+        <summary type="html"><![CDATA[AI 带来的体验革新，将会深刻改变人们使用手机的方式。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>黄智健</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以Hadoop和PostgreSQL为例，探析数据库拆解的影响]]></title>
+        <id>https://www.infoq.cn/article/9BqcRazyBsbaLHBGmUvZ</id>
+        <link href="https://www.infoq.cn/article/9BqcRazyBsbaLHBGmUvZ"/>
+        <updated>2024-03-08T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[摘要：为什么工程师要把数据库拆开然后再重新组合起来呢？
+
+ 
+数据库界最近的一个趋势是将数据库拆解成它的组成部分。每个组件都是单独提供的，因此基础设施工程师可以将它们集成到数据库中。
+ 
+大多数数据库都有相同的组成部分：查询解析器、逻辑和物理规划器、优化器、预写日志、客户端连接协议等等。每个数据库通常都实现这些组件的各自版本。（除了MySQL"的MyISAM"/InnoDB"或广泛使用的RocksDB"等存储引擎之外。）
+ 
+单体数据库很有意义。每一层都与它上面和下面的层相集成；抽象这些层是很困难的。可插拔层需要一个灵活的API，并支持不同的（通常是对立的）用例。
+ 
+然而，这些层中的大多数最终看起来都差不多。一个特定的数据库可能只在一层中使用了它的大部分创新代币（innovation tokens"）；比如优化器。但从历史上看，开发人员不得不重新实现每一层，因为现成的组件有限。新的开源项目正在构建这些组件。
+ 
+在本文中，我将讨论数据库的拆解历史、行业现状、发展方向以及这一趋势的影响。我发现以两个以大象"为主题"的项目（Apache Hadoop"和PostgreSQL"）的视角来看拆解是很有启发性的。尽管Hadoop和PostgreSQL来自数据栈的不同部分，但它们都影响了现代的拆解工作。让我们先从Hadoop开始。
+ 
+
+Hadoop对拆解的影响
+
+ 
+18年前，Hadoop将数据仓库拆分为计算平面、数据平面和控制平面，这一范例一直延续至今。
+ 
+计算平面负责运行计算；最初是MapReduce"。数据平面负责提供存储；最初是HDFS"。控制平面负责协调计算的部署和执行；最初是Hadoop的JobTracker"，然后是YARN"。
+ 
+独立的平面（通常在不同的计算机上）为协议和API的开发创造了边界。这样的发展是拆解数据库的先决条件。
+ 
+下一步是处理存储格式。Had…]]></summary>
+        <author>
+            <name>CHRIS RICCOMINI</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[苹果再一次粉碎了 Epic 重返 iOS 的计划]]></title>
+        <id>https://www.ifanr.com/?p=1577376&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1577376?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-08T03:35:39.000Z</updated>
+        <summary type="html"><![CDATA[这不仅仅是苹果和 Epic 的战斗，也是苹果和欧盟的战斗。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>苏伟鸿</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[带摄像头的 AirPods，苹果会怎么做出来？]]></title>
+        <id>https://www.ifanr.com/?p=1577305&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1577305?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-08T03:07:05.000Z</updated>
+        <summary type="html"><![CDATA[比起得到结果，不断地大胆尝试，才是当下最有价值的事。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>肖凡博</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微软 Copilot 生成暴力色情图且拒不更改，内部工程师绝望举报至政府！]]></title>
+        <id>https://www.infoq.cn/article/xmaAIHgZy4ukcjYiz1kG</id>
+        <link href="https://www.infoq.cn/article/xmaAIHgZy4ukcjYiz1kG"/>
+        <updated>2024-03-08T02:46:56.000Z</updated>
+        <summary type="html"><![CDATA[不久前，Gemini 因为图像生成问题而关闭了文生图功能，现在微软也出现了“同样”的问题。
+在微软供职六年的微软 AI 工程主管 Shane Jones一直利用空闲时间测试自家AI图像生成器，测试结果令他感到不安。他警告称，微软的Copilot Designer产品会生成色情与暴力内容，但公司方面并未就此采取适当行动。本周三，Jones决定将此事上报，向美国联邦贸易委员会（FTC）主席Lina Khan及微软董事会发出函件。这之前，当他公开披露这些问题时，却遭到了微软法律部门的压力要求删除公开发言。
+ 
+编辑：李忠良、核子可乐
+
+看到了“不该看的”
+
+Jones研究的是Copilot Designer，这是由微软公司于2023年3月推出的AI图像生成器，由OpenAI提供技术支持。用户可以向Copilot Designer输入文本提示并生成图片。过去 Jones 一直在积极测试产品漏洞，通过实际操作，他发现该工具生成的图像常常与微软宣称的负责任AI原则相违背。
+
+去年12月，Shane Jones对着电脑屏幕上弹出的图像久久无法平静。因为他看到了“不该看的”。
+ Copilot Designer 不加掩饰地描绘出恶魔和怪物，甚至是与堕胎权、携带半自动步枪的青少年、带有暴力因素的女性色情图像，甚至与未成年人饮酒和吸毒相关的画面。
+
+
+ 来源：Shane Jones公开信
+
+据CBBC报道，直到本周，他们仍能使用这款Copilot工具（原名为Bing Image Creator）重现过去三个月间生成的所有这些不当内容。由此可以看出，微软其实并没有更新和改进，这也为昨日的“揭发”埋下了种子。
+ 
+
+微软承认问题，但拒绝下架产品
+
+
+Jones在接受CNBC采访时表示，“这大大出乎我的意料，我也第一次意识到，现在的AI服务实在称不上安全。”Jones已经在微软工作了六年，目前在雷德…]]></summary>
+        <author>
+            <name>李忠良</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude 3震撼发布，这家云巨头同时宣布已接入该模型，全球开发者均可访问]]></title>
+        <id>https://www.infoq.cn/article/TCymojGWYWjBtJr9exJ1</id>
+        <link href="https://www.infoq.cn/article/TCymojGWYWjBtJr9exJ1"/>
+        <updated>2024-03-08T02:06:55.000Z</updated>
+        <summary type="html"><![CDATA[最近几日，Claude 3的受关注度无人能敌。
+ 
+这家总部位于旧金山的初创公司Anthropic发布了一款新的大型语言模型(LLM) Claude 3，据称是迄今为止世界上最强大的大模型，因为它在常规的基准测试中击败了之前的领导者OpenAI的GPT—— 4和谷歌的Gemini。
+ 
+Anthropic官宣的三款Claude 3模型——按照智力从高到低的顺序分别命名为Opus、Sonnet和Haiku。三个模型均提供200k长度的上下文，并针对不同的用例进行了优化：
+ 
+Haiku的优势在于速度和成本效益，这是一种快速紧凑的模型，具有近乎即时的响应能力。Sonnet在智能和速度之间实现了理想的平衡，适用于绝大多数工作负载，速度比Claude 2和Claude 2.1快2倍，且智能水平更高。它擅长执行需要快速响应的智能任务，例如知识检索或销售自动化。Opus是最先进、最强大的大模型，具有深度推理、高级数学和编码能力，在高度复杂的任务上具有顶级性能。它可以非常流畅地导航开放式提示和新颖场景，包括任务自动化、假设生成以及图表、图形和预测的分析。
+ 
+有趣的是，新模型是根据合成数据进行训练的，即由人工智能本身生成的数据，而不是主要由人类作者生成的数据，这应该会消除一些人们对模型崩溃的担忧。
+
+
+ Anthropic Claude 3模型的智能与成本图。
+ 
+Anthropic的研究数据显示，Claude 3 Opus作为其模型家族中最为智能的成员，已经在推理、数学和编程等领域树立了新标杆，超越了现有的其他模型，包括OpenAI的GPT-4。具体来说，Opus在人工智能系统的大多数常见评估基准上都优于同行，包括本科水平专家知识（MMLU）、研究生水平专家推理（GPQA）、基础数学（GSM8K）等。 下图是Claude 3与GPT和Gemini的基准测试成绩对比：
+ 
+
+
+ 资料来源…]]></summary>
+        <author>
+            <name>李冬梅</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[早报｜折叠屏 MacBook 或于 2027 年量产/娃哈哈妇女节放半天假加 100 元餐补/理想将推纯电 SUV 对标 Model Y]]></title>
+        <id>https://www.ifanr.com/?p=1577395&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1577395?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-08T00:51:49.000Z</updated>
+        <summary type="html"><![CDATA[· 苹果封禁 Epic 开发者账号
+· 尼康收购 RED
+· 乐视面试无需年龄婚育信息
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>苏伟鸿</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「AI 复活」已加入购物车，黑镜真实上演]]></title>
         <id>https://www.ifanr.com/?p=1577338&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
