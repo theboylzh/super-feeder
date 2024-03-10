@@ -6,6 +6,16 @@
       "siteUrl": "https://www.infoq.cn",
       "articles": [
         {
+          "id": "https://www.infoq.cn/article/g86oDUpwiKFNPJmw0Kuc",
+          "author": "梓毓,Tina",
+          "description": "OpenAI“宫斗”调查结果公布，奥特曼无罪重返董事会；2024年发行商榜单：米哈游2023年收入超网易；华为与 vivo、亚马逊达成专利交叉许可协议；谷歌华人工程师被捕；乐视宣布面试简历无需填写年龄和婚育信息；工程师就微软AI工具生成暴力和性图像发出警告；马斯克VS奥特曼：这恐怕是AI史上最重要的一场官司；腾讯 QQ 开始测试 AI 对话功能；美通过法案，要求字节跳动剥离TikTok；消息称微软本月将发布首批AI PC产品；中科院自研 AI 大模型“紫东太初 3.0”今年上半年发布；亚马逊云科技宣布迁出数据传输免费；Claude-3 AI模型发布……\n\n \n\n科技公司\n\n \n\nOpenAI“宫斗”调查结果公布，奥特曼无罪重返董事会\n\n \n3月9日，OpenAI 宣布，在失去董事会席位并被免去 OpenAI CEO 几个月后，Altman 将重返公司董事会。\n \n董事会的扩充和 Altman 的重返是在 OpenAI 聘请的律师事务所 WilmerHale 完成的调查之后进行的。调查得出结论，Altman 的离职是 “与前董事会关系破裂和信任丧失” 的 “后果”，而非出于 “对产品的安全考虑、发展速度、OpenAI 的财务状况或其对投资者、客户或商业伙伴的陈述的担忧”。\n \nOpenAI 在博客文章中表示，在调查期间，WilmerHale 对公司之前的董事会、现任高管、顾问和其他证人进行了数十次采访，并审查了几千份文件，评估了各种公司行为。\n \n该律所得出的关键结论为：\n前任董事会当时认为其行动将缓解内部管理挑战，并且没有预料到其行动会破坏公司的稳定。先前董事会的决定并非出于对产品安全或保障、开发速度、OpenAI的财务或其向投资者、客户或业务合作伙伴的声明的担忧。相反，这是前任董事会与Altman先生之间关系破裂和失去信任的结果。前任董事会在没有提前通知主要利益相关者的情…",
+          "link": "https://www.infoq.cn/article/g86oDUpwiKFNPJmw0Kuc",
+          "publishedOn": "2024-03-09T02:48:55.000Z",
+          "wordCount": 325,
+          "title": "刚刚，OpenAI“宫斗”调查结果公布！谷歌华人工程师被捕：号称自己能力“全球仅10个”；美国要求字节跳动半年内剥离TikTok | Q资讯",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
           "id": "https://www.infoq.cn/article/6YLNRzvYTWXGb8JDharh",
           "author": "Tina,核子可乐",
           "description": "编译 | Tina、核子可乐\n \n谷歌Gemini 最近又出了一个奇葩错误：如果你未满 18 岁，Gemini 就不会向你提供 C++ 编程方面的帮助，因为C++对未成年人来说“太危险”了。\n \n\n\n\n \n对于上面这个C++代码转换的问题，Gemini是这样回复的：“由于你未满 18 岁，我无法提供直接使用概念的代码示例或方案。C++ 概念是比较高级的特性，会带来潜在风险，我需要保证你的安全。”\n \n没人懂得Gemini为啥会返回这样的信息，或许是C++社区里存在着太多的类似“footgun（一种功能）”、“unsafe”、“bug”、“泄漏”、“这是不负责任的”、“这他妈的是谁写的”这样的关键词。这些关键词让Gemini产生了一种C++极度危险的错觉。\n \n对C++开发者来说，Gemini出现的这个错误真是既令人惊讶又让人觉得难过。离谱到连Yann LeCun和马斯克都忍不住要“输出”一番观点：“这实际上是左派精心策划的阴谋，目的是让美国公民成为 C++ 文盲.....”还有人问Yann LeCun是否会“邪恶到让自己的孩子用C++”，Yann LeCun回复说他的成年孩子其实在用C#来编程.....\n \n\n\n\n \n各路网友更是脑洞大开，纷纷展现出自己的搞笑潜质，为这个事件增添了许多欢乐：\n \n“我想我们都同意，需要保护孩子们免受 C++ 链接器错误的威胁。不能因为我们受了苦，就意味着他们也应该受这个苦。”\n \n家长：“滚回你的房间里，从今天开始关禁闭！我跟你说过多少次关于内存安全的事了？现在我在你的电脑上发现了 gcc，你还跟 GPL 的人一起鬼混……”孩子：“我不要用 Rust，我讨厌内存安全！”\n \n“鉴于很多孩子都有逆反心理，Gemini这实际上是在青少年中培养C++人才吧？”\n \n......\n \n\n谷歌联合创始人布林：真的搞砸了\n\n \n这不是Gemini第一次…",
@@ -802,6 +812,26 @@
       "feedUrl": "https://www.ifanr.com/feed",
       "siteUrl": "https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=",
       "articles": [
+        {
+          "id": "https://www.ifanr.com/?p=1577450&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "李华",
+          "description": "领克，不怕价格战\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1577450?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-09T11:53:40.000Z",
+          "wordCount": 634,
+          "title": "领克 07 EM-P 亮相！对于价格战，领克给出了他们的答案",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/tm.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1577465&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "苏伟鸿",
+          "description": "· 美众议院要求字节剥离 TikTok\r\n· GPT-4 挑战者 Inflection-2.5 发布\r\n· 阿里正在追赶 GPT-4\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1577465?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-09T01:02:21.000Z",
+          "wordCount": 872,
+          "title": "折叠屏 iPhone 或于后年推出/华为知情人士回应 P70 延期发布/鸟山明去世，《海贼王》《火影》作者悼念",
+          "imageUrl": "https://s3.ifanr.com/images/ep/cover-images/chao_xian_dai_cover.jpg"
+        },
         {
           "id": "https://www.ifanr.com/?p=1577402&utm_source=rss&utm_medium=rss&utm_campaign=",
           "author": "黄智健",
