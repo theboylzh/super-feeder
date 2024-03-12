@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-11 datetime="2024-03-11T00:28:56.000Z">2024-03-11</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-11 datetime="2024-03-11T00:28:56.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-11 datetime="2024-03-11T14:16:36.000Z">2024-03-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-11 datetime="2024-03-11T14:16:36.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,32 @@
                   <a class="source-heading__link" href="https://www.ifanr.com?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.ifanr.com/?p&#x3D;1577631&amp;utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;"
+                        open
+                      >
+                        <summary class="article-expander__title">AI 接连翻车的 Google，要变天了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.ifanr.com/1577631?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://s3.ifanr.com/wp-content/uploads/2024/03/pic111.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>走出「创新者困境」
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -60,6 +86,542 @@
 查看评论 ·
 新浪微博</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >InfoQ 推荐</button>
+                  <a class="source-heading__link" href="https://www.infoq.cn">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/rZTrlvdVEJa02IEcZzcl"
+                        open
+                      >
+                        <summary class="article-expander__title">特立独行？尤雨溪领衔，Vue 团队开源 Rust 打包工具</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/rZTrlvdVEJa02IEcZzcl">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>最近，Vue 团队正式开源了基于 Rust 的打包工具Rolldown。
+ 
+
+
+
+ 
+Rolldown 是一款用 Rust 重新编写的 Rollup 替代品。而Rollup使用的是javascript。
+ 
+Rolldown具有以下特点：
+与 Rollup 兼容更快的构建速度更小的输出体积
+ 
+Rolldown 类似于 esbuild，它是一款专注于速度和性能的 JavaScript 构建工具。
+ 
+尤雨溪（Evan You）表示，在捆绑纯 esm 模块时，Rolldown 比 esbuild 快 1.4~2 倍。但这次大家对性能的关注度不太高。反而是Rust占了很大一部分的注意力。
+ 
+
+
+
+ 
+在前端领域里使用Rust，到底对不对很难讲，有位网友是这样评价的：“esbuild 基本上是 Evan 的单人项目，所有代码都是为 esbuild 量身打造的。这并不是什么坏事，Evan 独自一人提升了 Node 的捆绑性能，并带领我们走上了使用 Rust 开发工具的道路。其他语言的工具编写库和生态系统正蓬勃发展，例如针对 JS/TS/Node 的 oxc、SWC、LightningCSS、Biome、rslint、Deno、rspack、napi-rs/Neon 项目，以及针对 Python 的 ruff、uv、rattler、pixi 等项目。这些项目带来了大量的库和作者，可以互相分享和帮助。此外，就个人而言，使用比如Rust这种语言来编写解析器等工具并没有让它更具工效。”
+ 
+也许Rolldown这个例子很好地展现了技术发展的“拐点”。毕竟，几年前，用 Rust 开发 JavaScript 工具被认为不是最优选择。然而，一些特立独行的人并不在意。
+ 
+对于语言的转变，尤雨溪还特地表示“以前主要使用 JS/TS的 Vue 社区成员，现在能够在 Rust 中做出贡献了。”
+ …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/JmARZRqxNvMoJpFhHLSO"
+                        open
+                      >
+                        <summary class="article-expander__title">爱奇艺数据治理中的数据湖应用实践 QCon</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/JmARZRqxNvMoJpFhHLSO">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>爱奇艺数据中台团队在管理和服务公司内数据资产，实施数据治理的过程中，不断吸收新的理念，引入新的工具，精细化爱奇艺的数据体系管理。
+“数据湖”作为近年来数据领域广泛热议的概念，其技术层面也受到了业界的广泛关注。我们的团队对相关数据湖的理论和实践进行了深入研究，认为数据湖不仅是一种集成和处理数据的极具前景的技术，更是一种治理数据的全新视角，可以对数据管理、数据存储、数据链路等治理工作带来显著提升。
+听众收益点：
+了解数据治理中遇到的一些问题的一种解决思路
+了解数据湖技术如何在数据治理起到作用
+最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/xpGNkxs9ElUcdgFubtZK"
+                        open
+                      >
+                        <summary class="article-expander__title">TikTok拼死一战：弹窗1.7亿用户强势反击，国会1分钟20个电话被打爆</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/xpGNkxs9ElUcdgFubtZK">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>当地时间3 月 7 日，当用户打开TikTok&quot;时，可能会收到这样一条弹窗消息：
+ 
+“国会正在计划全面禁止 TikTok。” “在你们的政府剥夺 1.7 亿美国人言论自由的宪法权利之前，现在就大声说出来吧。这个计划将损害数以百万计的企业、摧毁全国无数创作者的生计，并剥夺艺术家的观众。让国会知道 TikTok 对你并告诉他们投反对票。”
+
+
+
+屏幕上唯一的按钮是“立即通话”，如果用户不想这样做则需要退出应用并重新打开。当用户单击“立即通话”时，系统会提示用户输入邮政编码以查找其所在地区，之后提供用户当地议员电话，并鼓励他们打电话“告诉他们停止关闭 TikTok”。
+ 
+根据 X 上相关工作人员的帖子，到中午，国会议员的电话线路已经被电话淹没。一些来电者似乎是青少年，而另一些人一接通就挂断了电话。一名国会助手表示，他们的办公室收到了大约一百多个电话，另一名则表示他们收到了一千多个电话。国会助手称，一些办公室一分钟能接到20多个电话，甚至有的办公室不得不拔掉电话线。
+ 
+另外，一名工作人员在X上发布的截图显示，TikTok 还向部分用户发送了&quot;推送警报。
+ 
+
+
+科技公司经常寻求团结用户来响应立法，但这种措施很少做得如此公开。
+ 
+“公开弹窗并不是想说服对面，而是典型的上秤行为。对面都要限定期限直接抢了， 还有什么更差的结局吗？但对着几亿用户弹窗，主动上秤就不一样了。这个情况下对方就不能只考虑抢不抢，还要考虑美国自己的牌坊值不值了。”网友卢诗翰对此评价道。
+
+要么退出，要么出售？
+
+ 
+TikTok 没有具体说明该公司所指的是哪项立法，但众议院上3月5日收到的一项最新两党法案，强调禁止“外国对手控制的应用软件”，意味着来自中国、朝鲜、俄罗斯和伊朗的应用软件可能在美国的应用程序商店中全面下架。尽管影响广泛，但这项拟议法案的矛头所向主要针对TikTok及其中国母公司字节跳动，甚至直…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/Ie9irsk9IbGzQTuZDDDJ"
+                        open
+                      >
+                        <summary class="article-expander__title">火山引擎 PrivateZone 在混合云场景下的解决方案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/Ie9irsk9IbGzQTuZDDDJ">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>越来越多的企业认同，多云和混合云是实现数字化变革的必由之路。Cisco 发布的《2022 Global Hybrid Cloud Trends Report》显示， 82% 的受访者使用混合多云架构来支撑其应用程序。混合云架构下，如何灵活、可靠且低成本地满足各种场景 DNS 的解析是企业需要解决的基本问题之一。
+
+本文带你了解火山引擎边缘云 TrafficRoute DNS 套件——私网解析 PrivateZone ，它是基于火山引擎私有网络（VPC）的私网域名解析服务，是云服务器默认的 DNS 入口。如果你也需要云上灵活、快速、稳定的内网域名解析，那么火山引擎私网解析 PrivateZone 可以帮助到你。
+
+
+
+
+
+多云和混合云场景下的 DNS 解析需求
+
+面向混合云场景：相比较于使用单一云厂商，使用多厂商可以获得更好的稳定性、灵活性，也可以更好地实现成本控制，但同时会带来部署、运维、系统等复杂度较高的问题。面向多云场景：为了收敛配置和统一运维管理，通常会选择某个云作为中心配置，客户通常需要将其他云的 DNS 请求集中转发到该云上进行处理。
+在多云和混合云场景下主要有 3 种访问形式：
+火山引擎与第三方云厂商之间的互访火山引擎与用户自建数据中心的互访第三方云厂商与自建数据中心互访
+
+
+
+在没有自定 DNS 服务器时，VPC 内的 ECS 发出 DNS 请求后，首先到达PrivateZone Resolver。Resolver 根据用户的配置，如权威域名、转发规则等匹配要解析的域名，如果命中配置则按照配置的内容发送到指定 DNS 服务器解析，如果没有任何配置则去互联网递归迭代解析。拿到解析后再返回给 ECS 客户端。
+
+
+私网解析 PrivateZone
+
+PrivateZone 是云上域名解析的统一入口，提供了内网权威、自建权威、外网域名等各种域名解析能力。 Priva…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/QBXRlcIVuY1UeA2jGCzs"
+                        open
+                      >
+                        <summary class="article-expander__title">零一万物重磅推出“笛卡尔”向量数据库！强势包揽权威榜单评测六项第一</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/QBXRlcIVuY1UeA2jGCzs">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>3 月 11 日，零一万物宣布，其基于全导航图技术打造的新型向量数据库“笛卡尔（Descartes）”已成功研发，并包揽权威榜单 ANN-Benchmarks 的 6 项数据集评测第一名。
+
+零一万物表示，笛卡尔向量数据库将应用于公司即将正式发布的 AI 产品中，未来还将结合工具提供给广大开发者。
+
+
+笛卡尔霸榜，包揽权威榜单评测六项第一
+
+
+ANN-Benchmarks 是当下业界最权威的向量数据库性能测试工具，它可以展示不同算法在不同真实数据集下的表现。零一万物笛卡尔向量数据库在 ANN-Benchmarks 六项数据集测试均位居第一。（具体结果可见下图）
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+在上述六份评测结果图中，横坐标代表召回、纵坐标代表 QPS（每秒内处理的请求数），曲线位置越偏右上角意味着算法性能越好。可以观察到，代表笛卡尔的红线在六张图中都处于最高位。
+
+
+
+在原榜单 TOP1 基础上，零一万物笛卡尔向量数据库实现了显著性能提升，部分数据集上的性能提升超过 2 倍以上，在 gist-960-euclidean 数据集维度更大幅领先榜单原 TOP1 286%。
+
+
+解决检索难题的“杀手锏”
+
+
+向量数据库，又被称为 AI 时代的信息检索技术，是检索增强生成（Retrieval-Augmented Generation, RAG）内核技术之一。向量数据库专门用于存储、索引和查询由非结构化数据（如文本、图像或音频）生成的嵌入向量。这些嵌入向量是通过将非结构化数据转换为高维向量来创建的，以便于快速查找和检索类似对象。与传统的关系数据库不同，向量数据库主要面向非结构化数据，并采用相似度索引来返回查询结果，而不是基于关键字的查找。
+
+向量数据库的核心能力包括低成本存储和高性能计算，具体功能包括用于搜索和检索的向量索引、单级过滤、数据分片、复制、混合存储以及 API 等。随着非结构化数据应用的增加，向量数据库在处理分析这类数据方面的需求也在增长。其主要应用领域包括人脸识别、推荐系统、图片搜索、视频指纹、语音处理、自然语言处理、文件搜索等。
+
+对大模型应用开发者来说，向量数据库是非常重要的基础设施，能够影响大模型的性能表现。大模型虽然强大，但存在实时信息更新慢、隐私保护问题、推理失真以及推理效率低等缺陷。向量数据库通过其轻量化更新机制、隐私保护特性、丰富知识参照以及作为缓存机制的功能，能够精准地解决大模型的这些痛点。
+
+零一万物表示，笛卡尔向量数据库在处理复杂查询、提高检索效率以及优化数据存储方面相比业界拥有显著的比较优势，它主要能用于解决两大类问题。
+
+
+通过建立某种索引结构，减少检索考察的候选集
+
+
+目前业内现状主要通过哈希、KD-Tree、VP-Tree 等方式，导航效果不够精确，裁剪力度不够，零一万物研发的全局多层缩略图导航技术，图上坐标系导航，既能保证精度，又能裁剪大量无关向量。
+
+零一万物还首创了自适应邻居选择策略，填补业界空白。零一万物自研的自适应邻居选择策略，突破了以往仅依赖真实 topk 或固定边选择策略的局限，新策略使每个节点可以根据自身及邻居的分布特征动态地选取最佳邻居边，更快收敛接近目标向量，从而让 RAG 向量检索性能提高 15%-30%。
+
+
+降低单个向量计算的复杂度
+
+
+零一万物采用了两级量化方案增强 RAG。零一万物用两级量化降低计算复杂度，同时列式存储充分利用 SIMD 的并发能力，进一步发挥硬件能力，相比传统 PQ 查表，性能得到大幅提升到 2-3 倍。
+
+除此之外，零一万物还有索引结构优化、连通性保障等全栈向量技术方案提高笛卡尔向量数据库的性能。
+零一万物笛卡尔向量数据库目前聚焦于高性能向量数据库，通常指向量数据集规模在千万级及以下（如 2000 万 128 维浮点型向量），在实际应用场景中，具有超高精度、超高性能等核心优势。
+
+高性能向量数据库可以轻松应对 80% 以上的日常场景，如构建私域知识库、智能客服系统，加速自动驾驶模型训练……以医疗影像诊断为例，随着医学影像技术的不断发展，大量的医疗影像数据需要被存储、检索和分析。这些影像数据可以通过特征提取转化为向量表示，进而利用高性能向量数据库进行高效检索和匹配。医生在诊断过程中，可以利用向量数据库快速检索与当前病例相似的历史病例和影像资料，从而辅助医生做出更准确的诊断。
+
+零一万物表示，笛卡尔向量数据库是团队基于 RAG 的初步尝试，将在近期发布的 AI 生产力产品中得到有效应用。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/k0LDiOge35CI63Dg2oo9"
+                        open
+                      >
+                        <summary class="article-expander__title">AIGC 驱动的 3D 场景理解及医学图像解析｜ArchSummit</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/k0LDiOge35CI63Dg2oo9">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>随着 AIGC 和 ChatGPT 等生成模型的迅速发展，我们探索出 AIGC 驱动的 3D 场景理解以及医疗场景的分析，并通过一系列自研的算法和工具，对 AIGC 算法辅助的下游应用进行了深入地研究，从 3D 场景的自动稠密描述，到室内场景的视觉定位，再到 3D 视觉驱动的高保真说话人脸生成，再到 AIGC 辅助的医疗场景的解析，进行了深入地探讨和改进。
+本次分享中，我将会从 3D 场景描述和定位，3D 说话人脸生成，生成图片辅助的肠胃镜图片解析等方面方面详解介绍我们应用方案的架构设计与工程实践，同时也会基于我们踩的坑分享在使用 AIGC 驱动的 3D 场景理解和医疗图像理解过程中的思考和对未来 AIGC 演进的展望。
+AIGC 驱动的 3D 室内场景稠密描述及视觉定位
+AIGC 驱动的 3D 高精度的说话人脸驱动及生成
+AIGC 驱动的结肠镜图片生成及解析
+人工智能在 AIGC 的落地应用
+人工智能与具身智能
+人工智能与医学图像分析
+业内领先的 AIGC 驱动的室内场景稠密描述及视觉定位
+业内领先的高精度的说话人脸驱动及生成
+业内领先的 AIGC 辅助的结肠镜图片理解
+最新会议动态：ArchSummit全球架构师峰会将于2024年6月14日-6月15日在深圳举办，点击[链接]了解大模型如何革新软件开发全流程。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/HScGeHL6PKzzEiza16B4"
+                        open
+                      >
+                        <summary class="article-expander__title">李彦宏“程序员将不再存在”言论被周鸿祎驳斥，网友怒怼：先把百度程序员都开除了！</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/HScGeHL6PKzzEiza16B4">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>网友热评：先把百度的程序员都开除了吧。
+
+
+李彦宏：未来将不再存在“程序员”这一职业
+
+ 
+在3月9日央视的《对话》·开年说节目上，百度创始人、董事长兼CEO李彦宏表示，基本上以后不会存在“程序员”这种职业了，因为只要会说话，人人都会具备程序员的能力。“未来的编程语言只会剩下两种，一种叫做英文，一种叫做中文，这也是目前世界上人工智能技术最领先的两个语言。”
+ 
+对于李彦宏的这一观点，有网友表示赞同，认为这是未来的趋势，未来的发展方向还得是智能化。“以后编程，写代码的难度肯定会不断降低”，“现在大模型的出现已经降低了程序员门槛，后面门槛肯定会越来越低”，“程序员这个职业会进化的更高级”。
+ 
+也有网友表达了不一样的观点：“低端程序员会消失，有创造力的程序员会做大”，“编程仍是基础，是必须要学的，程序都看不懂，再有创造力也没用”。有网友调侃道，“先把百度的程序员都开除了吧”。有网友更是悲观地表示，“程序员还需要AI淘汰? 一到35岁你就找不到工作啦。”
+ 
+3月10日，周鸿祎发表微博驳斥称：“大模型将替代程序员？未来不用学编程了么？我认为，程序员热十年内不会减弱。尽管未来人人都会用电脑，所谓人人都是程序员，但不同的人用电脑创造的产品完全不一样，AI时代更需要计算机专家和程序员，他们可能是各行各业最有发言权的。 ​”
+
+在节目中，李彦宏还提到了人工智能发展速度，并表示“我觉得人工智能发展比我想象中更慢。人工智能已经被提出快70年了，可能每过10年左右，就有一群人说，我们终于要实现通用人工智能了。但其实情况比想象中要复杂。”
+ 
+谈到未来大模型会给人类的生活或者是生产带来什么改变时，李彦宏认为，大模型对于人类生产生活的改变会是非常根本性的。互联网改变了我们的很多生活，但是这一波人工智能的改变，会更加的彻底、更加的深刻。
+
+Stability AI CEO：未来五年内人类程序员将彻底…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/mEbu5KkvzitAaYvQx5E7"
+                        open
+                      >
+                        <summary class="article-expander__title">Serverless 设计原则——有效架构选择实践｜ArchSummit</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/mEbu5KkvzitAaYvQx5E7">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>In today’s rapidly evolving technology landscape, serverless architectures are changing the game. Are you ready to revolutionize the way you design and build applications?
+This talk provides a comprehensive understanding of serverless architecture, its benefits, and the challenges it presents. You’ll walk away with valuable insights into best practices for designing and implementing serverless projects, enabling you to harness the full potential of this approach.
+Don’t miss this chance to elevate your serverless design practices and stay ahead of the curve in the world of application development.
+最新会议动态：ArchSummit全球架构师峰会将于2024年6月14日-6月15日在深圳举办，点击[链接]了解大模型如何革新软件开发全流程。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/WDFaK8KgPX29gkkbc7Iu"
+                        open
+                      >
+                        <summary class="article-expander__title">高性能鸿蒙应用开发实践解析 | QCon</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/WDFaK8KgPX29gkkbc7Iu">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>介绍鸿蒙应用结构与主要性能影响点，结合具体案例介绍应用开发语言，线程模型，UI界面构成，图形渲染等注意事项与解决方法，介绍UI框架运行机制，探索更高效的框架机制。
+听众收益点：
+了解鸿蒙UI框架运作机制
+了解鸿蒙应用高性能开发方式
+了解鸿蒙性能分析工具
+最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/YEdBDuo0Gq2SVrrD5KsZ"
+                        open
+                      >
+                        <summary class="article-expander__title">“新王登基”— Claude 3 横空出世，最强大模型易主| 大模型一周大事</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/YEdBDuo0Gq2SVrrD5KsZ">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>大模型的快节奏发展，让了解最新技术动态、积极主动学习成为每一位从业者的必修课。InfoQ研究中心期望通过每周更新大模型行业最新动态，为广大读者提供全面的行业回顾和要点分析。现在，让我们回顾过去一周的大模型重大事件吧。
+
+一、重点发现
+
+Anthropic 公司新发布的 Claude 3 大模型系列，在技术和性能上取得了显著突破。该模型不仅在处理长文本和多模态数据上表现出色，还在多项基准测试中超越了业内领先的 GPT-4/3.5 等模型。这意味着过去一年中遥遥领先的 ChatGPT-4 迎来了强劲的对手。Claude 3 的上下文对话处理能力大幅提升，不仅能更精准地理解用户需求，更能提供智能的回应。这一技术的突破将为用户带来更为流畅、自然的交互体验，尤其在内容创作、代码生成和跨语言交流等领域具有广阔的应用前景。
+另外，研究团队在开发这款产品时特别注重模型的可解释性和安全性。例如，在回应生成方面研究团队做了更多考虑以避免产生过于人性化、非理性和不道德的言论。同时，尽力避免让 Claude 3 连接到可能产生偏见或有害信息的公开数据。研发人员希望通过这种方式来减少AI偏见和错误决策的风险，同时提高用户对AI系统的信任。
+
+二、具体内容
+
+
+政策动态
+
+3月5日，国务院总理李强在政府工作报告中指出，要深入推进数字经济创新发展。制定支持数字经济高质量发展政策，积极推进数字产业化、产业数字化，促进数字技术和实体经济深度融合。深化大数据、人工智能等研发应用，开展“人工智能 +”行动，打造具有国际竞争力的数字产业集群。
+
+大模型持续更新
+
+3月3日，Anthropic 发布了新一代大模型系列 Claude 3，遥遥领先快一年之久的 GPT-4 终于迎来了强劲的对手。根据官方测评结果来看，Claude 3在推理、数学、编码、多语言理解和视觉方面，全面超越 GPT-4 在内的所有大模型。
+
+开…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/HRICP5NawWpEe4O5XJ1W"
+                        open
+                      >
+                        <summary class="article-expander__title">LLM 在大数据研发治理套件 DataLeap 中的应用实践 | QCon</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/HRICP5NawWpEe4O5XJ1W">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>LLM 的发展，引发新一代的内容理解、生成技术热潮，也使得门槛相对较高的数据研发治理领域，有了更加平民化、提供自然语言接口的可能。
+DataLeap 是火山引擎数智平台（VeDI）推出的大数据研发治理套件，核心是帮助企业快速完成数据集成、开发、运维、治理、资产、安全等全套数据中台建设。
+听众收益点：
+DataLeap 大数据研发治理套件的核心能力和优势
+LLM 技术在大数据研发与大数据资产消费领域的实践
+LLM 技术目前在大数据平台产品应用的局限
+最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/ABF6wtasCc515ryf9upQ"
+                        open
+                      >
+                        <summary class="article-expander__title">云视听小电视性能和效率优化实践 | QCon</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/ABF6wtasCc515ryf9upQ">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>随着互联网电视的普及，短视频在大屏端逐渐覆盖，B站作为行业领先的短视频App，在电视端的用户增长非常快，与此同时也带了诸多性能和效率问题。
+本次分享主要针对多屏端的云视听小电视全链路性能和效率的优化实践。
+演讲提纲：
+云视听小电视业务介绍
+性能和效率提升的优化思路
+优化的性能指标定义
+云视听小电视性能和效率优化落地实践
+优化效果
+实践方法总结
+听众收益点：
+了解电视端的短视频业务
+稳定性治理的经验
+短视频业务降本的方法
+最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/s7mOaThSGXXNHkJ1PJKU"
+                        open
+                      >
+                        <summary class="article-expander__title">Java近期新闻：JDK 22 RC1、JBoss EAP 8.0、GlassFish 8.0-M2和LangChain4j 0.27</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/s7mOaThSGXXNHkJ1PJKU">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>JDK 23
+
+JDK 23的早期访问构建版本&quot;的Build 9&quot;发布，该版本是对Build 8的更新&quot;，其中包括对各种问题&quot;的修复。关于这个版本的更多细节可以在发布说明&quot;中找到。
+
+JDK 22
+
+JDK 22的早期访问构建版本&quot;的Build 35&quot;发布，该版本是对Build 34的更新&quot;，其中包括对各种问题&quot;的修复。关于这个版本的更多细节可以在发行说明&quot;中找到。
+ 
+根据JDK 22的发布计划&quot;，甲骨文公司的Java平台组首席架构师Mark Reinhold&quot;正式宣布&quot;，由于在Build 35没有未解决的P1缺陷，所以JDK 22已经进入其第一个发布候选&quot;版本。正式版本预计会在2024年3月19日发布。
+ 
+2024年3月发布的正式版本最终包含了如下12项特性：
+JEP 423：G1的区域锚定（Region Pinning for G1）&quot;JEP 447：super(...)前导语句（Statements before super(...)，预览）&quot;JEP 454：外部函数和内存API（Foreign Function &amp; Memory API）&quot;JEP 456：未命名变量和模式（Unnamed Variables &amp; Patterns）&quot;JEP 457：类文件API（Class-File API，预览）&quot;JEP 458：启动多文件源码程序（Launch Multi-File Source-Code Programs）&quot;JEP 459：字符串模板（String Templates，第二轮预览）&quot;JEP 460：向量API（Vector API，第七轮孵化）&quot;JEP 461：流聚合器（Stream Gatherers，预览）&quot;JEP 462：结构化并发（Structured Concurrency，第二轮预览）&quot;JEP 463：隐式声明类和实例主方法（Implicitly…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/igrBKSWy0Ly8ha6Uwjqs"
+                        open
+                      >
+                        <summary class="article-expander__title">“钮祜禄·奥特曼”彻底回宫；IBM大裁员：关键部门裁80%；乐视回应简历无需写年龄、婚育情况| AI 周报</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/igrBKSWy0Ly8ha6Uwjqs">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>OpenAI 宫斗大戏结束；Claude 3 问世，GPT-4 时代终结？英伟达推出生成式 AI 专家认证，费用 135 美元；应聘乐视无需填写年龄、婚育情况；特斯拉跌出美国公司市值前 10 名，马斯克丢掉世界首富头衔；IBM 大裁员：关键部门力争减员 80%……
+
+
+
+热门资讯
+
+
+
+乐视宣布应聘者简历中无需填写年龄、婚育情况
+
+
+3 月 7 日，乐视官方账号发文宣布，从即日起，在乐视招聘环节，应聘者简历中无需填写年龄、婚育等情况，且在办理入职流程及在职阶段，只有负责员工档案管理的人员有权查看应聘者的身份证件等个人资料。乐视回应表示：发布这则倡议的初衷，是想为职场女性扫除不必要的隐形障碍，让更多人关注到女性在职场中面临的一些困境。
+
+值得一提的是，2023 年 1 月，乐视曾宣布开始实施每周四天半工作制，每周三实行弹性的半天工作制，考勤时间调整为连续的 5 小时。此外乐视还表示，实施每周四天半工作制不会降薪，员工正常的薪资福利和奖金都不变。此外，根据清华的调研结果，新的工作制度推行后，乐视员工的主动离职率，从以前的 15% 降低到了 5%。
+
+
+IBM 裁员：要求自愿离职的员工站出来，力争关键部门（包括 HR 部门）裁员 80%
+
+
+近日，IBM 要求自愿离职的员工主动站出来，这家公司开始了新一轮的全球性裁员，尤其是针对欧洲的工作岗位以及预计会首当其冲受到裁员影响的某些部门的工作岗位。“资源行动”是 IBM 更喜欢用来形容裁员的字眼，应该不会在员工当中造成太大的冲击，因为 IBM 在上个月的第四季度财报电话会议上就已经有所暗示。
+
+目前的措施被视为是“变革性举措”，而不是完全出于节支方面的考虑。然而早在今年 1 月，首席财务官詹姆斯 - 卡瓦诺就明确提到了 IBM 的目标，即“到 2024 年底之前将年运营成本节约 30 亿美元”，这比最初所定的目标有了大幅的提高。
+
+据…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -392,6 +954,90 @@ OceanBase 是蚂蚁集团&quot;旗下的自研原生分布式数据库，成立�
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/87ab021ff695bb496981aea00"
+                        open
+                      >
+                        <summary class="article-expander__title">手把手带你认识GaussDB轻量化运维管理工具</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/87ab021ff695bb496981aea00">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.infoq.cn/static/write/img/write-favicon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文分享自华为云社区《GaussDB轻量化运维管理工具介绍&quot;》，作者： Gauss松鼠会小助手。
+
+一、GaussDB 运维管理平台简介
+
+
+
+
+开放生态层
+
+友好Web界面，多云皮肤个性化定制丰富的原子API公有云、合运营、HCSO、边缘云IES、HCS、轻量化、统一版本
+
+基础+智能运维能力
+
+丰富的基础运维能力打造端到端全链路的智能自制运维平台,覆盖自监控、自诊断、自调优、自恢复和自安全全量功能，一键部署，精准实施;
+
+标准化代理层
+
+全方位多层安全防护，精细隔离设计精准管理进程资源消耗控制，极少性能损耗标准化南向接口规范各引警插件化接入原子操作
+通过授权，登录到GaussDB运维管理平台，我们可以看到如下界面:
+
+1、实例总览界面
+
+
+
+
+2、实例详情页面
+
+
+
+
+二、GaussDB 运维管理平台功能介绍
+
+
+1、平台管理功能
+
+
+作为管控平台，云数据库GaussDB管理平台具备完善的安全防护策略。主要是通过用户角色和用户组划分，细粒度的控制各个角色的访问执行权限，守护运维的安全。
+
+
+
+基本功能:
+
+1、管理用户(user): 支持管理员对普通用户进行增加、删除、锁定、重置密码、用户和实例(Instance)、用户组的绑定等操作
+
+2、管理用户组(user_group): 可以将用户加入用户组中，针对整个用户组可以设置统一的角色，用户可以同时加到多个用户组中
+
+3、角色管理(Role): 可以自定义角色，增加对应的权限(permission)，支持细粒度权限
+
+4、管理活跃用户会话: 可以查看当前登录中的用户，管理员可以结束会话
+
+5、后台功能: 提供鉴权、校验弱密码等接口，密码会校验规则和弱密码，加密后存入元库中。
+
+2、实例管理功能
+
+
+
+
+1、实例纳管
+2、实例解除纳管
+3、实例启停
+4、实例扩容
+5、实例升级管理
+6、实例容灾管理
+7、实例告警管理
+8、实…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.infoq.cn/article/EQRpzi4yVIeG4l8NOt86"
                         open
                       >
@@ -548,6 +1194,51 @@ Jones研究的是Copilot Designer，这是由微软公司于2023年3月推出�
 
 
 Jones在接受CNBC采访时表示，“这大大出乎我的意料，我也第一次意识到，现在的AI服务实在称不上安全。”Jones已经在微软工作了六年，目前在雷德…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.infoq.cn/article/19decd298e5f22ba7d67fbfaa"
+                        open
+                      >
+                        <summary class="article-expander__title">一键Run带你体验扩散模型的魅力</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.infoq.cn/article/19decd298e5f22ba7d67fbfaa">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://static001.infoq.cn/static/write/img/write-favicon.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文分享自华为云社区《爆圈Sora横空出世，AGI通用人工智能时代真的要来了吗？一键Run带你体验扩散模型的魅力！&quot;》，作者： 码上开花_Lancer。
+
+Sora这几天的爆炸性新闻，让所有人工智能相关从业者及对应用感兴趣的人群都感到沸腾，震撼到央视也在进行相关的讨论，简直可以和2023年初ChatGPT&quot;讨论带来的热潮一般。所以它到底为什么这么火？
+
+
+
+一、什么是SORA?
+
+
+Sora 是OpenAI最新发布的文本生成视频模型，不仅可以生成长达一分钟的视频，且能完全遵照用户的 Prompt&quot; 并保持视觉质量。
+
+OpenAI 这个公司的格局非常大，他想要做 World Simulators（世界模拟器），做通用AGI，而不仅仅是文字或者图像视频领域的内容，他希望的是帮助人们解决需要现实世界交互的问题。单从OpenAI 发布的sora模型的论文可以看出来：
+
+
+
+图片中文翻译：
+
+
+视频生成模型&quot;作为世界模拟器 我们探讨了在视频数据上对生成模型进行大规模训练。 具体来说，我们共同训练了文本条件扩散模型，这些模型能够处理不同时长、分辨率和宽高比的视频和图像。 我们利用了一种变压器架构，该架构能够处理视频和图像潜在代码的空间时间块。我们最大的模型，Sora，能够生成一分钟的高保真视频。 我们的结果表明，扩展视频生成模型是构建通用物理世界模拟器的有希望的道路。
+
+
+在文生视频领域，Sora将带来短视频的智能化变革，打破当前内容平台等额原有数据壁垒，短视频创作的生态护城河，同时Sora融入短视频工作流，极大的增强用户的体验，降低创作难度和成本，极大拓展创作者的能力边界，激发短视频创作空间。
+
+
+
+在视频创作领域，画面的稳定性至关重要。如果要呈现出优质的效果，创作者需要具备高超的视频剪辑技能和相关基础。然而，SORA这次的表现真是逆天！通过简单的文字描述，它能生成画面稳定、理解能…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -4667,8 +5358,8 @@ file yourfile.zip
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/theboylzh/super-feeder/actions/runs/8226083361">
-        <time id="build-timestamp" datetime="2024-03-11T00:54:33.852Z">2024-03-11T00:54:33.852Z</time>
+      <a class="footer-link" href="https://github.com/theboylzh/super-feeder/actions/runs/8241871091">
+        <time id="build-timestamp" datetime="2024-03-12T00:53:14.704Z">2024-03-12T00:53:14.704Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
