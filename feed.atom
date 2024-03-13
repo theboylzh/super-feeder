@@ -2,10 +2,333 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://theboylzh.github.io/super-feeder/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-12T00:53:14.724Z</updated>
+    <updated>2024-03-13T00:54:15.699Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://theboylzh.github.io/super-feeder/index.html"/>
     <link rel="self" href="https://theboylzh.github.io/super-feeder/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[早报|苹果首次允许欧盟用户从网站安装应用/雷军称对汽车价格战做好准备/微博上线热搜投诉入口]]></title>
+        <id>https://www.ifanr.com/?p=1577771&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1577771?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-13T00:38:16.000Z</updated>
+        <summary type="html"><![CDATA[· OpenAI：马斯克诉讼说法「语无伦次」
+· 微软内部人士担心微软已沦为「OpenAI 的 IT 部门」
+· 暴雪国服或在一个月内官宣回归
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>苏伟鸿</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从 Sora 代表的多模态聊起，大模型将如何重塑软件生态？｜圆桌]]></title>
+        <id>https://www.infoq.cn/article/YiakVQW2BRb46oAw2x1p</id>
+        <link href="https://www.infoq.cn/article/YiakVQW2BRb46oAw2x1p"/>
+        <updated>2024-03-12T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[QCon 全球软件开发大会暨智能软件开发生态展即将于 4 月份正式在北京召开。与往年相比，今年的会议新增了展区部分，将围绕“智能软件”的大主题，广泛邀请数据治理 & 平台建设、模型管理 & 评估 & 调优、AI Agent、智能编码工具、软件开发自动管理流程（低代码 / 无代码等平台）、多模态应用、角色构建、性能优化、测试、运维等方向的厂商和企业共同在大会展区展示自己最新的技术和产品。
+最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。]]></summary>
+        <author>
+            <name>InfoQ 中文站</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[独家！深度解读：如何快速复现Sora或将其应用于实际业务]]></title>
+        <id>https://www.infoq.cn/article/tuVV7o1HdHJO9DtyMHxl</id>
+        <link href="https://www.infoq.cn/article/tuVV7o1HdHJO9DtyMHxl"/>
+        <updated>2024-03-12T09:59:51.000Z</updated>
+        <summary type="html"><![CDATA[InfoQ独家邀请了潞晨科技创始人兼董事长-尤洋，从技术原理、复现路径和实际应用成本考量三方面深入解读Sora技术和应用可行性。
+Sora的技术原理和关键组成
+快速复现和集成Sora的指南
+成本效益和实际应用考量
+这三个要点将帮助大家理解Sora的核心技术、快速实现和集成Sora到自己的项目中，并提供考虑成本效益和实际应用的指导。]]></summary>
+        <author>
+            <name>InfoQ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宁德核电推出全球参数量最大的核工业大模型｜InfoQ 独家]]></title>
+        <id>https://www.infoq.cn/article/d1fLou0pT1CPYSep2OIZ</id>
+        <link href="https://www.infoq.cn/article/d1fLou0pT1CPYSep2OIZ"/>
+        <updated>2024-03-12T08:24:17.000Z</updated>
+        <summary type="html"><![CDATA[InfoQ 数字化经纬获悉，中国广核集团福建宁德核电有限公司（以下简称“宁德核电”）日前发布了自主训练的大模型「锦书」，这是专为核工业领域打造的大语言模型，其参数规模达到 720 亿。
+
+据了解，「锦书」在内部被称为“全民 GPT”项目，自 2023 年 5 月发起，旨在探索利用 AI 大模型解决核电行业面临的各种挑战，如知识管理不足、低脑力劳动过多、安全分析能力有待增强等。
+
+「锦书」主要训练两种参数规格的模型，分别是锦书 -34B-Chat 和锦书 -72b-Chat。这也是目前在全球范围内参数量最大的核工业预训练大语言模型。此外，「锦书」拥有中国最大的核工业大模型语料库，训练语料超过 20 亿 token，涵盖了核运行、核物理、核燃料、水化学十余类通用核工业语料以及规程、系统设计书、经验反馈单等十余种工作文件语料。
+
+此外，宁德核电团队首次开发适用于核工业的专属 Nuclear-embedding-v1-base-cn 词向量模型和 Nuclear-reranker-v1-base-cn 模型，在由 50 万条向量数据构建的 nuclear benchmark 数据集上展示了卓越的性能，top1 召回率超过 88%，top2 召回率超 91%，top5 召回率超过 95%。
+
+基于「锦书」核工业大语言模型，宁德核电开发出国内首个核工业大语言模型应用平台「云中锦书」，该平台部署了基于系统化培训理念的智能培训系统、个人岗位晋升系统、PPT 生成等多个应用，实现企业降本提质增效的目的。
+
+核工业首个企业级大规模智能知识管理系统，总数据量超过 62 万条，支持个人知识库的构建和使用。
+
+相对于传统的数字员工，核工业大模型的介入可以实现海量知识的整合，打破了各工种之间的数据孤岛，真正意义上实现“技术平权”，即现场工程师可以通过知识库之间的排列组合构建数字工程师，一人即 N 人，…]]></summary>
+        <author>
+            <name>罗燕珊</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[多模态+大模型会带来哪些“化学反应”？]]></title>
+        <id>https://www.infoq.cn/article/c2gBr2OqjPBP6YHBZWAs</id>
+        <link href="https://www.infoq.cn/article/c2gBr2OqjPBP6YHBZWAs"/>
+        <updated>2024-03-12T07:25:40.000Z</updated>
+        <summary type="html"><![CDATA[导语：没人怀疑，2024 年，AI 依然将是科技界的主角。上个月，OpenAI 推出了可以生成 60 秒高清视频的视频生成模型 Sora，掀起了对多模态模型的进一轮讨论。多模态大模型技术的最新进展如何？这一波新技术，对于行业和消费者的体验会带来哪些变化？面对一波波快速、热闹的突破和变化，技术人员该如何适应多模态 + 大模型时代？  
+
+InfoQ《极客有约》邀请了来自清华大学副研究员、曾入选人工智能全球最具影响力学者榜单和全球前 2% 顶尖科学家榜单的赵思成老师，与在机器学习、搜推广系统领域有十余年的前沿探索和工业实践经验、现任京东零售高级技术总监的彭长平老师，一起深入探讨了这些话题。
+
+无论对大模型一知半解的入门者，还是期冀通过大模型技术实现突破的探索者，此次对话都极具价值。
+
+
+视频生成崭露头角 多模态大模型进展如何？  
+
+
+InfoQ：继去年生成式大模型大火之后，多模态又成为近期热点，可否请两位老师介绍下 AIGC 和多模态技术到底能够带来哪些变化？目前在学术界和业界分别有哪些最新进展和重要挑战？
+
+赵思成：AIGC 与多模态技术的结合在多个领域产生了深远的影响。以智慧零售领域为例，广告的呈现方式正在经历变革。传统的广告主要依赖人工设计和修改，成本较高且修改过程较为繁琐。而现在，通过 AIGC 和多模态技术，我们可以更高效地完成这些任务。通过语音与大模型进行交互，经过多次迭代，快速达到理想的效果。
+
+然而，目前的多模态大模型也存在一些问题。首先，它们存在较为严重的幻觉问题，表现为无中生有、不连贯、常识缺失等。其次，在处理文本时，它们对中文的理解还不够深入。此外，在处理图像等模态时，多模态大模型更注重全局理解，对局部物体的理解仍有待加强。在一些垂直细分领域，如细粒度识别领域和情感计算领域，大模型做得还不够好。这些问题与多模态大模型的训练数据、训练方式、以及内部架构都有…]]></summary>
+        <author>
+            <name>张雅文</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[智“汇”千年古都，这场 AI 与金融盛宴，邀您共鉴！]]></title>
+        <id>https://www.infoq.cn/article/stogk7ojCTXT7aadHv7i</id>
+        <link href="https://www.infoq.cn/article/stogk7ojCTXT7aadHv7i"/>
+        <updated>2024-03-12T07:05:38.000Z</updated>
+        <summary type="html"><![CDATA[大模型与生成式 AI，正成为推动各行各业数字化转型的新引擎。在这场变革中，金融行业无疑扮演着领跑者的角色，其敏锐的洞察力和前瞻性的布局使其率先触摸到技术的脉动。智能客服、风险管理、信贷审批、投资建议、资产配置...... 人工智能与金融科技的融合正以前所未有的速度向更多实际场景落地，一场深刻的变革即将来临！
+
+正是在这样的背景下，InfoQ 极客传媒决定发起一场 AI 与金融科技的盛会。为此，我们携手汇丰科技，共同策划了智“汇”千年古都，共探 AI 新世界——【人工智能 x 金融科技 创新大会】。大会将于 3 月 31 日举办，我们将在西安共同开启一段 AI 新世界的探索之旅。
+
+
+
+
+权威阵容，汇丰科技、智谱 AI、科大讯飞、亚马逊云、腾讯、百度等大咖云集
+
+
+这是一场跨越千年的对话，更是一次连接过去与未来的思想碰撞。在这里，你将看到前沿的人工智能技术如何与金融领域深度融合，催生出无数创新的火花。你将听到顶级专家们的深度见解，感受他们对未来金融科技的独到预测。
+
+智谱 AI CEO 张鹏 、汇丰科技财富管理与个人银行全球首席架构师夏勇博士、科大讯飞 AI 研究院副院长李鑫等超多一线大咖齐聚，更有来自汇丰科技、众安保险、百度、腾讯、亚马逊云科技、蔚来汽车、中电金信、Thoughtworks、易点天下等知名企业的专家现场分享最新研究成果、技术趋势和市场洞察。
+
+
+深度交流，拓展人脉，共同推动人工智能与金融科技的发展
+
+
+在【人工智能 x 金融科技 创新大会】不止有精彩的分享，我们更为参会者提供了一个深入交流、碰撞思想的平台。大会设有一个主论坛和两个分论坛，我们将共同探讨 AI、大模型、量子计算等前沿技术如何助力金融行业的创新与变革。
+
+此外，我们还特别策划了“超级 1 小时” 圆桌论坛、大模型应用环节等多个互动，参会者不仅能够获得宝贵的知识和经验，更是能够结交到志同道合的朋友，共同探索 AI 与金融科技的无限可能。
+
+前沿趋势，AIGC 时代让开发者先看到未来
+
+
+这将是一场集技术与创新于一体的盛会，旨在探索人工智能与金融科技的前沿趋势，推动行业的交流与合作，在 AIGC 时代，我们希望让开发者能够先看到未来。从深度的技术交流到创新应用的实地体验，从顶尖大咖的精彩分享到行业未来的展望，每一环节都充满惊喜。
+
+无论您是 AI 爱好者、开发者、创业者还是管理者，我们都诚邀您莅临此次盛会，扫码报名，3 月 31 日，西安，我们不见不散！与行业同仁一起，携手推动人工智能与金融科技的融合走向更加广阔的未来。]]></summary>
+        <author>
+            <name>张雅文</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RDS for MariaDB“智能DBA助手”，让运维效率嗖嗖地！]]></title>
+        <id>https://www.infoq.cn/article/05d8640a16fd7691468dd6429</id>
+        <link href="https://www.infoq.cn/article/05d8640a16fd7691468dd6429"/>
+        <updated>2024-03-12T06:18:56.000Z</updated>
+        <summary type="html"><![CDATA[本文分享自华为云社区《RDS for MariaDB“智能DBA助手”，让运维效率嗖嗖地！"》，作者：GaussDB 数据库。
+
+技术背景
+
+
+无论是日常运维还是紧急场景下的问题定位，DBA都需要对数据库实例的运行情况有全面的感知。客户购买数据库实例后，想要判断其运行状态，往往需要在监控、告警、实例管理等多个页面之间跳转才能获取完整的实例状态信息，运维过程繁重且效率低下。
+
+RDS for MariaDB的实例状态概览功能，可以实现上述关键运维信息的智能聚合展示，帮助客户快速感知数据库实例的整体健康度，并迅速定位异常，极大简化了运维操作。
+
+RDS for MariaDB 实例功能概览
+
+
+RDS for MariaDB实例概览功能分为多个模块，包括告警统计、资源使用情况、重点性能指标和健康智能诊断模块：
+
+告警统计模块：查看实例运行中最近七天，所有等级的告警条数。资源使用情况模块：查看实例的CPU利用率、内存利用率和磁盘利用率等资源相关指标。重点性能指标模块：查看实例最近一小时的重点性能指标。健康智能诊断模块：查看基于运行数据的实例健康情况自动诊断结果。
+
+通过“实例详情”->“智能DBA助手”进入“实例概览”页签，其功能界面如下图所示：
+
+
+
+RDS for MariaDB实例概览功能中告警统计、资源使用情况和重点性能指标模块，可全面展示数据库实例的运行状态，DBA可快速获取完整的实例状态信息，减少判断时间，提升运维效率。同时，基于运维信息的智能聚合展示运行数据，结合智能算法，对数据库实例进行健康诊断，对异常项提供解决方法，让日常运维省时省心。
+
+RDS for MariaDB 模块功能详解
+
+
+告警统计模块
+
+
+对于大部分用户而言，实际上是无法全天候进行系统监控，而且在配置告警信息后，告警较为分散，难以进行统一运维。RDS for MariaDB“告警统计”模块解决了…]]></summary>
+        <author>
+            <name>华为云开发者联盟</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stability AI员工偷了Midjourney的数据还搞崩人家服务器？网友：服务器烂透了还有脸甩锅给竞争对手]]></title>
+        <id>https://www.infoq.cn/article/W16uX9MOaekh8FkTwYBq</id>
+        <link href="https://www.infoq.cn/article/W16uX9MOaekh8FkTwYBq"/>
+        <updated>2024-03-12T06:11:07.000Z</updated>
+        <summary type="html"><![CDATA[最近，生成式AI创业公司Midjourney 经历了 24 小时宕机，服务器因长时间宕机导致生成的图像无法在用户图库内正确显示。该公司认为这是由于“付费帐户的类似僵尸网络的活动”造成的。
+ 
+此类攻击是各种在线中断的常见罪魁祸首，例如网站瘫痪或基于服务器的服务中断。DDoS 攻击一旦定罪，攻击者将面临 10 年监禁的风险，即使密谋实施这次袭击也可能导致一个人面临5年的入狱风险。
+ 
+据 AI 行业专家兼 Midjourney 布道者Nick St. Pierre称，Stability AI 员工是 Midjourney 中断的幕后黑手。Midjourney 还认为，这次入侵是为了从 Midjourney 中获取提示和图像对数据。
+
+Midjourney宕机24小时，怪竞对Stability AI员工窃取其数据？
+
+ 
+作为回应，Midjourney已明确表示将禁止Stability AI员工继续使用其服务，并指责同为生成式AI厂商的竞争对手，称本月早些时候曾有员工试图窃取Midjourney数据并造成系统宕机。
+ 
+在3月6日的业务更新电话会议中，Midjourney宣称“发现来自付费账户的类似僵尸网络的活动”，而且特别强调问题与Stability AI的员工有关，并最终引发此次服务中断。
+
+
+
+3月6日电话会议上的纪录内容，随后被发布至Midjourney的官方Discord频道。
+ 
+根据Nick St. Pierre在X上的帖子，该公司称服务中断的原因是“Stability AI的员工试图在上周六夜间提取全部提示词与图像对。”St. Pierre还提到，Midjourney已经发现有多个付费账户与Stability AI数据团队的一名成员有关。
+
+
+有趣的是，Midjourney CEO David Holz和 Stability AI CEO Emad Mostaq…]]></summary>
+        <author>
+            <name>李冬梅,核子可乐</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[早报|李想回应 MEGA 被黑，余承东何小鹏声援/马斯克开源自家 AI 大模型/711 回应门店停售农夫山泉]]></title>
+        <id>https://www.ifanr.com/?p=1577694&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1577694?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-12T03:49:43.000Z</updated>
+        <summary type="html"><![CDATA[· 英伟达用版权作品训练 AI 被作者起诉
+· 苹果「刚开始正式开发」M4 款 MacBook Pro
+· 刘作虎：AI 手机是行业大势所趋
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>苏伟鸿</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Libcomm通信库：GaussDB(DWS) 为解决建联过多的小妙招]]></title>
+        <id>https://www.infoq.cn/article/79dc75b0a70f20f9cce643248</id>
+        <link href="https://www.infoq.cn/article/79dc75b0a70f20f9cce643248"/>
+        <updated>2024-03-12T01:39:18.000Z</updated>
+        <summary type="html"><![CDATA[本文分享自华为云社区《GaussDB(DWS) 集群通信系列三：Libcomm通信库"》，作者： 半岛里有个小铁盒。
+
+1.前言
+
+
+适用版本：【8.1.0(及以上)】
+
+在大规模集群、高并发业务下，如果有1000DN集群，每个stream线程需要建立1000个连接。如果1000 stream并发，DN总共需要建立100万个连接，会消耗大量的连接、内存、fd资源。为了解决这个问题，我们引入了Libcomm通信库，在一个物理长连接上模拟n个逻辑连接，使得所有并发的数据跑在一个物理连接上，极大的解决了物理连接数过多和建连耗时的问题。
+
+2.基本原理
+
+
+GaussDB(DWS)为解决建联过多的问题，实现了Libcomm通信库（即逻辑连接通信库），在一个物理长连接上模拟n个逻辑连接，使得所有并发的数据跑在一个物理连接上。比如DN1需要给DN2发送数据，并发数1000，在原有逻辑下，DN1需要建立与DN2连接的1000个线程与之进行交互，消耗了大量的连接、内存、fd资源，而改造Libcomm通信库之后，DN1与DN2仅需建立一个真正的物理连接，在这个物理连接上可以建立很多个逻辑链接，这样可以使得1000个并发就可以用同一个物理连接进行数据交互。
+
+那么GaussDB(DWS)的逻辑连接是怎么实现的呢？首先我们从连接数据流入手，挖掘其实现逻辑。
+
+物理连接支持TCP、RDMA等协议连接，以TCP为例，其物理连接数据流可以分为两部分，即数据包头+数据。数据包头为固定长度，其中包含逻辑连接号和数据块长度，用来区别逻辑连接，并接收每个连接各自对应的数据。
+
+
+
+了解了物理连接发送的数据流，那具体的发送逻辑是什么样的呢？其具体的流程如下图所示：
+
+
+
+上图中producer线程为发送线程，consumer线程为接收线程，发送端逻辑如下：
+
+send queue：producer发送线程将要发…]]></summary>
+        <author>
+            <name>华为云开发者联盟</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从Sora代表的多模态聊起，大模型将如何重塑软件生态？｜QCon]]></title>
+        <id>https://www.infoq.cn/article/0O6PbxhPjYdu15OCzj4p</id>
+        <link href="https://www.infoq.cn/article/0O6PbxhPjYdu15OCzj4p"/>
+        <updated>2024-03-12T00:53:26.000Z</updated>
+        <summary type="html"><![CDATA[QCon全球软件开发大会暨智能软件开发生态展即将于4月份正式在北京召开。与往年相比，今年的会议新增了展区部分，将围绕“智能软件”的大主题，广泛邀请数据治理&平台建设、模型管理&评估&调优、AI Agent、智能编码工具、软件开发自动管理流程（低代码/无代码等平台）、多模态应用、角色构建、性能优化、测试、运维等方向的厂商和企业共同在大会展区展示自己最新的技术和产品。
+最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。]]></summary>
+        <author>
+            <name>InfoQ 中文站</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typescript 5.4 Beta发布，提供Noinfer工具类型并改善类型推断]]></title>
+        <id>https://www.infoq.cn/article/PgQJ2FwB9AAr40MgSioB</id>
+        <link href="https://www.infoq.cn/article/PgQJ2FwB9AAr40MgSioB"/>
+        <updated>2024-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[最近，TypeScript的高级项目经理 Daniel Rosenwasser"宣布TypeScript 5.4 beta版本发布。TypeScript 5.4改善了类型推断，新增了NoInfer工具类型，并且包含一些破坏性的变更。
+
+TypeScript 5.4 beta版本改进了某些类型的类型推断，使它们能够在闭包中缩小范围。
+
+function getUrls(url: string | URL, names: string[]) {
+  if (typeof url === "string") {
+    url = new URL(url);
+  }
+
+  return names.map(name => {
+    url.searchParams.set("name", name)
+    // ~~~~~~~~~~~~
+    // error!
+    // Property 'searchParams' does not    exist on type 'string | URL'.  
+
+    return url.toString();
+  });
+}
+
+
+在上面的代码中，map箭头函数闭包中的url变量必须是URL类型。以前版本的TypeScript会将url的类型推断为string | URL，就像getUrls函数的签名一样。新发布的beta版本能够正确理解箭头函数总是会在URL对象最后赋值给url之后创建，因此会将url的类型推断为URL。有些开发人员在Twitter上对改进的类型推断表示了欢迎。
+
+
+如果这些类型范围缩小的变化像看上去这么好的话，那将是一个巨大的改进，这会节省大量不必要的if语句、!操作符等。（来源）"闭包中的类型范围缩小很有用，谢谢开发人员。（来源）"关于该特性的更多详情，开发人员可以参考发布说明（Preserved Narrowing in Closures Following Last Assignments"）。
+
+
+TypeScript 5.4还为JavaScript新的"Object.groupBy和"Map.groupBy静态方法"添加了声明"。发布说明中警告说：
+
+
+注意，只有将target配置为esnext或调整lib设置后才能访问这些方法。我们希望这些方法最终能够在稳定的es2024目标中使用。除此之外，TypeScript还为开发人员提供了新的NoInfer工具类型，让他们能够选择不使用TypeScript的类型推断。NoInfer允许开发人员阻止有效却不需要使用的类型。在处理泛型类型参数时，该特性尤其有用。
+
+
+function createStreetLight(colors: C[], defaultColor?: NoInfer) {
+  // ...
+}
+
+createStreetLight(["red", "yellow", "green"], "blue");
+// ~~~~~~
+// error!
+// Argument of type '"blue"' is not assignable to parameter of type 
+// '"red" | "yellow" | "green" | undefined'.
+
+
+在前面的样例代码中，TypeScript 5.4将C指定为可选参数defaultColor的类型，但是，这里没有进一步进行推理，所以最终会将C类型解析为"red" | "yellow" | "green"。以前版本的TypeScript（没有NoInfer工具类型时）会将C类型推断为"red" | "yellow" | "green" | "blue"。
+
+开发人员可以在微软的开发人员博客上查看完整的发布说明"，包括新改进的准确性所带来的破坏性变更"。该发布说明还包括更多技术细节、样例和该版本特性的完整列表。
+
+开发人员可以按照如下方式安装已发布的beta版：
+
+
+npm install -D typescript@beta
+
+
+原文链接：
+Typescript 5.4 Beta Released with Noinfer Utility Type and Improved Type Inference"]]></summary>
+        <author>
+            <name>Bruno Couriol</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI 接连翻车的 Google，要变天了]]></title>
         <id>https://www.ifanr.com/?p=1577631&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
@@ -20,6 +343,20 @@
 新浪微博]]></summary>
         <author>
             <name>张成晨</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache Doris 2.1.0 版本发布：开箱盲测性能大幅优化，复杂查询性能提升 100%]]></title>
+        <id>https://www.infoq.cn/article/6dd08eae63dda1f2794d7aaa2</id>
+        <link href="https://www.infoq.cn/article/6dd08eae63dda1f2794d7aaa2"/>
+        <updated>2024-03-11T09:57:44.000Z</updated>
+        <summary type="html"><![CDATA[亲爱的社区小伙伴们，我们很高兴地向大家宣布，在 3 月 8 日我们引来了 Apache Doris 2.1.0 版本"的正式发布，欢迎大家下载使用。
+
+在查询性能方面， 2.1 系列版本我们着重提升了开箱盲测性能，力争不做调优的情况下取得较好的性能表现，包含了对复杂 SQL 查询性能的进一步提升，在 TPC-DS 1TB 测试数据集上获得超过 100% 的性能提升，查询性能居于业界领先地位。在数据湖分析场景，我们进行了大量性能方面的改进、相对于 Trino 和 Spark 分别有 4-6 倍的性能提升，并引入了多 SQL 方言兼容、便于用户可以从原有系统无缝切换至 Apache Doris。在面向数据科学以及其他形式的大规模数据读取场景，我们引入了基于 Arrow Flight 的高速读取接口，数据传输效率提升 100 倍。在半结构化数据分析场景，我们引入了全新的 Variant 和 IP 数据类型，完善了一系列分析函数，面向复杂半结构化数据的存储和分析处理更加得心应手。在 2.1.0 版本中我们也引入了基于多表的异步物化视图以提升查询性能，支持透明改写加速、自动刷新、外表到内表的物化视图以及物化视图直查，基于这一能力物化视图也可用于数据仓库分层建模、作业调度和数据加工。在存储方面，我们引入了自增列、自动分区、MemTable 前移以及服务端攒批的能力，使得大规模数据实时写入的效率更高。在负载管理方面，我们进一步完善了 Workload Group 资源组的隔离能力，并增加了运行时查看 SQL 资源用量的能力，进一步提升了多负载场景下的稳定性。
+
+在 2.1.0 版本的研发过程中，有 237 位贡献者为 Apache Doris 带来了接近 6000 个 Commits。 同时 2.1.0 版本也同样经过了近百家社区用户的大规模打磨，在测试过程中向我们反馈了许多有价值的优化…]]></summary>
+        <author>
+            <name>SelectDB</name>
         </author>
     </entry>
     <entry>
