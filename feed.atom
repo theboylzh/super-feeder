@@ -2,10 +2,195 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://theboylzh.github.io/super-feeder/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-15T00:54:07.773Z</updated>
+    <updated>2024-03-16T00:52:36.383Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://theboylzh.github.io/super-feeder/index.html"/>
     <link rel="self" href="https://theboylzh.github.io/super-feeder/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[紫色之美，至此更显其韵]]></title>
+        <id>https://www.ifanr.com/?p=1578066&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1578066?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-15T10:35:38.000Z</updated>
+        <summary type="html"><![CDATA[华为Mate X5，时尚设计和尖端科技的完美融合。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>艾 梵</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「7」系混战又来新玩家，15.96 万起，东风新品牌奕派首款轿跑 eπ007 上市]]></title>
+        <id>https://www.ifanr.com/?p=1578094&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1578094?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-15T08:26:13.000Z</updated>
+        <summary type="html"><![CDATA[看起来确实没啥短板的 15 万电车。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>刘学文</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[敲了17年代码，我现在连个面试机会都得不到]]></title>
+        <id>https://www.infoq.cn/article/OzLH5iDCtFGCpGhohM9S</id>
+        <link href="https://www.infoq.cn/article/OzLH5iDCtFGCpGhohM9S"/>
+        <updated>2024-03-15T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[虽然全球经济正显现出逐步复苏的迹象，但科技行业的裁员仍在不断推进。在IT这个永远寻求下一个热门趋势的产业当中，美国软件就业市场哀鸿遍野，连技术老鸟们似乎也难以重拾竞争力——几十年的经验积累反而让他们感觉自己身处劣势。
+
+公司倒闭、裁员，美国工程师们一岗难求
+
+ 
+近日，Reddit上一条名为《17年编程经验，我甚至连个面试机会都没有》"的帖子引发热议。该名ID为different-waters的博主称自己担任软件工程师已有 17 年，并获得硕士学位，去年病假结束回公司一个月后被解雇了（因为身心俱疲而休了心理健康假），现在正在与来自谷歌、Facebook 等公司的数百名员工竞争上岗机会。
+ 
+他坦言自己从未见过如此糟糕的就业情况。
+ 
+
+“基本上我已经失业一年了，而且我已经 43 岁了，所以我想我现在已经无法被雇用了。我不敢相信每个人都在遵循的制度竟是如此糟糕，人们甚至都没有对这种潜规则提出质疑：你必须有经验，但经验不要太多，也不能是人到中年，那你绝对不能以任何理由停止工作，否则你就成为了废物。”
+
+
+
+
+现年58岁的美国程序员Vern Six也有同样的遭遇。Six表示，他最近在找工作时就遇到了明显了年龄歧视。Six指出，一名招聘人员明确告知雇主对其不感兴趣，甚至认为Six到了这个阶段早该混成CTO了，无法理解为何仍在应聘软件开发者。
+ 
+在关于Six此次遭遇的LinkedIn帖子疯传之后，他专门组织了一个LinkedIn群，供人们讨论科技领域的年龄歧视问题。其实Six自己知道年龄有点大，但“这还是第一次有人当面这么跟我说”。
+ 
+甚至有不少失业的科技从业者在一次次失败的面试后开始怀疑自己还能不能再找到全职工作。
+ 
+今年56岁的Gabriel Schillaci数十年来一直在阿根廷的家中以自由职业身份参与外包开发与IT工作。Schillaci估算，自从去年项目结束以来，他已…]]></summary>
+        <author>
+            <name>李冬梅</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文揭秘揭秘 Variant 数据类型：JSON查询提速超 8 倍，存储空间节省 65%]]></title>
+        <id>https://www.infoq.cn/article/MPpe9PsBIQlDo8IaH076</id>
+        <link href="https://www.infoq.cn/article/MPpe9PsBIQlDo8IaH076"/>
+        <updated>2024-03-15T04:28:37.000Z</updated>
+        <summary type="html"><![CDATA[在最新发布的 Apache Doris 2.1 新版本"中，我们引入了全新的数据类型 Variant"，对半结构化数据分析能力进行了全面增强。无需提前在表结构中定义具体的列，彻底改变了 Doris 过去基于 String、JSONB 等行存类型的存储和查询方式。为了让大家快速学习和使用 Doris Variant 数据类型，我们为大家提供了实操演示视频"，详细展示使用方式和性能表现。
+
+
+半结构化数据是一种灵活多变的数据形式，不受固定结构限制，无需事先定义固定的表结构，为数据存储和分析提供了强大的灵活性及便捷性。常见的半结构化数据包括 XML、JSON、日志文件等。半结构化数据被广泛应用于以下场景：
+
+电商平台可以利用半结构化数据来存储用户对产品的评价，这些评价包括文字、图片甚至视频。这种数据结构有助于进行复杂的情感分析和用户行为模式挖掘。移动应用利用半结构化数据记录用户行为数据，随着新功能的引入，用户行为的属性可能会发生改变。半结构化数据能够灵活适应这些变化，无需频繁修改数据库结构。车联网、物联网等场景可使用半结构化数据存储车辆传感器的实时信息，如速度、位置和油耗，提供高度灵活性以适应技术更新。这使得平台能够提供实时监控、故障预警和智能路线规划等服务，提升驾驶体验和车辆性能。
+
+为应对半结构化数据的处理，Apache Doris 2.1 之前版本提供了两种解决方案：预定义表结构和直接将数据存储为 JSON 。虽然早期方案各有优势，但在解析性能、数据读取效率以及运维研发成本方面仍面临巨大的挑战。例如：将数据直接存储为 JSON 后，在查询时需要实时解析 JSON 数据 ，这将导致较高的 CPU/IO 消耗和查询延迟，尤其是在处理大量或复杂半结构化数据时，性能瓶颈尤为突出。此外，也由于缺乏预定义结构，查询优化将变得更加复杂，从而影响数据处理分析的效率。
+
+全新 Variant…]]></summary>
+        <author>
+            <name>SelectDB</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[金融级数据研发DataOps实践]]></title>
+        <id>https://www.infoq.cn/article/fMA7ycFtcDaczkU250M3</id>
+        <link href="https://www.infoq.cn/article/fMA7ycFtcDaczkU250M3"/>
+        <updated>2024-03-15T03:52:08.000Z</updated>
+        <summary type="html"><![CDATA[金融领域数据研发工程体系的实践，重点讨论了DataOps在平安银行的应用。深入探讨了金融领域数据研发工程体系的实践，突出了数据安全、成本管理和数据价值评估等关键主题。通过对DataOps在平安银行的实践介绍，读者可以了解到金融领域数据研发的挑战和解决方案，以及如何通过DataOps实现数据全生命周期的管理和优化。]]></summary>
+        <author>
+            <name>InfoQ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Sora发布时间“定档”，可能允许内容中出现裸体]]></title>
+        <id>https://www.infoq.cn/article/cPwtdm13xrxWUP51vxul</id>
+        <link href="https://www.infoq.cn/article/cPwtdm13xrxWUP51vxul"/>
+        <updated>2024-03-15T02:32:54.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI公司首席技术官Mira Murati最近在接受《华尔街日报》采访时，透露Sora 将于“今年”推出，“可能需要几个月”。
+ 
+Murati 于2018 年加入 OpenAI，担任应用人工智能与合作关系副总裁。彼时，OpenAI 的研究工作正处于快速发展阶段，巨额开支也逐渐超出其承受能力。2019 年，OpenAI 转型为盈利实体，但设置了盈利上限。
+ 
+Murati 在 OpenAI 晋升迅速，先后担任产品与合作关系高级副总裁，以及首席技术官 (CTO)。 在她担任 CTO 期间，OpenAI 发布了 DALL-E 2 和 ChatGPT 等备受瞩目的 AI 产品，引起了公众的广泛关注。
+ 
+《华尔街日报》的这次采访广泛探讨了相关主题，包括AI引擎能够生成哪些内容类型、以及当前正在实施的安全措施。打击错误信息已经成为目前OpenAI公司的工作重点。Murati表示，Sora将设置多重安全护栏，以确保该项技术不会遭到滥用。她解释称，开发团队不希望发布“可能影响全球选举”的功能。报道指出，Sora将遵循与Dall-E相同的提示词政策，即拒绝生成美国总统等“公众人物形象”。
+ 
+Sora的正式版本还将为输出添加水印。画面右下角将显示半透明的OpenAI标识，表示内容为AI生成产物。Murati补充道，开发团队还考虑将内容来源作为另一项重要指标，即使用元数据来提供关于数字媒体的来源信息。这些努力当然都很好，但恐怕还远远不够。去年，一组研究人员已经成功打破了“现有图像水印保护”机制，其中也包括OpenAI的保护方案。希望这次开发团队能想出更加牢不可破的新办法。
+ 
+
+更多生成功能
+
+ 
+和传闻中生成视频需要数个小时的说法不同，现场展示Sora生成一段20秒长、720P分辨率的视频，只用了几分钟。
+ 
+另外，Sora的运行成本要比Dall-E“贵很多”。OpenAI正在尝试…]]></summary>
+        <author>
+            <name>Tina,核子可乐</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数智赋能云课堂第7期：工业场景下的智能决策优化]]></title>
+        <id>https://www.infoq.cn/article/quc5izKAsYvT76Fyq7pW</id>
+        <link href="https://www.infoq.cn/article/quc5izKAsYvT76Fyq7pW"/>
+        <updated>2024-03-15T02:05:52.000Z</updated>
+        <summary type="html"><![CDATA[数智赋能云课堂第7期：工业场景下的智能决策优化]]></summary>
+        <author>
+            <name>极客时间企业版</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[早报|李佳琦董宇辉等 17 名主播被点名/SpaceX 星舰第三次试飞结束/阿里 11 款应用将推鸿蒙原生版]]></title>
+        <id>https://www.ifanr.com/?p=1578059&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1578059?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-15T00:53:06.000Z</updated>
+        <summary type="html"><![CDATA[· Sora 将于今年向大众推出
+· OpenAI 前科学家：没有证据表明 Sora 和 ChatGPT 没有意识
+· Epic：苹果的外链支付依然反竞争
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>苏伟鸿</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微软为SharePoint Embedded推出Visual Studio Code扩展]]></title>
+        <id>https://www.infoq.cn/article/XgBK4M89uRIji8cRtT4A</id>
+        <link href="https://www.infoq.cn/article/XgBK4M89uRIji8cRtT4A"/>
+        <updated>2024-03-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[微软为SharePoint Embedded"推出Visual Studio Code扩展的预览版。该扩展使开发人员能够轻松地为SharePoint Embedded搭建Azure Entra应用程序注册。它还有助于管理免费的试用容器类型、创建guest应用程序、加载样例应用程序，以及导出设置以便与SharePoint Embedded Postman Collection协作使用。
+ 
+需要注意的是，要使用SharePoint Embedded Visual Studio Code扩展，用户必须登录到具有管理权限的现有Microsoft 365租户中。此外，如果以前尚未启用的话，则需要在Microsoft 365租户上启用SharePoint Embedded。
+ 
+SharePoint Embedded Visual Studio Code扩展为开发人员高效使用Azure Entra应用程序注册引入了多项值得关注的特性。当创建或配置这些注册的时候，扩展会将每种容器类型与一个Azure Entra"（AD）应用关联在一起。无论是选择新的应用程序还是已有的应用程序，开发人员都可以设置连接，实现SharePoint Embedded与扩展之间的最佳兼容性，但建议不要对生产环境的应用程序进行这样的更新。
+ 
+
+
+
+（在VS扩展中创建或选择Azure App）
+ 
+根据报道，在免费试用容器类型的域中，该扩展简化了创建和管理流程。开发人员可以轻松地将多个guest应用程序（如Web、移动或后台处理）添加到现有的容器类型中。
+ 
+在创建免费试用容器类型时，扩展提供了一个用户友好的特性来加载SharePoint Embedded 样例应用程序"。该行为会自动将Azure Entra应用程序和容器类型的相关详细信息填充到运行时配置文件中。因此，开发人员可以按照每个样例应用程序中README.md文件中的指南，在本地计算机上快速执行样例应用程序。
+ 
+除此之外，该扩展还增强了SharePoint Embedded与Postman Collection"的集成。通过将容器类型和Azure Entra应用程序设置导出为Postman Environment文件，开发人员能够获取一种简单直接的机制来探索和使用SharePoint Embedded API。
+ 
+生成的环境文件包含了用于认证和身份标识的重要变量，以便于迅速导入到Postman中，使开发人员轻松地初始化对SharePoint Embedded API的调用。
+ 
+对于不熟悉SharePoint Embedded的读者，微软的官方文档"有如下描述：
+
+微软的SharePoint Embedded是一个基于云的文件和文档管理系统，适用于任何应用程序。SharePoint Embedded是一个全新的纯API解决方案，使应用程序开发人员能够在任何应用中利用Microsoft 365的文件和文档存储平台的强大能力，适用于构建业务线应用程序的企业和构建多租户应用程序的ISV。
+
+ 
+目前，SharePoint Embedded已经推出公开预览版"，并计划于2024年中期正式发布。它的收费模式采用按使用付费（pay-as-you-go）的方式，即根据用户使用的存储空间以及API调用和数据传输来收费。值得注意的是，这种模式不需要额外的用户许可证。关于定价和可用性的更多详细信息，请参阅微软提供的额外信息。
+ 
+最后，对该扩展感兴趣的开发人员可以访问该项目的官方GitHub仓库"。
+ 
+原文链接：
+Microsoft Introduces Visual Studio Code Extension for SharePoint Embedded"]]></summary>
+        <author>
+            <name>作者：Almir Vuk</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[马斯克的星舰第三次试飞，距离成功最近的一次]]></title>
         <id>https://www.ifanr.com/?p=1578032&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
@@ -1055,6 +1240,36 @@ Typescript 5.4 Beta Released with Noinfer Utility Type and Improved Type Inferen
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[ChatGPT是什么意思？从产品简介、替代软件到应用场景等全方位解读！]]></title>
+        <id>https://www.infoq.cn/article/cc799ec7c3db2fc9193ab9838</id>
+        <link href="https://www.infoq.cn/article/cc799ec7c3db2fc9193ab9838"/>
+        <updated>2024-03-11T13:46:48.000Z</updated>
+        <summary type="html"><![CDATA[chatgpt是什么意思？
+
+chatgpt从去年开始风靡全球，由于它采用了对话聊天的交互方式，与我们日常使用的沟通工具非常相似，很多人「将计就计」，与AI机器人聊起了天，网上一时间出现了各种与chatgpt聊天的内容截图，大范围传播的主要是一些存在逻辑谬误、或者是AI幻觉的截图，即截图内容本身带有一定的娱乐性，从而在网上大范围传播开来。
+
+不过即便看着身边很多人都听过或了解ChatGPT，实际情况是依旧还有人不知道ChatGPT是什么，或者ChatGPT是什么意思？这篇文章就来详细介绍ChatGPT，帮助还没接触ChatGPT的朋友彻底弄懂这个新事物。
+
+
+ChatGPT是什么？
+
+
+ChatGPT，是英文Generative Pre-trained Transformer的缩写，中文译为生成式预训练模型，是由AI组织OpenAI开发的基于人工智能的聊天机器人。它属于自然语言处理（NLP）领域的一部分，使用了一种名为Transformer的深度学习模型架构。GPT模型通过大量的文本数据进行预训练，能够理解和生成自然语言，可以给用户提供类似于人类的对话体验。
+
+
+ChatGPT的发展历程
+
+
+ChatGPT的前身是GPT系列模型，自2018年推出GPT-1以来，OpenAI持续优化模型，直至2020年推出了GPT-3，这是一个具有1750亿个参数的大规模语言模型。GPT-3的强大能力为ChatGPT的诞生奠定了基础。ChatGPT在GPT-3的基础上进行了进一步的优化，使其在对话生成方面更加自然和流畅。
+
+公开的数据显示，截至2023年1月，ChatGPT成为消费级软件领域用户增长最快的应用，拥有超过1亿用户，远超此前其他软件创下的记录。
+
+需要说明的是，ChatGPT没有对全球用户开放，它仅在一些国家和地区内提供服务，在注册环节，ChatGPT需要手机号用于接收验证码，这…]]></summary>
+        <author>
+            <name>彭宏豪95</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Apache Doris 2.1.0 版本发布：开箱盲测性能大幅优化，复杂查询性能提升 100%]]></title>
         <id>https://www.infoq.cn/article/6dd08eae63dda1f2794d7aaa2</id>
         <link href="https://www.infoq.cn/article/6dd08eae63dda1f2794d7aaa2"/>
@@ -1371,6 +1586,35 @@ LLM 技术目前在大数据平台产品应用的局限
 最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。]]></summary>
         <author>
             <name>InfoQ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅谈代码架构]]></title>
+        <id>https://www.infoq.cn/article/a3f5fe458d1bf9948101eef82</id>
+        <link href="https://www.infoq.cn/article/a3f5fe458d1bf9948101eef82"/>
+        <updated>2024-03-11T03:54:20.000Z</updated>
+        <summary type="html"><![CDATA[本文初次发表在个人的博客"。
+
+
+老Y是一个有着十多年经验的软件开发工程师。下面是老Y和代码架构设计有关的故事。
+
+在软件开发者的职业生涯当中，一定会遇到大量关于代码架构方面的名词，比如“可维护性”、“可扩展性”、“高内聚低耦合”、“组件化”、“分层架构”、“SOLID”等等。在短短几十年的计算机历史中，涌现了大量有关软件架构的经典著作，对架构进行了极其全面又深入的讨论，这些著作基本来自于在软件行业有着数十年经验的大神们。既然已经有了这些全面、系统、深入的架构著作，为什么还要写这篇文章？
+
+从小有句话我们可能听了无数遍——实践是检验真理的唯一标准。即使读过了这些著作，听了大神们的分享，我们依然不能说自己掌握了软件架构的设计。好似那些自己不亲自踩过坑就无法懂得的道理一般，只有在编码的道路上不断实践，不断将理论与实践结合，才能够做到真正的掌握。所以本文仅站在一个普通软件开发者的角度，从架构设计上的一些经历和踩过的坑出发，来谈谈代码设计，讨论在追求更好的架构设计道路上的那些痛苦与挣扎，以及豁然开朗的时刻。
+
+
+老Y说：在写代码的路上，始终要记得一点，“代码是给人看的，而不是机器”，所以那些奇技淫巧并不推荐。
+
+
+井底之蛙
+
+老Y在大学时是电信专业，和编程有关的课程只有C和C++，C++还是一门选修课，对于网络、操作系统等全然不知，一直以为学好C/C++，有一定的逻辑思维，就算是进入了软件开发行业的大门。彼时写的代码都是一个个允长却又逻辑简单的函数，像是用编程语言写的菜谱。
+
+数千行的main
+
+估计和很多人一样，老Y在学校做过最大的项目是毕业设计，选题是基于计算机视觉的交通流量检测系统。在有了方案后，老Y根本没想着要如何去设计这套系统，而是“文思泉涌”般立刻开始编码。因为其中要运用大量的算法，处理流程也非常长，所以最终的代码量有数千行。但那时老Y在开发上并没有模块的概念，所以整个…]]></summary>
+        <author>
+            <name>比伦</name>
         </author>
     </entry>
     <entry>
@@ -2236,6 +2480,35 @@ QCon北京站官网（4月份）：https://qcon.infoq.cn/2024/beijing/schedule"
 具体到技术场景，微服务想必是众多企业头痛的问题，甚至GitHub的前CTO表示全面微服务是最大的架构错误。在大部分企业内部已经做了微服务改造的当下，服务治理成为重中之重。微服…]]></summary>
         <author>
             <name>赵钰莹</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何简化 Kubernetes 出入向流量管理]]></title>
+        <id>https://www.infoq.cn/article/536ae0621b660df1e80e6858a</id>
+        <link href="https://www.infoq.cn/article/536ae0621b660df1e80e6858a"/>
+        <updated>2024-03-06T07:44:26.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Kate Osborn of F5原文链接：如何简化 Kubernetes 出入向流量管理"转载来源：NGINX 中文官网"
+
+
+NGINX 唯一中文官方社区 ，尽在 nginx.org.cn"
+
+Kubernetes 出入向的流量管理可以通过服务网格"和 Ingress controller" 两个功能来实现，这两个功能通常是分开进行配置的，这样 Kubernetes" 环境的管理就会变得非常复杂。这样的配置不仅会增加延迟，同时还会增加配置错误的概率，进而阻碍适当的流量路由，甚至导致出现安全漏洞（例如攻击者获得过多的应用访问权限）和不好的使用体验（例如客户无法访问其授权访问的应用）。另外分开配置也会消耗更多的配置时间，出现错误的时候还需要更多的时间来处理。
+
+NGINX Plus 同时集成了 NGINX Ingress Controller" 和 NGINX Service Mesh" 也就是将服务网格和 
+Ingress Controller 两个功能在一个组件上完成，通过这个集成功能可以同时控制出入向的 mTLS 流量，这样不仅可以避免分开配置引起的问题，也会节省时间。下面的演示视频介绍了整个步骤。点击此处观看视频 >>"
+
+下面通过几个章节对视频内容进行说明：
+
+前提条件使用 NGINX Service Mesh 部署 NGINX Ingress Controller使用标准 Kubernetes Ingress 资源发布应用使用 NGINX VirtualServer 资源发布应用使用 NGINX Ingress Controller 配置安全出向路由
+
+前提条件 (0:18)
+
+
+在开始演示之前，我们需要具备以下前提条件：
+
+1. 在 Kubernetes 集群中安装 NGINX Server Mesh 控制平面" 并为服务网格设置 mTLS 和 st…]]></summary>
+        <author>
+            <name>NGINX开源社区</name>
         </author>
     </entry>
     <entry>
