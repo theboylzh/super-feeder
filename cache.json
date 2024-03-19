@@ -6,6 +6,116 @@
       "siteUrl": "https://www.infoq.cn",
       "articles": [
         {
+          "id": "https://www.infoq.cn/article/YBoTUIz2zaAFhrug9IYZ",
+          "author": "罗燕珊",
+          "description": "3月14日，平安银行股份有限公司发布2023年年度报告\"。平安银行坚持“科技引领”转型策略，用领先数字技术推动战略转型，报告阐述了其过去一年在数字化转型方面的有关进展。\n\n财务方面，尽管去年录得营业收入 1646.99 亿元，同比下降 8.4%，但通过数字化转型驱动经营降本增效，平安银行实现净利润 464.55 亿元，同比增长 2.1%。在这一年中，平安银行对 IT 资本性支出及费用的投入高达 63.43 亿元。\n\n平安银行行长冀光恒在致辞中指出，平安银行在过去一年积极推进数字化经营、数字化管理、数字化运营“三数”工程，对内降低运营成本、提升经营效率，筑牢数字化转型的基础底座，对外升级客户服务，加大对数字创新相关产业的支持力度。\n\n“三数”工程成效如何\n\n\n据报告，平安银行 2023 年在数字化转型方面取得了超过 50 项行业荣誉奖项。目前，平安银行仍在稳步实施云原生转型\"，着力提升技术能力、数据能力、敏捷能力。\n\n在数字化经营方面，平安银行通过利用大数据和人工智能技术，加强客户需求洞察。零售业务方面，通过“AI+T+Offline”多渠道智能协同模式，已成功服务超过 4700 万客户，显著提升了理财首购客户的比例。对公业务通过“数字口袋”平台整合各类业财非金融服务，支持中小微企业的发展。此外，在资金同业业务方面，平安银行依托“行 e 通”平台深化金融科技应用，提升交易执行效率和服务质量。智慧财务方面，智慧税务及“财智通”平台上线数电票功能，实现开票自助化、支付结算实时化、审核智能化，2023 年全行约 60% 开票业务已支持开具数电票。\n\n在数字化管理方面，聚焦于建设更生态化、智能化和专业化的风险防控体系。在对公风控和零售风控方面，通过升级智慧风控平台和扩大模型数据源，提升了风险自动化监测能力和风控的前瞻性、有效性及准确性。同时，平安银行致力于提升清收精细化管理能力和构建智慧合规体系；稽核监察方面，推进“平安慧眼”稽核监察平台建设，深化 AI 技术应用，2023 年末，借助远程持续审计方式发现的稽核问题约占 60%。\n\n在数字化运营方面，通过 RPA 和虚拟数字人等技术手段，不断提升运营效率和用户体验，2023 年末，虚拟数字人助力约 45% 零售运营审核作业量。与此同时，数字门店的升级和数字化全生命周期账户管理体系的建立，显著优化了客户服务和风险防控。2023 年，每月约 40 万客户在线自助完成提额申请等服务。\n\n\n持续夯实数字基础\n\n\n2023 年，平安银行持续投入数字技术基础的建设，并进一步优化数据管理能力。\n\n首先，进一步打造敏捷高效的需求开发体系，不断提升需求交付质效：2023 年，该行 IT 需求完成数量同比增长 4.3%，需求交付平均时间同比缩短约 10%。一是构建自动化流水线，实现从开发、测试到部署全流程的标准化和自动化；2023 年，月均自动化发布应用数较 2022 年提升约 11%。二是加强共享能力建设，构建低代码开发平台，支持开发者快速交付应用程序。\n\n第二，夯实数据能力基础底座：包括完善数据治理体系，提升员工的数据自助分析能力，以及持续挖掘数据价值，建立数据分级分享体系等。通过这些措施，平安银行优化超过 2700 项数据治理标准，提升商业智能工具的月活跃率，创建了大量的画像标签和产品投放策略。\n\n第三，保障安全生产稳定运行，完成云原生工程第一阶段实施；2023 年末，全行应用微服务改造率超 60%，应用上容器云比例约 63%；完善“同城双活、异地多活”的基础设施架构，强化业务连续性保障能力，2023 年系统运维问题发生数量同比下降约 36%；构筑新形势下网络安全纵深防御体系，加强数据安全管控，安全风险感知和处置时效提升至分钟级。\n\n\n深化创新与人才培养机制\n\n\n除了上述进展，平安银行还深化了创新顶层机制和人才培养。一方面，通过创新委员会推动全员参与创新，同时，通过高校、银企、总分行等创新合作机制，探索 AIGC 等前沿技术。另一方面，为强化金融科技应用，设立创新实验室协助全行创新工作，致力于将前沿技术转化为金融科技综合解决方案。\n\n现阶段，平安银行主要将大模型技术应用于零售贷款审批、运营管理数智化升级、消保降诉、汽车金融 AI 验车等场景，结合计算机视觉、多模态等技术，形成综合人工智能解决方案，提高金融服务可获得性。\n\n人才培养方面，平安银行持续打造学习型组织，构建以梯队培养、专业培养、复合培养“三位一体”的金融科技人才培养体系，通过科业轮岗、人才流转等方式，培养懂业务、懂技术、懂管理、跨领域的复合型金融科技人才。",
+          "link": "https://www.infoq.cn/article/YBoTUIz2zaAFhrug9IYZ",
+          "publishedOn": "2024-03-18T09:04:52.000Z",
+          "wordCount": 322,
+          "title": "IT支出高达63亿元，盘点平安银行2023年数字化进展",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/vg8ZvEHKiy56OXQGbILW",
+          "author": "InfoQ",
+          "description": "最新会议动态：ArchSummit全球架构师峰会将于2024年6月14日-6月15日在深圳举办，点击[链接]了解大模型如何革新软件开发全流程。\n欢乐游戏工作室长期运营着多款成熟游戏项目，积累了平台化的后台系统和复杂多样的业务架构，并有多达千余种功能不同的微服务。经过细致分析和基于云原生技术的持续重构演进的投入，在上半年基本实现架构全面平稳平滑的高质量上云以及网格化，同时根据自身业务场景，实现稳定高效的 HPA，资源峰值利用率达 60% 以上，大幅地提升了研运效率以及资源利用率，并沉淀了游戏各类业务场景下丰富的上云经验。\n背景与挑战\n无状态业务迁移改造\n客户端接入网关改造\n强状态对局业务改造\n智能 HPA\n自研存储及巨量 CGI 迁移改造\nSideCar 性能优化\n效果总结\n如何改造历史包袱沉重的成熟业务，抽丝剥茧的演进方式介绍\n针对游戏业务场景，如何改造或者服务网格化的意见和建议\n服务网格中 Sidecar 的实战性能优化经验",
+          "link": "https://www.infoq.cn/article/vg8ZvEHKiy56OXQGbILW",
+          "publishedOn": "2024-03-18T08:35:24.000Z",
+          "wordCount": 322,
+          "title": "海量在线游戏基于服务网格平滑演进｜ArchSummit",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/jb5V4kKKCyLxzmSllish",
+          "author": "InfoQ",
+          "description": "最新会议动态：ArchSummit全球架构师峰会将于2024年6月14日-6月15日在深圳举办，点击[链接]了解大模型如何革新软件开发全流程。\n多语言开发下，很多配套的内部通用库等基础SDK需要开发对应语言版本的SDK供各业务方使用，开发、升级、维护等方面存在大量重复性的工作；业务本身依赖的中间件SDK也还存在不同的版本，这些版本的升级维护同样需要耗费不少的资源；另外整个业务平台的开发环境、联调环境在多版本并行开发或联调时，还往往存在环境资源使用冲突的问题…\n面临的问题\n多运行时介绍\n技术选型\n落地实践&问题\n一种新的解决思路，扩宽视野\n分布式运行时\n关于 Sidecar 的技术应用",
+          "link": "https://www.infoq.cn/article/jb5V4kKKCyLxzmSllish",
+          "publishedOn": "2024-03-18T06:53:30.000Z",
+          "wordCount": 322,
+          "title": "分布式应用运行时的落地实践｜ArchSummit",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/RYBg6jVfiU3Hv8fGKhB8",
+          "author": "InfoQ",
+          "description": "最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。\n国网公司及集团各单位已开展大量数字孪生示范应用，但缺乏整体统筹，存在技术路线与组件工具不统一、模型资源分散、重复建设较多、成本投入大等问题，资源共享利用价值较低，且多停留在三维建模与数据接入展示阶段，智能诊断预测与仿真推演等高级业务应用较少。因此研发共性平台，通过低/零代码方式开发和配置差异型业务系统，打通业务和技术壁垒，可配置、可扩展、可快速变动。基于共性平台，通过图形化流程配置、部署和管理，实现低代码、集约化、可复用的人工智能模型交付应用。\n听众收益点：\n了解国网公司的数字孪生系统顶层设计规划\n了解国网公司在数字孪生技术方面的技术探索与应用案例",
+          "link": "https://www.infoq.cn/article/RYBg6jVfiU3Hv8fGKhB8",
+          "publishedOn": "2024-03-18T06:15:38.000Z",
+          "wordCount": 324,
+          "title": "电力数字孪生共性软件开发平台研发及应用 | QCon",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/mZHoGJvCIxrtEmGDhXpA",
+          "author": "InfoQ",
+          "description": "最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。\nMetaGPT，作为自然语言与编程之间的催化剂，正在推动着我们走向一个更加智能、高效的编程未来。本次演讲将深入 MetaGPT 如何成为自然语言编程的桥梁，推动智能体社会的发展，以及如何引领自然语言编程迈向更高效、更智能的阶段。\n在这次演讲中，我将深入研究记忆的重要性、近因性和相关性，并分享关于经验获取和记忆学习的技术见解。\n听众收益点：\n了解 MetaGPT 在自然语言编程中扮演的角色\n了解 MetaGPT 如何影响智能体社会和自然语言编程的未来\n了解智能体社会中，自然语言编程将如何被进一步发展",
+          "link": "https://www.infoq.cn/article/mZHoGJvCIxrtEmGDhXpA",
+          "publishedOn": "2024-03-18T06:07:33.000Z",
+          "wordCount": 325,
+          "title": "借助MetaGPT之力，实践自然语言编程的前沿探索 | QCon",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/AlxFADxuPRcASR5EO7Gz",
+          "author": "傅宇琪,褚杏娟",
+          "description": "315 打假 AI 诈骗；字节游戏业务被撤，腾讯接手；Meta 前副总裁窃取机密文件遭起诉；AI 工程师来抢程序员饭碗了；GPT-4.5 Turbo 据传将于 6 月发布；爱立信、酷派大面积裁员；“离线休息权”入法提案已立案，下班后在线工作应补助……\n\n\n\n热门资讯\n\n\n315 锤出生成式 AI 诈骗！假老板骗走员工186万\n\n\n央视 3.15 栏目记者调查到真实事件：一位女士接到女儿被绑架的电话，对方开口就要敲诈 80 万元，传来的女儿的哭声令女士慌了阵脚。实际上，这哭声是犯罪分子通过 AI 拟声技术伪造出来的。\n\n一个公司职员收到了老板的视频电话，在指导下把 186 万元转了出去，但后来却得知老板并没有跟他视频通话。原来，这个视频中的老板是犯罪分子利用AI技术合成的假老板。\n\n这些视频通话中用到的都是提前制作好的仿冒视频，在目前技术条件下，想要在点对点的视频实时通话过程当中实现仿真程度极高的 AI 换脸是很难的，这需要绕过视频通话软件的安防体系，其次还需要投喂大量的数据、专业算法的支撑和不断迭代，才可以实现。\n\n比较好的辨别方法就是，在视频通话的时候觉得可疑的话，可以让对方摸摸脸、按一下鼻子，这些动作会对面部数据造成干扰，伪造的人脸就会产生抖动、闪现。当然，不随意接听陌生来电，减少个人人脸、声音信息的泄露，也是比较重要的。\n\n\n网络水军利用主板机随意更改 IP 逃避监管\n\n\n“3·15”晚会曝光来了主板机黑灰产业链。“20 块手机主板就能集成一个主板机了，一台电脑可以投屏上百台手机，可以一 IP 多机或者一机一 IP。”所谓主板机厂家宣称，他们的产品可以将 20 块手机主板，安装在同一个主板机箱内，组装成一台主板机，一台机子就可以控制 20 部手机。这些广告甚至宣称：他们制造的主板机，不断叠加起来，就可以组建成千上万台手机的网络矩阵，有这样的设备，可以操纵游戏、操纵发帖…",
+          "link": "https://www.infoq.cn/article/AlxFADxuPRcASR5EO7Gz",
+          "publishedOn": "2024-03-18T06:07:16.000Z",
+          "wordCount": 324,
+          "title": "零一万物刷榜遭怒怼：面向投资人编程；315锤AI诈骗：假老板骗走员工186万；知识星球屏蔽 ChatGPT、Sora| AI周报",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/aZxuOBDqSQZFZhteZoBe",
+          "author": "InfoQ",
+          "description": "最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。\n当前越来越多的模型加入开源模型社区，其中具有较强指令理解能力的模型也越来越多。从这个角度出发，ModelScope-Agent 作为一个开源的 Agent 框架不仅支持 GPT-3.5， GPT-4等主流 Agent 框架依赖的模型，还支持了众多指令理解能力优秀的开源模型如 Qwen-plus, ChatGLM3 等模型。在此基础之上，ModelScope-Agent 结合魔搭开源社区的力量贡献了众多有价值的应用，如 Facechain- Agent，Story- Agent 和 AgentFabric 等应用，为开源模型社区在应用生态的繁荣提供了工程底座。\n听众收益点：\n用户可以了解目前 ModelScope 开源生态在 Agent 方向的发展规划\n启发用户思考 Agent 应用，在开源生态做出更多有创意的工具",
+          "link": "https://www.infoq.cn/article/aZxuOBDqSQZFZhteZoBe",
+          "publishedOn": "2024-03-18T06:00:31.000Z",
+          "wordCount": 324,
+          "title": "魔搭社区开源ModelScope-Agent框架，打造专属智能体 | QCon",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/8NBb2YWIES1X14yl6oTF",
+          "author": "InfoQ",
+          "description": "最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。\n随着云原生技术的发展，数据库与大数据行业趋势也有了一些转变。Serverless、全托管，以及自建数据库均有其适用的场景。然而，如何在可控性和成本之间找到平衡、在复杂性和易用性之间找到演进的方法，是亟需关注的问题。DevOps 和云原生带来了新的管理范式，容器化、容器编排、基础架构即代码、声明式 API 等给业界带来了新的启发。将 Kubernetes 作为业务与云的中间适配层，将多种数据库引擎统一管理，做好抽象能够更好的管理好多场景下使用云数据库的复杂度。\n本次演讲，会从背景和历史教训出发，基于软件开发的新理念，为大家介绍如何做好多数据库引擎的抽象，如何用领域来封装复杂度、如何用低代码扩展新引擎？我们应该如何理解 HTAP？向量数据库可以被统一管理吗？混合云专有的 DBaaS 如何实现等等。\n演讲提纲：\n历史与教训：云原生数据库与大数据领域的研究\n企业对数据基础设施的需求和本质\n抽象：如何更好的管理复杂度\n易用性：如何获得丰富的Day-2 Operation\n听众收益点：\n了解新一代的数据基础设施理念与实践\n了解基于 Kubernetes 的有状态服务的抽象",
+          "link": "https://www.infoq.cn/article/8NBb2YWIES1X14yl6oTF",
+          "publishedOn": "2024-03-18T03:52:12.000Z",
+          "wordCount": 324,
+          "title": "基于软件开发新理念的新一代的数据基础设施 | QCon",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/7gQwYrmyR0sKQjY6mDVu",
+          "author": "InfoQ",
+          "description": "本次直播由InfoQ研究中心的高级分析师王媛雅和 InfoQ 研究中心的高级分析师崔白洁主持邀请了某金融企业普惠金融部的祝世虎博士、商汤Copilot技术负责人张涛、以及Thoughtworks中国区CTO冯英睿 三位老师与我们共同解读《2024年技术发展趋势》报告，探讨其中的核心结论，并与行业领袖共同讨论这些趋势将如何影响我们的未来。深入解读软件产业年度发展报告，探讨行业趋势、挑战与机遇，并通过专家圆桌讨论为观众提供行业深度洞察。",
+          "link": "https://www.infoq.cn/article/7gQwYrmyR0sKQjY6mDVu",
+          "publishedOn": "2024-03-18T02:46:47.000Z",
+          "wordCount": 325,
+          "title": "2024年技术发展趋势解读 | 《InfoQ 极客有约》",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/WLNYfcENvvZl0mGl5gw0",
+          "author": "褚杏娟,李冬梅",
+          "description": "刚刚，马斯克在他的社交媒体平台 X 上宣布 xAI 开源 Grok，这也兑现了他上周的开源承诺。截至目前，Grok已经在GitHub 上获得了4.3k 颗 Star。\n \n开源地址：https://github.com/xai-org/grok-1\"\n \nGrok-1是一个由xAI从头训练的3140亿参数的混合专家模型，其中25%的权重来处理给定的标记。xAI 这次发布的是大型语言模型Grok-1的基本模型权重和网络架构，使用了Apache-2.0 许可证。\n \n根据介绍，Grok的架构是在2023年10月使用自定义训练堆栈在JAX和Rust上开发的，采用了创新的神经网络设计方法。\n \n“该版本是 Grok-1 预训练阶段的原始基本模型检查点，该阶段于 2023 年 10 月宣告结束。\n这意味着该模型并未针对任何一种特定的应用（比如对话和交谈）进行了微调。”xAI 在博文里说道。\n \nAndrew Kean Gao总结了 Grok-1的模型情况如下：\n\n\n\n此外，他还将Grok-1与其他开源模型参数量进行了对比，Grok-1是Llama-65B 的4倍多。\n\n\n\n \n相比之下，OpenAI 提供了 ChatGPT 的一个版本及其背后的语言模型供免费使用，但其源代码却是闭源的。\n \n对此，英伟达高级科学家Jim Fan评价称，（这是）有史以来最大的开源大模型，由世界一流的团队训练。“我想知道被Grok超越是什么感觉。”“314B、混合专家(2 / 8有效)。即使仅活动参数(86B)就超过了最大的Llama。迫不及待地想看到基准测试结果以及人们用它构建的东西。”另外，他还做了一下修正：Google传统型号的switch transformer为1.6T，目前保持着公开记录。\n \n但网友Quintus 对马斯克开源Grok持怀疑态度，他认为“一家营利性公司开源某些东西通常表明它不…",
+          "link": "https://www.infoq.cn/article/WLNYfcENvvZl0mGl5gw0",
+          "publishedOn": "2024-03-18T02:13:08.000Z",
+          "wordCount": 326,
+          "title": "刚刚！马斯克开源 Grok：参数量近 Llama 四倍，成全球最大开源模型",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/mDht4GMpU4UkfGjNDZ7e",
+          "author": "作者：Otavio Santana",
+          "description": "本文要点\n\n驱动器（Driver）、映射器（Mapper）、DAO、活动记录（Active Record）和存储库（Repository）等Java持久化模式对于健壮的数据库交互和应用架构至关重要，每种模式都提供了不同的数据管理方法。平衡层对于管理复杂性和优化数据流至关重要，每种模式都有自己的优缺点，为了做出明智的架构决策，需要对它们加以考虑。面向对象编程和面向数据编程之间的选择会影响软件的设计，要注重解决阻抗不匹配并保持两者之间的平衡。虽然这些模式为Java持久化提供了健壮的解决方案，但要想有效地实现，必须仔细考虑数据同步和过度工程等权衡因素。命令和查询职责分离（Command and Query Responsibility Segregation，CQRS）模式明确分离读取和更新操作，具有显著的性能、可伸缩性和安全性的优势。但是，这种权衡可能会增加应用程序中的复杂性。在不断发展的软件架构领域，高级工程师、架构师和CTO都面临着一个长期的挑战，那就是如何为Java应用程序设计一个健壮和高效的持久层。精心设计的持久层不仅仅是技术细节，它是支撑应用程序功能、可扩展性和长期可维护性的基石。本文将深入探讨与Java持久层相关的设计模式这一复杂领域，着重于明确区分面向对象和面向数据的方法。\n\n在Java应用程序中，持久层是连接应用中复杂业务逻辑与底层数据存储（通常是关系型数据库）的桥梁。在这一层中所做出的选择会贯穿整个软件的生命周期，影响其性能、可维护性和适应性。为了应对这一挑战，我们必须掌握Java持久化中的两个主要范式。\n\n面向对象与面向数据：处理阻抗不匹配\n\n每当涉及数据库持久化引擎和Java应用程序领域时，我们都会面临一个基本的挑战，那就是如何弥合应用程序范式与数据库本身的差异。在这个转换过程中，通常会引入阻抗不匹配（impedance mismatch），这会严重影响应…",
+          "link": "https://www.infoq.cn/article/mDht4GMpU4UkfGjNDZ7e",
+          "publishedOn": "2024-03-18T00:00:00.000Z",
+          "wordCount": 322,
+          "title": "Java持久化架构：模式与策略",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
           "id": "https://www.infoq.cn/article/OzLH5iDCtFGCpGhohM9S",
           "author": "李冬梅",
           "description": "虽然全球经济正显现出逐步复苏的迹象，但科技行业的裁员仍在不断推进。在IT这个永远寻求下一个热门趋势的产业当中，美国软件就业市场哀鸿遍野，连技术老鸟们似乎也难以重拾竞争力——几十年的经验积累反而让他们感觉自己身处劣势。\n\n公司倒闭、裁员，美国工程师们一岗难求\n\n \n近日，Reddit上一条名为《17年编程经验，我甚至连个面试机会都没有》\"的帖子引发热议。该名ID为different-waters的博主称自己担任软件工程师已有 17 年，并获得硕士学位，去年病假结束回公司一个月后被解雇了（因为身心俱疲而休了心理健康假），现在正在与来自谷歌、Facebook 等公司的数百名员工竞争上岗机会。\n \n他坦言自己从未见过如此糟糕的就业情况。\n \n\n“基本上我已经失业一年了，而且我已经 43 岁了，所以我想我现在已经无法被雇用了。我不敢相信每个人都在遵循的制度竟是如此糟糕，人们甚至都没有对这种潜规则提出质疑：你必须有经验，但经验不要太多，也不能是人到中年，那你绝对不能以任何理由停止工作，否则你就成为了废物。”\n\n\n\n\n现年58岁的美国程序员Vern Six也有同样的遭遇。Six表示，他最近在找工作时就遇到了明显了年龄歧视。Six指出，一名招聘人员明确告知雇主对其不感兴趣，甚至认为Six到了这个阶段早该混成CTO了，无法理解为何仍在应聘软件开发者。\n \n在关于Six此次遭遇的LinkedIn帖子疯传之后，他专门组织了一个LinkedIn群，供人们讨论科技领域的年龄歧视问题。其实Six自己知道年龄有点大，但“这还是第一次有人当面这么跟我说”。\n \n甚至有不少失业的科技从业者在一次次失败的面试后开始怀疑自己还能不能再找到全职工作。\n \n今年56岁的Gabriel Schillaci数十年来一直在阿根廷的家中以自由职业身份参与外包开发与IT工作。Schillaci估算，自从去年项目结束以来，他已…",
@@ -1362,6 +1472,46 @@
       "feedUrl": "https://www.ifanr.com/feed",
       "siteUrl": "https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=",
       "articles": [
+        {
+          "id": "https://www.ifanr.com/?p=1578465&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "莫崇宇",
+          "description": "AI 重塑一切。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1578465?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-18T12:03:57.000Z",
+          "wordCount": 611,
+          "title": "第三代骁龙 8s 移动平台正式发布，卢伟冰宣布小米全球首发",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/WechatIMG123.jpeg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1578459&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "梁晋豪",
+          "description": "打造「旗舰神 U」 ，AI 也是关键的打分点了\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1578459?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-18T11:22:32.000Z",
+          "wordCount": 819,
+          "title": "生成式 AI 时代下，这颗骁龙新生代旗舰芯片，有了新的任务",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/WechatIMG123.jpeg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1578301&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "江翁翁",
+          "description": "这场惊喜，远未结束。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1578301?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-18T10:21:41.000Z",
+          "wordCount": 640,
+          "title": "一年发布 30+ 广告宣传片的饿了么，开始用 AI 生成视频了",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/77.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1578175&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "谢东成",
+          "description": "理想的改款升级，主打一个「听劝」。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1578175?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-18T03:28:37.000Z",
+          "wordCount": 895,
+          "title": "被理想「背刺」的老 L7 车主，看完新 L7/8/9 之后，决定原谅理想",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/3L.jpeg"
+        },
         {
           "id": "https://www.ifanr.com/?p=1578276&utm_source=rss&utm_medium=rss&utm_campaign=",
           "author": "苏伟鸿",
