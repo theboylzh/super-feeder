@@ -6,6 +6,76 @@
       "siteUrl": "https://www.infoq.cn",
       "articles": [
         {
+          "id": "https://www.infoq.cn/article/jlHoq7U9y6wBA1Gztk79",
+          "author": "作者：Neha Narkhede",
+          "description": "本文是我在2023年10月洛杉矶QCon大会\"上的演讲的摘要。随着数字时代的发展，欺诈行为的复杂性也在不断上升。由于网上银行业务、电子商务和其他交易的便利性，我们的生活变得更加简单。但这种便利性也存在一个重大的缺点：它使每个人都更容易遭遇欺诈。\n\n许多应用程序和网站现在都拥有大量宝贵的数据，包括与个人、财务和健康相关的信息。令人遗憾的是，犯罪分子在巧妙地利用这种数字便利性来谋取私利，导致复杂的欺诈激增，包括身份盗用、深度伪造和在线支付骗局。这种欺诈行为造成了巨大的经济后果，给消费者和企业带来了数以百亿计甚至数万亿美元的损失。\n\n\n导致欺诈激增的推动因素\n\n\n造成欺诈迅速增加的主要原因有两个。\n\n首先，随着经济活动的发展和消费者行为的变化，欺诈分子会调整策略以更好地利用系统的弱点。\n\n例如，2019年至2021年期间，新冠疫情导致数字欺诈率激增52%，尤其是在旅游和金融服务行业。\n\n其次，消费者对无缝数字体验的期望呈指数级增长。消费者要求快速、安全和便捷的交互性，如果他们的这些期望得不到满足，他们会迅速转向竞争对手。\n\n\n主要的欺诈趋势\n\n\n为了更好地理解欺诈预防对技术的需求，我们先来看一下欺诈行业存在的几个关键趋势：\n\n自动化：欺诈分子正在使用各种软件机器人，其中一些由生成式AI驱动，使欺诈活动自动化。这种自动化使欺诈比以往任何时候都更具规模和效率。\n\n成本上升：欺诈造成的经济影响正在增加，消费者每年损失数十亿美元。在全球范围内，因欺诈造成的损失超过5万亿美元，因此迫切需要采取有效的预防措施。\n\n合成身份欺诈：这是增长最快的欺诈形式之一，占身份欺诈案件的85%以上。合成身份欺诈由生成式AI驱动，由于缺乏足够的训练数据，使用传统方法很难检测到。\n\n平衡消费者体验：企业必须在最小化消费者摩擦和防止欺诈之间取得平衡。在满足客户对无缝体验的期望的同时保持安全性是一项复杂的挑战。\n\n…",
+          "link": "https://www.infoq.cn/article/jlHoq7U9y6wBA1Gztk79",
+          "publishedOn": "2024-03-21T00:00:00.000Z",
+          "wordCount": 322,
+          "title": "生成式AI：重塑欺诈检测领域的未来",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/aHA4HSzzsFX3Pc4C4yxb",
+          "author": "李忠良",
+          "description": "回想那些年，当 OpenAI Five 在 Dota 2 的战场上展现出超越人类的策略和协同，我们见证了 AI 在复杂游戏领域的惊人潜力。那时，围棋的神话已被 Alphago 刷新，但许多人仍将 AI 的成功视为特定领域的孤例。然而，历史正在翻篇。今天，DeepMind 带来了 SIMA——一种全新的通用游戏 AI 智能体，它不仅能够理解和执行自然语言指令，还能跨越多个 3D 虚拟世界自如行动。随着 SIMA 的问世，我们不禁要问：游戏的未来将被重新定义吗？\n\n\nDeepMind 的通用游戏 AI 革命 -SIMA\n\n\nDeepMind 最近公布了其在人工智能领域的一项重大进展：SIMA（Scalable Instructable Multiworld Agent），这是一种能够在多种 3D 虚拟环境中根据自然语言指令执行任务的通用 AI 智能体。DeepMind 与多家游戏开发商合作，在不同的电子游戏中训练了 SIMA，这标志着智能体首次能够广泛理解游戏世界，并能够像人类一样，根据自然语言指令执行虚拟环境中的任务。\n\n\n\nDeepMind 表示，这项工作的目标不再仅仅是在游戏中获得高分。对于 AI 系统来说，学会玩电子游戏本身已经是一个技术壮举，但能够在多种游戏设置中遵循指令并理解环境设计的 AI 智能体则更具现实意义。\n\n他们进一步解释说，这项研究展示了如何通过语言界面将高级 AI 模型的功能转化为具有实用性、能够匹配现实世界的操作。\n\n为了让 SIMA 适应多种环境，DeepMind 与八家游戏工作室合作，在九款不同的电子游戏上训练并测试了 SIMA。这些游戏包括 Hello Games 的《无人深空》和 Tuxedo Labs 的《Teardown》。每款游戏都为 SIMA 提供了一个新的交互世界，包括从简单的导航和菜单使用到复杂的资源开采、飞船驾驶和头盔制作等一系…",
+          "link": "https://www.infoq.cn/article/aHA4HSzzsFX3Pc4C4yxb",
+          "publishedOn": "2024-03-20T10:59:41.000Z",
+          "wordCount": 327,
+          "title": "DeepMind 最新通用游戏 AI 智能体 SIMA 来了，游戏的未来会被重新定义吗",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/BHFjQFsLXzYzSbLLD4Fk",
+          "author": "ByConity开源团队",
+          "description": "ByConity 是字节跳动开源的云原生数据仓库，在满足数仓用户对资源弹性扩缩容，读写分离，资源隔离，数据强一致性等多种需求的同时，提供优异的查询，写入性能。\nGitHub ｜https://github.com/ByConity/ByConity\"\n\n\n 一  背景\n\n\n> 选择对象存储的原因\n\n           技术选型上，对象存储已经成为云原生数据库 / 数仓的存储标配。从成本考虑看，云上环境对象存储价格相对较低，交互方式标准，用户只需为实际使用的存储容量和请求来付费即可。而使用 HDFS 成本相对较高，假如自己部署 HDFS 集群，需要承担使用 HDFS 的机器成本，包括存储能力和计算能力，使用时如更看重存储能力，计算能力或多或少会有浪费。部署 HDFS 之后还要额外的运维成本，包括监控机器状态、监控集群是否需要扩容、环境维护、定期运维操作等。\n另外对象存储的 Avaliability 和 Durability 很优秀，参考几个主流云厂商提供的 SLA，如 AWS S3，它对数据的 Durability 可以提供 11 个 9 的级别。\n\n> HDFS 和对象存储的区别\n\n           图中以 S3 为例，列出了一些两者之间的区别：\n\n\n\n            在请求延迟方面，HDFS 的延迟相对更低；对象存储即使是同一个 region 的内网访问，其延迟也相对更高，可能会有三、四十毫秒，HDFS 低的时候约 10 毫秒之内；\n第二个就是对外暴露请求接口，HDFS 作为分布式文件系统，对外暴露了一些文件系统接口，及文件夹等抽象，会对外提供如 move directory 的操作；S3 作为对象存储，对外形式更类似一个 KV，支持 GET、PUT 或者 DELETE 等操作；\n            从支持写操作的类型来说，HDFS 支持 Append，…",
+          "link": "https://www.infoq.cn/article/BHFjQFsLXzYzSbLLD4Fk",
+          "publishedOn": "2024-03-20T08:53:59.000Z",
+          "wordCount": 323,
+          "title": "ByConity 对象存储优化实践",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/ppO8VZPtH59mqj8Np0HN",
+          "author": "凌敏,核子可乐",
+          "description": "Redis和Dragonfly该有危机感了！\n\n\n微软开源全新缓存存储系统Garnet\n\n \n近日，微软正式开源缓存存储系统Garnet。据微软研究院数据库小组高级首席研究员Badrish Chandramouli介绍，Garnet项目是从零开始构建而成，且以性能为核心考量（特别是吞吐量中的线程可扩展性与更高比例的低延迟水平）。\n \n具体来说，Garnet具有以下几大优势：\n \nGarnet采用流行的RESP线路协议作为起点，因此大多数用户可以不作任何修改、就直接通过大多数编程语言编写的Redis客户端直接接入Garnet。Garnet通过多条客户端连接与小批量形式提供更好的可扩展性与吞吐量，帮助大型应用程序和服务节约运行成本。Garnet在第99及第99.9百分位上表现出更好的客户端延迟水平，更高比例的稳定性表现对于现实场景而言至关重要。Garnet基于最新.NET技术，具有跨平台、可扩展和现代化等特点。它在设计上易于开发与调整，且不致牺牲常见场景下的性能水平。通过利用.NET丰富的库生态来扩展其API，并提供开放的优化机会。凭借对.NET的充分发掘，Garnet在Linux和Windows平台上均表现出顶尖性能。\n \n据了解，微软研究院自2016年以来一直在研究现代键-值数据库架构。2018年，微软将一套嵌入式键-值库FASTER开源之后，其性能超出原有系统几个数量级，同时专注于简单的单节点进程内键-值模型。\n \n从2021年开始，根据实际用例的需求，微软开始构建一套新的远程缓存存储方案。其中包含一切必要功能，以作为现有缓存存储的可行替代选项。当时微软面临的挑战包括保持/增强其在早期工作中已经取得的性能优势，同时考虑如何更好地适应更加现实的普遍网络环境。这项工作的成果就是Garnet。\n \n在被问及Garnet适合部署在哪些场景下时，Chandramouli表示任何“使…",
+          "link": "https://www.infoq.cn/article/ppO8VZPtH59mqj8Np0HN",
+          "publishedOn": "2024-03-20T07:05:41.000Z",
+          "wordCount": 326,
+          "title": "微软开抢年收入上亿美元的 Redis 饭碗？开源性能遥遥领先的 Garnet：无需修改，Redis 客户端可直接接入",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/EfJGdEo0QSkwm95bHWHR",
+          "author": "郑思宇",
+          "description": "“所有行业都值得基于人工智能技术重做一遍”。\n \n如今，这句话已不仅仅是一句空洞的口号，而是众多企业正在实践的现实策略。站在数智化转型升级的十字路口，企业面临着前所未有的机会和挑战，如何通过深度挖掘数据价值、运用智能技术，以洞察市场趋势、优化决策流程，进而实现更高效、更精准的运营，已成为大型企业共同探索的命题。\n \n在这个背景下，用友 BIP-iuap 平台以其强大的智能化能力，助力企业迎接数智化时代的挑战。3 月 12 日，由用友主办的“升级底座 释放数智新动能——2024 企业数智化底座创新峰会”在北京圆满落幕，并在会上系统地介绍了全新升级的用友 BIP-iuap 平台全栈的数智融合能力，包括智能运营、数据驱动、敏捷创新及开放连接，赋能企业数智商业世界。峰会还展示了用友 BIP 3R5 的新新突破、新特性、新体验、新价值。\n\n\nAI 能力升级，用友iuap助力企业释放数智新动能\n\n \n随着智能化和数据化浪潮的不断推进，用友今年在智能领域实现了更大的突破，并对数据处理能力进行了全面升级。\n \n首先，针对智能方面，用友 iuap 紧跟时代步伐，对平台底座进行了基于 AI 的重大革新，引入了 AIGC 技术来推动开发工作，实现了更高效、更智能的开发流程。同时，通过 ChatBI 将 AI 技术与数据分析紧密结合，让自动化测试在 AI 的支撑下更加精准可靠。此外，我们的业务平台也充分利用了 AI 的能力，支持了更多创新业务的快速拓展。\n \n用友 BIP 构建了持续的 AI 服务能力框架，包括企业服务大模型、AI 工程化、AI 普惠工具链以及业务模型等关键要素。这些能力共同支撑 AI 应用从“AI+”走向 AI 原生，帮助企业在智能招聘等场景中实现业务效率的大幅提升。例如，中国中化通过接入用友企业服务大模型 YonGPT 的智能招聘服务，聚焦“人才发现”场景，显著提高了人才筛选的…",
+          "link": "https://www.infoq.cn/article/EfJGdEo0QSkwm95bHWHR",
+          "publishedOn": "2024-03-20T03:06:06.000Z",
+          "wordCount": 322,
+          "title": "拥有全栈数智融合能力，用友iuap成为大型企业转型的强力引擎",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/RdoOWriluamN2YvO1QDp",
+          "author": "李冬梅",
+          "description": "北京时间凌晨 4：00，大洋彼岸的美国加利福尼亚州圣何塞的圣何塞会议中心，被称为英伟达技术盛宴的 GTC 2024 大会正如火如荼地进行着。作为英伟达 2024 的开年大戏，身着标志性皮夹克的万亿富豪黄教主站在舞台中央，平静地甩出继H100、A100后的又一系列“核弹”级超级芯片。\n \n今年的GTC之所以万众瞩目，是因为过去一年英伟达在 AI 领域的财务业绩方面取得了巨大成功。从 Volta V100 GPU 系列到最新的 Ampere A100 和 Hopper H100 芯片，该公司一直问鼎AI芯片之王。\n \n\nGPU 家族再添“新丁”，全新Blackwell 架构芯片炸场\n\n \n在本届 GTC 大会开始之前，国外媒体就已经开始盛传：黄仁勋将在 GTC 2024 上发布一款 GPU 家族的新品，果然，采用Blackwell 架构的B200系列和GB200芯片如期而至。\n \n据英伟达称，Blackwell架构系列芯片是迄今为止功能最强大的 AI 芯片家族。\n \n据老黄介绍，B200拥有2080亿个晶体管（而 H100/H200 上有 800 亿个晶体管），采用台积电4NP工艺制程，可以支持多达 10 万亿个参数的 AI 模型，而OpenAI 的 GPT-3 由 1750 亿个参数组成。它还通过单个 GPU 提供 20 petaflops 的 AI 性能——单个 H100 最多可提供 4 petaflops 的 AI 计算。\n \n但值得注意的是，Blackwell B200 并不是传统意义上的单一 GPU。它由两个紧密耦合的芯片组成，这两个芯片通过 10 TB/s NV-HBI（Nvidia 高带宽接口）连接进行连接，以确保它们能够作为单个完全一致的芯片正常运行。\n \n该 GPU 平台以数学家 David Harold Blackwell 的名字命名，继承了英伟达两年前推出…",
+          "link": "https://www.infoq.cn/article/RdoOWriluamN2YvO1QDp",
+          "publishedOn": "2024-03-20T01:45:10.000Z",
+          "wordCount": 323,
+          "title": "英伟达正在开启AI芯片新纪元：重磅推出全新架构芯片，可支持10 万亿个参数模型",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/zPVd7ItjIz3YxdxTHQvO",
+          "author": "作者：Shaaf Syed",
+          "description": "Loco 是一个类似于 Ruby on Rails 的新框架，它能够让开发人员使用 Rust 编写 MVC 风格的 web 应用程序。Rust 的语言特性，如并发性、安全性、强类型和性能，是该框架优于 Rails 或其衍生方案的部分优势。但是，Loco 的创建者主要关注那些希望轻松构建 MVC 风格应用程序的 Rust 开发人员，使他们不需要四处寻觅就能重拾熟悉的开发体验。\n\nRust 拥有一系列的库和框架，比如 Axum、Actix、Rocket、Tokio、Warp 和 Reqwest。但是，Loco 是 Rust 生态系统中首个该类型的框架。Loco 0.3.1 是其最新的版本，自 2023 年 11 月以来它共发行了 11 个次（minor）版本。Loco 拥有自己的 CLI、应用程序创建向导和本地开发服务器，并遵循与 Rails 相同的原则，只不过它适用于使用 Rust 编程的开发人员。\n\nLoco 的灵感来源于 David Heinemeier Hansson 的一篇博客文章 “单人框架（The One Person Framework）”，该文倡导一种足够强大的工具集，足以让个人创建现代化的应用程序。单个开发人员只能花费很少的时间来处理将应用程序带入生产环境的复杂流程。像库的选择、健壮性以及架构的可扩展性等重要决策都是需要花费时间和精力的。“单人框架”将这些决策打包到了框架中，解放了开发人员。不过，这么做的代价是可能缺乏灵活性，而且这种实现风格在很大程度上依赖于约定和模式。\n\n就 Rails 框架而言，这种方式多年以来广受赞誉。Rails 的普及率非常高，并启发了其他许多框架。其中之一就是 Grails，它基于 Groovy，这是一种在 JVM（Java 虚拟机）上运行的语言。Loco 的目标是为 Rust 开发人员提供这样的功能。\n\nLoco 可以在 Rust 生态系统中使用惯用语法进行安装：\n\n$ cargo install loco-cli\n\n\n与“rails new”类似，可以使用如下命令创建一个新的 Loco 应用：\n\n$ loco new \n\n\n控制器和路由也以类似的方式运行，该框架使用了 Axiom。如下的函数返回一个 JSON 响应：\n\nasync fn current() -> Result\n\n路由列表可以按照如下方式定义，这也与开发人员在 Rails 中定义路由的方式类似：\n\npub fn routes() -> Routes {\n    Routes::new()\n            .add(\"/\", get(current))\n            .add(\"/loco\", get(current))\n.add(\"/:id\", get(get_one))\n}\n\n\nRails 的一个强大功能就是生成模型，并将它们与 REST API 或前端视图以及控制器绑定在一起。Loco 使用“sea_orm”来生成模型。使用如下的示例命令也能轻松生成模型：\n\n$ cargo loco generate model books title:string isbn:string\n\n\n使用“ActiveModelBehaviour”定义行为也很简单，还可以定义事前和事后函数。此外，它还提供了数据库迁移功能。\n\n$ cargo loco generate migration add_web_url\n\n\nLoco 还提供一个测试程序，开发人员可以在“Cargo.toml”中启用该程序，如下所示：\n\n[dev-dependencies]\nloco-rs = { version = \"*\", features = [\"testing\"] }\n\n\n通过默认提供 User 实体并使用 JWT 实现安全的 API，身份认证流程也可以快速配置。它还具有默认 API 中的常用功能，如注册、激活、重置密码等。当通过“loco-cli”将应用程序创建为“Saas app”时，它会生成一个带有预定义路由的启动器，例如：\n\n$ cargo loco routes\n .\n .\n .\n[POST] /auth/forgot\n[POST] /auth/login\n[POST] /auth/register\n[POST] /auth/reset\n[POST] /auth/verify\n[GET] /user/current\n\n\nLoco 构建在 Rails 的经验和 Rust 强大的语言特性之上。它与 Rust 生态系统完美集成，提供模型生成、行为定义、迁移、测试等功能。该项目相对较新，但它是 Rust web 框架中又一个令人兴奋的新成员。\n\n原文链接：\nhttps://www.infoq.com/news/2024/02/loco-new-framework-rust-rails/\"",
+          "link": "https://www.infoq.cn/article/zPVd7ItjIz3YxdxTHQvO",
+          "publishedOn": "2024-03-20T00:00:00.000Z",
+          "wordCount": 325,
+          "title": "Loco：Rails 灵感启发的新 Rust 框架",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
           "id": "https://www.infoq.cn/article/B3gEmp3Nv1yAMNHjdqjM",
           "author": "ArchSummit",
           "description": "2024 年注定是 AI 热度持续上升，应用落地加速深化的一年。在这个过程中，为匹配前端交互模式变化，适应日益复杂的业务需求，背后的架构也必然迎来新一轮革新。\n\n比如，在基础架构层，为支撑 AI 复杂任务，容器等云原生技术将出现短板。目前，深度学习、大数据处理等数据计算密集型任务已经广泛采用容器、Kubernetes、微服务等一系列云原生技术，但这些任务的计算规模和复杂度远比 Web、微服务等互联网应用要高。为了支持这类工作负载，Kubernetes 就需要做很大的增强，包括核心调度、异构资源统一管理、利用率优化、可观测性、故障诊断和自愈等，甚至整体的架构和生态都需要做很多增强。\n\n比如，在运维层面，结合 AIGC 与 AGI 的发展趋势来看，AIOps 智能化运维方面的探索已过渡到参考自动驾驶的 L0-L5 成熟度模型来度量的阶段 ，这使得行业开始从整个软件的全生命周期来思考 AI 的赋能和提效。这些前期的探索和畅想仍然强调了开发过程的标准化和资源的平台化，要求整个软件研发过程都能够友好地与 AI 协同工作。\n\n同时，以 AIOps、知识库与问答机器人、流程机器人、代码生成等为代表的应用场景将进一步得到深化和拓展，为整个软件工程行业带来效率提升；至于软件研发模式方面，短期内依然会保持现状，但我们不得不在软件设计方面考虑到面向 AI 的 API。\n\n在这个过程中，架构师就像是整个系统的设计大师，负责操刀整个系统架构的规划。这个规划不仅仅包括技术选型、架构模式、演进变化，还得考虑业务需求、团队能力、可运维性、成本等一系列不那么技术的要素。可以说，在大模型时代下，架构师们面临着前所未有的艰巨挑战。\n\n基于这一背景，InfoQ 旗下 ArchSummit 全球架构师峰会年度主题将围绕“智能进阶. 架构重塑”，探讨在 AI 浪潮下，企业架构如何适应大模型时代趋势。\n\n在 6 月 1…",
@@ -1552,6 +1622,36 @@
       "feedUrl": "https://www.ifanr.com/feed",
       "siteUrl": "https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=",
       "articles": [
+        {
+          "id": "https://www.ifanr.com/?p=1578683&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "苏伟鸿",
+          "description": "· DeepMind 联合创始人出任微软新 AI 部门 CEO\r\n· 黄仁勋回应中国市场和芯片定价问题\r\n· GPT-5 或年中发布\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1578683?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-21T00:45:02.000Z",
+          "wordCount": 1026,
+          "title": "早报|库克首次在中国谈生成式 AI/消息称小米汽车定价确认，下调 3 – 5 万元/腾讯混元大模型参数规模扩展至万亿",
+          "imageUrl": "https://s3.ifanr.com/images/ep/cover-images/ye_wai_xi_liu_hou_kong_fan_cover.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1578635&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "张成晨",
+          "description": "代替插件的 GPTs，等待被代替\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1578635?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-20T14:18:40.000Z",
+          "wordCount": 873,
+          "title": "OpenAI 重磅推出的 GPT Store，上线 2 个月就要凉了？",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/sam111.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1578614&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "苏伟鸿",
+          "description": "· 特斯拉中国开放 800 多座充电站，其他品牌可用\r\n· 联想英伟达合作推全新混合 AI 解决方案\r\n· 蚂蚁集团任命 CFO 韩歆毅为总裁\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1578614?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-20T02:52:28.000Z",
+          "wordCount": 957,
+          "title": "早报|OpenAI CEO 谈 GPT-5/小米：手机今年要突破 6000 到 1 万元价格段/蔚来新手机进入制造阶段",
+          "imageUrl": "https://s3.ifanr.com/images/ep/cover-images/hua_hai_shang_de_nv_hai_cover.jpg"
+        },
         {
           "id": "https://www.ifanr.com/?p=1578585&utm_source=rss&utm_medium=rss&utm_campaign=",
           "author": "李华",
