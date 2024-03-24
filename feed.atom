@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://theboylzh.github.io/super-feeder/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-23T00:52:31.615Z</updated>
+    <updated>2024-03-24T00:59:08.696Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://theboylzh.github.io/super-feeder/index.html"/>
     <link rel="self" href="https://theboylzh.github.io/super-feeder/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[最先倒下的 AI 明星公司，可能是它]]></title>
+        <id>https://www.ifanr.com/?p=1578863&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1578863?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-23T04:44:42.000Z</updated>
+        <summary type="html"><![CDATA[贩卖想象的阶段结束
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>张成晨</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[早报|苹果曾为 Android 手机开发 Apple Watch/华为问界 M9 大定突破 60000 台/特斯拉推出赛博锤]]></title>
+        <id>https://www.ifanr.com/?p=1578857&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1578857?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-23T03:50:22.000Z</updated>
+        <summary type="html"><![CDATA[· 美团 2023 年第四季度营收 737 亿元
+· 阿里出售 ADR 致 B 站港股大跌超 8%
+· 国内首部 AI 全流程微短剧启播
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>何 晓涵</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[紫光云加码AIGC：发布紫鸾5.0云平台，为政企客户提供MaaS及全栈云服务]]></title>
         <id>https://www.infoq.cn/article/atVEPhjm1zg2Xw32mrv4</id>
