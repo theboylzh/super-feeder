@@ -6,6 +6,16 @@
       "siteUrl": "https://www.infoq.cn",
       "articles": [
         {
+          "id": "https://www.infoq.cn/article/h2cEezFMJDBo2eparEyh",
+          "author": "Tina,凌敏",
+          "description": "技术专家 | 陈晓春、王晓涛、袁东\n编辑 | Tina、凌敏\n \n未来的AI手机应该是什么样儿的？\n \n在上个月的WMC2024 上，德国电信联合高通、Brain.ai推出了一款突破性创新的概念AI手机T phone。与传统智能手机不同，这款手机主打一个“无App”，它清除了屏幕上的密密麻麻的App图标，只留有一个按钮用来激活手机里的AI助手，让用户通过类似ChatGPT的操作界面来交互。\n \n这款手机的长期愿景是消灭App，并干掉App Store，德国电信CEO蒂姆·霍特格斯（Tim Hoettges）在大会上给出了疯狂的预测：“手机App将在未来五到十年内消亡”。\n \n\n\n\n \n为了实现这个构想，Brain.ai在过去几年间打通了几千款主流App。比如用一句话来预定餐厅，那么该手机就需要在地图、订餐软件、日历和消息应用程序之间来回切换，还需要自己为用户构建整个流程。这相当于是一个打通了多个App的AI Agent，而且没有App的手机自然也会干掉传统意义上的App Store。\n \n“无应用”意味着手机将会有更简洁、高效的使用体验。用户不必再在茫茫应用海中寻找所需功能，只需一句话就能搞定一切。但对于我们开发者来说，无应用手机的出现则意味着巨大的挑战。传统的开发模式将被彻底颠覆，开发者们需要学习新的开发技术，并适应新的开发模式。\n \n“干掉App Store”则代表着应用生态入口的改变，成为完全脱离苹果、谷歌掌控的新生态体系。苹果的App Store 拥有超过200万款应用和游戏，去年一年总收入达893亿美元。\n \n这款概念手机未必就是AI手机最终的模样。距离ChatGPT发布已经过去了一年多，它代表了人们对大模型加持的手机一个美好想法。\n \n我们现在使用的智能手机实际上已经稳定发展了十几年。2007年，乔布斯在第一代iPhone发布会上喊出了那句著名的广告语：“苹果将…",
+          "link": "https://www.infoq.cn/article/h2cEezFMJDBo2eparEyh",
+          "publishedOn": "2024-03-24T03:00:00.000Z",
+          "wordCount": 324,
+          "title": "没有App，也没有App Store，未来的手机会干掉全部应用开发人员吗？",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
           "id": "https://www.infoq.cn/article/atVEPhjm1zg2Xw32mrv4",
           "author": "褚杏娟",
           "description": "3月1日，紫光云发布紫鸾5.0云平台（以下简称“紫鸾5.0”）。紫鸾5.0云平台则以全栈国产化、全面AIGC、应用敏捷开发、应用智能运维、数据要素全流程和政企行业数字化六大核心能力，加速云平台升级。\n \n紫光云成立于2018年，次年发布了紫鸾1.0版本，该版本主要基于公有云底座打造。2021年，紫鸾3.0发布，3.0基于同构混合云，公有云并结合了政企私有的能力，实际上是公有云和私有云的结合，3.0的推出意味着紫光云正式进军政企市场。\n \n紫光云公司总裁王燕平表示，“云计算公司必须保持技术的领先性，现在的大模型技术对我们来说，是恰逢其时。”\n\n重点布局AIGC\n\n \n当前云计算发展的有三个主流趋势：国产化、AIGC和数据。紫鸾5.0的升级也是围绕这三点进行的。\n \nAIGC出现后对云计算提出了更高的要求：网络要足够快、数据库对存储读取也要快等，这促进了行业云基础设施的升级。\n \n根据紫光云公司首席技术官柳义利介绍，紫鸾5.0为大模型落地提供算力云底座，包括算力基础设施、数据处理、AI PaaS等，其次会为政企客户提供MaaS服务，将模型及AI应用服务化，并提供+行业数据的大模型微调和MaaS服务。另外，基于过往智慧城市的数字化应用和数据治理经验，紫鸾5.0通过Prompt、Agent、知识库等技术，构建行业场景数字人，助力大模型在行业的落地应用。\n \n\n\n此外，紫光云还将在今年推出一款AIGC大模型一体机，可以承载多家大模型的能力集，支持应用、开发、运行一体化，实现SaaS到PaaS，到IaaS到硬件全栈能力集的整合。\n \n紫鸾5.0对AIGC落地的支撑是围绕“PaaS+MaaS+SaaS”进行产品布局的。对于今年有看衰SaaS的论调，王燕平表示，“我们不认为SaaS没有未来，恰恰相反，我们认为未来就在SaaS身上。”\n \n王燕平认为，所有的软件其实是应用的承载实体，多个应用…",
@@ -1872,6 +1882,16 @@
       "feedUrl": "https://www.ifanr.com/feed",
       "siteUrl": "https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=",
       "articles": [
+        {
+          "id": "https://www.ifanr.com/?p=1578941&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "何 晓涵",
+          "description": "· 脑机接口首位受试者实现用意念发帖\r\n· 360 智脑宣布内测 500 万字长文本处理功能\r\n· 苹果已放弃为 Apple Watch 开发 Micro LED 屏幕\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1578941?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-25T00:22:21.000Z",
+          "wordCount": 1123,
+          "title": "早报|Vision  Pro 年内在中国上市/华为 P70 供应商已开始供货 / Sora 计划进入好莱坞电影行业",
+          "imageUrl": "https://s3.ifanr.com/images/ep/cover-images/jie_dao_shang_de_hua_ban_zhe_cover.jpg"
+        },
         {
           "id": "https://www.ifanr.com/?p=1578863&utm_source=rss&utm_medium=rss&utm_campaign=",
           "author": "张成晨",

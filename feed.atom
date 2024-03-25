@@ -2,10 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://theboylzh.github.io/super-feeder/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-24T00:59:08.696Z</updated>
+    <updated>2024-03-25T00:55:27.078Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://theboylzh.github.io/super-feeder/index.html"/>
     <link rel="self" href="https://theboylzh.github.io/super-feeder/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[早报|Vision  Pro 年内在中国上市/华为 P70 供应商已开始供货 / Sora 计划进入好莱坞电影行业]]></title>
+        <id>https://www.ifanr.com/?p=1578941&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1578941?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-25T00:22:21.000Z</updated>
+        <summary type="html"><![CDATA[· 脑机接口首位受试者实现用意念发帖
+· 360 智脑宣布内测 500 万字长文本处理功能
+· 苹果已放弃为 Apple Watch 开发 Micro LED 屏幕
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>何 晓涵</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[没有App，也没有App Store，未来的手机会干掉全部应用开发人员吗？]]></title>
+        <id>https://www.infoq.cn/article/h2cEezFMJDBo2eparEyh</id>
+        <link href="https://www.infoq.cn/article/h2cEezFMJDBo2eparEyh"/>
+        <updated>2024-03-24T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[技术专家 | 陈晓春、王晓涛、袁东
+编辑 | Tina、凌敏
+ 
+未来的AI手机应该是什么样儿的？
+ 
+在上个月的WMC2024 上，德国电信联合高通、Brain.ai推出了一款突破性创新的概念AI手机T phone。与传统智能手机不同，这款手机主打一个“无App”，它清除了屏幕上的密密麻麻的App图标，只留有一个按钮用来激活手机里的AI助手，让用户通过类似ChatGPT的操作界面来交互。
+ 
+这款手机的长期愿景是消灭App，并干掉App Store，德国电信CEO蒂姆·霍特格斯（Tim Hoettges）在大会上给出了疯狂的预测：“手机App将在未来五到十年内消亡”。
+ 
+
+
+
+ 
+为了实现这个构想，Brain.ai在过去几年间打通了几千款主流App。比如用一句话来预定餐厅，那么该手机就需要在地图、订餐软件、日历和消息应用程序之间来回切换，还需要自己为用户构建整个流程。这相当于是一个打通了多个App的AI Agent，而且没有App的手机自然也会干掉传统意义上的App Store。
+ 
+“无应用”意味着手机将会有更简洁、高效的使用体验。用户不必再在茫茫应用海中寻找所需功能，只需一句话就能搞定一切。但对于我们开发者来说，无应用手机的出现则意味着巨大的挑战。传统的开发模式将被彻底颠覆，开发者们需要学习新的开发技术，并适应新的开发模式。
+ 
+“干掉App Store”则代表着应用生态入口的改变，成为完全脱离苹果、谷歌掌控的新生态体系。苹果的App Store 拥有超过200万款应用和游戏，去年一年总收入达893亿美元。
+ 
+这款概念手机未必就是AI手机最终的模样。距离ChatGPT发布已经过去了一年多，它代表了人们对大模型加持的手机一个美好想法。
+ 
+我们现在使用的智能手机实际上已经稳定发展了十几年。2007年，乔布斯在第一代iPhone发布会上喊出了那句著名的广告语：“苹果将…]]></summary>
+        <author>
+            <name>Tina,凌敏</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[最先倒下的 AI 明星公司，可能是它]]></title>
         <id>https://www.ifanr.com/?p=1578863&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
