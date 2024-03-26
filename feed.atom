@@ -2,10 +2,476 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://theboylzh.github.io/super-feeder/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-25T00:55:27.078Z</updated>
+    <updated>2024-03-26T00:53:53.736Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://theboylzh.github.io/super-feeder/index.html"/>
     <link rel="self" href="https://theboylzh.github.io/super-feeder/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[百度或为苹果国行 iPhone 16 提供 AI 功能，更多细节曝光]]></title>
+        <id>https://www.ifanr.com/?p=1579016&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1579016?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-25T11:28:54.000Z</updated>
+        <summary type="html"><![CDATA[对比起生成式 AI，苹果在机器学习上发力更多。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>苏伟鸿</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[两年怒省上千万，知乎数据库降本增效实战]]></title>
+        <id>https://www.infoq.cn/article/02PZj1V1HgEQKTgbC9ol</id>
+        <link href="https://www.infoq.cn/article/02PZj1V1HgEQKTgbC9ol"/>
+        <updated>2024-03-25T10:42:47.000Z</updated>
+        <summary type="html"><![CDATA[数据库在企业的数据管理和运营中扮演着越来越重要的角色。然而，高昂的数据库成本和低效的运营可能成为企业发展的拦路虎。
+
+将在 2024 年 6 月 14-15 日深圳举办的 ArchSummit 全球架构师峰会"上，我们邀请到了知乎数据库架构团队负责人代晓磊老师来分享一些降低数据库成本、提高效率的关键策略，以及知乎团队如何通过优化数据库配置、采用新技术、实施自动化管理等方式来实现降低成本的；同时，他也会介绍如何通过数据分析和性能优化来提高数据库的效率，从而实现降本增效的目标。在正式演讲之前，我们做了简短的采访，请代老师介绍他们的一些技术思路，提前剧透，以飨读者。
+
+
+
+InfoQ：在降低数据库成本和提高效率方面，您认为最关键的策略是什么？能否详细介绍一下？
+
+代晓磊： 最关键的策略是通过优化数据库架构和性能来实现成本降低和效率提升。我们重点关注以下几个方面：
+
+(1) 数据库资源的合理利用：优化数据库配置、合理规划硬件资源，确保资源利用率最大化。
+
+(2) 数据库查询和操作的优化：通过索引优化、SQL 调优等手段，提升查询效率，减少资源消耗。
+
+(3) 数据库的自动化管理：利用自动化工具和流程，降低管理成本，提高运维效率。
+
+InfoQ：在知乎数据库降本增效的实战中，都采取了哪些具体的措施和方法？
+
+代晓磊： 在知乎，我们不仅仅采取了诸如合理的分布式数据库选型、基于 FinOps 合理规划硬件资源、服务器机型替换、对象存储优化等传统措施。此外，我们还引入了天穹自动化运维平台，该平台能够实现业务数据库变更的自助管理，同时也让 DBA 对数据库的管理实现了自动化，从而大大提高了数据库管理的效率和稳定性。通过这些创新措施的结合应用，我们在实践中不断探索和推进数据库降本增效的路径，为知乎的数据管理提供了更加全面和可靠的解决方案。
+
+InfoQ：您如何看待数据库降本增效中的 FinOp…]]></summary>
+        <author>
+            <name>Lucien</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[阿里云搜索Serverless产品架构设计和应用实践 | QCon]]></title>
+        <id>https://www.infoq.cn/article/McC3h7t61Q7eWcDvOQKS</id>
+        <link href="https://www.infoq.cn/article/McC3h7t61Q7eWcDvOQKS"/>
+        <updated>2024-03-25T09:14:57.000Z</updated>
+        <summary type="html"><![CDATA[最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。
+阿里巴巴搜索产品最早服务于淘宝，随着业务越来越多，需要支持越来越多的业务线，搜索产品如何使用同一个产品服务上千个业务，多租户 Severless 是一种可行的方案。本文以阿里巴巴搜索产品 OpenSearch 和阿里云 ElasticSearch 为例，介绍阿里巴巴 Serverless 搜索产品架构设计和应用实践。
+听众收益点：
+阿里巴巴搜索产品 Serverless 最佳实践]]></summary>
+        <author>
+            <name>InfoQ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比亚迪海豹也推「荣耀版」，17.98 万元起售]]></title>
+        <id>https://www.ifanr.com/?p=1579039&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1579039?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-25T09:10:10.000Z</updated>
+        <summary type="html"><![CDATA[海豹突击。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>刘学文</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微盟如何使用 Serverless 实现 SaaS 服务流量优化与快速响应 | QCon]]></title>
+        <id>https://www.infoq.cn/article/aZCEERUMTtDWe0yoMXu3</id>
+        <link href="https://www.infoq.cn/article/aZCEERUMTtDWe0yoMXu3"/>
+        <updated>2024-03-25T08:55:12.000Z</updated>
+        <summary type="html"><![CDATA[最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。
+本次演讲中，将深入探讨微盟 SaaS 系统的关键架构设计要素，重点关注如何实现高可用性、可扩展性和成本效益。同时展示 Serverless 技术如何与微盟 SaaS 服务无缝融合，有效支持从传统应用到云原生应用的转变，进而提升整体服务的流量管理和响应效率。
+通过分析微盟在生产环境中的实际应用案例，揭示 Serverless 在增强服务弹性、提升响应速度和优化成本控制方面的优势。还会分享在实际部署中的最佳实践和建议，帮助听众充分利用这项先进技术，以提升云服务性能，增强业务竞争力。
+听众收益点：
+掌握 Serverless 架构：将深入理解微盟 SaaS 系统的核心设计原则，为架构规划、设计和决策提供坚实支持
+应用 Serverless 架构：通过实际案例，学习如何将 Serverless 技术与 SaaS 服务无缝集成，以实现服务效能的最大化
+部署策略与最佳实践：掌握 Serverless 技术与 SaaS 服务融合的部署策略和专业建议，旨在提升企业云服务的性能和效益
+增强市场竞争力：通过这些知识和策略，增强业务的弹性、响应速度和成本效益，从而在市场上持续保持竞争优势和价值]]></summary>
+        <author>
+            <name>InfoQ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[低代码编程语言NASL从设计到落地的闯关之路 | QCon]]></title>
+        <id>https://www.infoq.cn/article/wLZthTTfWauh3A2obNK6</id>
+        <link href="https://www.infoq.cn/article/wLZthTTfWauh3A2obNK6"/>
+        <updated>2024-03-25T08:27:44.000Z</updated>
+        <summary type="html"><![CDATA[最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。
+NASL 是由网易自研的全栈可视化编程语言，是支撑网易数帆 CodeWave 智能开发平台的基石。本次演讲将围绕NASL语言的设计初衷、设计原则、实现挑战、未来展望等方面展开。
+听众收益点：
+可视化编程语言和编程系统的设计原则
+降低编程语言实现成本的方法]]></summary>
+        <author>
+            <name>InfoQ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[90后清华学霸带队、成立不足一年估值破百亿元，“狂卷”长文本的月之暗面Kimi 正被大厂“围剿”]]></title>
+        <id>https://www.infoq.cn/article/jdMRNaHjfoCdfVGOS1kx</id>
+        <link href="https://www.infoq.cn/article/jdMRNaHjfoCdfVGOS1kx"/>
+        <updated>2024-03-25T08:21:03.000Z</updated>
+        <summary type="html"><![CDATA[上周，月之暗面（Moonshot AI）公司宣布旗下对话式AI助理产品Kimi应用现已支持200万字无损上下文输入。去年10月发布时，Kimi仅支持20万字的无损上下文输入长度。而在此前，GPT-4Turbo-128k公布的数字约10万汉字，百川智能发布的Baichuan2-192K能够处理约35万个汉字。
+
+因为在长上下文窗口技术上取得突破，月之暗面这款产品Kimi在业界和资本市场都引起了巨大的轰动，更催生了与之相关的“Kimi概念股”：近来因Kimi概念被市场高度关注的九安医疗，3月20日—22日，股票交易异常波动，收盘价格涨幅偏离值累计超20%。
+
+Kimi之所以能够在短时间内获得如此高的关注度，与其卓越的长文本读取和解析能力密不可分。
+
+长文本技术，即模型处理和理解超长文本内容的能力，也就是让大模型能够更全面地理解和分析复杂的文字内容，提高大模型的整体性能和准确性。
+
+在当今信息爆炸的时代，处理大量的长文本数据成为了许多企业和个人用户的迫切需求。而Kimi正是满足了这一需求，凭借其强大的长文本处理能力，赢得了市场的广泛认可。不仅如此，Kimi的用户数量也在短时间内激增，巨大的流量涌入使得其服务器一度承受了巨大的压力，21日下午，月之暗面旗下大模型应用kimi的APP和小程序均无法正常使用。
+
+此前，月之暗面发布情况说明：从2024.3.209:30:00开始，观测到Kimi的系统流量持续异常增高，流量增加的趋势远超对资源的预期规划。这导致了从2024.3.2010:00:00开始，有较多的SaaS客户持续的体验到429:engineisoverloaded的异常问题，并对此表示深表抱歉。
+
+公开资料显示，月之暗面成立于2023年4月，法定代表人杨植麟毕业于清华大学交叉信息学院。截至目前，月之暗面公司已完成三笔融资，获红杉中国、真格基金等机构投资，最新一轮融资超10亿…]]></summary>
+        <author>
+            <name>李冬梅</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大模型落地到代码助手场景的探索实践 | QCon]]></title>
+        <id>https://www.infoq.cn/article/XGYzhaGaE5oy6E5W6cTf</id>
+        <link href="https://www.infoq.cn/article/XGYzhaGaE5oy6E5W6cTf"/>
+        <updated>2024-03-25T08:17:05.000Z</updated>
+        <summary type="html"><![CDATA[最新会议动态：QCon 全球软件开发大会暨智能软件开发生态展将于 4 月 11-13 日在北京·国测国际会议会展中心举办，点击链接了解大模型如何革新软件开发全流程。
+本次演讲将探讨在人工智能时代下，软件架构、产品设计上产生了哪些巨大的机遇和挑战，接下来聊聊我们在设计AI产品的软件时，是如何大模型的架构选型，Langchain等框架选型，遇到了哪些挑战。最后，将分享我们在构建AI代码助手产品上的架构方案，并做实际应用演示。
+听众收益点：
+了解到人工智能时代下软件架构和产品设计的新机遇与挑战
+深入探讨AI产品设计中的提示工程、代码模型和评测框架，以及橄榄式大模型软件开发架构的尝试
+帮助听众更好地把握大模型时代的软件设计策略，为未来AI产品设计提供有益的参考和启示]]></summary>
+        <author>
+            <name>InfoQ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[谷歌8名研究员改变了AI世界：现已全部离开谷歌，7人创业，1人转奔OpenAI]]></title>
+        <id>https://www.infoq.cn/article/wPO7BHoI1p3NG61U3dN0</id>
+        <link href="https://www.infoq.cn/article/wPO7BHoI1p3NG61U3dN0"/>
+        <updated>2024-03-25T08:16:53.000Z</updated>
+        <summary type="html"><![CDATA[编者按：
+ 
+
+3月21日，GTC AI大会，黄仁勋对话7位Transformer框架论文作者。他们认为，AI行业被困在了六七年前的原型上，这个世界需要更好的模型。 “我认为世界需要比Transformer更好的东西。我觉得现在与六七年前的情况相似。”“所以尽管原始模型可能不是现在可拥有的最强大的东西，但我们仍然固守在原来的模型上。” Transformer架构的诞生源于自然语言处理（NLP）领域的迫切需求。在过去，传统的循环神经网络（RNN）和卷积神经网络（CNN）在处理序列数据时面临一些挑战。RNN虽然能够捕捉序列中的依赖关系，但由于其顺序处理的方式，导致计算效率低下，并且难以处理长距离依赖。而CNN虽然可以并行计算，但在处理变长序列时不够灵活。 为了克服这些挑战，2017年，谷歌的8名研究人员联合发表了名为《你所需要的是注意力》（Attention Is All You Need）的论文，并在这篇论文中提出了Transformer架构，它能真正地解决RNN和CNN在处理序列数据时存在的问题。 Transformer采用了自注意力机制（Self-Attention Mechanism），使得模型能够同时关注序列中的所有位置，从而捕捉长距离依赖关系。此外，Transformer还采用了多头注意力（Multi-Head Attention）和位置编码（Positional Encoding）等技术，进一步提高了模型的性能。这项具有划时代意义的技术变革彻底改变了技术发展路径。技术背后，这8位一同提出该理论的研究人员有的已经离开了谷歌，有的已经创办了自己的公司或是加入了新团队。 近日，国外知名杂志《连线》的资深编辑史蒂文·利维（Steven Levy）近期撰写了一篇文章，为我们揭秘了Transformer架构诞生背后的故事。
+
+ 
+以下为翻译全文：
+ 
+他们偶然相遇，迷上了共同…]]></summary>
+        <author>
+            <name>Steven Levy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[亿咖通脱掉「吉利的外套」，露出了「华为的模样」]]></title>
+        <id>https://www.ifanr.com/?p=1578979&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1578979?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-25T07:21:46.000Z</updated>
+        <summary type="html"><![CDATA[叙事和逻辑上毫无问题，就看落地了。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>刘学文</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[把大模型装进手机，小米、OPPO、vivo卷起来了！]]></title>
+        <id>https://www.infoq.cn/article/WqSORsDSRVitUhmfBXyw</id>
+        <link href="https://www.infoq.cn/article/WqSORsDSRVitUhmfBXyw"/>
+        <updated>2024-03-25T06:37:19.000Z</updated>
+        <summary type="html"><![CDATA[随着人工智能技术迅速发展，大模型这把“火”已经烧到了越来越多的领域，手机正是其中之一。有评论甚至认为，“大模型将重新定义手机”。可以预见未来五年，AI 对手机行业的影响，完全可以比肩当年智能手机替代功能机。那么，大模型加持的智能手机会长什么样？大模型如何颠覆手机影像、交互体验？对于程序员来讲，手机操作系统和开发相关技术栈大概会是怎样？
+ 
+近日，InfoQ《极客有约》特邀微软软件工程师姜雨生，对话 OPPO 技术规划总监陈晓春，小米相机部 AI 算法团队负责人王晓涛，vivo 技术规划专家袁东，一起探讨大模型时代下的手机。
+ 
+以下为访谈实录，完整视频参看：https://www.infoq.cn/video/MutbJzsLt""iucBSG0sxAR"
+
+如何理解 AI 手机？
+
+ 
+
+姜雨生：随着技术的发展，大模型正在逐渐走向手机端。所谓 AI 手机，是指接入端侧大模型和云端大模型的手机吗？各位老师是如何理解 AI 手机这个概念的？
+
+ 
+陈晓春：关于AI手机的看法，行业内部存在多种定义。IDC对AI手机给出了严格的定义：端测算力需达到 30TOPS 以上，内存也有特定要求，且必须能在端侧运行包括大语言模型和大视觉模型等要求。这样的定义使得大多数高端手机都符合AI手机的标准。典型的芯片如苹果的最新A17芯片、骁龙888 第三代、联发科9300等都属于此类。
+ 
+从OPPO的角度来看，我们更倾向于从技术带来的便利性和与过去技术的差异来定义AI手机。我们思考的是，AI手机与传统智能手机在提供的能力上最大的不同点是什么。我们之前发布的白皮书中提到，AI手机可能具备以下几个特点：
+ 
+1. 高效的算力应用能力：AI手机需要在端侧运行复杂的模型，这要求有更高效的算法和存储带宽。
+2. 强大的感知能力：AI手机可能需要更多的传感器和多模态交互，能够理解用户的肢体语言和微表情，以及…]]></summary>
+        <author>
+            <name>凌敏,Tina</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[鲶鱼效应显著！Sora发布满月，多模态领域成果丰硕 | 大模型一周大事]]></title>
+        <id>https://www.infoq.cn/article/3vN9jwTmofFWhI3Zr4pD</id>
+        <link href="https://www.infoq.cn/article/3vN9jwTmofFWhI3Zr4pD"/>
+        <updated>2024-03-25T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[大模型的快节奏发展，让了解最新技术动态、积极主动学习成为每一位从业者的必修课。InfoQ研究中心期望通过每周更新大模型行业最新动态，为广大读者提供全面的行业回顾和要点分析。现在，让我们回顾过去一周的大模型重大事件吧。
+
+一、重点发现
+
+本周多模态领域迎来多项重要突破。Stability AI 推出的 SV3D 模型显著提升了 3D 视频生成质量，腾讯等团队推出的 Follow-Your-Click 和 Stable Drag 模型分别实现了图生视频和精确图片编辑的功能，而 Seeking AI 等联合提出的 World GPT 框架则实现了图片文本到视频的生成与编辑。此外，华中科技大学与字节跳动合作的 GLEE 模型实现了图像视频目标的全面感知，Freepik 的 Reimagine AI 工具简化了图片处理流程，HyperGAI 的 HPT 模型展示了跨模态理解与生成能力，字节跳动发布的 Animate Diff-Lightning 则大幅提升了文生视频的速度。同时，开源动漫主题的从文本到图像模型 Animagine XL3.1 的发布也丰富了动漫风格的创作可能。这些多模态技术的突破不仅展示了人工智能在处理复杂信息方面的巨大潜力，也预示着未来在内容创作、视觉编辑、虚拟现实等多个领域将出现更多创新和应用。
+
+二、具体内容
+
+
+大模型持续更新
+
+
+垂直领域
+
+3 月 20 号，360 集团宣布 360 安全大模型 3.0 升级发布，系国内首个实现 AI 实战应用的安全行业大模型。据介绍，该模型基于 360 近二十年安全和AI领域技术积累总结出的安全大模型核心战法升级而成，可通过智能体框架赋能企业已有的探针、平台，提炼专家知识赋能增强 360 安全云，帮助企业打造数字安全体系。
+
+多模态领域
+
+3 月 19 号，Stability AI 推出基于 Stable Video Di…]]></summary>
+        <author>
+            <name>InfoQ研究中心</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CDO 解决ETL“不可能三角”的新思路：做“轻”数仓]]></title>
+        <id>https://www.infoq.cn/article/ANyUsjSCFAipAkAkAqzg</id>
+        <link href="https://www.infoq.cn/article/ANyUsjSCFAipAkAkAqzg"/>
+        <updated>2024-03-25T03:54:50.000Z</updated>
+        <summary type="html"><![CDATA[以NoETL 思路破解效率、质量、成本的不可能三角
+
+
+随着企业数字化转型的不断推进，不仅是管理层，企业中各个职能都需要通过数据来辅助决策与日常工作。各个业务部门的数据分析又通常会高度依赖ETL 团队去开发大量面向业务服务管理（BSM）的报表，以及为了保障查询性能开发的许多宽表和汇总表。然而，这种反范式的 ETL 加工会导致数据仓库中的数据链条变得越来越长、越来越复杂，从而使得整个 ETL 作业难以持续。
+
+这种不可持续，其本质就是成本、效率和质量三者无法兼顾的困境。
+
+
+
+反范式的ETL 作业会导致面向不同业务场景出现大量重复开发，一方面造成了大量的存储和计算成本浪费，另一方面增加了 ETL 链路的运维成本。
+
+其次，传统开发方式难以满足快速、灵活的分析需求。比如管理层可能会要求在管理驾驶舱中增加一个维度或者切换一个视角，ETL 工程师就必须返回数仓进行指标字段和维度的添加，响应速度非常慢，并且很难对管理层解释，为什么增加一个字段需要花费一两天的时间。
+
+另外，越来越多的企业发现，特别是一些拥有大量BI 报表和 BI 看板的企业，不同报表之间存在口径不一致的问题。
+ 
+既然传统的ETL 作业不可持续，那么是否存在一个 NoETL 的方案可以打破成本、效率、质量这组不可能三角呢？
+ 
+有两种可能性。
+
+一种是不开发宽表和汇总表，仅将数据仓库做到公共层的明细数据。然而，在大数据量的时代，许多企业的数据规模都是上亿的甚至达到几十亿的规模，甚至某个表的规模就可能达到百亿千亿。在这种情况下，不开发宽表和汇总表会导致查询性能无法保障。因此，这个方案不可行。
+
+另一个方案是将人工开发转变为自动化开发。这是因为人工开发需要保证不同需求的开发作业不重复和口径一致，背后的管理成本非常高。通过自动化，系统会知道一个指标是否已经加工过。这样，第二个机器人进行加工时就不会存在重复加工的情况。因此，…]]></summary>
+        <author>
+            <name>杜雪芳</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么 iPhone 的屏下摄像头会更难做？]]></title>
+        <id>https://www.ifanr.com/?p=1578944&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1578944?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-25T03:50:31.000Z</updated>
+        <summary type="html"><![CDATA[把近些年的 iPhone 摆在一起的时候，你就能发现它们其实有在悄悄进步。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>肖凡博</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[打造一个成本优先的技术架构，可以分几步？]]></title>
+        <id>https://www.infoq.cn/article/8IUJWMUTp1oQlKjiBtJV</id>
+        <link href="https://www.infoq.cn/article/8IUJWMUTp1oQlKjiBtJV"/>
+        <updated>2024-03-25T03:22:45.000Z</updated>
+        <summary type="html"><![CDATA[随着宏观经济环境的周期性演变，近两年来，企业围绕“业务创新”的声音在慢慢回落，取而代之的高频词变成了“降本增效”。但事实上这两个课题并非二择其一，在多数情况下，这是一个关于“平衡”的艺术。
+
+在技术领域，并没有什么工具或理论是完美的。对于架构师而言，需要根据业务需求和成本效益进行持续的取舍与平衡，以帮助企业探索如何在各种约束下做出最佳决策，以及如何通过创新和适时调整架构来适应不断变化的业务环境和技术进步。
+
+在去年年底的re:Invent 2023 大会上，亚马逊 CTO Werner Vogels 根据自己20 年的架构经验，总结了俭约架构师的七大黄金法则。他强调，作为架构师必须要认真地考虑成本这个约束条件，从而让企业可持续性地增长。但Werner也坦言，他通过一种艰难的方式才学会了如何将成本纳入架构中，这是一个充满挑战性的工作。
+
+在6月14日-6月15日即将举办的ArchSummit全球架构师峰会（深圳站）"上，我们特别策划了“成本优先的技术架构"”专题，邀请来自跨境电商平台Shopee、知乎、字节跳动和腾讯云的技术专家分享他们针对这一话题的思考和实践。该专题由Shopee Engineer Manager薛珂出品，他曾先后参与主导多个大型互联网产品的整体架构和基础架构升级，技术兴趣集中在大规模分布式架构、高可用设计、成本驱动的系统架构等领域。
+
+
+
+Shopee是Sea旗下的跨境电商平台，业务范围辐射新加坡、马来西亚、菲律宾、泰国、越南、巴西等市场。作为一个电商平台，商品系统处理着百亿级商品和百万级的并发，这对服务器资源提出了巨大的需求。在专题演讲中，Shopee Marketplace / Expert Engineer张俊杰将分享在Shopee中是如何基于成本优先的原则去思考和应对海量商品系统带来的挑战并且成功节省下来几千万人民币的服务器成本。
+
+
+
+除了架构本身，数据库在企业的数据管理和运营中也扮演着越来越重要的角色。然而，高昂的数据库成本和低效的运营可能成为企业发展的拦路虎。
+
+在专题下，知乎数据库架构团队负责人代晓磊将与大家分享降低数据库成本、提高效率的关键策略。探讨如何通过优化数据库配置、采用新技术、实施自动化管理等方式降低成本；同时，也会介绍如何通过数据分析和性能优化来提高数据库的效率，从而实现降本增效的目标。
+
+
+
+对于字节跳动而言，业务成本优化的关键策略在于数据驱动。在专题分享中，字节跳动基础架构+Lidar 性能平台负责人张金柱将深入探讨在业务快速发展的背景下，字节跳动如何利用 Lidar 性能平台，采取数据驱动策略逐步改进技术架构，实现成本优化、性能监控分析和自动化优化。通过实际案例，展示如何量化、可视化性能指标，探索优化方向，推动性能优化策略的落地，从而实现持续的降本增效。
+
+
+
+降本九成，提效十倍——腾讯云 CLS 利用统一资源池理念，消除了系统中各个层次的 IO 资源隔离，实现了成本降低90%的目标；同时在优先控制成本的前提下，通过消除全地域算力资源隔离，实现了大规模分析能力提升数十倍。腾讯云专家工程师林兆祥也将在专题演讲中，分享统一资源池理念如何重塑CLS规模红利。
+
+
+
+除了“成本优先的技术架构"”专题之外，本届 ArchSummit 会议上，我们还邀请了 CNCF、顺丰集团、腾讯、百度等企业的专家进行主题演讲。会议上还设置了大模型、高可用架构等专题，如果你感兴趣来会议上演讲，欢迎点击链接：https://archsummit.infoq.cn/2024/shenzhen/?utm_source=wechat&utm_medium=infoqart3-0322" 进入 ArchSummit 会议官网，提交议题。会议现已进入 8 折早鸟购票阶段，可以联系票务经理 17310043226 , 锁定最新优惠。扫描下方二维码添加大会福利官，免费领取定制福利礼包。]]></summary>
+        <author>
+            <name>ArchSummit</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网易有道首席科学家段亦涛：教育是AI能够为之带来巨大变革的行业]]></title>
+        <id>https://www.infoq.cn/article/HB0v7Kvj8zQh96BBXwre</id>
+        <link href="https://www.infoq.cn/article/HB0v7Kvj8zQh96BBXwre"/>
+        <updated>2024-03-25T02:49:39.000Z</updated>
+        <summary type="html"><![CDATA[近日，在AMD AI PC创新峰会上，网易有道首席科学家段亦涛谈AI+教育时表示，随着技术的不断进步和创新应用的持续涌现，在AIGC、大模型的加持下，教育领域将得到巨大的变革与发展。
+ 
+段亦涛认为，个性化和智能交互是这场变革的两个主要驱动力。通过AI技术，大规模因材施教成为可能，智能交互则拓展了每个人能够获得更高效的练习的机会。AI在推动其他行业变革的过程中，也将给教育的各个环节和各个角色带来更高的效率。
+ 
+据介绍，网易有道所处的赛道是教育和生产力领域，有道AI产品规划的基本思路是依托场景，深挖大模型的潜力，做创新应用。2023年7月，网易有道推出国内首个教育大模型“子曰”，并率先推出六大应用。目前，有道也已将应用落地硬件及软件产品中，包括全球首个虚拟人口语私教Hi Echo、首个搭载大模型功能的有道词典笔X6 pro、搭载AI家庭老师“小P老师”应用的有道学习机X20。2023年11月，有道“子曰”教育大模型顺利通过双新评估，成为首批通过完整国家备案的教育大模型。
+ 
+在个性化教学场景方面，有道的词典笔、学习平板等硬件都搭载了基于“子曰”大模型的AI老师，推出了个性化答疑、“语法精讲”等功能，帮助学习者有针对性地获得学习帮助，极大地提升学习的效率和体验。在引导式教学方面，有道优化了AI老师的答疑风格，使它做到循循善诱，激发用户思考。同时，有道还推出了“Hi echo”口语练习产品，通过智能引导和互动练习，帮助用户在轻松的环境中提升口语能力。
+ 
+在文字处理方面，目前，有道翻译已经升级到基于大语言模型的技术，带来的变化是增强了遵循指令进行翻译的能力。今后有道将依托大模型，进一步拓展文字处理的其他AI功能，翻译将升级为智能文字助手，利用大模型的生成能力，根据用户需求自动生成高质量的文章、报告等文本内容。
+ 
+此外，端侧AI模型前景广阔，它是AI算法和端侧算力发展的必然趋势。有道的很多硬件产品早就搭载了很多端侧AI模型，今后有道将继续在端侧模型上发力，包括IoT设备和AI PC等平台。目前，有道已经正在和AMD展开紧密沟通，积极探寻与教育场景相契合的合作机会，期待在探索中共同推动教育应用创新。]]></summary>
+        <author>
+            <name>凌敏</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java近期新闻：JDK 22 RC2、Spring生态系统、Payara Platform]]></title>
+        <id>https://www.infoq.cn/article/6Zhy6PFS98Y7PANzi1QH</id>
+        <link href="https://www.infoq.cn/article/6Zhy6PFS98Y7PANzi1QH"/>
+        <updated>2024-03-25T02:12:15.000Z</updated>
+        <summary type="html"><![CDATA[OpenJDK
+
+
+Project Jextract（也叫Project Panama）的早期访问版本" Build 22-jextract+3-13 已经向 Java 社区提供 ，它基于即将发布的 JDK 22 GA 版本。
+
+类似地，Project Loom 的早期访问版本" Build 23-loom+2-48 也已可用。这些版本基于 JDK 23 早期访问版本的 Build 10，并且 改进了 Java 监视器的实现"，即同步方法，以更好地与虚拟线程配合工作。
+
+
+JDK 23
+
+
+JDK 23 早期访问版本"的 Build 11" 已发布，其中包含了自 Build 10 以来的更新，包括了对各种 问题" 的修复。有关此版本的更多详细信息，请参阅 发行说明"。
+
+
+JDK 22
+
+
+JDK 22 早期访问版本"的 Build 36" 仍然为当前版本。关于此版本的更多详细信息，请参阅 发行说明"。
+
+Oracle Java 平台团队首席架构师Mark Reinhold"宣布" JDK 22 已经进入了第二个发行候选版"阶段，Build 36 中修复了一个合规性问题"。预计 GA 版本将于 2024 年 3 月 19 日发布。
+
+对于 JDK 23" 和 JDK 22"，开发者可以通过 Java Bug Database" 报告错误。
+
+
+GraalVM
+
+
+Oracle Labs 发布 Native Build Tools" 0.10.1" ，这是 GraalVM 项目的一部分，该项目包含了各种用于与 GraalVM Native Image 进行互操作的插件。新版本带来了显着的变更，例如：解决了由于依赖 JAR 失败而导致 FileSystems" 类中的 newFileSystem() 方法抛出 FileSystemAlreadyExistsException 的…]]></summary>
+        <author>
+            <name>Michael Redlich</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最美哈苏相机评测：除了仪式感，你还能收获这些]]></title>
+        <id>https://www.ifanr.com/?p=1577757&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
+        <link href="https://www.ifanr.com/1577757?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign="/>
+        <updated>2024-03-25T02:11:19.000Z</updated>
+        <summary type="html"><![CDATA[最美最优雅的相机，就应该优雅地拍，优雅地用。
+#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
+
+爱范儿 |
+原文链接 ·
+查看评论 ·
+新浪微博]]></summary>
+        <author>
+            <name>梁梦麟</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stability CEO自己跑路：没董事会控制权；月之暗面Kimi火爆至宕机，已扩容5次；王小川怼李彦宏：活在幻觉中|AI周报]]></title>
+        <id>https://www.infoq.cn/article/hEt6rLJMhHZ0JQZJwBl2</id>
+        <link href="https://www.infoq.cn/article/hEt6rLJMhHZ0JQZJwBl2"/>
+        <updated>2024-03-25T01:39:30.000Z</updated>
+        <summary type="html"><![CDATA[CEO 莫斯塔克辞职，“稳定”AI 乱成一锅粥；苹果 CEO 库克现身上海时，美国司法部对苹果提起反垄断诉讼；vivo 离职半年收到年终奖，主动离职给了 N+1 补偿；小米 2023 年员工平均年薪超 56 万元；马斯克脑机接口患者能用意念下棋；奥特曼回应 OpenAI 相关热点问题；全球首个类 Sora 抢先开源……
+
+
+
+热门资讯
+
+
+
+王小川又怼李彦宏，说他活在自己的幻觉中
+
+
+据报道，百度创始人李彦宏不止一次对外说过：百度的 AI 很牛。去年文心一言出来后，李彦宏还说过，文心一言和 ChatGPT 的差距可能在一到两个月左右，差距不大。对此，原搜狗创始人，现百川智能创始人王小川近日在接受采访时犀利吐槽：李彦宏很魔幻主义，去年 2 月就喊出比 OpenAI 只差两个月，已经够有幻觉了。有意思的是，这篇文章发出后不久就被修改，魔幻主义被改成了幻觉主义。
+
+王小川认为，李彦宏不仅对 GPT 有误解，对自己的产品有误解，对国内模型也有误解，活在自己的幻觉中，并质疑李彦宏从团队接收的信息有问题。去年年初，在被问及怎么看待李彦宏说文心一言和 OpenAl 差距可能在两个月左右的问题时，王小川就表示：怎么可能只差两个月，李彦宏可能活在平行宇宙。
+
+
+黄仁勋回应中国市场和 AI 芯片定价问题，称英伟达市值合理
+
+
+当地时间 3 月 19 日上午，针对有媒体援引黄仁勋关于英伟达最新一代 AI 芯片 Blackwell 的定价在 3 万至 4 万美元，黄仁勋表示：“我只是试图让大家对我们产品的定价有一定的感受，而并不打算给出具体的报价。因为根据每一个客户的需求，不同系统的价格差异是很大的，英伟达并不销售芯片，我们售卖的是数据中心。”
+
+英伟达的市值从 1 万亿美元到 2 万亿美元仅仅用了 9 个月时间，对于市值在短期内的飙升是否合理，黄仁勋也作出回应。他表示:“全球数据中心的市场规模在…]]></summary>
+        <author>
+            <name>傅宇琪,褚杏娟</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[算数不行、还不懂中国文化，大模型现在抢不了设计师的饭碗！ | AI 测评室]]></title>
+        <id>https://www.infoq.cn/article/BejU2lI4o2sVwo5Sw7Ld</id>
+        <link href="https://www.infoq.cn/article/BejU2lI4o2sVwo5Sw7Ld"/>
+        <updated>2024-03-25T01:34:35.000Z</updated>
+        <summary type="html"><![CDATA[轻轻敲下几行简单的文字，就能立刻拥有一幅与之相呼应的画作。随着 AI 大模型的崛起，“文字瞬间转化为图像”这一梦想已然成真。
+
+今年，各大玩家纷纷入局大模型，在文生图领域掀起“血雨腥风”。在这篇文章里，我选择了互联网大厂的文心一格、360 智绘、垂直图片领域的美图 MiracleVision 4.0 和知名的 GPT-4 四个模型，通过同题多解的方式，对他们的文生图能力逐一进行了测评，让我们看看，到底是“神仙打架”还是“菜鸡互啄”？
+
+
+初级考验：大模型们能辨别实体吗？
+
+
+作为考验的第一关，我们需要观察大模型们的产出结果在数量、动作状态、颜色识别、位置关系等细节方面的呈现。同时，多实体识别对大模型来说也是一个相对复杂的挑战。初级关卡，四位“选手”的表现如何？
+
+
+一个实体的场景
+
+
+先来点简单的 prompt 热身：一只黑色的小猫正趴在一本打开的书上。
+
+生成的结果如下：
+
+
+除了文心一格生成的小猫脑袋有点大，大模型们表现得都算是不错，GPT-4 生成的小猫不仅趴下了，还舒服地打起了盹。不过，小猫们的画风都比较漫画感，而书却非常写实，这让人觉得稍微有些割裂。
+
+
+多个同种实体的生成
+
+
+接着，我稍微加大难度，大模型们一下就被搞懵了。
+
+我使用了这个描述：沙漠中，10 头骆驼正在穿越沙漠，远处有一座金字塔。
+
+生成的结果如下：
+
+
+首先是文心一格的生成结果，可以看到虽然画面中有密密麻麻很多条骆驼腿，但绝对没有 10 只骆驼。而且骆驼们都长得奇形怪状，画面最右边甚至还出现了 1 只“两头连体”骆驼。
+
+360 智绘有些“小气”，只生成了 5 只骆驼，不过补偿了我 3 座金字塔。MiracleVision 4.0 生成了 4 只正常骆驼、1 只 6 腿骆驼、4 座金字塔和 2 个图层。我不禁感慨，算数真是为难它了。相比之下，GPT-4 则大手一挥，“买一送一”地豪掷了十余只骆驼…]]></summary>
+        <author>
+            <name>傅宇琪</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[早报|Vision  Pro 年内在中国上市/华为 P70 供应商已开始供货 / Sora 计划进入好莱坞电影行业]]></title>
         <id>https://www.ifanr.com/?p=1578941&amp;utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=</id>
