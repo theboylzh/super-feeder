@@ -6,6 +6,206 @@
       "siteUrl": "https://www.infoq.cn",
       "articles": [
         {
+          "id": "https://www.infoq.cn/article/IfeUrjcxTeoAJ8VXm6JM",
+          "author": "周健",
+          "description": "作者｜周健，澜码科技创始人兼CEO \n\n\n金融行业数字化成熟度高，数据资源基础好，数字化程度一直处于领先地位，新技术的创新与应用方面也始终保持着前沿。\n\n在这次大语言模型引领的历史大变革的当下，金融行业依然走在了前列，特别是银行业拥有广泛的客户资源，头部国有大行和全国股份制银行客户规模数动辄达千万甚至数亿。凭借信息丰富、数据庞杂、知识专业、人才密集等天然特征优势，银行业拥有与大模型深度结合的基因，因此成为大模型应用落地的重要场景之一。\n\n相对应的，大语言模型技术的快速进步和迭代，也使得传统银行业务能够与人工智能技术深度整合，推动金融领域的数字化和数智化转型，并令这些企业率先受益于新技术。\n\n波士顿咨询公司曾以一家拥有约两万名员工的区域性国际银行为例，初步梳理了该银行前、中、后台相关部门应用生成式AI的潜力和效益，预计在首年就可以为该银行节省约1.5亿美元的成本，占整体薪酬总包的7%。\n\n过去一年多，我们在金融行业中实践下来，将理论结合实践，形成了一些方法论。我们认为，大语言模型在金融行业中的落地演进将经历三个阶段：增强自动化、流程自动化、流程自主化。\n\n金融企业落地大语言模型的三阶段\n\n“当我开始用 GPT 处理知识性任务时，我通常得事后去核实事实，比如检查它有没有编造一些假消息。你是怎么发现GPT 能编出那些听起来特别有说服力的假信息的呢？你又是如何确保它所提供的信息是真实的？”\n\n这段话来自3月19日OpenAI 董事长Sam Altman 公开的一则专访，Sam Altman主动提到大语言模型的幻觉问题让他担心，并且明确表达虽然OpenAI即将推出的新版本大语言模型会在这个问题上有很大改善，但今年内仍然不能完全解决全部问题。\n\n在这样的背景下，对模型的可解释性、鲁棒性都有极高要求的金融行业，该如何落地大语言模型应用？\n中国信息通信研究院（以下简称“信通院”）将大语言模…",
+          "link": "https://www.infoq.cn/article/IfeUrjcxTeoAJ8VXm6JM",
+          "publishedOn": "2024-03-27T13:10:22.000Z",
+          "wordCount": 323,
+          "title": "金融企业落地大语言模型的路线图",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/yLvQiRo3RV3L21qMy6WJ",
+          "author": "田维繁",
+          "description": "作者｜田维繁，网易游戏关系型数据库小组负责人\n\n\n网易游戏作为中国领先的游戏开发公司之一，一直处于网络游戏自主研发领域的前端。网易游戏的产品以及周边产品线众多，需要不同的数据处理产品来满足不同的业务场景。网易游戏的数据库团队主要面向网易游戏内部提供一站式的数据库私有云服务，提供众多数据库产品以满足网易游戏对数据库产品的需求。\n\n尽管网易游戏已拥有比较全面的数据库产品矩阵，但每种数据库产品在特定业务场景下都有其明显的优势和局限性，鉴于我们内部涵盖的业务场景多样且复杂，我们期望能够根据具体的业务场景需求灵活选择适合的数据库产品。在此背景下，为了解决特定业务问题，我们将 OceanBase 引入了网易游戏。\n\n业务架构及业务特性需求\n\n\n下图是网易游戏某业务平台当前使用 MySQL 的数据库架构，随着系统承接的业务数据量及请求数的不断增加，该架构逐渐演化为 MySQL 经典的一主多从架构，通过主备库接了十余个从库来负责业务读请求。\n\n\n\n然而，这样的业务架构存在以下四个痛点：\n\n并发量高，对延迟敏感：在高峰期，主库请求量达到接近十万 QPS，单个从库读的请求也在几万左右，所有从库的总 QPS 在高峰期接近百万，整体并发量高，我们的业务对延迟极为敏感，不能容忍波动。单库存储空间压力大：单节点的存储空间已经超过十几 TB 以上，对于处理高并发 TP 业务的 MySQL 来说，这样的压力是非常巨大的。从库数据实时性要求：从库数据实时性要求很高，一旦从库出现慢查询或其他情况影响到从库延迟，会对业务造成极大影响。运维困难：运维工作也面临很大的挑战，在突发流量的情况下，即使使用顶级配置的 MySQL 只能通过增加实例的方式来缓解压力。另外，如果单个只读从库出现故障，就需要进行实例重建的操作。由于 MySQL 实例的数据量很大，扩容从库、备份恢复都需要耗费大量时间，这对业务来说是难以接受的。\n…",
+          "link": "https://www.infoq.cn/article/yLvQiRo3RV3L21qMy6WJ",
+          "publishedOn": "2024-03-27T13:06:17.000Z",
+          "wordCount": 322,
+          "title": "OceanBase在网易游戏的技术实践",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/FPvZx1z2PJrraMFTRocR",
+          "author": "SelectDB",
+          "description": "自增列（auto_increment）是数据库中常见的一项功能，它提供一种方便高效的方式为行分配唯一标识符，极大简化数据管理的复杂性。当新行插入到表中时，数据库系统会自动选取自增序列中的下一个可用值，并将其分配给指定的列，无需用户手动干预。这种自动化的机制不仅简化了数据管理的流程，更确保了标识符的唯一性，让数据库维护变得更加便捷和可靠。\n\n自增列在多种场景中发挥着重要的作用：\n\n字典编码： 在常见场景中，UserID 和订单 ID 通常被存储为 String 字符串类型，当需要进行精确去重查询时，直接对字符串去重可能效率不高。为了极致性能，常见的做法是先对字符串进行字典编码后构建 Bitmap 进行聚合运算。而自增列可以提高字典编码的效率，从而提高字符串精确去重以及查询的性能。主键生成： 由于主键是唯一的，且不允许为空，因此自增列经常被用作表的主键。自增列可以确保每次插入新记录时自动生成唯一的标识符，有助于简化数据的管理和查询。明细更新： 使用自增列为每条入库的记录分配了唯一 ID 作为主键之后，即可基于这些主键进行更新。从而解决了明细表不支持更新的问题。高效分页： 在数据展示时，分页是一种常见的需求。传统的分页通常利用 SQL 中的 limit， offset + order by 进行查询。当进行深分页（Offset 很大）时，该方式需对全量数据读取并排序，效率极低。而自增列可以为每行数据生成唯一标识，当进行分页查询时，可以记录上一页最大唯一标识，并将其作为下一页的查询条件。这样可以有效过滤大量非必需数据，显著减轻数据库压力，为用户提供高效的分页机制。......\n\n在分布式数据库中，由于自增序列的可用值分配涉及全局事务，这使自增列的实现存在一定难度。然而， Apache Doris 在 2.1 版本中实现了高效的自增列功能，提供了创新性的自增序列预分配方案。当用户开启…",
+          "link": "https://www.infoq.cn/article/FPvZx1z2PJrraMFTRocR",
+          "publishedOn": "2024-03-27T12:57:27.000Z",
+          "wordCount": 324,
+          "title": "Apache Doris 如何基于自增列满足高效字典编码等典型场景需求",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/VSiq9PfSPmFZtmKcadOW",
+          "author": "SelectDB",
+          "description": "随着版本迭代，Apache Doris 一直在拓展应用场景边界，从典型的实时报表、交互式 Ad-hoc 分析等 OLAP 场景到湖仓一体、高并发数据服务、日志检索分析及批量数据处理，越来越多用户与企业开始将 Apache Doris 作为统一的数据分析产品，以解决多组件带来的数据冗余、架构复杂、分析时效性低、运维难度大等问题。\n\n然而在架构统一和升级的过程中，由于部分大数据分析系统有自己的 SQL 方言、需要对 SQL 语法进行一定程度的修改，另外由于大量原有系统的 SQL 与业务逻辑相关联，需要进行大量业务逻辑的改造，这不可避免地增加了额外迁移成本。\n\n为了帮助企业有效应对这些挑战，Apache Doris 2.1 版本提供了 SQL 方言兼容与转换方案—— Doris SQL Convertor，兼容了包括 Presto、Trino、Hive、ClickHouse、PostgreSQL 等在内多种 SQL 语法。 用户可以在 Doris 中直接使用相应系统的 SQL 语法执行查询，也可以在可视化界面对原有的 SQL 语句进行批量转换。通过 Doris SQL Convertor，能够有效减轻用户业务迁移成本，提供更加顺畅地业务迁移体验\n\n核心特性\n\n\n无缝切换，高度兼容多种 SQL 方言\n\n无需手动对原有系统的 SQL 方言进行改写，用户仅需要在 Apache Doris 会话变量中设置 set sql_dialect= XXX，即可直接在 Doris 中执行该 SQL 语法的查询。\n\n我们在实际客户场景中进行了大量兼容性测试，以 ClickHouse 和 Presto 方言为例。在某些社区用户的实际线上业务 SQL 兼容性测试中，Doris SQL Convertor 在全部 3 万多条查询语句中，与 Presto SQL 兼容度高达 99.6% ，与 ClickHo…",
+          "link": "https://www.infoq.cn/article/VSiq9PfSPmFZtmKcadOW",
+          "publishedOn": "2024-03-27T12:52:26.000Z",
+          "wordCount": 331,
+          "title": "兼容 Presto、Trino、ClickHouse、Hive 近 10 种 SQL 方言，Doris SQL Convertor 解读及实操",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/J5yLIUCCyhzuDof7gzJB",
+          "author": "THE STACK",
+          "description": "摘要：\n过度配置CPU和内存可以保持正常运行，但代价高昂。资源不足可能会导致CPU限制和内存不足，从而导致应用程序性能不佳甚至崩溃。根据CAST AI对4000个Kubernetes集群的分析，Kubernetes集群通常只使用13%的CPU和平均20%的内存，这表明存在严重的过度配置。\n\n\n\n\n \n根据CAST AI\"对4000个Kubernetes集群的分析，Kubernetes集群通常只使用13%的CPU和平均20%的内存，这表明存在严重的过度配置。\n \n在分析了2023年1月至12月期间在AWS、Azure和GCP管理的Kubernetes服务上运行的客户后，该公司在今天的一份报告中指出，优化可以为首席信息官们（CIO）节省一大笔钱。\n \n（Gartner预测，2024年公有云服务的支出将达到6780亿美元，而FinOps的议程将继续上升，因此避免在云服务上超支是许多首席信息官（CIO）和首席技术官（CTO）的首要任务。通过Kubernetes优化可以节省大量成本。例如，人工智能公司Anthropic去年使用Karpenter\"将其AWS账单削减了40%。）\n \n另见：人工智能公司Anthropic通过使用Karpenter将其AWS账单削减了40%\"。\n \n对CAST AI联合创始人兼首席人才官（CPO）Laurent Gil来说，调查结果表明，公司仍在“努力应对手动管理云原生基础设施的复杂性”——该公司的报告指出，在Kubernetes上，工作负载的大小是根据为CPU和内存设置的请求和限制来确定的：“优化它们就像走钢丝。”\n \n“过度配置CPU和内存可以保持正常运行，但成本很高。”\n \n“资源调配不足可能会导致CPU限制和内存不足，从而导致应用程序性能不佳甚至崩溃。当团队不完全了解其容器资源需求时，他们通常会谨慎行事，调配比所需更多的CPU和内存。”\n \n“这就是自动化调整工作负载的用武之地。”他说到。（提供Kubernetes成本优化平台的CAST AI声称，开源替代方案为本已经很复杂的编排层增加了更多的配置复杂性，而其商业替代方案的即插即用功能是更简单的削减云支出的替代方案。）\n \n另见：PlayStation希望让游戏服务器在Kubernetes上运行\"。原因如下。\n \n该报告的调查结果是基于CAST AI对2023年1月1日至12月31日期间在亚马逊网络服务（AWS）、谷歌云平台（GCP）和微软Azure（Azure）上运行的4000个集群的分析，之后这些集群由该公司的自动化平台进行优化。\n \n它进一步指出，对于包含1000到30000个CPU的大型集群，组织平均仅使用17%的预配CPU。\n \n简而言之，报告总结道，造成浪费的最大因素是：\n \n过度配置：分配给应用程序或系统的计算资源超过了其所需的数量。豪无根据的余量：对CPU数量的请求设置得太高。Spot实例使用率低：由于担心不稳定，许多公司不愿意使用Spot实例。GKE上“自定义实例大小”的使用率较低：除非自定义实例的选择是动态且自动化的，否则很难选择最佳的CPU和内存比率。\n \n完整的报告在这里\"。\n \n原文链接：\nhttps://www.thestack.technology/kubernetes-clusters-are-typically-using-just-13-of-cpu-cios-could-save-a-fortune/\"",
+          "link": "https://www.infoq.cn/article/J5yLIUCCyhzuDof7gzJB",
+          "publishedOn": "2024-03-27T10:03:03.000Z",
+          "wordCount": 322,
+          "title": "报告显示，Kubernetes集群通常只使用13%的CPU",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/mqkZu0Hc1fGfNTwaid50",
+          "author": "Olivia Moore",
+          "description": "导读：在这个日新月异的科技时代，人工智能正成为推动创新的引擎，催生着一批新一代的原生产品和公司。这些产品以前所未有的速度增长，并且能够深度吸引用户，预示着将成为未来十年定义行业的重要力量。本文深入探讨了这一趋势，介绍了在各个领域的应用和影响。通过分析最新的数据和趋势，我们揭示了技术正在如何改变我们的生活方式和商业模式，以及公司如何崛起并成为产业的领军者。\n\n自 ChatGPT 一年多前将生成式人工智能推向公众视野以来，我们已经见证了数以千计融合了魅力的新型消费产品横空出世，这些产品覆盖领域广泛，既有视频生成器和工作流程改进等实用工具，也不乏创意工具和虚拟伴侣等创意应用。\n\n半年前，我们深入挖掘了网络流量数据，旨在辨别信息真伪。我们根据月访问量对最受欢迎的生成式网络产品进行了排名，并揭示了消费者实际使用这项技术的模式。\n\n尽管最初吸引广泛关注的 “赢家” 仅有 ChatGPT 和 Midjourney，但市场活力和竞争并未因此减弱，反而每月都有新的原生公司崭露头角。\n\n现在，六个月过去了，我们重新审视了数据，更新了分析。根据 SimilarWeb（截至 2024 年 1 月）的最新数据，我们再次对前 50 个以为主的网络产品进行了排名。令人惊讶的是，名单上的公司中超过 40% 都是新面孔，相较于我们 2023 年 9 月的初步报告，这一数字令人瞠目。\n\n\n\n然而，与最初的分析不同，那时我们先是按照网络流量对公司进行了排名，随后才补充了这些公司的移动应用程序数据。但这一次，我们决定将网络和移动端的生成式产品分为两个独立的列表。\n在移动端的排名上，我们依据 Sensor Tower 的数据（截至 2024 年 1 月），按照月活跃用户数量对移动应用程序进行了排序。这样的区分使我们首次能够全面探究顶级移动应用的整体情况。实际上，消费者在网络和移动端与生成式互动的方式存在显著差异，我…",
+          "link": "https://www.infoq.cn/article/mqkZu0Hc1fGfNTwaid50",
+          "publishedOn": "2024-03-27T09:54:43.000Z",
+          "wordCount": 325,
+          "title": "全球TOP100生成式AI应用重磅刷新：40%首次上榜，AI 陪伴来势凶猛",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/NfAHKgupgd2uFgxvcjGN",
+          "author": "鲁蔚征",
+          "description": "随着 AI 技术的迅速发展，模型规模和复杂度以及待处理数据量都在急剧上升，这些趋势使得高性能计算（HPC）变得越来越必要。HPC 通过集成强大的计算资源，比如 GPU 和 CPU 集群，提供了处理和分析大规模数据所需的算力。\n\n然而，这也带来了新的挑战，尤其是在存储系统方面，包括如何有效处理大量数据、确保数据访问的高效性以及如何控制成本和运维管理。分布式文件系统，作为一种高成本效益高的解决方案，正逐渐在 AI 和 HPC 场景中广泛应用。它们通过跨多个节点分布存储资源，有效地处理和管理大数据集，满足 HPC 对数据存取速度的高要求。\n\n人民大学在人工智能和计算机科学领域进行了多项研究，其高性能计算中心为科研提供了强有力的支持，并在结合 HPC 与 AI 应用方面积累了一些的经验。本文将为大家介绍 HPC、大数据及 AI 应用的数据模式和特性；人大对几款主流分布式文件系统 Lustre、Alluxio 以及 JuiceFS 也做了初步性能测评，我们将分享这些测评结果，并介绍常用的性能评测工具，希望为选择 HPC 和 AI 存储解决方案的用户提供有价值的参考。\n\n01 大规模数据应用场景：HPC vs 大数据 vs AI\n\n\n高性能计算 (HPC)\n\n\n高性能计算（HPC）在科学研究和工程应用中发挥着关键作用，诸如气候预测、蛋白质折叠以及计算流体力学等领域均依赖于其提供的计算能力。与机器学习和人工智能采用的方法不同，HPC 常基于模拟和科学公式推演来解决复杂问题。\n\n在 HPC 中，任务可分为计算密集型和数据密集型。例如，天气预测既需要大量计算资源模拟天气变化，又需处理和分析庞大数据集。而如分子动力学模拟等计算密集型任务，则更侧重于计算处理，对数据依赖较少。\n\n(HPC Cluster Architecture)\n\nHPC 环境通常采用高带宽、低延迟的网络，如 InfiniBa…",
+          "link": "https://www.infoq.cn/article/NfAHKgupgd2uFgxvcjGN",
+          "publishedOn": "2024-03-27T09:40:12.000Z",
+          "wordCount": 322,
+          "title": "从HPC到AI：探索文件系统的发展及性能评估",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/MlZMq4LHWmE2PAh05E06",
+          "author": "LiteIO",
+          "description": "2024 年 3 月 2 日至 3 月 6 日，在英国爱丁堡举行了第 30 届 IEEE 高性能计算机体系结构国际研讨会 HPCA（30th IEEE International Symposium on High-Performance Computer Architecture），HPCA 是计算机体系结构领域的四大顶级会议之一，由阿里云服务器研发团队和蚂蚁数据基础设施与高可用团队合作完成的论文《LightPool: A NVMe-oF-based High-performance and Lightweight Storage Pool Architecture for Cloud-Native Distributed Database 》入选，本届会议共收到 410 篇投稿，最终接受 75 篇，录用率 18.3%。其中提到的 LightPool 就是我们的开源产品 LiteIO。\n\n开源项目地址：https://github.com/eosphoros-ai/liteio\n\n\n论文背景\n\n\n论文阐述了在云计算背景下，阿里云服务器研发团队和蚂蚁数据基础设施与高可用团队在数据库面临存储的性能、成本、稳定性的多重压力下，以其面向云原生业务快速高效的软硬件融合解决问题的能力，创新性的提出了一种全新的基于云原生的本地存储池化架构，该架构不仅能在性能上能和本地存储媲美，同时融入了云原生架构，解决了本地存储的弹性问题，在业务上能显著的降低业务的存储使用成本，提升存储的资源利用率。\n\n\n\n\n论文解读\n\n\n分布式数据库面临的存储选择\n\n数据库作为企业关键的 IT 基础设施，承担着存储、访问和分析关键数据的重要任务，它直接关联到运营效率的提升、客户体验的改善，以及数据驱动决策的支持。企业的业务特性对数据库提出了高可用性、高性能和低成本的需求；在此背景下，作为数据库底层支撑的存储服务类型…",
+          "link": "https://www.infoq.cn/article/MlZMq4LHWmE2PAh05E06",
+          "publishedOn": "2024-03-27T09:28:39.000Z",
+          "wordCount": 324,
+          "title": "IEEE HPCA 2024｜LiteIO：高性能、轻量级的存储池化架构",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/JOcmWdN8b2cYVgbkZdyb",
+          "author": "Kevin Lee、Adi Gangidi、Mathew Oldham",
+          "description": "本文最初发布于Meta工程博客。\n我们宣布了两个24k GPU集群，这是Meta面向AI未来的重大投资。本文将分享有关硬件、网络、存储、设计、性能和软件的详细信息，它们将为我们的各种人工智能工作负载提供高吞吐量和可靠性。我们使用这个集群设计训练Llama 3。我们坚定地致力于开放计算和开源。我们基于Grand Teton\"、OpenRack\"和PyTorch\"构建了这些集群，并将继续推动整个行业的开放创新。本次公告的内容是我们雄心勃勃的基础设施路线图的一个步骤。从现在到2024年底，我们的目标是继续扩大我们的基础设施建设，其中将包括35万颗NVIDIA H100 GPU。这是我们投资组合的一部分，全部投资将提供相当于近60万颗H100的计算能力。\n \n要想在人工智能的发展上领先就要在硬件基础设施的投资上领先。硬件基础设施在人工智能的未来发展中扮演着重要的角色。今天，我们将详细介绍Meta数据中心级集群（包含24,576颗 GPU）的两个版本。这些集群支撑着我们当前和下一代的AI模型，包括Llama 2\"（我们公开发布的LLM）的继承者Llama 3，以及GenAI和其他领域的AI研究和开发。\n \n\nMeta大规模AI集群简介\n\nMeta的长期愿景是构建开放、可靠的通用人工智能（AGI），使每个人都可以使用，都可以从中受益。在努力实现AGI的同时，我们也在努力为实现这一目标而扩展我们的集群。我们依托AGI方面取得的进展创造了新产品，为App家族构建了新的AI特性\"，以及开发了新的以AI为中心的计算设备。\n \n虽然我们在构建人工智能基础设施方面有着悠久的历史，但我们在2022年才首次分享了AI Research SuperCluster\"（RSC）的细节。该集群有16万颗NVIDIA A100 GPU。它帮助我们建立了第一代先进的人工智能模型，加速了我们开放、负责任的人工智能研…",
+          "link": "https://www.infoq.cn/article/JOcmWdN8b2cYVgbkZdyb",
+          "publishedOn": "2024-03-27T09:00:55.000Z",
+          "wordCount": 325,
+          "title": "Meta 如何搭建训练Llama 3的基础设施：未来将扩展到容纳35万颗H100",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/IDih2TUJ1xYL3VxO16xb",
+          "author": "曹洪伟",
+          "description": "在塑造新领域的过程中，我们往往依赖于一些经过实践验证的策略、方法和模式。这种观念对于软件工程领域的专业人士来说，已经司空见惯，设计模式已成为程序员们的重要技能。然而，当我们转向大模型应用和人工智能领域，情况可能会有所不同。面对新兴技术，例如生成式 AI，我们尚缺乏成熟的设计模式来支撑这些解决方案。\n\n作为一位老码农，我在这里整理总结了一些针对大模型应用的设计方法和架构模式，试图应对和解决大模型应用实现中的一些挑战，如成本问题、延迟问题以及生成的不准确性等。\n\n\n1. 路由分发模式\n\n\n当用户输入一个查询时，该查询会被发送到控制中心，而控制中心则扮演着对输入进行分类的角色。\n\n\n\n如果查询是可以识别的，那么它会被路由到小语言模型进行处理，这通常是一个更准确、响应更快且成本更低的操作。然而，如果查询无法被识别，那么它将由大型语言模型来处理。尽管大型语言模型的运行成本较高，但它能够成功返回更多种类型查询的答案。通过这种方式，人工智能产品可以在成本、性能和用户体验之间实现平衡。\n\n2. 大模型代理模式\n\n\n想象一个生态系统，其中多个专门针对特定任务的生成式 AI 模型各自作为其领域内的专家，并行工作以处理查询。这种多路复用模式能够生成一系列不同的响应，然后将这些响应整合在一起，形成一个全面的答案。\n\n\n\n这样的设置非常适合复杂的问题解决场景，在这种场景中，问题的不同方面需要不同的专业知识，就像一个由专家组成的小组，每个专家负责处理更大问题的一个方面。\n\n更大的模型（如 GPT-4）负责理解上下文，并将其分解为特定的任务或信息请求，这些任务或信息请求被传递给更小的代理。这些代理可能是较小的语言模型，它们已经接受过特定任务的训练，或者是具有特定功能的通用模型，如 GPT、Llama、上下文提示和函数调用。\n\n\n3. 多任务微调模式\n\n\n在这种架构模式中，我们对大型语言模型进行了微调，使…",
+          "link": "https://www.infoq.cn/article/IDih2TUJ1xYL3VxO16xb",
+          "publishedOn": "2024-03-27T08:40:41.000Z",
+          "wordCount": 325,
+          "title": "大模型应用的 10 种架构模式",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/ASBftCRcV1Vum5lc46Vw",
+          "author": "泽斌",
+          "description": "KV 存储作为美团一项重要的在线存储服务，承载了在线服务每天万亿级的请求量，并且保持着 99.995% 的服务可用性。在 DataFunSummit 2023 数据基础架构峰会上，我们分享了《美团大规模 KV 存储挑战与架构实践》，本文为演讲内容的整理。文章主要分为四个部分：第一部分介绍了美团 KV 存储发展历程；第二部分分享了内存 KV Squirrel 挑战和架构实践；第三部分阐述了持久化 KV Cellar 挑战和架构实践；最后一部分介绍了未来的发展规划。希望这些内容能对大家有所帮助或启发。\n\n\n1、美团 KV 存储发展历程\n\n\n\n\n上图就是美团第一代的分布式 KV 存储的架构，可能很多公司都经历过这个阶段。在客户端内做一致性哈希，然后在后端部署上很多 Memcached 实例，这样就实现了最基本的 KV 存储分布式设计。但这样的设计存在很明显的问题：比如在宕机摘除节点会时丢失数据；此外，在缓存空间不够需要扩容时，一致性哈希也会丢失一些数据，这样会给业务的开发带来很大的困扰。\n\n\n\n随着 Redis 项目的成熟，美团也引入了 Redis 来解决我们上面提到的问题，进而演进出来上图这样一个架构。可以看到，客户端还是一样，使用一致性哈希算法，在服务器端变成了 Redis 组成的主从结构。当任何一个节点宕机，我们可以通过 Redis 哨兵完成 failover，实现高可用。但有，还一个问题还是没有解决，如果扩缩容的话，一致性哈希仍然会丢失数据。\n\n\n\n这时我们发现业界有一个比较成熟的开源 KV 存储：也就是阿里巴巴的 Tair 。2014年，我们把 Tair 引入到技术内部，去满足业务 KV 存储方面的需求。Tair 开源版本的架构主要是三部分：最下边的是存储节点，存储节点会上报心跳到它的中心节点，中心节点内部设有两个配置管理节点，会监控所有的存储节点。如果有任何存储节点宕…",
+          "link": "https://www.infoq.cn/article/ASBftCRcV1Vum5lc46Vw",
+          "publishedOn": "2024-03-27T08:16:00.000Z",
+          "wordCount": 322,
+          "title": "美团大规模KV存储挑战与架构实践",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/zXxWLvEGVi0SqFYO7hPe",
+          "author": "Lucien",
+          "description": "InfoQ 在策划 2024 年 6 月 14-15 日深圳 ArchSummit 架构师峰会\"，本次 ArchSummit 大会设置了大模型基础框架、AI 运维、数据架构、应用架构、业务架构、微服务、高可用以及 AIOps 和智能监控等多个层面的话题，欢迎到官网查看详细议题介绍。\n\n近年来，我国快递行业呈现出快速增长和产业升级的趋势。随着电商市场的不断扩张和人们对物流服务品质要求的提高，顺丰在技术、设备、分拣、配送等方面进行了大量投入和创新。\n\n随着客户对物流服务质量的要求越来越高， 顺丰针对货物的运输，制定了更严格的运输流程和操作，并期望对快件的全流程进行追溯。在此背景下，全链路追溯系统应运而生。\n\n全链路追溯系统，从“快件”维度，通过提取快件在操作过程中产生的关键结构化信息，匹配场地摄像头监控，匹配分拣线数据，获取快件产生的图片，视频等非结构化数据，将数据聚合，形成快件查找的完整链路。\n\n在传统物流运输过程中，难以做到对单票快件的全流程追溯，无法留下视频，图片，等有效数据来证明快件的状态，导致快件异常难以定位。\n\n全链路追溯系统，以路由数据为基础，按时间维度，提取快件在中转场和终端产生的所有数据，包括扫描记录，外包装照片，安检图片，分拣行为检测视频，违规码货视频，部署在场地的 AI 算法产生的数据，等等都纳入到追溯数据记录里来。\n\n\n\n一、系统设计与实现\n\n1. 设计目标\n\n非结构化数据现状：每天有数亿图片产生，每张图片大小不等，每天新产生的图片占用存储近百 T；图片从业务功能划分，有数百种，每一种业务类型的图片 需要留存的时间各不相同；作业场所网络带宽各不相同，需要优先满足结构化数据的快速传输，无法满足全量非结构化数据的上传；部分业务对图片实时性要求高，在数秒内如果无法上传图片，可能会造成危险品放行，导致损失和危险；全部中转场数百万摄像头，每个摄像头所监控的区域不同…",
+          "link": "https://www.infoq.cn/article/zXxWLvEGVi0SqFYO7hPe",
+          "publishedOn": "2024-03-27T07:46:44.000Z",
+          "wordCount": 322,
+          "title": "顺丰科技全链路追溯系统：打造可信赖的快递服务",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/iLBCQIZMDBjfxmXWlSCI",
+          "author": "Tina,核子可乐",
+          "description": "输入音乐流派风格、内容主题，仅需几秒钟内就可生成2分钟音乐......\n \n近日，人工智能初创企业Suno对外发布了Suno模型V3版本，并在官网上提供了免费试用。据介绍，在V2版本基础上，V3版本增加了更多音乐风格和流派，同时也加强了对提示词的依从性，减少了幻觉问题，效果更加令人惊艳。所以这款 AI 驱动的歌曲生成器在社区内迅速传播，引发了一股创作热潮。\n \nSuno 能够根据用户输入的简单文本描述，生成完整的歌曲作品，包括歌词、人声和配器等所有内容。这使得音乐创作不再局限于专业人士，即使是没有任何音乐基础的人，也能轻松创作出属于自己的歌曲。尽管 Adobe 的 Project Music GenAI、YouTube 的 Dream Track 和 Voicify AI 等 AI 音乐生成器已先行推出，但只有 Suno 脱颖而出，被誉为“音乐界的 ChatGPT”。\n \n\n\n\n \n\n让Transformer唱起来\n\n \n文本转语音（TTS）的发展历程，其底层架构的演变可以概括为共振峰合成→串联合成→神经网络。现如今，最先进的TTS只需调用一次API，即可使用Eleven Labs和OpenAI的TTS模型或Descript产品。整个过程延迟极低，语调顺畅自然，甚至能够模仿各种口音。一天之内，大家就能拥有自己的语音AI陪聊。那有了语音陪聊AI的下一步是什么？当然是让它唱起来！\n \n据报道，Suno创业团队仅成立不到两年时间，由Mikey Shulman、Keenan Freyberg、Georg Kucsko和Martin Camacho联合创立。四人都是机器学习方面的专家，此前曾一同就职于人工智能企业Kensho，并想打造出以财务场景为核心的语音识别工具（例如财报电话会议）。但身为音乐家兼音响发烧友，他们开始尝试将文字转语音、AI和音频生成结合起来，最终离开Kensho选…",
+          "link": "https://www.infoq.cn/article/iLBCQIZMDBjfxmXWlSCI",
+          "publishedOn": "2024-03-27T07:41:47.000Z",
+          "wordCount": 323,
+          "title": "创始人解读：爆改周杰伦的音乐界ChatGPT是如何炼成的",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/D0eYEt1xYGxQ5A7wriyS",
+          "author": "极客时间企业版",
+          "description": "AI 大模型的迅速崛起，成为驱动产业智能化升级的核心引擎，各行各业正经历着前所未有的智能化变革。极客邦科技积极响应国家科技创新发展战略，携手众多数字化专家和权威机构，在十周年之际，重磅推出系列创新的 AIGC 产品及解决方案，在 3 月 26 日通过线上发布会对外公布。\n本次直播以“升级组织 AI 能力，助力企业加速数字化进程”为主题，面向 3000 家企业，分享了极客邦科技对 AIGC 行业应用和人才发展的深刻洞察，万名关注 AI 发展趋势和数字化人才培养的观众，共同见证了极客邦科技在 AIGC 人才培养领域的创新成果。\n\n亮点一：最新研究「数智时代的 AI 人才粮仓模型」帮助企业精准识别驱动企业发展的 AI 人才！\n\n\n由极客邦科技双数研究院最新发布的“数智时代的 AI 人才粮仓模型”成为发布会的一大亮点。这一模型的研发汇聚了众多专家的前瞻想法，并得到了中国信息通信研究院“铸基计划”的特别支持，其设计理念旨在为企业提供一套精准识别并驱动 AI 人才发展的有效机制，为企业在人工智能时代的四层人才布局提供了全新的视角和路径。\n\n\n亮点二：重磅发布「 企业 AIGC 应用程度测评 」，量化企业 AIGC 应用水平！\n\n\n该工具基于 AIGC 知识技能模块，通过八个测评维度，以量化的方式评估企业不同类型人才在 AIGC 领域的应用水平，帮助企业更清晰地了解自身在人工智能领域的应用状况，为企业的战略决策提供抓手。\n\n扫码免费参与「企业 AIGC 应用程度测评」\n\n亮点三：行业领先 「AIGC 人才培养解决方案」，构筑企业“ 多维 + 深层 ”一体化 AI 人才矩阵！\n\n\n同时，为满足企业的数字化组织在 AIGC 能力提升方面的迫切需求，极客邦科技还推出了一套“AIGC 人才培养解决方案”。该方案以构建企业“多维+深层”一体化 AI 人才矩阵为目标，为企业提供全方位、多层次的 AI 人才培养和队伍建设指导服务，为企业提升 AI 能力和加速数字化进程提供强有力的支持。\n\n发布会还邀请了来自中国信通院“铸基计划”、华润集团、德勤中国、东风汽车、吉利汽车、SAP 等机构的专家，他们分享了各自在企业 AIGC 应用与人才发展的前沿实践和思考，有助于推动 AIGC 技术的更广泛应用和人才培养的深入发展。同时，我们也衷心感谢《培训》杂志、GHR 环球人力资源智库等合作伙伴对本次发布会的鼎力支持，以及对 AIGC 应用发展和数字化人才培养的共同推动。\n\n回望过去十年，极客邦科技始终坚守初心，致力于推动科技创新和数字化发展，在数字化、智能化浪潮汹涌的今天，我们将继续深耕 AIGC 领域，为企业提供更高效、更智能的解决方案和服务。我们坚信，通过不断创新和努力，极客邦科技将为企业的数字化进程和行业的可持续发展贡献更多力量。\n\n\n一张图帮助您快速看懂本次发布会的更多内容\n\n\n\n了解更多发布会内容，请扫描下方二维码观看回放",
+          "link": "https://www.infoq.cn/article/D0eYEt1xYGxQ5A7wriyS",
+          "publishedOn": "2024-03-27T06:43:10.000Z",
+          "wordCount": 324,
+          "title": "一图看懂：重磅发布极客邦科技十周年 AIGC 产品与解决方案",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/DEI5Gfyeri7wUJBQoVW5",
+          "author": "褚杏娟",
+          "description": "北京时间2024年3月11日，Amoro项目顺利通过投票，正式进入Apache软件基金会（ASF，Apache Software Foundation）的孵化器，成为ASF的一个孵化项目。\n \n根据Apache软件基金会的投票结果邮件显示，本次投票共包含15个约束性投票和19个非约束性投票，所有的投票均为赞成，没有弃权票或反对票。\n\nAmoro，开箱即用的湖仓管理能力\n\n \n长期以来，在Hadoop、Spark、Flink、Trino等开源、开放、扩展性强的生态项目的支持下，湖仓已成为企业数字化转型中的重要选型。然而，湖仓的复杂性和技术门槛导致企业落地成本居高不下。\n \nAmoro是建立在开放数据湖表格式之上的湖仓管理系统。2020年开始， 网易大数据团队在公司内基于Apache Iceberg进行湖仓一体架构的探索，孵化了流式湖仓服务Arctic。\n  \n2021年，团队陆续发布Arctic 0.1/0.2版本，并在网易云音乐算法团队落地，后在网易传媒、网易有道等业务落地。次年8月，网易正式开源了Arctic，项目受到了广泛关注并开始上线到生产环境中，用户逐渐转变为贡献者。\n  \n2023年8月，由于对Arctic的期望以及项目长期发展考虑，Arctic正式更名为Amoro，并发布了新的LOGO和官网。今年3月，网易将Amoro捐赠给Apache基金会，提案通过了Apache基金会的投票决议。\n \n自2022年8月对外开源以来，Amoro不断有发现相同痛点的小伙伴加入到社区中，截至目前，Amoro共有19个上线用户和62位贡献者。\n \nAmoro旨在提供开箱即用的湖仓管理能力，将湖仓的复杂性留给系统，简化给产品和用户。据介绍，Amoro 的功能主要包括：\n \n提供统一的Catalog服务，对齐Hive Metastore、Rest catalog等开源标准，支持集成Glue等商业元仓，帮助引擎和产品构建流批统一的元仓；提供全托管的湖仓维护功能，包括数据自优化、数据过期、快照清理、元数据同步等，以实现数据在不同引擎之间的高可用性和开箱即用。支持对接不同的数据湖格式，包括Apache Iceberg和Apache Paimon，以及一种对流批一体场景更加优化的Mixed格式。提供开箱即用的管理工具，包括DSL指令、Metrics、Dashboard等。\n \n\n“让湖仓不再成为互联网企业专宠”\n\n \n根据Amoro团队介绍，Amoro 的愿景是依托于Apache Iceberg、Apache Paimon等新型数据湖表格式，持续打磨湖仓管理系统的定位和开箱即用的功能，为大数据产品和用户带来以下价值：\n \n降低湖仓应用门槛，融入现代数据栈，为围绕湖仓构建的大数据产品极致瘦身，让湖仓不再成为互联网企业的专宠。通过管理系统对维护任务的全托管能力，实现数据湖的自治，让数据治理变得简单和开箱即用。提供全托管维护任务的扩展能力，让湖仓管理变得更为便捷。\n  \n未来，Amoro社区将专注于以下方面：\n \n打磨全托管Function的框架和能力，持续优化Built-in Function功能，突出数据自优化功能与对标方案上的性能和成本优势。以社区驱动的方式持续完善Paimon、Iceberg的对接能力，按需求对接新的Format。面向管理的各类DSL指令实现，帮助产品更好地集成。完善Metrics以及其他管理功能。\n \n \n \n相关链接：\nAmoro 贡献者列表:\nhttps://github.com/NetEase/amoro/graphs/contributors\" \nAmoro 2024 roadmap:\nhttps://github.com/NetEase/amoro/issues/2534\"",
+          "link": "https://www.infoq.cn/article/DEI5Gfyeri7wUJBQoVW5",
+          "publishedOn": "2024-03-27T06:37:34.000Z",
+          "wordCount": 326,
+          "title": "网易湖仓管理系统 Amoro 进入 Apache 孵化器",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/523983af48cca1f6adc98561f",
+          "author": "华为云开发者联盟",
+          "description": "2024年3月20日，Redis Labs宣布从Redis 7.4开始，将原先比较宽松的BSD源码使用协议修改为RSAv2和SSPLv1协议。该变化意味着 Redis 在 OSI（开放源代码促进会）定义下不再是严格的开源产品。该变化引发Redis使用者的广泛激烈讨论，那么对Redis使用者都有哪些影响呢？\n\nRedis协议变更之后，都有哪些影响？\n\n\nBSD协议非常宽松，使用者可以任意使用以及商用。RSALv2是由Redis Labs创建的协议，用户可以内部使用，但不能将其商业化提供给其他人使用。SSPLv1是由 MongoDB 公司创建的协议，该协议具有传染性，以此构建的软件都必须以相同协议开放源代码。\n\n在文章的FAQ有相应的回复，可以简单概括为：\n\n1. 对于直接使用开源自建Redis的最终用户，可以继续使用，但不允许向其他公司提供Redis商业服务。\n\n2. 基于开源Redis提供Redis服务的第三方供应商，如果未进行商业合作，不能提供Redis 7.4及以后的高版本。对使用第三方Redis供应商的用户，可能购买不到Redis 7.4及以后新版本，或者已有Redis实例不能升级到Redis 7.4及以后的新版本。\n\n其实早在2019年，Redis模块如Redis Bloom、Redis JSON等已使用RSAL协议，无版权的Redis服务提供商无法提供以上模块。\n\n华为云GeminiDB Redis接口受此影响吗？\n\n\n华为云GeminiDB是一款兼容Redis协议的弹性KV数据库，支持远超内存的容量和极致的性能，技术自主创新，并不受此影响。\n\n1. 100%自主创新，持续演讲\n\n\nGeminiDB目前完全兼容行业主流的Redis 6.2、5.0、4.0，且还在继续演进7.2。GeminiDB提供Redis主备和集群全生态和特性，支持任意一款Redis客户端。对用户来说，无需任何业务改造即可从自建轻松上云。\n\n随着GeminiDB版本演进，用户将来可随时一键升级到Redis高版本。也可以通过华为云DRS服务，自由上下云，不受任何约束。\n\n相较于开源Redis单线程架构，GeminiDB采用多线程分布式架构，可支持QPS 1w到1000w的灵活调整。GeminiDB具有稳定的低时延，平均时延<1ms，P99时延<2ms，保障业务24小时稳定运行。\n\n除此之外，GeminiDB采用先进的存算分离架构，最高可支持数百TB存储，可灵活独立扩容计算、存储资源，综合降本30%+。\n\n\n\n2. 立足业务，提供更多的增强特性\n\n\nGeminiDB深入业务调研，已提供一系列增强功能，如布隆过滤器、广告推荐业务神器-FastLoad极速数据导入、频控购物车刚需-Hash类型可设置field粒度过期时间、游戏业务极速回档（PITR）等，持续为用户带来云原生、高性能和易用性等方面的优势体验。详情可参考文章：华为云GeminiDB发布新版本，全面支持Redis 6.2\"\n\n\n\n总结\n\n\n华为云GeminiDB当前已广泛应用在广告、游戏、电商、阅读、金融、车联网等行业。GeminiDB团队基于高性能、易用性原则，未来将持续探索业务开发和运维使用诉求，致力于为用户带来最具弹性和性价比的KV数据库服务，欢迎前往华为云GeminiDB官网体验使用。\n\n\n点击关注，第一时间了解华为云新鲜技术~\"",
+          "link": "https://www.infoq.cn/article/523983af48cca1f6adc98561f",
+          "publishedOn": "2024-03-27T06:27:32.000Z",
+          "wordCount": 340,
+          "title": "新版Redis不再“开源”，对使用者都有哪些影响？",
+          "imageUrl": "https://static001.infoq.cn/static/write/img/write-favicon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/raTQqKyZCQfPGBTolZtg",
+          "author": "核子可乐,褚杏娟",
+          "description": "纽约大学教授 Gary Marcus今天转发了Business Insider的一篇报道，该报道指出，一些了解Altman 的人开始怀疑他已经被过度神话，有些投资人私下已经很看不惯他了。\n \nMarcus 在2014年创立了机器学习公司Geometric，后来被Uber收购。在Marcus 的帖子下，Quasiflux 创始人兼 CEO Marjan Milosavljević说道，“Sam Altman 和 OpenAI 构成了一个巨大的泡沫，我已经说过很多次了。”\n\n\n\n也有网友评价称，“Sam对我来说总是透明的。他不是天才，也不是有远见的人。他也不是无能或不道德的。他是典型的创业者，他偶然的表现会超出他的头脑和能力。如有必要，他擅长用灰色谎言影响人们。”\n \n“一方面，我希望如此，另一方面……天哪，他们会用谁来取代他？”还有网友心情复杂地说道。\n \n回过头看，Business Insider 的报道从OpenAI 2023年末的一场融资开始。\n \n通常来讲，当一家初创公司想要筹集大笔融资款项时，肯定会为各家风险投资公司安排一系列专项会议，结合其特点提供相应的筹款方案。\n \n可2023年末OpenAI在向投资者寻求3亿美元资金时，公司CEO Sam Altman却一反市场常规，选择了相当硬气的操作方式。他组织了一场集体视频通话，向包括红杉资本、Lightspeed和NEA在内的一众顶级风险投资公司提出了“要么接受、要么退出”的简单选项。之后Altman不再说话，而是让各家风险投资商相互讨论。\n \n当时出席电话会议的一位风险投资合伙人曾经支持过Altman的公司，但在发现自己跟市场上最大的竞争对手同处一张谈判桌时，他隐隐开始觉得哪里不对劲。\n \n这位投资者回忆道，“我当时就想，‘这也太魔幻了’。”而且摆在桌面上的报价也相当反常规，受邀参加电话会议的每个人都收到一份高达29…",
+          "link": "https://www.infoq.cn/article/raTQqKyZCQfPGBTolZtg",
+          "publishedOn": "2024-03-27T06:23:45.000Z",
+          "wordCount": 323,
+          "title": "投资人烦死Sam Altman了",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/7hSpxsblN3rAIT9PJVxF",
+          "author": "尹可汗,徐健猇,段仪",
+          "description": "背景\n\n\nDynamicgo 是字节跳动自研的高性能 Golang RPC 编解码基础库，能在动态处理 RPC 数据（不依赖代码生成）的同时保证高性能，主要用于实现高性能 RPC 动态代理场景（见 dynamicgo 介绍\"）。\n\nProtobuf 是一种跨平台、可扩展的序列化数据传输协议，该协议序列化压缩特性使其具有优秀的传输速率，在常规静态 RPC 微服务场景中已经得到了广泛的应用。但是对于上述特殊的动态代理场景，我们调研发现目前业界主流的 Protobuf 协议基础库并不能满足我们的需求：\n\ngoogle.golang.org/protobuf：Protobuf 官方源码支持协议转换和字段动态反射。实现过程依赖于反射完整的中间结构体 Message 对象来进行管理，使用过程中带来了很多不必要字段的数据性能开销，并且在处理多层嵌套数据时操作较为复杂，不支持内存字符串 io 流 IDL 解析。github.com/jhump/protoreflect：Protobuf 动态反射第三方库可支持文件和内存字符串 io 流 IDL 解析，适合频繁泛化调用，协议转换过程与官方源码一致，均未实现 inplace 转换，且内部实现存在Go版本兼容性问题。github.com/cloudwego/fastpb：Protobuf 快速序列化第三方库，通过静态代码方式读写消息结构体，不支持协议转换和动态 IDL 解析。\n\n因此如何设计自研一个功能完备、高性能、可扩展的 Protobuf 协议动态代理基础库是十分有必要的。\n@khan-yin和@iStitches两位同学经过对 Protobuf 协议源码机制的深入学习，设计了高性能 Protobuf 协议动态泛化调用链路，能满足绝大多数 Protobuf 动态代理场景，并且性能优于官方实现，目前 PR#37 （https://github.…",
+          "link": "https://www.infoq.cn/article/7hSpxsblN3rAIT9PJVxF",
+          "publishedOn": "2024-03-27T03:30:00.000Z",
+          "wordCount": 325,
+          "title": "字节自研高性能 Golang RPC 编解码基础库Dynamicgo如何支持Protobuf动态反射？",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/rX7blaTIkCB4ZwhDr6lN",
+          "author": "Rafal Gancarz",
+          "description": "云原生计算基金会（CNCF）近日传来喜讯，宣布 Falco 项目正式毕业\"。这款专为 Linux 系统设计的工具，在 Kubernetes 领域崭露头角，已成为备受赞誉的威胁检测引擎。Falco 项目不仅圆满完成了所有毕业要求，还经历了严格的尽职调查和第三方安全审计，最终获得了软件许可批准。\n\nFalco\" 项目自 2016 年由 Sysdig 公司推出以来，便备受关注。2018 年，它成功进入 CNCF 沙盒项目，并在 2020 年晋升为孵化级项目。这款工具能够实时监控容器、Kubernetes、主机和云服务中的潜在威胁，依托 Linux 内核模块和 eBPF\" 技术实现高效检测。同时，这款开源项目还与 50 多个第三方系统成功集成，提供 JSON 格式的警报通知，方便用户进行存储、分析和触发操作。\n\n\n\n\n\nFalco 架构 （来源：Falco 官网）\n\nFalco 赋予用户定义规则的能力，他们可以利用 Sysdig 的过滤表达式来识别潜在的可疑活动。以下是一个示例规则，可用于监测容器内尝试启动 Bash shell 进程的行为，帮助用户及时发现并应对潜在的安全风险。\n\n- rule: shell_in_container\n  desc: notice shell activity within a container\n  condition: container.id != host and proc.name = bash\n  output: shell in a container (user=%user.name container_id=%container.id container_name=%container.name shell=%proc.name parent=%proc.pname cmdline=%proc.cmdline)\n  priority: WARNING\n\n2022 年，Falco 推出了一个全新的插件系统，旨在定义更多的事件来源和事件提取器，并随附 SDK 以简化开发流程。这一插件系统非常灵活，几乎可以使用任何编程语言来编写，只要能够导出所需的函数即可。然而，为了获得最佳的开发体验，推荐使用 Go 语言来开发插件，其次是 C++，因为这两种语言都已经发布了相应的 SDK。\n\n\n\n\nFalco 的插件框架（来源：Falco 官博）\n\nFalco 的创始人、Sysdig 的 CTO 兼创始人 Loris Degioanni 在 Falco 毕业的评论中表示：\n\n\nFalco 的开发并向 CNCF 的贡献之所以如此重要，是因为运行时安全在云原生基础设施中必须得到广泛应用，并且能够无缝集成。在云端进行预防固然重要，但威胁检测同样不可忽视。我们要感谢卓越的 Falco 社区，以及在 CNCF 中超越这一里程碑的所有人。然而，对于 Falco 社区来说，毕业并不是终点，而是扩展 Falco 用例、通过其插件系统不断创新的起点。\n\n\nCNCF 的 CTO Chris Aniszczyk 也补充道：\n\n\n在规模上，实时了解云原生部署的安全性至关重要。Falco 正通过 eBPF 推动开源云原生运行时安全领域的进步，我们期待这一领域的持续发展，以及该项目的不断增长。\n\n\n\n原文链接：\nhttps://www.infoq.com/news/2024/03/cncf-falco-kubernetes-graduation/\"",
+          "link": "https://www.infoq.cn/article/rX7blaTIkCB4ZwhDr6lN",
+          "publishedOn": "2024-03-27T00:00:00.000Z",
+          "wordCount": 328,
+          "title": "CNCF 宣布 Falco 正式毕业，一款基于 Kubernetes 的云原生安全工具",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/69XaHDEoRjJ7rhiZuEq7",
+          "author": "李冬梅",
+          "description": "人工智能作为我国“十四五”规划国家战略科技力量以及在数字新基建重点建设方向，前景广阔，大有作为。在今年的政府工作报告中更首次提出了开展人工智能+活动，不仅顺应了全球AI的发展潮流，更与中国产业升级的大趋势紧密相连，这一行动无疑将在人工智能技术在中国的各行各业的广泛应用开启新篇章。\n \n人工智能框架作为软件根技术，已成为加速人工智能大模型开发、推动产业智能化发展的核心力量。以“为智而昇，思创之源”为主题的昇思人工智能框架峰会2024近日在北京国家会议中心举办，旨在汇聚AI产业界创新力量，推动根技术持续创新，共建人工智能开源新生态。\n\n人工智能作为引领未来的战略型技术，正在深刻地改变着我们的世界。人工智能技术的快速发展应用场景越来越多，走进我们的生活和企业生产系统。2023年，自然语言处理领域中Transformers框架的应用和发展，让人工智能从感知理解迈向了生成创造的阶段，广泛应用于交互、创作、办公、生产等场景。\n \n今年，长序列多模态的大模型技术快速，成为了大模型的标配，进一步拓宽了人工智能的应用边界，加速大模型落地更多专业领域。在人工智能发展的过程中，人工智能框架扮演着至关重要的角色，它为开发者提供了一个高效、灵活、便捷的开发平台，加速了人工智能技术的创新和应用。\n\n昇思MindSpore作为国内主流开源框架，打造充满活力的开发者社区，致力于推动中国人工智能产业的进步。近两年包括昇思MindSpore在内的开源框架产品不断发展，IDC的研究显示，昇思MindSpore在生态建设方面取得了不错的成绩。\n\n华为在2020年3月28日开源昇思MindSpore框架，开源后获得了国内外开发者的积极响应，访问量数千万，社区核心贡献者超过2.5万，社区贡献比例超过20%。\n\n从2020年发布1.0版本到2023年发布2.2版本，版本持续快速迭代，能力也从支持端、边、云，全场景，到原…",
+          "link": "https://www.infoq.cn/article/69XaHDEoRjJ7rhiZuEq7",
+          "publishedOn": "2024-03-26T23:12:22.000Z",
+          "wordCount": 323,
+          "title": "大模型训推更高效！这款国产开源AI框架再迎重大升级",
+          "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
           "id": "https://www.infoq.cn/article/Tk76aIQpiEugU4FHKZ6r",
           "author": "一帆,陶然,涛锋,圣昱",
           "description": "本文整理自美团技术沙龙第80期《美团内容智能分发的算法实践》，分享内容主要包括三部分。第一部分介绍了大众点评内容搜索的场景特点以及面临的挑战；第二部分介绍了为应对这些困难和挑战，技术团队在链路各环节上做的实践优化，包括内容消费和搜索满意度的优化等等；第三部分是总结和对未来的展望。希望能对大家有所帮助或启发。\n\n\n现状与挑战\n\n\n美团在本地生活服务领域深耕多年，在帮助用户完成交易的同时，积累了丰富的图文视频内容供给。依托于这些内容供给，我们可以满足用户更丰富的需求类型，从交易环节扩展到交易前的种草、交易后的体验分享环节，将大众点评建设成为本地吃喝玩乐的社区。\n\n在大众点评的用户中，有相当高比例会通过搜索来查找本地信息，而内容搜索是辅助用户决策、促进社区氛围的重要工具。例如当用户搜索“火锅”时，除了能看到火锅相关的商户和团单，还可以看到图文、视频、评价、笔记等多种形态和类型供给呈现；搜索“圣诞节活动”时，直接以双列内容形式呈现搜索结果，可以更加生动形象。\n\n\n\n通过持续优化内容搜索体验，可以带来更多内容消费流量，进而吸引更多的用户转化为作者，激励创作出更多的内容，而有了更多的内容之后，又可以进一步带动体验提升，最终形成一个良性循环。\n从实际效果来看，内容搜索的价值也得到了用户的认可，如下图是用户访谈原声，可以看到通过内容搜索结果逐步拓展了用户对搜索功能的认知。\n\n\n\n内容搜索与典型类型的搜索如网页搜索、电商搜索、商户搜索等相比，有如下差异点：\n\n在优化目标上，网页搜索更强调搜索满意度，电商搜索更看重商品交易总额，商户搜索更关注用户到店消费意向率，而内容搜索既要考虑搜索满意度，又要考虑点击和点击内容后的停留时长、点赞/收藏/转发/评论等交互行为。在地域约束上，网页搜索和电商搜索没有特别强的地域限制，而商户搜索和内容搜索却有非常强的LBS区域限制，因为用户在美团点评的搜索场景下更希…",
@@ -54,6 +254,16 @@
           "wordCount": 322,
           "title": "数据智能的高可用实时风控决策系统｜ArchSummit",
           "imageUrl": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg"
+        },
+        {
+          "id": "https://www.infoq.cn/article/11f85eb522785d3fe056a9b33",
+          "author": "科技热闻",
+          "description": "在数字经济时代,数据量高速增加,数据存储对未来数字经济的影响不容忽视。芯赛云的分布式存储应用是以数据存储技术的演进为基石,通过不断的创新和优化,满足从个人开发者到大型企业的不同需求。\n01世界上第一台商用驱动器\n1956年,IBM推出了第一台商用硬盘驱动器——RAMAC 350。这台重达一吨的机器,容量仅为5MB,却标志着现代数据存储的诞生。在此之前,数据存储依赖于纸带和打孔卡片,RAMAC的出现使得数据存储方式发生了革命性的变化。\n\n\n\n\n\nRAMAC 350                                        \n随后硬盘驱动器的发展,不断突破容量和性能的限制,变得更加紧凑,容量更大,成本更低,但它们的机械性质——如寻道时间改善得相对较慢。尽管如此,硬盘驱动器在大规模存储系统中,如S3,仍然因其成本效益而发挥着重要作用。\n02存储的演进\n存储技术的进化是一个跨越数十年的过程,1973年IBM推出了第一款现代意义上的硬盘驱动器——IBM 3340温彻斯特(Winchester),这标志着硬盘存储技术的商业化。随后,随着个人计算机的普及,存储技术开始迅速发展。\n\n\n\n\n\nIBM 3340温彻斯特\n进入21世纪,固态硬盘(SSD)的出现标志着存储技术的又一次革命。2007年,Intel发布了第一款消费级SSD,这不仅提高了存储速度,还减少了机械故障的可能性,从而大幅提升了系统的可靠性和性能。\n03分布式存储的崛起:从集中式到分布式\n随着互联网的兴起和数据量的爆炸性增长,传统的集中式存储系统开始遇到瓶颈。这些系统虽然在管理上相对简单,但在扩展性、容错性和性能方面存在限制。为了解决这些问题,分布式存储系统应运而生。\n\n\n\n\n\n分布式存储系统的核心优势在于其可扩展性和高可用性。它们通过在多个节点上分散存储数据,不仅提高了存储容量,还通过冗余和复制机制增强了数…",
+          "link": "https://www.infoq.cn/article/11f85eb522785d3fe056a9b33",
+          "publishedOn": "2024-03-26T07:46:38.000Z",
+          "wordCount": 340,
+          "title": "从数据存储的演迁，看芯赛云分布式存储应用",
+          "imageUrl": "https://static001.infoq.cn/static/write/img/write-favicon.jpg"
         },
         {
           "id": "https://www.infoq.cn/article/wCEE2PkEuJ6ISQA9gAUs",
@@ -2213,6 +2423,46 @@
       "siteUrl": "https://www.ifanr.com?utm_source=rss&utm_medium=rss&utm_campaign=",
       "articles": [
         {
+          "id": "https://www.ifanr.com/?p=1579346&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "何 晓涵",
+          "description": "· 吉利汽车完成全球首个无人驾驶漂移\r\n· 2023 年全球扩展现实头显出货量大幅下降\r\n· 蔚来能源与吉利汽车集团达成充电网络互联互通\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1579346?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-28T00:05:53.000Z",
+          "wordCount": 955,
+          "title": "早报|苹果新专利可为多设备配备可更换电池/雷军回应小米汽车对标保时捷特斯拉/周鸿祎建议哪吒汽车多向小米学习",
+          "imageUrl": "https://s3.ifanr.com/images/ep/cover-images/fu_gu_xiao_che_cover.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1579268&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "何宗丞",
+          "description": "折叠屏的理想形态，是让人忘记它是折叠屏。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1579268?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-27T10:02:30.000Z",
+          "wordCount": 594,
+          "title": "对话 vivo 产品副总裁黄韬和产品线总经理洪沂：vivo X Fold3 如何打好折叠屏的翻身仗？",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/X-Fold.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1579129&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "苏伟鸿",
+          "description": "Spotify 已经不再是一个单纯的音乐平台，甚至不再是单纯的音频平台。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1579129?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-27T04:21:35.000Z",
+          "wordCount": 661,
+          "title": "开始卖课的 Spotify 会变成下一个「网易云」吗",
+          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/03/spotifytitle.jpg"
+        },
+        {
+          "id": "https://www.ifanr.com/?p=1579186&utm_source=rss&utm_medium=rss&utm_campaign=",
+          "author": "何 晓涵",
+          "description": "· 高通、谷歌、英特尔等联合开发 AI 软件\r\n· 特斯拉向新购车用户提供一个月免费 FSD 体验\r\n· 90 后天才少年再获融资\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
+          "link": "https://www.ifanr.com/1579186?utm_source=rss&utm_medium=rss&utm_campaign=",
+          "publishedOn": "2024-03-27T00:50:05.000Z",
+          "wordCount": 1203,
+          "title": "早报|苹果 WWDC24 定档，iOS 18 将迎来大更新/ 雷军谈小米汽车优势/飞书宣布裁员",
+          "imageUrl": "https://s3.ifanr.com/images/ep/cover-images/chun_bai_wu_shi_li_de_niu_zi_xi_ha_ge_cover.jpg"
+        },
+        {
           "id": "https://www.ifanr.com/?p=1579074&utm_source=rss&utm_medium=rss&utm_campaign=",
           "author": "苏伟鸿",
           "description": "苹果或许想打造一个「苹果 AI 生态」\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
@@ -2981,46 +3231,6 @@
           "wordCount": 740,
           "title": "炸裂更新！这个最像人类的机器人又进化了，还能模仿马斯克",
           "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/ap11.jpg"
-        },
-        {
-          "id": "https://www.ifanr.com/?p=1576213&utm_source=rss&utm_medium=rss&utm_campaign=",
-          "author": "肖钦鹏",
-          "description": "新一代的六边形战士，变快了也变强了。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
-          "link": "https://www.ifanr.com/1576213?utm_source=rss&utm_medium=rss&utm_campaign=",
-          "publishedOn": "2024-02-27T10:00:11.000Z",
-          "wordCount": 799,
-          "title": "OMEN 暗影精灵 10 评测：游戏本中的六边形战士",
-          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/TES083071.png"
-        },
-        {
-          "id": "https://www.ifanr.com/?p=1576182&utm_source=rss&utm_medium=rss&utm_campaign=",
-          "author": "李华",
-          "description": "巴音布鲁克跑的都是坦克。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
-          "link": "https://www.ifanr.com/1576182?utm_source=rss&utm_medium=rss&utm_campaign=",
-          "publishedOn": "2024-02-27T06:45:47.000Z",
-          "wordCount": 599,
-          "title": "坦克 700 Hi4-T 上市，国产硬派越野凭什么卖 70 万？",
-          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/tmmcc.jpg"
-        },
-        {
-          "id": "https://www.ifanr.com/?p=1576245&utm_source=rss&utm_medium=rss&utm_campaign=",
-          "author": "莫崇宇",
-          "description": "商业化和开源全都要。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
-          "link": "https://www.ifanr.com/1576245?utm_source=rss&utm_medium=rss&utm_campaign=",
-          "publishedOn": "2024-02-27T06:30:06.000Z",
-          "wordCount": 813,
-          "title": "逼近 GPT-4 的新模型发布！「欧洲版 OpenAI」联手微软，却被质疑违背初心",
-          "imageUrl": "https://s3.ifanr.com/wp-content/uploads/2024/02/50-1.jpg"
-        },
-        {
-          "id": "https://www.ifanr.com/?p=1576191&utm_source=rss&utm_medium=rss&utm_campaign=",
-          "author": "肖凡博",
-          "description": "·逆水寒手游发布 AI 影片生成工具\r\n·Stability AI 推图像高清放大工具\r\n·KUMO KUMO 开启事业合伙人业务\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\r\n爱范儿 |\r\n原文链接 ·\r\n查看评论 ·\r\n新浪微博",
-          "link": "https://www.ifanr.com/1576191?utm_source=rss&utm_medium=rss&utm_campaign=",
-          "publishedOn": "2024-02-27T00:44:50.000Z",
-          "wordCount": 1021,
-          "title": "蔡崇信称阿里已重返中国顶级电商轨道/小米汽车最快二季度交付/华为发布全球首个通信行业大模型",
-          "imageUrl": "https://s3.ifanr.com/images/ep/cover-images/tian_kong_cover.jpg"
         }
       ]
     }
